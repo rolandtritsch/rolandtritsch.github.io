@@ -1,2 +1,1 @@
-# rolandtritsch.github.io
-Roland Tritsch Inc. (RTI)
+# Roland Tritsch Inc. (RTI :))
