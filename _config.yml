@@ -1,0 +1,15 @@
+# Site settings
+title: innolocity.org - The Home of Innolocity
+email: roland@tritsch.org
+description: >
+  Welcome to the Home of Innolocity. Innolocity is the velocity of innovation.
+  If you get it right, you will make a real difference. Most of the time we
+  innovate too fast (innovation for the sake of innovation) or too slow (turning
+  into dinosaurs). Let’s talk about it.
+baseurl: ""
+url: "http://www.tritsch.org"
+twitter_username: innolocity
+github_username:  rolandtritsch
+
+# Build settings
+markdown: kramdown
