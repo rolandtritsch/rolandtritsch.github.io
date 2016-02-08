@@ -1,12 +1,6 @@
 ---
 layout: post
 title: Effective Mac - Using Time Maschine
-date: '2008-09-30T23:11:00.003+01:00'
-author: Roland Tritsch
-tags: 
-modified_time: '2008-10-01T11:06:29.372+01:00'
-blogger_id: tag:blogger.com,1999:blog-2124153373622490226.post-6581583903445410496
-blogger_orig_url: http://blog.tritsch.org/2008/09/effective-mac-using-time-maschine.html
 ---
 
 On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. <div><br /></div><div>But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.</div><div><br /></div><div>And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my "User" directory. This will allow you to recover single files (and/or mails, photos, etc.), but will make it very hard to recover a machine, since Time Machine (when you run the app) cannot restore all data from a given date.</div><div><br /></div><div>The better/only way to do it, is to backup everything (including all apps, system folders, libraries) and just exclude a folder (e.g. the download folder), which has recoverable (fast changing, big, volatile) data in it (e.g. my iTunes Library). Basically reverse my backup strategy. This will create Time Machine backups, which include a snapshot of the entire system (including the operating system).</div><div><br /></div><div>These backups can then be used with the <span class="Apple-style-span" style="font-weight: bold;"><a href="http://newsgroups.derkeiler.com/Archive/Uk/uk.comp.sys.mac/2008-01/msg02463.html">migration assistant</a></span> to restore the machine with the last backup or even better you boot from the install DVD and use the <span class="Apple-style-span" style="font-weight: bold;"><a href="http://www.macobserver.com/article/2008/01/28.15.shtml">restore from Time Machine utility</a></span> to restore to a backup of your choice.</div><div><br /></div><div>I can tell you, restoring a system file by file is tedious :).</div><div><br /></div>

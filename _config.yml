@@ -13,3 +13,16 @@ github_username:  rolandtritsch
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: all
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
