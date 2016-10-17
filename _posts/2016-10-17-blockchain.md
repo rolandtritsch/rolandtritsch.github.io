@@ -6,7 +6,7 @@ In terms of technologies right now I am very much focused on Functional Programm
 
 Why are we talking about this ...
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/watch?v=H_lf8_pxg2Q" frameborder="0" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/H_lf8_pxg2Q" frameborder="0" allowfullscreen></iframe></center>
 
 ... because everything is better with blockchain :).
 
