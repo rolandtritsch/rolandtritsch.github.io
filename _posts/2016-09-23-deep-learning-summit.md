@@ -4,7 +4,7 @@ title: Deep Learning ... and beyond - RRRs from the Deep Learning Summit 2017 in
 ---
 I am just back from the [Deep Learning (DL) Summit](https://www.re-work.co/events/deep-learning-london-2016) in [London](https://www.flickr.com/photos/rolandtritsch/29222434564), where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.
 
-![Deep Learning Summit](/images/dl-summit-2016.jpg)
+![Deep Learning Summit](/images/2016-09-23-deep-learning-summit/summit.jpg)
 
 I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.
 
