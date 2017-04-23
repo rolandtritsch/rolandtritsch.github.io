@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning ... and beyond - RRRs from the Deep Learning Summit 2017 in London
+title: Deep Learning ... and beyond - RRRs from the Deep Learning Summit 2016 in London
 ---
 I am just back from the [Deep Learning (DL) Summit](https://www.re-work.co/events/deep-learning-london-2016) in [London](https://www.flickr.com/photos/rolandtritsch/29222434564), where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.
 
