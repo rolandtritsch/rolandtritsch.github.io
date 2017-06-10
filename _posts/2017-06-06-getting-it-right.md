@@ -36,4 +36,4 @@ Writing clean code it expensive. But premature optimizations and/or maintaining 
 
 So let's feel good about writing code three times. Let's feel good about not getting it right the first time around.
 
-And yes ... I know: I am breaching to the choir, but ... better safe, than sorry.
+And yes ... I know: I am preaching to the choir, but ... better safe, than sorry.
