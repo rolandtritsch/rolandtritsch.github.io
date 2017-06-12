@@ -24,7 +24,7 @@ For that view (the view on what is possible) to develop you need environments th
 
 And that is the reason why we are doing Hackweeks. We want to create head-space that will allow us to build cars (or in our case smarter documents).
 
-But that is not all of it. After you have the environment you need to fill it with enough ideas. With enough heterogeneous ideas. With enough ideas that a different. For that to happen you need people that are different. Being different needs to become the new normal. This is where diversity comes in. Homogeneous teams will never be as productive and as innovative as heterogeneous teams. And obviously one very important aspect of diversity (especially in software engineering organizations) is gender diversity, but there is more: cultural/geographical diversity (US/EMEA/APAC), education (degree in English, degree in computer science), ...
+But that is not all of it. After you have the environment you need to fill it with enough ideas. With enough heterogeneous ideas. With enough ideas that a different. For that to happen you need people that are different. Being different needs to become the new normal. This is where diversity comes in. Homogeneous teams will never be as productive and as innovative as heterogeneous teams. And obviously one very important aspect of diversity (especially in software engineering organizations) is gender diversity, but there is more: cultural/geographical diversity (US/EMEA/APAC), education (degree in English, degree in Computer Science), personalities (introverts/extroverts), ...
 
 ![DCoC - Diversity](/images/2017-06-12-productive/diversity.png)
 
