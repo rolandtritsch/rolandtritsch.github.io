@@ -4,7 +4,7 @@ title: The Digital Cookbook ... Insights into Digital Transformation and how to 
 ---
 Nitro's mission statement is ...
 
-<p align="center"><img src="https://flic.kr/p/JQ9BTx"/></p>
+<p align="center"><a href="https://www.flickr.com/photos/rolandtritsch/28111857689/in/dateposted/" title="Nitro Mission Statement"><img src="https://farm5.staticflickr.com/4648/28111857689_d3efccf503_z.jpg" alt="Nitro Mission Statement"></a></p>
 
 And right now ... [Digital Transformation is a very hot topic](https://www.i-scoop.eu/digital-transformation/key-it-evolutions-enabling-digital-transformation-2018/). For most of the Fortune 500 companies! And it is also a very complex topic (e.g. How to make sure that (PDF) documents can become a first class citizen in the Digital Transformation initiative).
 
@@ -14,7 +14,7 @@ Then the obvious question becomes: How to go about it?
 
 And in that context there is good news! A year ago, [Dirk Krafzig](https://www.linkedin.com/in/dirk-krafzig-925866), CEO at [SOAPARK](http://www.soapark.com) and co-author of [Enterprise SOA](https://books.google.ie/books/about/Enterprise_SOA.html?id=R7oGhITYUuUC), pulled together a team of authors to create [a cookbook on Digital Transformation](https://digital-cookbook.com).
 
-<p align="center"><img src="https://flic.kr/p/23JhPsd"/></p>
+<p align="center"><a href="https://www.flickr.com/photos/rolandtritsch/39859980332/" title="The Digital Cookbook"><img src="https://farm5.staticflickr.com/4715/39859980332_82299ed284_z.jpg" alt="The Digital Cookbook"></a></p>
 
 The book is structured into four parts ...
 
@@ -34,4 +34,4 @@ Take a look and enjoy :).
 
 Full disclosure: I am one of the [guest authors](https://blog.gonitro.com/2018/01/roland-tritsch-digital-transformation-new-book/) :).
 
-<p align="center"><img src="https://flic.kr/p/JQaqnV"/></p>
+<p align="center"><a href="https://www.flickr.com/photos/rolandtritsch/28112014079/in/dateposted/" title="The Digital Cookbook"><img src="https://farm5.staticflickr.com/4756/28112014079_985c878938_z.jpg" alt="The Digital Cookbook"></a></p>
