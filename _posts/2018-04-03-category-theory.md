@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Category Theory for Programmers: Reviewing THE course!
+title: Category Theory for Programmers ... Reviewing THE course!
 ---
 A couple of weeks ago [Angel](https://www.linkedin.com/in/angelcervera) pointed me to a very nice lecture: [Category Theory for Programmers](https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_) (from/by [Bartosz Milewski](https://bartoszmilewski.com/about)).
 
 [Bartosz Milewski](https://www.linkedin.com/in/drbartosz) is a physisist, a [philosopher](https://www.youtube.com/watch?v=HnnyiNKpWR8) (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
 
-![Monads](images/2018-04-03-category-theory/monads.png)
+![Monads](/images/2018-04-03-category-theory/monads.png)
 
 The course is long ...
 
@@ -33,7 +33,7 @@ The course is long ...
 
 ... and every lecture is 45-60 mins, means you need to invest 20 hours (and it helps, if you invest 20 hours before that to learn some [Haskell](http://haskellbook.com)).
 
-But ... (from my point of view) it is worth the time, because we have all heard that "Monads are (just) monoids in the category of endofunctors" and have probably reviewed a couple of explanations what that means.
+But ... (from my point of view) it is worth the time, because we have all heard that "Monads are (just) monoids in the category of endofunctors" and have probably reviewed a couple of [explanations](https://scalerablog.wordpress.com/2015/10/12/abstract-alge-what-monads) what that means.
 
 ![Monads](https://scalerablog.files.wordpress.com/2015/10/44b0bd758f8ee5c81362923f0d5c8e017c9ddf623925e60c29a4c015b89fbb45.jpg)
 
