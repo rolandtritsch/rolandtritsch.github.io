@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Roland on the recumbent](../images/recumbent.jpg)
 
-My name is Roland Tritsch. I am a Software Engineer. I am a Manager. I am a Husband and a Father. I work for [Tenable](https://www.tenable.com) in Ireland. My mission is to help build the engineering site in Dublin and build and run the team that will build [Tenable's next-generation cyber-security platform](https://www.tenable.com/press-releases/tenable-unveils-tenableio-lumin). I like computer science. I believe that computers and software can help to make this place a better place. When I am not building, running or fixing things, I am on my recumbent or on a hike.
+My name is Roland Tritsch. I am a Software Engineer. I am a Manager. I am a Husband and a Father. I work for [Tenable](https://www.tenable.com) in Ireland. My mission is to help build the [engineering site in Dublin](https://www.youtube.com/watch?v=eGkFWxLc9eUk) and build and run the team that will build [Tenable's next-generation cyber-security platform](https://www.tenable.com/press-releases/tenable-unveils-tenableio-lumin). I like computer science. I believe that computers and software can help to make this place a better place. When I am not building, running or fixing things, I am on my recumbent or on a hike.
 
 My favorite ...
 
