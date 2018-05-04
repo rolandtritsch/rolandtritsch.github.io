@@ -14,7 +14,7 @@ github_username:  rolandtritsch
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-archives
 
 jekyll-archives:
