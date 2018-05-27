@@ -15,7 +15,7 @@ My favorite ...
 * Song: My Way (Frank Sinatra)
 * Quote: Ever tried? Ever failed? No matter. Try again! Fail again!! Fail better!!! (Samuel Beckett)
 * Progamming Language: Clojure, Scala, Eiffel, ...
-* Hobby: Reading, Coding and Biking
+* Hobby: Reading, Coding and Biking/Hiking
 * People: My wife and my son
 * Book: [How Roland Rolls](http://howrolandrolls.com)
 * Links: [Linked-In](https://www.linkedin.com/in/rolandtritsch), [Flickr](https://www.flickr.com/photos/rolandtritsch), [Del.ico.us](https://delicious.com/rolandtritsch), [Facebook](https://www.facebook.com/roland.tritsch), [Twitter](https://twitter.com/innolocity), [GitHub](https://github.com/rolandtritsch)
