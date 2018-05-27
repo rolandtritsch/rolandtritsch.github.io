@@ -9,7 +9,7 @@ description: >
 baseurl: ""
 url: "http://www.tritsch.org"
 twitter_username: innolocity
-github_username:  rolandtritsch
+github_username: rolandtritsch
 
 # Build settings
 markdown: kramdown
