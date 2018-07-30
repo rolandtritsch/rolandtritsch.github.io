@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Productive Friction and Diversity ... the pillars of innovation ... or: How not to build faster horses!"
+title: "Productive Friction and Diversity ... the pillars of innovation ... or: How to NOT build faster horses!"
 ---
 In the week of Jul., 10th [we](https://engineering.gonitro.com/our-values/) are going to do our next Hackweek.
 
