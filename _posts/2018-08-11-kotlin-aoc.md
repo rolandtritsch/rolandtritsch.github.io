@@ -12,7 +12,7 @@ There is a separate blog post on what I think about [Kotlin](http://www.tritsch.
 
 The main result of the effort to port the code to Kotlin was a [benchmark](https://github.com/rolandtritsch/scala-aoc-2017#benchmark).
 
-![Benchmark]([https://dl.dropboxusercontent.com/s/rdehnry29tdsnrr/benchmark.png](https://docs.google.com/spreadsheets/d/1kHugZ-8mJczlmQRcda23YGvAgeqlJLt1I7cYlDD3Tws/edit?usp=sharing))
+![Benchmark](https://dl.dropboxusercontent.com/s/rdehnry29tdsnrr/benchmark.png)
 
 A couple of notes about the benchmark ...
 
