@@ -19,7 +19,7 @@ And you probably want to structure it in a way so that it not only works today, 
 
 Two of the most popular models right now are ...
 
-* Hub-First (with a set of engineering hubs in different locations; 80% of the engineers are located/based in these hubs)
+* Hub-First (with a set of engineering hubs in 3-5 (or even more) locations; 80% of the engineers are located/based in these hubs)
 * Remote-First (with 80% of the engineers working from home)
 
 In this article I want to talk about how these models (from my point of view) work (or not work) and how a/the model of the future can look like.
