@@ -1,0 +1,24 @@
+<style type="text/css" rel="stylesheet">
+figure {
+     position: relative;
+}
+figure img {
+    display: block;
+    padding: 10px;
+}
+figcaption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    caption-side: top;
+    padding: 4px;
+}
+</style>
+<br>
+<figure>
+  <img src="{{ include.src }}" alt="{{ include.description }}" align="{{ include.align }}" width="{{ include.width }}">
+  <figcaption>{{ include.description }}</figcaption>
+</figure>
