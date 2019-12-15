@@ -16,7 +16,7 @@ For me the answer is: Because you want to make sure you are not building faster 
 
 Means ... one of the key responsibilities of an engineering/technology organization in a product company is to complement the view on what the customer wants with a view on what is possible (always and only listening to the customer can create a huge blind-spot).
 
-![Yin-Yang](https://c1.staticflickr.com/5/4235/35089671532_5014e55262_z.jpg)
+![Yin-Yang](/images/2017-06-12-productive/yin-yang.png)
 
 For that view (the view on what is possible) to develop you need environments that allow people to think out of the box. These environments do not just materialize themselves out of thin air. They need to be created. They need to be crafted. These environments need to be creative (creating a lot of mutations; innovation is the Darwinism of/for ideas). And they need to have a strong filter (kill ideas early and fast; a strong selection function). You need **productive friction**. And if you get everything right then you create a high probability that one of your crazy ideas will be validated by the market as being truly innovative.
 
