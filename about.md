@@ -14,7 +14,7 @@ My favorite ...
 
 * Song: My Way (Frank Sinatra)
 * Quote: Ever tried? Ever failed? No matter. Try again! Fail again!! Fail better!!! (Samuel Beckett)
-* Progamming Language: Clojure, Scala, Eiffel, ...
-* Hobby: Reading, Coding and Biking/Hiking
+* Progamming Languages: Pascal, Eiffel, Clojure, Scala, Haskell, ...
+* Hobby: Reading, Coding and Hiking
 * People: My wife and my son
 * Book: [How Roland Rolls](http://howrolandrolls.com)
