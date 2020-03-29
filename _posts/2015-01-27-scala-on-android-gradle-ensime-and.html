@@ -1,8 +1,0 @@
----
-layout: post
-title: Scala on Android - Gradle, Ensime and the Android UI samples
----
-
-Besides <a href="http://blog.tritsch.org/2014/12/x-mas-project-1-pebble-hello-world-20.html" target="_blank">getting my first companion app done for my Pebble</a>, I also spend some time on X-Mas to start porting <a href="https://developer.android.com/samples/ui.html" target="_blank">the Android UI samples</a> to <a href="https://github.com/rolandtritsch/scala-android-ui-samples.git" target="_blank">Scala</a>.
-
-<br /><br />The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step). It also gave me an opportunity to checkout the <a href="https://github.com/saturday06/gradle-android-scala-plugin"><span id="goog_1801727830"></span>gradle-android-scala-plugin<span id="goog_1801727831"></span></a>.<br /><br />I also enhanced the <a href="https://github.com/rolandtritsch/gradle-ensime" target="_blank">gradle-ensime</a>&nbsp;plugin to make sure it generates a valid .ensime file for Android projects.<br /><br />Now I have <a href="https://github.com/rolandtritsch/scala-android-ui-samples.git" target="_blank">a working structure</a> in place. If you want to help with the porting effort, please create an issue to let everybody know that you want to port on of the samples, fork the repo and send me a pull-request to get your port into the repo.
