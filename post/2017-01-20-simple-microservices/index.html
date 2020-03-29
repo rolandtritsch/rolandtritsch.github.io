@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.tritsch.org/post/2017-01-20-simple-microservices/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/custom.css">
+
+  
+  
+  <title>Can Micro-Services Systems be simple? | innolocity.org/tedn.life</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">innolocity.org/tedn.life</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Can Micro-Services Systems be simple?</h1>
+
+
+<strong>Publish date: </strong>Jan 20, 2017
+<br>
+
+
+
+  
+
+
+
+<p>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!</p>
+<p>The first question that you want to ask yourself is probably &ldquo;What is complexity?&quot;.</p>
+<p>For that I recommend to watch <a href="https://www.infoq.com/presentations/Simple-Made-Easy">Rich Hickey&rsquo;s talk</a> on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that <strong>simple is actually very hard</strong> (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</p>
+<p>I want to define simple systems as systems that have <strong>no unnecessary complexity</strong> and are not more complicated than they need to be.</p>
+<p>You can Google lots of different definitions of complex vs. complicated. Most of these definitions have their roots in <a href="">Systems Thinking</a>. For me the difference is that systems can be complex (have a lot of components and a lot of relationships between the components). A complex system becomes complicated, if it is not homogeneous or consistent. Complex systems are hard to learn. Complicated systems are hard to change. 123456789 is complex number. 738164952 is a complicated number.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Complex</th>
+<th align="center">Complicated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="http://woodka.com/wp-content/uploads/2009/01/babel.jpg" alt=""></td>
+<td align="center"><img src="http://www.basement.org/c/images/blog/night-cycle.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>Designing simple systems that are not unnecessarily complex or complicated requires tradeoffs. For instance you need to decide where to put the necessary complexity: In the components (making them bigger and harder to change/maintain) or between the components (making the system harder to understand/learn/change). There is <a href="http://www.tritsch.org/2010/04/22/managing-complexity-with-osgi-in-and.html">no simple answer</a>.</p>
+<p>I was reminded of this the other day. We had a discussion about adding a capability to our system and had to decide, if we want implement that capability as a library or as a service. When I started to build micro-services systems, I was always pushing for the smallest possible <em>thing</em> (abstraction) and then turn it into a services. This gives you very good seperation of concern and also allows to deploy changes without running the risk that you need to touch a larger then necessary part of the system. On the other hand &hellip; over time &hellip; you will end up with a lot of services and the service management and the service discovery and the service orchestration becomes a problem on its own. Means you might regret to have (too) many services. It is a trade-off and not one to take lightly.</p>
+<p>If I am stuck, then I tend to start with a service, because it is easier to turn a service into a library than the other way around.</p>
+<p>Not a very sophisticated approach, but so far is has worked for me.</p>
+<p>And to answer the question (<em>Can Micro-Services Architectures be simple?</em>) &hellip; yes, they can be and should be, but &hellip; necessary complexity is not bad and &hellip; stay away from building complicated systems.</p>
+
+  
+
+      </main>
+      
+  
+
+  </div>
+  </body>
+</html>

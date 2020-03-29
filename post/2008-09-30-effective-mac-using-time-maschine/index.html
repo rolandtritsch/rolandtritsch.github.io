@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.tritsch.org/post/2008-09-30-effective-mac-using-time-maschine/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/custom.css">
+
+  
+  
+  <title>Effective Mac - Using Time Maschine | innolocity.org/tedn.life</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">innolocity.org/tedn.life</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Effective Mac - Using Time Maschine</h1>
+
+
+<strong>Publish date: </strong>Sep 30, 2008
+<br>
+
+
+
+  
+
+
+
+
+On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. <div><br /></div><div>But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.</div><div><br /></div><div>And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my "User" directory. This will allow you to recover single files (and/or mails, photos, etc.), but will make it very hard to recover a machine, since Time Machine (when you run the app) cannot restore all data from a given date.</div><div><br /></div><div>The better/only way to do it, is to backup everything (including all apps, system folders, libraries) and just exclude a folder (e.g. the download folder), which has recoverable (fast changing, big, volatile) data in it (e.g. my iTunes Library). Basically reverse my backup strategy. This will create Time Machine backups, which include a snapshot of the entire system (including the operating system).</div><div><br /></div><div>These backups can then be used with the <span class="Apple-style-span" style="font-weight: bold;"><a href="http://newsgroups.derkeiler.com/Archive/Uk/uk.comp.sys.mac/2008-01/msg02463.html">migration assistant</a></span> to restore the machine with the last backup or even better you boot from the install DVD and use the <span class="Apple-style-span" style="font-weight: bold;"><a href="http://www.macobserver.com/article/2008/01/28.15.shtml">restore from Time Machine utility</a></span> to restore to a backup of your choice.</div><div><br /></div><div>I can tell you, restoring a system file by file is tedious :).</div><div><br /></div>
+
+  
+
+      </main>
+      
+  
+
+  </div>
+  </body>
+</html>

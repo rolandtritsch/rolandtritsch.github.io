@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.tritsch.org/post/2015-01-27-scala-on-android-gradle-ensime-and/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/custom.css">
+
+  
+  
+  <title>Scala on Android - Gradle, Ensime and the Android UI samples | innolocity.org/tedn.life</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">innolocity.org/tedn.life</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Scala on Android - Gradle, Ensime and the Android UI samples</h1>
+
+
+<strong>Publish date: </strong>Jan 27, 2015
+<br>
+
+
+
+  
+
+
+
+
+Besides <a href="http://blog.tritsch.org/2014/12/x-mas-project-1-pebble-hello-world-20.html" target="_blank">getting my first companion app done for my Pebble</a>, I also spend some time on X-Mas to start porting <a href="https://developer.android.com/samples/ui.html" target="_blank">the Android UI samples</a> to <a href="https://github.com/rolandtritsch/scala-android-ui-samples.git" target="_blank">Scala</a>.
+
+<br /><br />The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step). It also gave me an opportunity to checkout the <a href="https://github.com/saturday06/gradle-android-scala-plugin"><span id="goog_1801727830"></span>gradle-android-scala-plugin<span id="goog_1801727831"></span></a>.<br /><br />I also enhanced the <a href="https://github.com/rolandtritsch/gradle-ensime" target="_blank">gradle-ensime</a>&nbsp;plugin to make sure it generates a valid .ensime file for Android projects.<br /><br />Now I have <a href="https://github.com/rolandtritsch/scala-android-ui-samples.git" target="_blank">a working structure</a> in place. If you want to help with the porting effort, please create an issue to let everybody know that you want to port on of the samples, fork the repo and send me a pull-request to get your port into the repo.
+
+  
+
+      </main>
+      
+  
+
+  </div>
+  </body>
+</html>
