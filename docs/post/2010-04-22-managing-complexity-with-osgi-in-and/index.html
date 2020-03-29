@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.tritsch.org/post/2010-04-22-managing-complexity-with-osgi-in-and/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/custom.css">
+
+  
+  
+  <title>Managing complexity with OSGi - In bundles and between bundles | innolocity.org/tedn.life</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">innolocity.org/tedn.life</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Managing complexity with OSGi - In bundles and between bundles</h1>
+
+
+<strong>Publish date: </strong>Apr 22, 2010
+<br>
+
+
+
+  
+
+
+
+
+<div style="text-align: left;">Right now the <a href="http://sp.brandvis.com/">Brandvis SelectPortal system</a> is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.</div><div style="text-align: left;"><br /></div><div>Triggered by this work and triggered by a talk on reuse of <a href="http://www.osgi.org/">OSGi</a> bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</div><div style="text-align: center;"><br /></div><div>To get to that optimal level of complexity you constantly refactor the system (because there is no chance in hell that you will get it right the first time around by thinking about it and then implementing it) and change the granularity/size of your reusable software artifacts (classes, bundles, services).</div><div><br /></div><div>Getting the granularity/size (and the responsibilities) of a reusable software artifact right, is probably the holy-grail of software engineering and there is no easy answer, because if you cut it too small and build the system from a lot of very simple, small software artifacts the complexity and dependencies and relationships between the artifacts get out of hand. Going the other way you can try to reduce the complexity of the system, by building it from larger software artifacts, but then these artifacts itself will become more complex.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-vFsfIMARfBI/UFY2VOueY5I/AAAAAAAAAC4/QnejRn1l8hw/s1600/OSGiBundles.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="http://1.bp.blogspot.com/-vFsfIMARfBI/UFY2VOueY5I/AAAAAAAAAC4/QnejRn1l8hw/s640/OSGiBundles.jpg" width="640" /></a></div><br /></div><br /><div><div style="text-align: center;"><br /></div><div>That means that in any case you need to build your system on a software platform that allows you to iterate on getting the granularity of the software artifacts right. I believe OSGi is such a platform.</div><div></div></div>
+
+  
+
+      </main>
+      
+  
+
+  </div>
+  </body>
+</html>

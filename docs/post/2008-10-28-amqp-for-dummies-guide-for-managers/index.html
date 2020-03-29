@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.tritsch.org/post/2008-10-28-amqp-for-dummies-guide-for-managers/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/custom.css">
+
+  
+  
+  <title>AMQP for dummies - A guide for managers | innolocity.org/tedn.life</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">innolocity.org/tedn.life</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">AMQP for dummies - A guide for managers</h1>
+
+
+<strong>Publish date: </strong>Oct 28, 2008
+<br>
+
+
+
+  
+
+
+
+
+(I start to like this "plane blogging" thing :))<p><a href="http://trenaman.blogspot.com">Adrian</a> blogged about Microsoft embracing <a href="http://jira.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol">AMQP</a>.</p><p>Just from a technical point of view this is good news (assuming it will help the adoption of the Advanced Message Queueing Protocol (AMQP)), because AMQP is a very cool (and extremely well thought through) standard.</p><p>Given that there might be a renewed interest in the standard, let me just try to explain (again) what it is good for: The main benefit of AMQP (besides a couple of very cool features in the standard itself) is that it will (finally and for the first time) allow messaging stacks to interoperate. Today we have lots of good payload formats/protocols (e.g. XML) and even better standard APIs (e.g. JMS), but no standard wire-level protocol to allow one messaging stack talk to another. That means that currently all of your messaging endpoints need to have the same message stack. This creates a huge, hidden vendor lock-in. Yes, your JMS API allows your to replace a JMS provider with another one, but then you need to do it for all endpoints at the same time, because the wire-level protocol is different (and proprietary) for each and every message broker implementation.</p><p>Means right now you can only build homogenous messaging infrastructures. AMQP would allow you to build heterogenous messaging infrastructures, break the vendor lock-in and enjoy the power of choice. AMQP is the HTTP of messaging. I see AMQP as an enabler for <br />innovation.</p>
+
+  
+
+      </main>
+      
+  
+
+  </div>
+  </body>
+</html>

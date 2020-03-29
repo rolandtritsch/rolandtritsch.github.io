@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="canonical" href="http://www.tritsch.org/post/2008-04-13-apache-cxf-generates-client-side-soap/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="http://www.tritsch.org/css/custom.css">
+
+  
+  
+  <title>Apache-CXF generates client-side SOAP stack for the iPhone | innolocity.org/tedn.life</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">innolocity.org/tedn.life</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Apache-CXF generates client-side SOAP stack for the iPhone</h1>
+
+
+<strong>Publish date: </strong>Apr 13, 2008
+<br>
+
+
+
+  
+
+
+
+
+Yep. It was inevitable. Sooner or later we need to talk about the iPhone.<div><br /></div><div>And there is a lot to talk about ...
+
+</div><div><br /></div><div><ul><li>the innovative hardware</li><li>the business model behind it</li><li>the market this device might be able to create</li><li>and a lot of other disruptive changes that come with it</li></ul><div>But today I just want to talk about a neat feature that I discovered in <a href="http://cwiki.apache.org/CXF/">Apache-CXF</a>.</div><div><br /></div><div>In January I was looking for ways to <marketing>make the mobile device a first-class citizen in a distributed SOA</marketing>. Right now, there are probably three platforms types that you can consider when it comes to mobile devices and the integration of mobile devices with (SOA) backend systems:</div><div><ul><li>Native - means you are using a platform SDK (e.g. .Net, Symbian, iPhone SDK) and write applications directly for a given platform.<br /></li><li>JAVA - means you are using the JAVA ME platform. Potentially/Hopefully in combination with an OSGi container.</li><li>Browser - means you are using a browser and implement your application as (AJAX-based) WebApplications (XHTML, CSS, JavaScript (with XmlHttpRequest objects).</li></ul><div>Right now, you can develop applications for the iPhone using option 1 and 3. Option 2 is not an option, because there is <a href="http://www.javalobby.org/java/forums/t88464.html">no JVM</a> for the iPhone (but <a href="http://www.infoworld.com/article/08/03/07/sun-iphone-java_1.html">SUN</a> recently announce that this will change later in the year :)).</div><div><br /></div><div>Option 3 got a lot of merits, but leaves you with the daunting task to write all of the JavaScript marshaling code yourself :(.</div><div><br /></div><div>And here is where the miracle happens: The next version of Apache-CXF (2.1) has a feature that allows you to <a href="http://cwiki.apache.org/CXF20DOC/javascript-clients.html">generate JavaScript client-side code for WebServices</a>. Either from an WSDL file or from annotated JAVA source code or dynamically at runtime.</div><div><br /></div><div><span class="Apple-style-span" style="font-weight: bold;">It makes writing WebApplications for the iPhone so much easier.</span></div><div><br /></div><div>I have ported some of the CXF demos to the iPhone. The podcast, the presentation and the source code is available on <a href="http://open.iona.com/wiki/display/ProdInfo/FUSE+Master+Class+Series">open.iona.com</a> and on <a href="http://www.tritsch.org/Podcast/044D9C8C-29A6-4C38-96F8-933A3F9E3335.html">www.tritsch.org</a>.</div><div><br /></div><div>Check it out. Feedback welcome.</div></div></div>
+
+  
+
+      </main>
+      
+  
+
+  </div>
+  </body>
+</html>
