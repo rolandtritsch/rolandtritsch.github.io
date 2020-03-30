@@ -19,5 +19,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Management</title>
+      <link>http://tedn.life/categories/management/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote</title>
+      <link>http://tedn.life/categories/remote/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/remote/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

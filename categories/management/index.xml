@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management on tedn.life</title>
+    <link>http://tedn.life/categories/management/</link>
+    <description>Recent content in Management on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hub-First vs. Remote-First vs. Pod-First ... Skating to where the puck is going to be</title>
+      <link>http://tedn.life/posts/2019-03-01-pod-first/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2019-03-01-pod-first/</guid>
+      <description>.tablelines table, .tablelines td, .tablelines th { border: 1px solid black; }  Fig 1: Skating to where the puck ...  Finding good and the right talent for an engineering organisation is as challenging as ever.
+And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).
+One key component to get this right is a good/the right structure for your engineering organisation.</description>
+    </item>
+    
+  </channel>
+</rss>

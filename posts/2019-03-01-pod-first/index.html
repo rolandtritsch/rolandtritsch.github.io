@@ -9,11 +9,9 @@
     
     <meta content="tedn.life" name="keywords">
     
-    <meta content="tedn.life - {% include image.html src=&rdquo;/images/2019-03-01-pod-first/gretzky.jpg&rdquo; description=&quot;Fig 1: Skating to where the puck &hellip;&rdquo; align=&quot;left&rdquo; width=&quot;50%&rdquo; %}
-Finding good and the right talent for an engineering organisation is as challenging as ever.
+    <meta content="tedn.life - .tablelines table, .tablelines td, .tablelines th { border: 1px solid black; }  Fig 1: Skating to where the puck ...  Finding good and the right talent for an engineering organisation is as challenging as ever.
 And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).
-One key component to get this right is a good/the right structure for your engineering organisation.
-And you probably want to structure it in a way so that it not only works today, but also in 2-3 years from now, because otherwise by the time you are done building the org it will not work (anymore))." name="description">
+One key component to get this right is a good/the right structure for your engineering organisation." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -103,9 +101,13 @@ layui.use('element', function(){
 </h3>
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>{% include image.html src=&rdquo;/images/2019-03-01-pod-first/gretzky.jpg&rdquo; description=&quot;Fig 1: Skating to where the puck &hellip;&rdquo; align=&quot;left&rdquo; width=&quot;50%&rdquo; %}</p>
+                    <style>
+.tablelines table, .tablelines td, .tablelines th { border: 1px solid black; }
+</style>
+<figure align="center" width="80%">
+  <img src="/images/2019-03-01-pod-first/gretzky.jpg" alt="Wayne Gretzky">
+  <figcaption>Fig 1: Skating to where the puck ...</figcaption>
+</figure>
 <p>Finding good and the right talent for an engineering organisation is as challenging as ever.</p>
 <p>And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).</p>
 <p>One key component to get this right is a good/the right structure for your engineering organisation.</p>
@@ -136,7 +138,10 @@ layui.use('element', function(){
 <li>&hellip; where the loyalty is shifting from the location and the product/company/deliverable to the craft (I am a backend engineer vs. I work for so-and-so)</li>
 </ul>
 <p><strong>Spoiler alert:</strong> For the last 20 years I have mainly build and run hub-first organisations, but start to think that hub-first is probably not the right model for the next 10 years. I also think that some (or maybe even most) of the problems that people experience with the remote-first model are not caused by the model, but by a lack of experience how to execute on a remote-first setup (and/or a lack of awareness for the particular problems you can experience when you build/run a remote-first model (and what to do about them)).</p>
-<p>{% include image.html src=&rdquo;/images/2019-03-01-pod-first/spotify.png&rdquo; description=&quot;Fig 2: The Spotify model&rdquo; align=&quot;left&rdquo; width=&quot;50%&rdquo; %}</p>
+<figure align="center" width="80%">
+  <img src="/images/2019-03-01-pod-first/spotify.png" alt="Spotify Model">
+  <figcaption>Fig 2: The Spotify model</figcaption>
+</figure>
 <p>To put some structure in the discussion I will use the terminology that was introduced by Spotify when they talked about how to structure an engineering organisation (namely Squads, Tribes, Guilds, Chapters, &hellip;).<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
 <p>Let’s also simplify the discussion by assuming that we have already agreed that delivery squads are a good idea and that these delivery squads need to be co-located.</p>
 <p><strong>Note:</strong> Independent from the organisational model (hub-first vs. remote-first), not co-locating the work (in a hub or in a timezone) is a total anti-pattern. If you spread the work over more than 2-3 timezones, every delivery squad will struggle to get something done. And in that case the lack of productivity has nothing to do with hub-first or remote-first being bad models. It is just that you executed badly.</p>
@@ -171,18 +176,6 @@ layui.use('element', function(){
 <td>Seems hard, because &hellip; you need to hire a role in a given location. But &hellip; you can also hire junior talent (and develop it through coaching and mentoring). And &hellip; it is (probably) easier to retain people (because it is easier to bring a/the culture alive in the hubs).</td>
 <td>Easy(est). Not that I have not seen software delivery projects fail with this model, but it becomes harder to f&hellip; it up.</td>
 <td>People management for hub-first is different from people management for remote-first. Not necessarily easier, but different. More focus on people development (because in general your staff is less senior).</td>
-</tr>
-<tr>
-<td>{: .tablelines }</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><!-- raw HTML omitted --></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -219,16 +212,30 @@ layui.use('element', function(){
 <blockquote>
 <p>In that context I would like to introduce a new model/idea: <strong>The pod-first model</strong>.</p>
 </blockquote>
-<p>{% include image.html src=&rdquo;/images/2019-03-01-pod-first/pod.jpg&rdquo; description=&quot;Fig 3: Engineering Pods&rdquo; align=&quot;right&rdquo; width=&quot;30%&rdquo; %}</p>
 <p>In this case we still end up with everybody working from home and with no office, but the engineers are located around/near some well-placed/well-located pods. The pod is a place (a cool/good city with a good talent pool) and/or a person (a very good and very well-known engineer). The idea is that the pod is big enough so that you can fish for talent and small enough so that people can come together once a week to hang-out together (socially and professionally; for these weekly get-togethers, socializing and learning is the main purpose of the exercise).</p>
 <p><strong>Credit:</strong> The idea to evolve the remote-first model into a/the pod-first model was first developed in a discussion with Bjorn Freeman-Benson (at the time CTO of InVision)<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>.</p>
 <p>The pod has a radius of 100-200km and is run by a strong people manager (up to 20 people).</p>
 <p>All of the pods in a timezone/region are in one tribe.</p>
 <p>In the best case (as always) the squads would be formed by people that are in a pod, but it is probably unrealistic to assume that this will always be the case. More realistic is a situation where the members of the delivery squad come from different pods (but never from a pod that is in another tribe).</p>
 <p><strong>Note:</strong> Pods are probably named after a location (e.g. the Munich Pod). Tribes are named after a timezone/region (e.g. the East Coast Tribe), but the squads are named after the mission/purpose (e.g. the Search Squad). Squads are not named after a location (e.g. the Dublin Squad (even, if by accident all members of the Squad are in Dublin)).</p>
-<p>| <img src="/images/2019-03-01-pod-first/tribe.jpg" alt="Tribe"> | <img src="/images/2019-03-01-pod-first/squad.jpg" alt="Squad"> |
-{: .tablelines }
-<!-- raw HTML omitted --></p>
+<table>
+  <tr>
+    <th>Pod</th>
+    <th>Tribe</th>
+    <th>Squad</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="/images/2019-03-01-pod-first/pod.jpg" alt="Pod">
+    </td>
+    <td>
+      <img src="/images/2019-03-01-pod-first/tribe.jpg" alt="Tribe">
+    </td>
+    <td>
+      <img src="/images/2019-03-01-pod-first/squad.jpg" alt="Squad">
+    </td>
+  </tr>
+</table>
 <p>Last but least the guilds (the home of the craft) are a truly global concepts, means the members of the guild are distributed all over the globe (but as described in the Spotify model, over time chapters might form on the tribe level and/or maybe even on the pod level). Again guilds are (obviously/clearly) not named after a location or a mission/purpose, but the craft you are building in that guild (e.g. frontend-engineering, backend-engineering, systems-engineering, data-engineering, product-management (product-owners), project-management (agile-coaches), &hellip;).</p>
 <p>Final thoughts/take-a-ways &hellip;</p>
 <ul>
@@ -242,7 +249,10 @@ layui.use('element', function(){
 <p>WDYT? <a href="mailto:roland@tritsch.org">I would love to hear from you</a>!!!</p>
 <p>And last but not least, I would like to thank <a href="https://www.linkedin.com/in/bjornfreemanbenson">Bjorn Freeman-Benson</a>, <a href="https://www.linkedin.com/in/jpbardwick">Peter Bardwick</a>, <a href="https://www.braggy.coach">Coach Braggy</a> and <a href="https://www.linkedin.com/in/barrysteinglass">Barry Steinglass</a> for the feedback on and input into earlier draft versions of this article.</p>
 <h2 id="appendix---notes-on-roles-and-responsibilities">Appendix - Notes on Roles and Responsibilities</h2>
-<p>{% include image.html src=&rdquo;/images/2019-03-01-pod-first/pgs.jpg&rdquo; description=&quot;Fig 4: Roles and Responsibilities&rdquo; align=&quot;left&rdquo; width=&quot;100%&rdquo; %}</p>
+<figure align="center" width="80%">
+  <img src="/images/2019-03-01-pod-first/pgs.jpg" alt="Pods, guilds, squads">
+  <figcaption>Fig 4: Roles and Responsibilities</figcaption>
+</figure>
 <p><strong>The pod leader</strong> &hellip;</p>
 <ul>
 <li>&hellip; is the people manager for the people in the pod</li>
@@ -340,7 +350,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 15:27:35 &#43;0100 IST </p>
     </div>
 </footer>
 

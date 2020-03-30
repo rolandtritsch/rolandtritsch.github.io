@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
   </url>
   
   <url>
@@ -19,12 +19,12 @@
   
   <url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
   </url>
   
   <url>
@@ -34,7 +34,17 @@
   
   <url>
     <loc>http://tedn.life/posts/2019-03-01-pod-first/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/remote/</loc>
+    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
   </url>
   
   <url>
@@ -705,11 +715,6 @@
   <url>
     <loc>http://tedn.life/about/</loc>
     <lastmod>2020-03-30T13:31:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/posts/archive/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
   </url>
   
   <url>

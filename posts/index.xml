@@ -28,11 +28,9 @@ At the same time writting code in Haskell feels very natural to me.</description
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/posts/2019-03-01-pod-first/</guid>
-      <description>{% include image.html src=&amp;rdquo;/images/2019-03-01-pod-first/gretzky.jpg&amp;rdquo; description=&amp;quot;Fig 1: Skating to where the puck &amp;hellip;&amp;rdquo; align=&amp;quot;left&amp;rdquo; width=&amp;quot;50%&amp;rdquo; %}
-Finding good and the right talent for an engineering organisation is as challenging as ever.
+      <description>.tablelines table, .tablelines td, .tablelines th { border: 1px solid black; }  Fig 1: Skating to where the puck ...  Finding good and the right talent for an engineering organisation is as challenging as ever.
 And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).
-One key component to get this right is a good/the right structure for your engineering organisation.
-And you probably want to structure it in a way so that it not only works today, but also in 2-3 years from now, because otherwise by the time you are done building the org it will not work (anymore)).</description>
+One key component to get this right is a good/the right structure for your engineering organisation.</description>
     </item>
     
     <item>
@@ -139,6 +137,7 @@ The puzzles do a lot of different things and will test your ability to come up w
       
       <guid>http://tedn.life/posts/2018-05-04-giter8/</guid>
       <description>The other day I was flying to the Tenable new hire training in Columbia/MD and that means &amp;hellip; 8 hours of uninterrupted coding time!!!
+
 At the same time, I saw/found the sbt-guthub-release plugin and started to wonder, if it would be possible to combine it with the sbt-release plugin.
 And while I was thinking about this I figured &amp;ldquo;what the hell&amp;rdquo;, why not creating another opinionated giter8 template to bootstrap my scala projects, means at the end I decided to spend the 8 hours on bringing a couple of things together &amp;hellip;</description>
     </item>
@@ -175,6 +174,7 @@ This proved to be more difficult than I thought (because this used to work).</de
       
       <guid>http://tedn.life/posts/2018-01-25-digital-cookbook/</guid>
       <description>Nitro&amp;rsquo;s mission statement is &amp;hellip;
+
 And right now &amp;hellip; Digital Transformation is a very hot topic. For most of the Fortune 500 companies! And it is also a very complex topic (e.g. How to make sure that (PDF) documents can become a first class citizen in the Digital Transformation initiative).
 Companies obviously want it. Either to gain a competitive advantage or at least to not put themselves at a competitive disadvantage.</description>
     </item>
@@ -310,7 +310,7 @@ For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple
       
       <guid>http://tedn.life/posts/2017-01-19-printers-suck/</guid>
       <description>Last year we visited some of our customers in EMEA to get some video footage about their Nitro Experience.
-While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;
+ While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;
  Life at Nitro: The Nitro Family Life Nitro: Our Dedication to Development Life at Nitro: Our Diversity Nitro: Our Vision for PDF Life at Nitro: Our Leaders Nitro: Our Thoughts on Printers  My favorite quote is &amp;hellip; obviously &amp;hellip; &amp;ldquo;Printers suck!</description>
     </item>
     
@@ -321,7 +321,8 @@ While we had our Creative Director in town (in Dublin), we also decided to shoot
       
       <guid>http://tedn.life/posts/2017-01-18-dbtb/</guid>
       <description>Sometimes it takes a while to get to it &amp;hellip;
-Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
+ Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
+
 Good morning everybody. On behalf of Nitro: Welcome to Data by the Bay.
 My name is Roland Tritsch and I am German and I am the VP Engineering at Nitro.</description>
     </item>
@@ -402,7 +403,7 @@ Nitro (like a lot of other startups) is going through growing pains. In the last
       <guid>http://tedn.life/posts/2016-10-17-blockchain/</guid>
       <description>In terms of technologies right now I am very much focused on Functional Programming and Machine Learning and Software Engineering for Mobile Devices and &amp;hellip; a couple of other things (Rust, Go, &amp;hellip;), but wanted to dedicate a blog post to a technology that will (IMHO) have a significant impact on our future: Blockchains (or more specfically the Ethereum project).
 Why are we talking about this &amp;hellip;
-&amp;hellip; because everything is better with blockchain :).</description>
+ &amp;hellip; because everything is better with blockchain :).</description>
     </item>
     
     <item>
@@ -1448,15 +1449,6 @@ what is the nature of innovation? how is it for instance different from creativi
 And there is a lot to talk about ... 
 the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
 In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
-    </item>
-    
-    <item>
-      <title>Posts Archive</title>
-      <link>http://tedn.life/posts/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/posts/archive/</guid>
-      <description>This page contains an archive of all posts.</description>
     </item>
     
   </channel>
