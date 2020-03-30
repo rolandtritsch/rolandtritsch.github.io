@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haskell on tedn.life</title>
+    <link>http://tedn.life/tags/haskell/</link>
+    <description>Recent content in Haskell on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I love Haskell</title>
+      <link>http://tedn.life/posts/2019-04-06-small-things/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2019-04-06-small-things/</guid>
+      <description>Over the last 2 years I did a fair bit of Haskell (after doing a fairer bit of Scala for 8 years).
+And I love Haskell.
+Don&amp;rsquo;t get me wrong: If you are tied to the JVM eco-system (and who is not these days), my opinion is that Scala is your best option to do functional programming on the JVM.
+At the same time writting code in Haskell feels very natural to me.</description>
+    </item>
+    
+  </channel>
+</rss>

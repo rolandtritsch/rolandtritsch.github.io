@@ -1451,5 +1451,14 @@ the innovative hardwarethe business model behind itthe market this device might 
 In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
     
+    <item>
+      <title>Posts Archive</title>
+      <link>http://www.tritsch.org/post/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.tritsch.org/post/archive/</guid>
+      <description>This page contains an archive of all posts.</description>
+    </item>
+    
   </channel>
 </rss>

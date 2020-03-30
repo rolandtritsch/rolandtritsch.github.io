@@ -1,0 +1,146 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Can Micro-Services Systems be simple? </title>
+
+    
+    
+    <meta content="tedn.life" name="keywords">
+    
+    <meta content="tedn.life - Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!
+The first question that you want to ask yourself is probably &ldquo;What is complexity?&quot;.
+For that I recommend to watch Rich Hickey&rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others)." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>Can Micro-Services Systems be simple?</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2017-01-20</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+</h3>
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!</p>
+<p>The first question that you want to ask yourself is probably &ldquo;What is complexity?&quot;.</p>
+<p>For that I recommend to watch <a href="https://www.infoq.com/presentations/Simple-Made-Easy">Rich Hickey&rsquo;s talk</a> on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that <strong>simple is actually very hard</strong> (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</p>
+<p>I want to define simple systems as systems that have <strong>no unnecessary complexity</strong> and are not more complicated than they need to be.</p>
+<p>You can Google lots of different definitions of complex vs. complicated. Most of these definitions have their roots in <a href="">Systems Thinking</a>. For me the difference is that systems can be complex (have a lot of components and a lot of relationships between the components). A complex system becomes complicated, if it is not homogeneous or consistent. Complex systems are hard to learn. Complicated systems are hard to change. 123456789 is complex number. 738164952 is a complicated number.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Complex</th>
+<th align="center">Complicated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="http://woodka.com/wp-content/uploads/2009/01/babel.jpg" alt=""></td>
+<td align="center"><img src="http://www.basement.org/c/images/blog/night-cycle.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>Designing simple systems that are not unnecessarily complex or complicated requires tradeoffs. For instance you need to decide where to put the necessary complexity: In the components (making them bigger and harder to change/maintain) or between the components (making the system harder to understand/learn/change). There is <a href="http://www.tritsch.org/2010/04/22/managing-complexity-with-osgi-in-and.html">no simple answer</a>.</p>
+<p>I was reminded of this the other day. We had a discussion about adding a capability to our system and had to decide, if we want implement that capability as a library or as a service. When I started to build micro-services systems, I was always pushing for the smallest possible <em>thing</em> (abstraction) and then turn it into a services. This gives you very good seperation of concern and also allows to deploy changes without running the risk that you need to touch a larger then necessary part of the system. On the other hand &hellip; over time &hellip; you will end up with a lot of services and the service management and the service discovery and the service orchestration becomes a problem on its own. Means you might regret to have (too) many services. It is a trade-off and not one to take lightly.</p>
+<p>If I am stuck, then I tend to start with a service, because it is easier to turn a service into a library than the other way around.</p>
+<p>Not a very sophisticated approach, but so far is has worked for me.</p>
+<p>And to answer the question (<em>Can Micro-Services Architectures be simple?</em>) &hellip; yes, they can be and should be, but &hellip; necessary complexity is not bad and &hellip; stay away from building complicated systems.</p>
+</div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+    </div>
+</footer>
+
+</body>
+</html>

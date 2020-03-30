@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on innolocity.org/tedn.life</title>
-    <link>http://www.tritsch.org/tags/</link>
-    <description>Recent content in Tags on innolocity.org/tedn.life</description>
+    <title>Tags on tedn.life</title>
+    <link>http://tedn.life/tags/</link>
+    <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.tritsch.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Haskell</title>
+      <link>http://tedn.life/tags/haskell/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/haskell/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

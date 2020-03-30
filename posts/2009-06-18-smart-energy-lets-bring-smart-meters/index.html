@@ -1,0 +1,125 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Smart Energy - let&#39;s bring Smart Meters, Smart Grid, Micro Grid and the software behind it together </title>
+
+    
+    
+    <meta content="tedn.life" name="keywords">
+    
+    <meta content="tedn.life - A year ago I had a couple of pints with Dan Salt (Chief Software Architect at GE Energy) and we discussed the current state of affairs with respect to IT and Software Architectures/Solutions in the Energy/Utility sector. As a result I started to develop an interest in Smart Meter (just watch the first 5 min), Smart Grid, Micro Grid and Grid 2.0 concepts/solutions.
+Here is a summary of the problems as I see them ." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>Smart Energy - let&#39;s bring Smart Meters, Smart Grid, Micro Grid and the software behind it together</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2009-06-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+</h3>
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    
+<div>A year ago I had a couple of pints with <a href="http://www.linkedin.com/pub/dan-salt/5/409/835">Dan Sal</a><span><span><a href="http://www.linkedin.com/pub/dan-salt/5/409/835">t</a> (Chief Software Architect at GE Energy) and we discussed the current state of affairs with respect to IT and Software Architectures/Solutions in the Energy/Utility sector. As a result I started to develop an interest in <a href="http://www.youtube.com/watch?v=DGiy7Safnhg">Smart Meter</a> (just watch the first 5 min), <a href="http://www.youtube.com/watch?v=9Ylcpyqz4fk&amp;feature=related">Smart Grid</a>, <a href="http://www.youtube.com/watch?v=3XuCJBvq6Sk">Micro Grid</a> and <a href="http://www.youtube.com/watch?v=H1L5HjtxJQY">Grid 2.0</a> concepts/solutions.</span></span></div><div><br /></div><div>Here is a summary of the problems as I see them ...</div><div><ul><li>we need to become more intelligent about how to consume energy</li><li>we need to become more intelligent about how to produce energy</li><li>and we need to become more intelligent about how to distribute/store energy</li></ul><div>The main focus of this blog entry is on the first bullet point, but I also quickly want to talk about the second and third bullet. Becoming more intelligent about producing, distributing and storing energy and that means first of all <a href="http://www.nytimes.com/2008/08/27/business/27grid.html?_r=2&amp;oref=slogin">becoming more intelligent about producing, distributing and storing renewable energy (wind, water, solar, ...)</a>. <a href="http://www.youtube.com/watch?v=3XuCJBvq6Sk">Micro Grids</a> might be an interesting approach to consider in this area, but this means that the IT infrastructure must be able to deal with lots small independent energy "providers" (maybe even down to the household level). There are ideas how to implement something like this, but nothing ready for prime time yet. Storing energy to deal with the peaks is another dimension of the problem that needs to be consider, but a combination of <a href="http://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity">old</a> and <a href="http://www.greentechmedia.com/articles/read/electric-vehicles-could-surpass-grid-or-support-it/">new</a> (e.g. V2G - Vehicle to Grid) approaches might be suitable to provide some relief here.</div><div><br /></div><div>Let's come back to the main topic: How to become more intelligent about consuming (less) energy (in the first place).
+
+</div><div><br /></div><div>Three years ago I was driving in a cab from Zuerich Airport to a customer meeting. The cab was a <a href="http://www.toyota.com/prius-hybrid/">Toyota Prius</a>. It was my first time in a Prius. In general I work in a cab (email, phone, SMS, whatever, ...), but this time I was totally fascinated by a/the display in the middle of the dashboard. <a href="http://www.flickr.com/photos/its_our_city/2838668732/">The display</a> showed how the Prius was producing and consuming energy with its fuel-/electro- engines and -dynamos (in (soft-/near-) real-time). Brilliant!!! You get into a traffic jam and the natural play-/compete-with-your-car instinct kicks in and you try to move the car through the traffic jam, just by using the electro-engine (just by being gentle on the accelerator).  And even without a traffic jam you are tempted to constantly compete with the car to make optimal usage of the available energy. The question is not anymore how fast you get from A to B. The question becomes "can I get from A to B using less than a gallon (less than 4 liters) of fuel". The display creates a totally new sense of awareness about what is going on and with that it starts to change behavior. The guys behind the Prius are geniuses. Adding the display makes the difference between a good and a great car, because with the display the Prius is not only a good car it is also changing societies, by changing awareness levels and behaviors.</div><div><br /></div><div>What can we learn from this? Easy ... it is not good enough to optimize the way you consume energy, you also need to provide direct feedback to the consumer on how he/she is doing and must give the consumer tools/ways to influence the amount of energy that gets consumed. Basically you need to empower the consumer!!! You need to share the responsibility between those who produce the energy (to produce energy with the lowest environmental impact possible at the lowest possible cost) and those who consume the energy (to consume as less as possible).</div><div><br /></div><div>The bad news is that in general right now households/consumers of energy (gas, oil, electricity, ...) are not aware of what, when, how (much) they consume. They get a bill (every month or every quarter) and have no insight into why they consumed this amount of energy and what to do/change to maybe reduce the energy consumption. The (immediate) feedback is missing. The <i>display</i> is missing.</div><div><br /></div><div>But there is also good news. We can fix this. Originally Smart Meters concepts and technologies got introduced to allow the utility companies to read your meter without sending somebody to your house (a clear benefit for them; not so much for you :)). In the meantime smart meters have evolved. They can and will fix the "remote reading" problem, but they also allow you (the consumer) to get immediate feedback on your energy consumption.</div><div><br /></div><div>But it might be a couple of years until smart meters get installed in (all of) the households (<a href="http://en.wikipedia.org/wiki/Smart_meter">the only country in Europe, which is almost done with this is Italy</a>). What do you do in the meantime? One option is to use a <a href="http://www.electricity-monitor.com/energy-monitor-comparison-chart-i-26.html">wireless energy monitor</a>. The good news is <a href="http://www.bluelineinnovations.com/flash/corporatevideo/video_large_medium.html">these devices are available, do not cost a lot and are easy to install</a>. The bad news is they are very limited with respect to their capabilities and connectivity.</div><div><br /></div><div>What I am looking for is a smart meter or an energy monitor that is connected to my (W)LAN and is able to dump/collect the data to a hard-disk of my choice (laptop or special purpose appliance). I then want to be able to display the data in real-time on a display of my choice (TV, computer screen, mobile phone, ...).</div><div><br /></div><div>To my knowledge such a device/appliance does not exist today.</div><div><br /></div><div>Now things get even more tricky. How can I find out if my energy consumption is good or good enough (read near the optimum)? And how can I analyze/break down my energy consumption to identify potential culprits?</div><div><br /></div><div>At the end we could upload the (location-aware) data to a data-warehouse and run analytics on it that would allow us to calculate the average per person per household in a certain area and provide feedback to the best/worst five energy consumers in the area. If you consume much more energy than you neighbors (per person) you might want to find out what the hell is going on (<a href="http://www.google.org/powermeter">Google is working on something like this</a>).</div><div><br /></div><div>Bottom line: To change the behavior we need to visualize the problem (i.e. how much energy (electricity, gas, oil, ... you consume). It will take 5-10 years to bring smart meters to the majority of households in the developed world. In the meantime energy monitors can/should be used to give immediate feedback to you (the consumer), but currently these devices are very limited in terms of what they can monitor (most of them can only monitor electricity), capability (storing historic data) and connectivity (make the data available to a/the community for analysis).</div><div><br /></div><div>Hhhhhhmmmmm ... any ideas??? Otherwise it seems I need to get my soldering gun out. </div></div>
+</div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+    </div>
+</footer>
+
+</body>
+</html>
