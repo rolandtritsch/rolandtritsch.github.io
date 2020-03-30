@@ -7,7 +7,7 @@
 
     
     
-    <meta content="tedn.life" name="keywords">
+    <meta content="Agile, Culture, Software Engineering" name="keywords">
     
     <meta content="tedn.life - The other day I was explaining again how to build an MVP and I was using the skateboard picture (again :)).
 In the middle of the discussion I realized that we only had half of the discussion, because we only talked about the direct benefits of the approach: Fast feedback, less risk to build the wrong thing, &hellip;
@@ -54,6 +54,10 @@ We did not really talk about the cost of getting these benefits. The meeting got
             
                 <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
             
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
         
 
         
@@ -68,6 +72,10 @@ We did not really talk about the cost of getting these benefits. The meeting got
                         <dd><a href="/about/">About</a></dd>
                     
                         <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
                     
                 
             </dl>
@@ -86,19 +94,33 @@ layui.use('element', function(){
     
 
     <div class="layui-row layui-col-space10">
-        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
                     <h1>The cost of building a skateboard ... and a lot of PSs</h1>
-                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+                    <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
     <span>2018-05-26</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/agile">
+            <span class="layui-badge" style="vertical-align: 2px;">Agile</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
 </h3>
+
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <p>The other day I was explaining again how to build an MVP and I was using the <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">skateboard picture</a> (again :)).</p>
@@ -110,7 +132,7 @@ layui.use('element', function(){
 <p>Why can&rsquo;t we just do it that way (besides that it takes 12-24 month before the users see something)?</p>
 <p>The main reason is (as we all know) that you do not know. You actually do not know what you are building and we do not <em>really</em> know what the customer wants and/or needs and/or values (until after we get feedback on the motorbike). Means at the end there is a 90% chance that we are building the wrong thing (it is unuseable; it is not solving the problem that the customer/user has) and we are building it wrong (the system is hard to maintain and hard to change). And building the wrong thing is obviously the most expensive outcome to produce/deliver (and let&rsquo;s not assume that you will be able to build something that is <em>80% right/valuable</em>, because in reality (in the best case) (with the car-first approach) you will probably build something that is <em>20% right/valuable</em> (and <em>that</em> thing (believe me!!!) will never get used!!!).</p>
 <p><strong>Main take-away</strong>: Building systems with a/the skateboard approach is dramatically reducing the risk that you will build the wrong thing, but it is also slow and expensive (compared to the naive/mythical &ldquo;let&rsquo;s build a car right away&rdquo; approach) and I think it is important to get everybody on board with that reality (e.g when we are done with the skateboard, we have to throw it away and start from scratch again) and then &hellip; build the skateboard.</p>
-<p><strong>PS</strong>: I think the myth/urge to build it once (and get it right) exists on multiple levels: In the large (systems, architectures, MVPs, &hellip;) and in the <a href="http://www.tritsch.org/2017/06/06/getting-it-right.html">small</a> (designs, code, tools/frameworks/technologies, &hellip;).</p>
+<p><strong>PS</strong>: I think the myth/urge to build it once (and get it right) exists on multiple levels: In the large (systems, architectures, MVPs, &hellip;) and in the <a href="http://tedn.life/2017/06/06/getting-it-right.html">small</a> (designs, code, tools/frameworks/technologies, &hellip;).</p>
 <p><strong>PPS</strong>: Very early in my career I was spoiled (and probably ruined for life). For 2 years I worked on a massive project/product to replace an existing bill-of-material system (in the automotive industry) with a new one (C++, HP-UX, Ingres; absolute state-of-art at the time (1990); my thesis is on doing (recursive) parts-decompositions with a relational database in a single SQL statement and all the query optimizations that you need to do to make that work (you might want to think about that for a while)). And for 2 years we build the car &hellip; and it worked. It took me a while to realize that this was one of the 10% cases. Mainly because the guy who was running it was a genius (Product Manager, Project Manager, Chief Architect, People Manager <strong>and</strong> Business Domain Expert &hellip; in one person (total <a href="https://www.linkedin.com/in/hermannsauer">unicorn</a>))) and he had build the previous system (for 5 years) and the customer trusted him (even when we showed them the first wheel with nothing else)). It was an amazing experience. For a while, I thought that all projects should be like this &hellip; and will be like this. And then &hellip; I woke up.</p>
 <p><strong>PPPS</strong>: But then &hellip; on the other hand &hellip; maybe he had build the skateboard, the bicyle and the motorbike before I joined the project back then.</p>
 <p><strong>PPPPS</strong>: There is a question to ask here about macro-MVPs and micro-MVPs. A macro-MVP can be structured like this &hellip;</p>
@@ -132,6 +154,166 @@ layui.use('element', function(){
         </div>
 
         
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2018-01-20-being-a-manager/">
+                                <h2 class="">About being a (software development) manager ... and managing energy!!!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-01-20</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2017-07-29-hackweek/">
+                                <h2 class="">Hackweeks @ Nitro ... The Why, The What, The How</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2017-07-29</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2017-06-12-amazon/">
+                                <h2 class="">Leadership at Amazon ... Productive Friction 2.0</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2017-06-12</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2017-06-12-productive/">
+                                <h2 class="">Productive Friction and Diversity ... the pillars of innovation ... or: How to NOT build faster horses!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2017-06-12</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2017-06-06-getting-it-right/">
+                                <h2 class="">The myth of ... getting it right the first time</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2017-06-06</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/reading">
+            <span class="layui-badge" style="vertical-align: 2px;">Reading</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
+        
     </div>
 </div>
 
@@ -140,7 +322,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 21:34:55 &#43;0100 IST </p>
     </div>
 </footer>
 

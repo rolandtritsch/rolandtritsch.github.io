@@ -53,6 +53,10 @@ There are two school of thoughts out there: First, there are lots of people, who
             
                 <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
             
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
         
 
         
@@ -67,6 +71,10 @@ There are two school of thoughts out there: First, there are lots of people, who
                         <dd><a href="/about/">About</a></dd>
                     
                         <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
                     
                 
             </dl>
@@ -90,20 +98,22 @@ layui.use('element', function(){
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
                     <h1>Open Source Innovation - Fact or Fiction</h1>
-                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+                    <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
     <span>2008-08-25</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
+    
 </h3>
+
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     
 Is Open Source Innovation an oxymoron? Is Open-source fostering innovation or killing it?<br /><br />There are two school of thoughts out there: First, there are lots of people, who say that open-source is not fostering innovation or even killing it, because it is just about the reimplementation of already solved problems and that it actually kills innovation, because it keeps people from implementing solutions that can not be protected from being reimplemented as an open-source solution. Second there are at least as many people, who say that open-source is actually creating/fostering innovation, because a company can not hide behind a bad implementation and will always be forced to look for ways to make its solution better, faster and more affordable.
 
-<br /><br />Let's first contemplate on the nature of innovation. As <a href="http://www.tritsch.org/Blog/2008/04/colossus-of-rhodes.html">previously discussed</a> there is a difference between innovation and creativity: You can ask people to be creative, but you can't really ask them to be innovative, because innovation is something that get's established after the fact, means it get's established by the traction you get with your ideas in a give business context and the impact they have on the business and the market.<br /><br />I personally believe that you cannot orchestrate or manage or create innovation. It just happens. It happens in a more darwinistic way: Through diversity/competition/mutation and selection. What you can do is to create an environment, which cherishes  diversity/creativity and competition. This will increase the likelyhood that some of your ideas turn into real innovation. In that context you probably want to set up a number of small units to shoot at the same target and want to make them compete for the best implementation. This is why open-source is innovative and/or creates innovation. It is not the a/the project that is innovative. It is the competition between the projects that creates the innovation. One good discussion on this can be found in <a href="http://www.dreamsongs.com/IHE/IHE.html">"Innovation Happens Elsewhere, by Ron Goldman and Richard P. Gabriel"</a>.<br /><br />One other way to put more structure into the discussion is to segment innovation into ...<br /><ul><li>Business Model Innovation - a new creative way to make money with something (might be closed-source or open-source)</li><li>Solution Innovation - a new creative way to solve a given (old or new) problem</li><li>Implementation Innovation - a new creative way to implement a given solution</li></ul>Open-source is clearly a good fit to drive implementation innovation. If you do not like a given implementation, you can always take the source code and make it better or even reimplement a given solution (e.g. a customer relationship management solution) or a given standard (e.g. JBI) with a new implementation.<br /><br />Question is, if open-source and/or open-source concepts are also suitable to drive solution- and/or business-model-innovation? This leads to the next bigger question: In the past the value of a company was determined by the solutions they own. This is why pharmaceutical companies try to protect their products with patents and other means. I am not sure that will stay this way going forward. Instead we might see a world in which your solutions matter less, but your ability to detect problems and develop solutions will determine the value of your company to a much larger extend.<br /><br />In such a world, open-source concepts might actually be very suitable to foster innovation on the solution level.
+<br /><br />Let's first contemplate on the nature of innovation. As <a href="http://tedn.life/Blog/2008/04/colossus-of-rhodes.html">previously discussed</a> there is a difference between innovation and creativity: You can ask people to be creative, but you can't really ask them to be innovative, because innovation is something that get's established after the fact, means it get's established by the traction you get with your ideas in a give business context and the impact they have on the business and the market.<br /><br />I personally believe that you cannot orchestrate or manage or create innovation. It just happens. It happens in a more darwinistic way: Through diversity/competition/mutation and selection. What you can do is to create an environment, which cherishes  diversity/creativity and competition. This will increase the likelyhood that some of your ideas turn into real innovation. In that context you probably want to set up a number of small units to shoot at the same target and want to make them compete for the best implementation. This is why open-source is innovative and/or creates innovation. It is not the a/the project that is innovative. It is the competition between the projects that creates the innovation. One good discussion on this can be found in <a href="http://www.dreamsongs.com/IHE/IHE.html">"Innovation Happens Elsewhere, by Ron Goldman and Richard P. Gabriel"</a>.<br /><br />One other way to put more structure into the discussion is to segment innovation into ...<br /><ul><li>Business Model Innovation - a new creative way to make money with something (might be closed-source or open-source)</li><li>Solution Innovation - a new creative way to solve a given (old or new) problem</li><li>Implementation Innovation - a new creative way to implement a given solution</li></ul>Open-source is clearly a good fit to drive implementation innovation. If you do not like a given implementation, you can always take the source code and make it better or even reimplement a given solution (e.g. a customer relationship management solution) or a given standard (e.g. JBI) with a new implementation.<br /><br />Question is, if open-source and/or open-source concepts are also suitable to drive solution- and/or business-model-innovation? This leads to the next bigger question: In the past the value of a company was determined by the solutions they own. This is why pharmaceutical companies try to protect their products with patents and other means. I am not sure that will stay this way going forward. Instead we might see a world in which your solutions matter less, but your ability to detect problems and develop solutions will determine the value of your company to a much larger extend.<br /><br />In such a world, open-source concepts might actually be very suitable to foster innovation on the solution level.
 </div>
             </div>
         </div>
@@ -117,7 +127,7 @@ Is Open Source Innovation an oxymoron? Is Open-source fostering innovation or ki
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 21:34:55 &#43;0100 IST </p>
     </div>
 </footer>
 

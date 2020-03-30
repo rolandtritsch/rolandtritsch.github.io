@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on tedn.life</title>
+    <link>http://tedn.life/tags/culture/</link>
+    <description>Recent content in Culture on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 26 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The cost of building a skateboard ... and a lot of PSs</title>
+      <link>http://tedn.life/posts/2018-05-26-skateboard/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-05-26-skateboard/</guid>
+      <description>The other day I was explaining again how to build an MVP and I was using the skateboard picture (again :)).
+In the middle of the discussion I realized that we only had half of the discussion, because we only talked about the direct benefits of the approach: Fast feedback, less risk to build the wrong thing, &amp;hellip;
+We did not really talk about the cost of getting these benefits. The meeting got interesting when I started to point out that this is not about building the solution the fastest way or the cheapest way.</description>
+    </item>
+    
+    <item>
+      <title>About being a (software development) manager ... and managing energy!!!</title>
+      <link>http://tedn.life/posts/2018-01-20-being-a-manager/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-01-20-being-a-manager/</guid>
+      <description>A lot has been written and said about what you need to do as a manager or more specifically as a manager of a software development team/group/organisation.
+You need to understand people and the business and technology (software engineering processes and practices, tools and frameworks, programming languages, &amp;hellip;).
+You need to be a manager and a leader. You need to be a friend and a dad (or mother) and a boss.</description>
+    </item>
+    
+    <item>
+      <title>Hackweeks @ Nitro ... The Why, The What, The How</title>
+      <link>http://tedn.life/posts/2017-07-29-hackweek/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-07-29-hackweek/</guid>
+      <description>As already discussed: I am obsessed with building cars!!!
+Not in the sense that I want/need to build cars, but in the sense that Henry Ford famously once upon a time (apparently not) said, that if he would have build what customers wanted, he would have build faster horses.
+Luckily he was able to complement the input from the customers (we want faster horses) with a view of what is possible (cars).</description>
+    </item>
+    
+    <item>
+      <title>Leadership at Amazon ... Productive Friction 2.0</title>
+      <link>http://tedn.life/posts/2017-06-12-amazon/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-12-amazon/</guid>
+      <description>The other day I was reading the letter that Jeff Bezo&amp;rsquo;s is writing to shareholders every year.
+The obsession with fast, good decision making was and is resonating with me.
+I like fast decision making processes that produce good decisions. And I like cultures and behaviors that foster environments that produce these fast, good decisions.
+In the case of Amazon they have developed a set of leadership principles and behaviors (like the famous 2 pizza rule) to protect their agility and velocity, while they are scaling (and to make sure they stay a Day 1 company).</description>
+    </item>
+    
+    <item>
+      <title>Productive Friction and Diversity ... the pillars of innovation ... or: How to NOT build faster horses!</title>
+      <link>http://tedn.life/posts/2017-06-12-productive/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-12-productive/</guid>
+      <description>In the week of Jul., 10th we are going to do our next Hackweek.
+The concept is not new. A lot of companies do it.
+The question is: Why is it valuable?
+For me the answer is: Because you want to make sure you are not building faster horses!
+Henry Ford once famously said (or not said :)): &amp;ldquo;If I had asked people what they wanted, they would have said faster horses.</description>
+    </item>
+    
+    <item>
+      <title>The myth of ... getting it right the first time</title>
+      <link>http://tedn.life/posts/2017-06-06-getting-it-right/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-06-getting-it-right/</guid>
+      <description>I am reading it again: Clean Code.
+This time I am reading it differently. The first time around (6 years ago), I was reading it and learned a lot (about how to write clean code) and was using it (a lot) to get other people on board and convince them that this is the way (the only way) to write code.
+I still think that the book can serve that purpose.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Operational Excellence</title>
+      <link>http://tedn.life/posts/2017-04-30-ops-ex/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-04-30-ops-ex/</guid>
+      <description>Sometimes for me discussions about Operational Excellence sound like discussions about teenager sex: Everybody is talking about it, nobody &amp;hellip;
+The other day I was wondering again: What is Operational Excellence and why should you have it?
+For me Operational Excellence is the ability of an organization to make (initially small and then over time bigger and bigger) promises and keep them consistently and reliably within budget (time and money).</description>
+    </item>
+    
+    <item>
+      <title>LOL ... printers suck!!!</title>
+      <link>http://tedn.life/posts/2017-01-19-printers-suck/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-01-19-printers-suck/</guid>
+      <description>Last year we visited some of our customers in EMEA to get some video footage about their Nitro Experience.
+ While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;
+ Life at Nitro: The Nitro Family Life Nitro: Our Dedication to Development Life at Nitro: Our Diversity Nitro: Our Vision for PDF Life at Nitro: Our Leaders Nitro: Our Thoughts on Printers  My favorite quote is &amp;hellip; obviously &amp;hellip; &amp;ldquo;Printers suck!</description>
+    </item>
+    
+    <item>
+      <title>Spotify Light ... Nitro Engineering 2017</title>
+      <link>http://tedn.life/posts/2016-12-09-spotify/</link>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-12-09-spotify/</guid>
+      <description>Finding a good and maybe even the right org structure for an engineering organization is something of a dark art.
+Initially everything is so easy. 5-10 engineers are in one location, have one boss, work on the one thing and have one common skill.
+But then you are successful. And you hire more engineers and then you realize that to derisk the hiring and the growth you probably want to hire in more than one location and then a couple of engineers will leave, because the people management aspect of the being an engineering manager is not something that comes naturally to most of us.</description>
+    </item>
+    
+    <item>
+      <title>Why do I work for Nitro ... connecting the dots!</title>
+      <link>http://tedn.life/posts/2016-11-11-mission/</link>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-11-11-mission/</guid>
+      <description>We are redoing our engineering website and our blog (stay tuned).
+In parallel we have worked on the Nitro Mission Statement (for 2017 and beyond) and have condensed it down to &amp;hellip;
+Our VP Product has also articulated a comprehensive, 2-step, &amp;ldquo;Elon Musk&amp;rdquo;-style master plan how to get there &amp;hellip;
+ Make edit, collaborate, share, sign &amp;hellip; work!!! - for everybody (personal and business (wall-to-wall)), everywhere (desktop, browser, mobile) and anytime (always-on).</description>
+    </item>
+    
+    <item>
+      <title>Visit the Powerscourt Gardens ... the Home of Software Gardening</title>
+      <link>http://tedn.life/posts/2016-10-28-software-gardening/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-10-28-software-gardening/</guid>
+      <description>Clearly &amp;hellip; and obviously &amp;hellip; the idea of Software Gardening is not mine. But as I have already mentioned once or twice &amp;hellip; I like it a lot.
+And it is also something that we have adopted here at Nitro Engineering as a guiding principle for our daily actions and daily habits.
+In general software architecture is something that you cannot see or touch, but in October I had the engineering managers in Dublin and that chance was just too good to not use it, means we all hoped on a bus and went to see the real thing!</description>
+    </item>
+    
+  </channel>
+</rss>

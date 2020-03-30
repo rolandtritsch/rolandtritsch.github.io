@@ -5,10 +5,19 @@
     <link>http://tedn.life/categories/</link>
     <description>Recent content in Categories on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 21:36:09 +0100</lastBuildDate>
     
 	<atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal</title>
+      <link>http://tedn.life/categories/personal/</link>
+      <pubDate>Mon, 30 Mar 2020 21:36:09 +0100</pubDate>
+      
+      <guid>http://tedn.life/categories/personal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Software Engineering</title>
@@ -34,6 +43,33 @@
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/categories/remote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Programming</title>
+      <link>http://tedn.life/categories/functional-programming/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/functional-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>http://tedn.life/categories/conferences/</link>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electric Car</title>
+      <link>http://tedn.life/categories/electric-car/</link>
+      <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/electric-car/</guid>
       <description></description>
     </item>
     

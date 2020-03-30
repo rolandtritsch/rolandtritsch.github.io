@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nerdy on tedn.life</title>
+    <link>http://tedn.life/tags/nerdy/</link>
+    <description>Recent content in Nerdy on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/nerdy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The vertical bar screen of death ... the story of an unexpected win-win</title>
+      <link>http://tedn.life/posts/2018-09-21-vertical-bar-screen-of-death/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-09-21-vertical-bar-screen-of-death/</guid>
+      <description>Last year I spend some time and money to &amp;ldquo;renovate&amp;rdquo; my old 17-inch Macbook Pro (remember the good old times &amp;hellip; when Apple was building good laptops with great keyboards and no touchbar :)).
+For the last 6 month I was running VirtualBox on it hosting an Ubuntu image.
+That kind of worked (a little bit slow at times and managing the ports was (sometimes) challenging, but otherwise &amp;hellip; ok).</description>
+    </item>
+    
+  </channel>
+</rss>

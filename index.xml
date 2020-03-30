@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>The corona virus ... and it&#39;s consequences</title>
+      <link>http://tedn.life/posts/2020-03-30-hugo/</link>
+      <pubDate>Mon, 30 Mar 2020 21:36:09 +0100</pubDate>
+      
+      <guid>http://tedn.life/posts/2020-03-30-hugo/</guid>
+      <description>The corona virus has a lot of weird side effects.
+You suddenly find time to do things that you couldn&amp;rsquo;t do (or wouldn&amp;rsquo;t do) for month!!!
+In my case I just updated/refreshed my blogging infrastructure &amp;hellip;
+ switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course))  The result is aesthetically pleasing.</description>
+    </item>
+    
+    <item>
       <title>I love Haskell</title>
       <link>http://tedn.life/posts/2019-04-06-small-things/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
@@ -619,16 +631,6 @@ Sometimes it is too good not to do it. What a great day. For the kids. For the g
       <guid>http://tedn.life/posts/2013-09-24-gilt-cio-talks-about-innovation/</guid>
       <description>From an interview with Steve. Too good not to turn it into a blog post ...
 &#34;When people talk about innovation they are often talking about the solution to some problem. But the real source of innovation is figuring out what the right problem is to solve. Take Gilt for example: Gilt took the invite only friends &amp;amp; family sample sale invite that existed for coveted brands in cities like New York and moved that model online.</description>
-    </item>
-    
-    <item>
-      <title>Roland</title>
-      <link>http://tedn.life/posts/2013-09-22-roland/</link>
-      <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/posts/2013-09-22-roland/</guid>
-      <description>The other day a colleague of mine pointed me to the new website/book from Jim Carrey &#34;How Roland rolls&#34; and while looking at it I started to think about my name: What does it mean? What is the origin? What are other well-known usages?
-Here is what I found out ... Roland was a knight who fought for Charles the Great (also called the father of Europe). His life is the source of legends and his last fight at the Battle of Roncesvalles in 778 was turned into the Song of Roland.</description>
     </item>
     
     <item>

@@ -7,7 +7,7 @@
 
     
     
-    <meta content="tedn.life" name="keywords">
+    <meta content="Advent of Code, Scala, Kotlin, Software Engineering, Functional Programming" name="keywords">
     
     <meta content="tedn.life - Let&rsquo;s talk about the Advent of Code &hellip; again!!!
 Last time we talked about a/the Scala implementation.
@@ -55,6 +55,10 @@ There is a separate blog post on what I think about Kotlin, but overall it was a
             
                 <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
             
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
         
 
         
@@ -69,6 +73,10 @@ There is a separate blog post on what I think about Kotlin, but overall it was a
                         <dd><a href="/about/">About</a></dd>
                     
                         <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
                     
                 
             </dl>
@@ -87,25 +95,47 @@ layui.use('element', function(){
     
 
     <div class="layui-row layui-col-space10">
-        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
                     <h1>Advent of Code 2017 ... Revolutions!!!</h1>
-                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+                    <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
     <span>2018-08-11</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/functional-programming">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Functional Programming</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent of Code</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
 </h3>
+
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>Let&rsquo;s talk about the Advent of Code &hellip; <a href="http://www.tritsch.org/2018/05/24/aoc-reloaded.html">again</a>!!!</p>
+                    <p>Let&rsquo;s talk about the Advent of Code &hellip; <a href="http://tedn.life/2018/05/24/aoc-reloaded.html">again</a>!!!</p>
 <p>Last time we talked about a/the <a href="https://github.com/rolandtritsch/scala-aoc-2017">Scala</a> implementation.</p>
 <p>This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to <a href="https://github.com/rolandtritsch/kotlin-aoc-2017">Kotlin</a>.</p>
-<p>There is a separate blog post on what I think about <a href="http://www.tritsch.org/2018/08/11/kotlin-the-better-java.html">Kotlin</a>, but overall it was a positive experience. I like Kotlin (but would not suggest/recommend it as a replacement for Scala).</p>
+<p>There is a separate blog post on what I think about <a href="http://tedn.life/2018/08/11/kotlin-the-better-java.html">Kotlin</a>, but overall it was a positive experience. I like Kotlin (but would not suggest/recommend it as a replacement for Scala).</p>
 <p>The main result of the effort to port the code to Kotlin was a <a href="https://github.com/rolandtritsch/scala-aoc-2017#benchmark">benchmark</a>.</p>
 <p><img src="https://dl.dropboxusercontent.com/s/rdehnry29tdsnrr/benchmark.png" alt="Benchmark"></p>
 <p>A couple of notes about the benchmark &hellip;</p>
@@ -123,6 +153,162 @@ layui.use('element', function(){
         </div>
 
         
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2018-05-24-aoc-reloaded/">
+                                <h2 class="">Advent of Code 2017 ... Reloaded!!!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-05-24</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/functional-programming">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Functional Programming</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent of Code</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2018-08-11-kotlin-the-better-java/">
+                                <h2 class="">Kotlin ... the better Java?</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-08-11</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/functional-programming">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Functional Programming</span>
+        </a>
+    
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2018-05-04-giter8/">
+                                <h2 class="">Tenable new hire training ... and integrating sbt-release with sbt-github-release</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-05-04</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2018-03-07-gatling-assembly/">
+                                <h2 class="">Assembling a Gatling (gun) ... how hard can it be?</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-03-07</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2017-06-26-options-future-unsuck/">
+                                <h2 class="">How to make your options in the future suck less!!!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2017-06-26</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/functional-programming">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Functional Programming</span>
+        </a>
+    
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
+        
     </div>
 </div>
 
@@ -131,7 +317,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 21:34:55 &#43;0100 IST </p>
     </div>
 </footer>
 

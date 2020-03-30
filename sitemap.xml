@@ -4,12 +4,27 @@
   
   <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
+    <lastmod>2020-03-30T21:48:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/personal/</loc>
+    <lastmod>2020-03-30T21:48:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2020-03-30T21:48:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/posts/2020-03-30-hugo/</loc>
+    <lastmod>2020-03-30T21:48:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/tags/haskell/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -18,18 +33,13 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -39,162 +49,242 @@
   
   <url>
     <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/categories/remote/</loc>
-    <lastmod>2020-03-30T15:27:35+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/advent-of-code/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-11-30-aoc-final/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T15:37:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/eta/</loc>
+    <lastmod>2020-03-30T15:37:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/kotlin/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/scala/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/nerdy/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-09-21-vertical-bar-screen-of-death/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/tips-and-tricks/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-09-20-best-trick-ever/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-08-11-kotlin-aoc/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/functional-programming/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-08-11-kotlin-the-better-java/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-08-11-learn-you-a-haskell/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/agile/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-05-26-skateboard/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-05-24-aoc-reloaded/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-05-04-giter8/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-04-03-category-theory/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-03-07-gatling-assembly/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-01-25-digital-cookbook/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-01-24-gdse/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/politics/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-01-21-election/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2018-01-20-being-a-manager/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-07-29-hackweek/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-06-26-options-future-unsuck/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-06-12-amazon/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-06-12-productive/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/reading/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-06-06-getting-it-right/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-04-30-ops-ex/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-03-19-ncps/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/nissan-leaf/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/architecture/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-01-20-simple-microservices/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/design/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/micro-services/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-01-19-printers-suck/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/conferences/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2017-01-18-dbtb/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-12-09-spotify/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-11-11-mission/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-10-31-social/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-10-29-roland/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-10-28-software-gardening/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -203,28 +293,38 @@
   </url>
   
   <url>
+    <loc>http://tedn.life/tags/blockchain/</loc>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tedn.life/posts/2016-10-17-blockchain/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-09-23-deep-learning-summit/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/maschine-learning/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-07-10-bike-ride/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2016-02-08-surprise/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2015-08-14-new-job-new-site/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
@@ -233,8 +333,13 @@
   </url>
   
   <url>
+    <loc>http://tedn.life/categories/electric-car/</loc>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tedn.life/posts/2015-05-20-range-anxiety-what-range-anxiety-my/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
   
   <url>
@@ -304,11 +409,6 @@
   
   <url>
     <loc>http://tedn.life/posts/2013-09-24-gilt-cio-talks-about-innovation/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/posts/2013-09-22-roland/</loc>
     <lastmod>2020-03-30T07:44:46+01:00</lastmod>
   </url>
   
@@ -434,7 +534,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2009-09-12-effective-mac-using-timemachine-part-ii/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -464,7 +564,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2009-06-09-fuseforge-lightsaberlightsabre-research/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -519,7 +619,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-12-28-link-of-month-twitterfeed/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -534,7 +634,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-11-14-fuse-quickstart-sneak-preview/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -554,7 +654,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-10-28-social-networking-delicious/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -599,7 +699,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-08-25-opensource-innovation-fact-or-fiction/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -619,7 +719,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-07-16-restful-services-dana-gardner-adrian/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -634,7 +734,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-07-05-iphone-and-what-you-can-learn-from/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -649,7 +749,7 @@
   
   <url>
     <loc>http://tedn.life/posts/2008-06-23-2008-osgi-community-event-talking-about/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>

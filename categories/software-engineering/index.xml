@@ -33,5 +33,264 @@ And then you need to keep engagement high and attrition low and you need to buil
 One key component to get this right is a good/the right structure for your engineering organisation.</description>
     </item>
     
+    <item>
+      <title>Advent of Code ... Final cut (... and First cut :))</title>
+      <link>http://tedn.life/posts/2018-11-30-aoc-final/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-11-30-aoc-final/</guid>
+      <description>Today Advent of Code 2018 started again (at 05:00am (GMT))!!!
+And &amp;hellip;
+&amp;hellip; just in time &amp;hellip;
+&amp;hellip; today I am also wrapping up Advent of Code 2017!!!
+My first implementation was (obviously) in Scala.
+And that one alone was interesting, because I also used ScalaCheck for property-based testing and ScalaMeter to implement performance tests for all solutions.
+I then made the Scala code cross-compile with ScalaNative.
+At the time I was also learning Kotlin and spend some cycles to port the code to Kotlin.</description>
+    </item>
+    
+    <item>
+      <title>The vertical bar screen of death ... the story of an unexpected win-win</title>
+      <link>http://tedn.life/posts/2018-09-21-vertical-bar-screen-of-death/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-09-21-vertical-bar-screen-of-death/</guid>
+      <description>Last year I spend some time and money to &amp;ldquo;renovate&amp;rdquo; my old 17-inch Macbook Pro (remember the good old times &amp;hellip; when Apple was building good laptops with great keyboards and no touchbar :)).
+For the last 6 month I was running VirtualBox on it hosting an Ubuntu image.
+That kind of worked (a little bit slow at times and managing the ports was (sometimes) challenging, but otherwise &amp;hellip; ok).</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2017 ... Revolutions!!!</title>
+      <link>http://tedn.life/posts/2018-08-11-kotlin-aoc/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-08-11-kotlin-aoc/</guid>
+      <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!
+Last time we talked about a/the Scala implementation.
+This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.
+There is a separate blog post on what I think about Kotlin, but overall it was a positive experience. I like Kotlin (but would not suggest/recommend it as a replacement for Scala).</description>
+    </item>
+    
+    <item>
+      <title>Kotlin ... the better Java?</title>
+      <link>http://tedn.life/posts/2018-08-11-kotlin-the-better-java/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-08-11-kotlin-the-better-java/</guid>
+      <description>Everybody is talking about Kotlin. Me too!!!
+Obviously the question is: Is Kotlin the next better thing?
+Is Kotlin going to replace Java? Is Kotlin going to replace Scala? Is Kotlin the next better language that will make Software Engineers (much) more productive?
+To find out I ported my Scala Advent of Code solutions to Kotlin.
+My main take aways are &amp;hellip;
+ if you know Java, learning Kotlin will be easier and faster than learning Scala Kotlin is without a doubt &amp;ldquo;the better Java&amp;rdquo;  it compiles fast it runs fast it has very good tooling/IDE support (namely (obviously) the support in Intellij is first-class) it runs on Android hell &amp;hellip; it even runs on Raspberry Pi with Arrows it has a very nice (pure) functional programming library   if you know Scala, learning Kotlin will be even easier, but you will also feel that you are not gaining anything or even that you are loosing some capabilities that are valuable  Sooooo &amp;hellip; my exec summary is &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Learn you a ... Haskell!</title>
+      <link>http://tedn.life/posts/2018-08-11-learn-you-a-haskell/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-08-11-learn-you-a-haskell/</guid>
+      <description>In the last 6 month I have started to wonder.
+First of all &amp;hellip; I am convinced that using the concepts of functional programming will give you better results (more maintainable/changeable/extendable code). Not embracing functional programming will (sooner or later) put you (and the organisation you are leading) at a competitive disadvantage (compared to those who do).
+In that context I have put some time into learning more Scala (the learning never stops :)) and have also looked at Kotlin.</description>
+    </item>
+    
+    <item>
+      <title>The cost of building a skateboard ... and a lot of PSs</title>
+      <link>http://tedn.life/posts/2018-05-26-skateboard/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-05-26-skateboard/</guid>
+      <description>The other day I was explaining again how to build an MVP and I was using the skateboard picture (again :)).
+In the middle of the discussion I realized that we only had half of the discussion, because we only talked about the direct benefits of the approach: Fast feedback, less risk to build the wrong thing, &amp;hellip;
+We did not really talk about the cost of getting these benefits. The meeting got interesting when I started to point out that this is not about building the solution the fastest way or the cheapest way.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2017 ... Reloaded!!!</title>
+      <link>http://tedn.life/posts/2018-05-24-aoc-reloaded/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-05-24-aoc-reloaded/</guid>
+      <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!
+Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!
+If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).
+The puzzles do a lot of different things and will test your ability to come up with good/clever datastructures/algorithms.</description>
+    </item>
+    
+    <item>
+      <title>Tenable new hire training ... and integrating sbt-release with sbt-github-release</title>
+      <link>http://tedn.life/posts/2018-05-04-giter8/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-05-04-giter8/</guid>
+      <description>The other day I was flying to the Tenable new hire training in Columbia/MD and that means &amp;hellip; 8 hours of uninterrupted coding time!!!
+
+At the same time, I saw/found the sbt-guthub-release plugin and started to wonder, if it would be possible to combine it with the sbt-release plugin.
+And while I was thinking about this I figured &amp;ldquo;what the hell&amp;rdquo;, why not creating another opinionated giter8 template to bootstrap my scala projects, means at the end I decided to spend the 8 hours on bringing a couple of things together &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Category Theory for Programmers ... Reviewing THE course!</title>
+      <link>http://tedn.life/posts/2018-04-03-category-theory/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-04-03-category-theory/</guid>
+      <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
+Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
+The course is long &amp;hellip;
+ Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
+    </item>
+    
+    <item>
+      <title>Assembling a Gatling (gun) ... how hard can it be?</title>
+      <link>http://tedn.life/posts/2018-03-07-gatling-assembly/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-03-07-gatling-assembly/</guid>
+      <description>Back to the roots!!!
+I am writing Gatling tests (again :)). (Obviously) I used to do this (a lot :)), when I was with Gilt (for an obvious reason :)).
+To get going again, I had to make the basics work &amp;hellip; again.
+The basics are: Make the sbt-gatling plugin work to build (end-to-end integration) tests/simulations and then create a &amp;ldquo;deployable&amp;rdquo; (fat) jar (using sbt-assembly).
+This proved to be more difficult than I thought (because this used to work).</description>
+    </item>
+    
+    <item>
+      <title>GDSE @ edx.org (with TU Delft)</title>
+      <link>http://tedn.life/posts/2018-01-24-gdse/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-01-24-gdse/</guid>
+      <description>MOOCs (Massive Open Online Courses) are massive!!!
+I did my first one 7 years ago (on Cousera; Martin Odersky&amp;rsquo;s course on Functional Programming with Scala).
+Since then there has been an explosion of sites and offerings. By now it is clear that, if you do not know, how to use these sites to your own advantage you are putting yourself at a competitive disadvantage (from a skills development point of view).</description>
+    </item>
+    
+    <item>
+      <title>About being a (software development) manager ... and managing energy!!!</title>
+      <link>http://tedn.life/posts/2018-01-20-being-a-manager/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2018-01-20-being-a-manager/</guid>
+      <description>A lot has been written and said about what you need to do as a manager or more specifically as a manager of a software development team/group/organisation.
+You need to understand people and the business and technology (software engineering processes and practices, tools and frameworks, programming languages, &amp;hellip;).
+You need to be a manager and a leader. You need to be a friend and a dad (or mother) and a boss.</description>
+    </item>
+    
+    <item>
+      <title>Hackweeks @ Nitro ... The Why, The What, The How</title>
+      <link>http://tedn.life/posts/2017-07-29-hackweek/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-07-29-hackweek/</guid>
+      <description>As already discussed: I am obsessed with building cars!!!
+Not in the sense that I want/need to build cars, but in the sense that Henry Ford famously once upon a time (apparently not) said, that if he would have build what customers wanted, he would have build faster horses.
+Luckily he was able to complement the input from the customers (we want faster horses) with a view of what is possible (cars).</description>
+    </item>
+    
+    <item>
+      <title>How to make your options in the future suck less!!!</title>
+      <link>http://tedn.life/posts/2017-06-26-options-future-unsuck/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-26-options-future-unsuck/</guid>
+      <description>If you are here for some advise on how to invest your money (using options), you are in the wrong place.
+This is about how to use Scala Options in Scala Futures!!!
+Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays in Amsterdam.
+On Sunday morning I was on Dad-duty driving Alexandros to a paint-ball battle and ended up in coffee shop with three hours of zone time.</description>
+    </item>
+    
+    <item>
+      <title>Leadership at Amazon ... Productive Friction 2.0</title>
+      <link>http://tedn.life/posts/2017-06-12-amazon/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-12-amazon/</guid>
+      <description>The other day I was reading the letter that Jeff Bezo&amp;rsquo;s is writing to shareholders every year.
+The obsession with fast, good decision making was and is resonating with me.
+I like fast decision making processes that produce good decisions. And I like cultures and behaviors that foster environments that produce these fast, good decisions.
+In the case of Amazon they have developed a set of leadership principles and behaviors (like the famous 2 pizza rule) to protect their agility and velocity, while they are scaling (and to make sure they stay a Day 1 company).</description>
+    </item>
+    
+    <item>
+      <title>Productive Friction and Diversity ... the pillars of innovation ... or: How to NOT build faster horses!</title>
+      <link>http://tedn.life/posts/2017-06-12-productive/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-12-productive/</guid>
+      <description>In the week of Jul., 10th we are going to do our next Hackweek.
+The concept is not new. A lot of companies do it.
+The question is: Why is it valuable?
+For me the answer is: Because you want to make sure you are not building faster horses!
+Henry Ford once famously said (or not said :)): &amp;ldquo;If I had asked people what they wanted, they would have said faster horses.</description>
+    </item>
+    
+    <item>
+      <title>The myth of ... getting it right the first time</title>
+      <link>http://tedn.life/posts/2017-06-06-getting-it-right/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-06-06-getting-it-right/</guid>
+      <description>I am reading it again: Clean Code.
+This time I am reading it differently. The first time around (6 years ago), I was reading it and learned a lot (about how to write clean code) and was using it (a lot) to get other people on board and convince them that this is the way (the only way) to write code.
+I still think that the book can serve that purpose.</description>
+    </item>
+    
+    <item>
+      <title>Can Micro-Services Systems be simple?</title>
+      <link>http://tedn.life/posts/2017-01-20-simple-microservices/</link>
+      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2017-01-20-simple-microservices/</guid>
+      <description>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!
+The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;quot;.
+For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</description>
+    </item>
+    
+    <item>
+      <title>Spotify Light ... Nitro Engineering 2017</title>
+      <link>http://tedn.life/posts/2016-12-09-spotify/</link>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-12-09-spotify/</guid>
+      <description>Finding a good and maybe even the right org structure for an engineering organization is something of a dark art.
+Initially everything is so easy. 5-10 engineers are in one location, have one boss, work on the one thing and have one common skill.
+But then you are successful. And you hire more engineers and then you realize that to derisk the hiring and the growth you probably want to hire in more than one location and then a couple of engineers will leave, because the people management aspect of the being an engineering manager is not something that comes naturally to most of us.</description>
+    </item>
+    
+    <item>
+      <title>Visit the Powerscourt Gardens ... the Home of Software Gardening</title>
+      <link>http://tedn.life/posts/2016-10-28-software-gardening/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-10-28-software-gardening/</guid>
+      <description>Clearly &amp;hellip; and obviously &amp;hellip; the idea of Software Gardening is not mine. But as I have already mentioned once or twice &amp;hellip; I like it a lot.
+And it is also something that we have adopted here at Nitro Engineering as a guiding principle for our daily actions and daily habits.
+In general software architecture is something that you cannot see or touch, but in October I had the engineering managers in Dublin and that chance was just too good to not use it, means we all hoped on a bus and went to see the real thing!</description>
+    </item>
+    
+    <item>
+      <title>Penny ... everything is better with ... blockchain :)</title>
+      <link>http://tedn.life/posts/2016-10-17-blockchain/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-10-17-blockchain/</guid>
+      <description>In terms of technologies right now I am very much focused on Functional Programming and Machine Learning and Software Engineering for Mobile Devices and &amp;hellip; a couple of other things (Rust, Go, &amp;hellip;), but wanted to dedicate a blog post to a technology that will (IMHO) have a significant impact on our future: Blockchains (or more specfically the Ethereum project).
+Why are we talking about this &amp;hellip;
+ &amp;hellip; because everything is better with blockchain :).</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning ... and beyond - RRRs from the Deep Learning Summit 2016 in London</title>
+      <link>http://tedn.life/posts/2016-09-23-deep-learning-summit/</link>
+      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/posts/2016-09-23-deep-learning-summit/</guid>
+      <description>I am just back from the Deep Learning (DL) Summit in London, where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.
+I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.</description>
+    </item>
+    
   </channel>
 </rss>

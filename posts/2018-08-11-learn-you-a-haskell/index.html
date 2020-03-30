@@ -7,7 +7,7 @@
 
     
     
-    <meta content="tedn.life" name="keywords">
+    <meta content="Haskell, Software Engineering" name="keywords">
     
     <meta content="tedn.life - In the last 6 month I have started to wonder.
 First of all &hellip; I am convinced that using the concepts of functional programming will give you better results (more maintainable/changeable/extendable code). Not embracing functional programming will (sooner or later) put you (and the organisation you are leading) at a competitive disadvantage (compared to those who do).
@@ -54,6 +54,10 @@ In that context I have put some time into learning more Scala (the learning neve
             
                 <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
             
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
         
 
         
@@ -68,6 +72,10 @@ In that context I have put some time into learning more Scala (the learning neve
                         <dd><a href="/about/">About</a></dd>
                     
                         <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
                     
                 
             </dl>
@@ -86,31 +94,81 @@ layui.use('element', function(){
     
 
     <div class="layui-row layui-col-space10">
-        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
                     <h1>Learn you a ... Haskell!</h1>
-                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+                    <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
     <span>2018-08-11</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
 </h3>
+
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <p>In the last 6 month I have started to wonder.</p>
 <p>First of all &hellip; I am convinced that using the concepts of functional programming will give you better results (more maintainable/changeable/extendable code). Not embracing functional programming will (sooner or later) put you (and the organisation you are leading) at a competitive disadvantage (compared to those who do).</p>
 <p>In that context I have put some time into learning more <a href="https://github.com/rolandtritsch/scala-aoc-2017">Scala</a> (the learning never stops :)) and have also looked at <a href="https://github.com/rolandtritsch/kotlin-aoc-2017">Kotlin</a>.</p>
-<p>But most importantly I worked my way through <a href="http://haskellbook.com">THE Haskell Book</a> and through <a href="http://www.tritsch.org/2018/04/03/category-theory.html">Category Theory for Programmers</a> by <a href="https://bartoszmilewski.com/about">Bartosz Milewski</a>.</p>
+<p>But most importantly I worked my way through <a href="http://haskellbook.com">THE Haskell Book</a> and through <a href="http://tedn.life/2018/04/03/category-theory.html">Category Theory for Programmers</a> by <a href="https://bartoszmilewski.com/about">Bartosz Milewski</a>.</p>
 <p>I like Haskell. A lot. I like it even more now after I discovered <a href="https://github.com/rolandtritsch/eta-hello-world">eta</a> (Haskell on the JVM).</p>
 <p>In that context I was looking for more resources to learn Haskell and stumbled over <a href="http://learnyouahaskell.com">&ldquo;Learn you a Haskell&rdquo;</a>. Great book with good <a href="https://github.com/rolandtritsch/haskell-learn">excersises</a>. Highly recommended.</p>
 </div>
             </div>
         </div>
 
+        
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/posts/2018-04-03-category-theory/">
+                                <h2 class="">Category Theory for Programmers ... Reviewing THE course!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-04-03</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/functional-programming">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Functional Programming</span>
+        </a>
+    
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
         
     </div>
 </div>
@@ -120,7 +178,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 07:44:46 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-03-30 21:34:55 &#43;0100 IST </p>
     </div>
 </footer>
 
