@@ -4,16 +4,46 @@
   
   <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2020-03-30T21:48:55+01:00</lastmod>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2020-03-30T21:48:55+01:00</lastmod>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/software-enginnering/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/tedn/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/posts/2020-03-31-tedn/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/personal/</loc>
     <lastmod>2020-03-30T21:48:55+01:00</lastmod>
   </url>
   
@@ -34,22 +64,12 @@
   
   <url>
     <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/</loc>
-    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/2019-03-01-pod-first/</loc>
     <lastmod>2020-03-30T15:27:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
   <url>
@@ -124,11 +144,6 @@
   
   <url>
     <loc>http://tedn.life/tags/agile/</loc>
-    <lastmod>2020-03-30T21:34:55+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/culture/</loc>
     <lastmod>2020-03-30T21:34:55+01:00</lastmod>
   </url>
   
@@ -254,7 +269,7 @@
   
   <url>
     <loc>http://tedn.life/categories/conferences/</loc>
-    <lastmod>2020-03-30T21:27:02+01:00</lastmod>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
   <url>
@@ -494,7 +509,12 @@
   
   <url>
     <loc>http://tedn.life/posts/2010-04-07-international-conference-on-mass/</loc>
-    <lastmod>2020-03-30T07:44:46+01:00</lastmod>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/mass-customization/</loc>
+    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
   <url>
