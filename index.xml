@@ -5,9 +5,30 @@
     <link>http://tedn.life/</link>
     <description>Recent content on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>http://tedn.life/about/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/about/</guid>
+      <description>Builder and runner of functional teams and functional systems
+  Explorer of extreme digital nomading and remote-first cultures
+ My name is Roland Tritsch. I am a Software Engineer. I am a Manager. I am a Husband and a Father. I like to make engineers grow and users smile. I like computer science. I believe that computers and software can help to make this planet a better place. When I am not building, running or fixing something (preferably using a functional programming language like Haskell or Scala), I am on a hike (somewhere).</description>
+    </item>
+    
+    <item>
+      <title>Social</title>
+      <link>http://tedn.life/social/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/social/</guid>
+      <description>Find out &amp;hellip;  &amp;hellip; what I am doing &amp;hellip; what I am tweeting &amp;hellip; what I am working on &amp;hellip; what I am looking at &amp;hellip; where I am working today  </description>
+    </item>
     
     <item>
       <title>The Extreme Digital Nomad (TEDN)</title>
@@ -1462,26 +1483,6 @@ what is the nature of innovation? how is it for instance different from creativi
 And there is a lot to talk about ... 
 the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
 In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://tedn.life/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/about/</guid>
-      <description>Builder and runner of functional teams and functional systems
-  Explorer of extreme digital nomading and remote-first cultures
- My name is Roland Tritsch. I am a Software Engineer. I am a Manager. I am a Husband and a Father. I like to make engineers grow and users smile. I like computer science. I believe that computers and software can help to make this planet a better place. When I am not building, running or fixing something (preferably using a functional programming language like Haskell or Scala), I am on a hike (somewhere).</description>
-    </item>
-    
-    <item>
-      <title>Social</title>
-      <link>http://tedn.life/social/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/social/</guid>
-      <description>Find out &amp;hellip;  &amp;hellip; what I am doing &amp;hellip; what I am tweeting &amp;hellip; what I am working on &amp;hellip; what I am looking at &amp;hellip; where I am working today  </description>
     </item>
     
   </channel>
