@@ -27,9 +27,10 @@ My management style/philosophy is based on a couple of core believes &amp;hellip
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/posts/2019-03-01-pod-first/</guid>
-      <description>.tablelines table, .tablelines td, .tablelines th { border: 1px solid black; }  Fig 1: Skating to where the puck ...  Finding good and the right talent for an engineering organisation is as challenging as ever.
+      <description>Fig 1: Skating to where the puck ...  Finding good and the right talent for an engineering organisation is as challenging as ever.
 And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).
-One key component to get this right is a good/the right structure for your engineering organisation.</description>
+One key component to get this right is a good/the right structure for your engineering organisation.
+And you probably want to structure it in a way so that it not only works today, but also in 2-3 years from now, because otherwise by the time you are done building the org it will not work (anymore)).</description>
     </item>
     
     <item>
