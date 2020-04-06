@@ -12,10 +12,10 @@
     
     <item>
       <title>Advent of Code ... Final cut (... and First cut :))</title>
-      <link>http://tedn.life/posts/2018-11-30-aoc-final/</link>
+      <link>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-11-30-aoc-final/</guid>
+      <guid>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</guid>
       <description>Today Advent of Code 2018 started again (at 05:00am (GMT))!!!
 And &amp;hellip;
 &amp;hellip; just in time &amp;hellip;
@@ -28,10 +28,10 @@ At the time I was also learning Kotlin and spend some cycles to port the code to
     
     <item>
       <title>Advent of Code 2017 ... Revolutions!!!</title>
-      <link>http://tedn.life/posts/2018-08-11-kotlin-aoc/</link>
+      <link>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-08-11-kotlin-aoc/</guid>
+      <guid>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</guid>
       <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!
 Last time we talked about a/the Scala implementation.
 This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.
@@ -40,10 +40,10 @@ There is a separate blog post on what I think about Kotlin, but overall it was a
     
     <item>
       <title>Advent of Code 2017 ... Reloaded!!!</title>
-      <link>http://tedn.life/posts/2018-05-24-aoc-reloaded/</link>
+      <link>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-05-24-aoc-reloaded/</guid>
+      <guid>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</guid>
       <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!
 Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!
 If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).

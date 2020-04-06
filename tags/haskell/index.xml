@@ -12,10 +12,10 @@
     
     <item>
       <title>I love Haskell</title>
-      <link>http://tedn.life/posts/2019-04-06-small-things/</link>
+      <link>http://tedn.life/2019/04/06/i-love-haskell/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2019-04-06-small-things/</guid>
+      <guid>http://tedn.life/2019/04/06/i-love-haskell/</guid>
       <description>Over the last 2 years I did a fair bit of Haskell (after doing a fairer bit of Scala for 8 years).
 And I love Haskell.
 Don&amp;rsquo;t get me wrong: If you are tied to the JVM eco-system (and who is not these days), my opinion is that Scala is your best option to do functional programming on the JVM.
@@ -24,10 +24,10 @@ At the same time writting code in Haskell feels very natural to me.</description
     
     <item>
       <title>Advent of Code ... Final cut (... and First cut :))</title>
-      <link>http://tedn.life/posts/2018-11-30-aoc-final/</link>
+      <link>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-11-30-aoc-final/</guid>
+      <guid>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</guid>
       <description>Today Advent of Code 2018 started again (at 05:00am (GMT))!!!
 And &amp;hellip;
 &amp;hellip; just in time &amp;hellip;
@@ -40,10 +40,10 @@ At the time I was also learning Kotlin and spend some cycles to port the code to
     
     <item>
       <title>Learn you a ... Haskell!</title>
-      <link>http://tedn.life/posts/2018-08-11-learn-you-a-haskell/</link>
+      <link>http://tedn.life/2018/08/11/learn-you-a-...-haskell/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-08-11-learn-you-a-haskell/</guid>
+      <guid>http://tedn.life/2018/08/11/learn-you-a-...-haskell/</guid>
       <description>In the last 6 month I have started to wonder.
 First of all &amp;hellip; I am convinced that using the concepts of functional programming will give you better results (more maintainable/changeable/extendable code). Not embracing functional programming will (sooner or later) put you (and the organisation you are leading) at a competitive disadvantage (compared to those who do).
 In that context I have put some time into learning more Scala (the learning never stops :)) and have also looked at Kotlin.</description>
@@ -51,10 +51,10 @@ In that context I have put some time into learning more Scala (the learning neve
     
     <item>
       <title>Category Theory for Programmers ... Reviewing THE course!</title>
-      <link>http://tedn.life/posts/2018-04-03-category-theory/</link>
+      <link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-04-03-category-theory/</guid>
+      <guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
       <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
 Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
 The course is long &amp;hellip;

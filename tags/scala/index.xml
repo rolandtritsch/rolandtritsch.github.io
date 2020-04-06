@@ -12,10 +12,10 @@
     
     <item>
       <title>Advent of Code ... Final cut (... and First cut :))</title>
-      <link>http://tedn.life/posts/2018-11-30-aoc-final/</link>
+      <link>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-11-30-aoc-final/</guid>
+      <guid>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</guid>
       <description>Today Advent of Code 2018 started again (at 05:00am (GMT))!!!
 And &amp;hellip;
 &amp;hellip; just in time &amp;hellip;
@@ -28,10 +28,10 @@ At the time I was also learning Kotlin and spend some cycles to port the code to
     
     <item>
       <title>Advent of Code 2017 ... Revolutions!!!</title>
-      <link>http://tedn.life/posts/2018-08-11-kotlin-aoc/</link>
+      <link>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-08-11-kotlin-aoc/</guid>
+      <guid>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</guid>
       <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!
 Last time we talked about a/the Scala implementation.
 This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.
@@ -40,10 +40,10 @@ There is a separate blog post on what I think about Kotlin, but overall it was a
     
     <item>
       <title>Advent of Code 2017 ... Reloaded!!!</title>
-      <link>http://tedn.life/posts/2018-05-24-aoc-reloaded/</link>
+      <link>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-05-24-aoc-reloaded/</guid>
+      <guid>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</guid>
       <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!
 Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!
 If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).
@@ -52,10 +52,10 @@ The puzzles do a lot of different things and will test your ability to come up w
     
     <item>
       <title>Tenable new hire training ... and integrating sbt-release with sbt-github-release</title>
-      <link>http://tedn.life/posts/2018-05-04-giter8/</link>
+      <link>http://tedn.life/2018/05/04/tenable-new-hire-training-...-and-integrating-sbt-release-with-sbt-github-release/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-05-04-giter8/</guid>
+      <guid>http://tedn.life/2018/05/04/tenable-new-hire-training-...-and-integrating-sbt-release-with-sbt-github-release/</guid>
       <description>The other day I was flying to the Tenable new hire training in Columbia/MD and that means &amp;hellip; 8 hours of uninterrupted coding time!!!
 
 At the same time, I saw/found the sbt-guthub-release plugin and started to wonder, if it would be possible to combine it with the sbt-release plugin.
@@ -64,10 +64,10 @@ And while I was thinking about this I figured &amp;ldquo;what the hell&amp;rdquo
     
     <item>
       <title>Assembling a Gatling (gun) ... how hard can it be?</title>
-      <link>http://tedn.life/posts/2018-03-07-gatling-assembly/</link>
+      <link>http://tedn.life/2018/03/07/assembling-a-gatling-gun-...-how-hard-can-it-be/</link>
       <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-03-07-gatling-assembly/</guid>
+      <guid>http://tedn.life/2018/03/07/assembling-a-gatling-gun-...-how-hard-can-it-be/</guid>
       <description>Back to the roots!!!
 I am writing Gatling tests (again :)). (Obviously) I used to do this (a lot :)), when I was with Gilt (for an obvious reason :)).
 To get going again, I had to make the basics work &amp;hellip; again.
@@ -77,10 +77,10 @@ This proved to be more difficult than I thought (because this used to work).</de
     
     <item>
       <title>How to make your options in the future suck less!!!</title>
-      <link>http://tedn.life/posts/2017-06-26-options-future-unsuck/</link>
+      <link>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2017-06-26-options-future-unsuck/</guid>
+      <guid>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</guid>
       <description>If you are here for some advise on how to invest your money (using options), you are in the wrong place.
 This is about how to use Scala Options in Scala Futures!!!
 Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays in Amsterdam.

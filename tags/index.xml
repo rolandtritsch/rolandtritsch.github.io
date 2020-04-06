@@ -5,10 +5,19 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Environment</title>
+      <link>http://tedn.life/tags/environment/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/environment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Culture</title>
@@ -110,11 +119,11 @@
     </item>
     
     <item>
-      <title>Nissan Leaf</title>
-      <link>http://tedn.life/tags/nissan-leaf/</link>
+      <title>Electric Car</title>
+      <link>http://tedn.life/tags/electric-car/</link>
       <pubDate>Sun, 19 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/tags/nissan-leaf/</guid>
+      <guid>http://tedn.life/tags/electric-car/</guid>
       <description></description>
     </item>
     

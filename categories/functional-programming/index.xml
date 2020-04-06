@@ -12,10 +12,10 @@
     
     <item>
       <title>Advent of Code 2017 ... Revolutions!!!</title>
-      <link>http://tedn.life/posts/2018-08-11-kotlin-aoc/</link>
+      <link>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-08-11-kotlin-aoc/</guid>
+      <guid>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</guid>
       <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!
 Last time we talked about a/the Scala implementation.
 This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.
@@ -24,10 +24,10 @@ There is a separate blog post on what I think about Kotlin, but overall it was a
     
     <item>
       <title>Kotlin ... the better Java?</title>
-      <link>http://tedn.life/posts/2018-08-11-kotlin-the-better-java/</link>
+      <link>http://tedn.life/2018/08/11/kotlin-...-the-better-java/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-08-11-kotlin-the-better-java/</guid>
+      <guid>http://tedn.life/2018/08/11/kotlin-...-the-better-java/</guid>
       <description>Everybody is talking about Kotlin. Me too!!!
 Obviously the question is: Is Kotlin the next better thing?
 Is Kotlin going to replace Java? Is Kotlin going to replace Scala? Is Kotlin the next better language that will make Software Engineers (much) more productive?
@@ -38,10 +38,10 @@ My main take aways are &amp;hellip;
     
     <item>
       <title>Advent of Code 2017 ... Reloaded!!!</title>
-      <link>http://tedn.life/posts/2018-05-24-aoc-reloaded/</link>
+      <link>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-05-24-aoc-reloaded/</guid>
+      <guid>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</guid>
       <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!
 Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!
 If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).
@@ -50,10 +50,10 @@ The puzzles do a lot of different things and will test your ability to come up w
     
     <item>
       <title>Category Theory for Programmers ... Reviewing THE course!</title>
-      <link>http://tedn.life/posts/2018-04-03-category-theory/</link>
+      <link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2018-04-03-category-theory/</guid>
+      <guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
       <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
 Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
 The course is long &amp;hellip;
@@ -62,10 +62,10 @@ The course is long &amp;hellip;
     
     <item>
       <title>How to make your options in the future suck less!!!</title>
-      <link>http://tedn.life/posts/2017-06-26-options-future-unsuck/</link>
+      <link>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/posts/2017-06-26-options-future-unsuck/</guid>
+      <guid>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</guid>
       <description>If you are here for some advise on how to invest your money (using options), you are in the wrong place.
 This is about how to use Scala Options in Scala Futures!!!
 Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays in Amsterdam.
