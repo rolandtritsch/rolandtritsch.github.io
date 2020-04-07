@@ -3,8 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://tedn.life/tags/books/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2020-04-06T15:07:01+01:00</lastmod>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/remote/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/software-engineering/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/tedn/</loc>
+    <lastmod>2020-04-07T16:11:49+01:00</lastmod>
   </url>
   
   <url>
@@ -18,21 +63,6 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2020-04-06T15:07:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/</loc>
-    <lastmod>2020-04-06T15:07:01+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/tedn/</loc>
-    <lastmod>2020-04-06T15:05:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/2020/04/06/tedn-the-most-important-tool-.../</loc>
     <lastmod>2020-04-06T15:05:05+01:00</lastmod>
   </url>
@@ -40,16 +70,6 @@
   <url>
     <loc>http://tedn.life/about/</loc>
     <lastmod>2020-04-05T16:56:04+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/culture/</loc>
-    <lastmod>2020-04-05T17:14:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2020-04-05T17:14:15+01:00</lastmod>
   </url>
   
   <url>
@@ -88,17 +108,7 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2020-04-05T17:14:15+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/2019/03/01/hub-first-vs.-remote-first-vs.-pod-first-...-skating-to-where-the-puck-is-going-to-be/</loc>
-    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/remote/</loc>
     <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
