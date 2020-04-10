@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Assessing the WLAN ... the dark arts of extreme digital nomading</title>
+      <link>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</guid>
+      <description>When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
+Statements like &amp;hellip;
+ &amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo;  &amp;hellip; are just not good enough.</description>
+    </item>
+    
+    <item>
       <title>Discussing Remote ... the book!!!</title>
       <link>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
@@ -681,11 +692,11 @@ Sometimes it is too good not to do it. What a great day. For the kids. For the g
     </item>
     
     <item>
-      <title>Gilt CIO talks ... about innovation.</title>
-      <link>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation./</link>
+      <title>Gilt CIO talks ... about innovation</title>
+      <link>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation/</link>
       <pubDate>Tue, 24 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation./</guid>
+      <guid>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation/</guid>
       <description>From an interview with Steve. Too good not to turn it into a blog post ...
 &#34;When people talk about innovation they are often talking about the solution to some problem. But the real source of innovation is figuring out what the right problem is to solve. Take Gilt for example: Gilt took the invite only friends &amp;amp; family sample sale invite that existed for coveted brands in cities like New York and moved that model online.</description>
     </item>
@@ -809,11 +820,11 @@ And ... it is not this easy. I am now working on this for a couple of weeks (ela
     </item>
     
     <item>
-      <title>AquaEmacs and JDEE and Method Completion - Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more</title>
-      <link>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent.-type-m-x-describe-function-ret-jde-get-jdk-dir-for-more/</link>
+      <title>AquaEmacs and JDEE and Method Completion - Cannot find JDK&#39;s tools jar file (or equivalent)</title>
+      <link>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</link>
       <pubDate>Wed, 24 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent.-type-m-x-describe-function-ret-jde-get-jdk-dir-for-more/</guid>
+      <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
       <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).
 Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... 
 Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.</description>
@@ -870,18 +881,6 @@ The garment industry is not only looking for a solution to address the increasin
       <guid>http://tedn.life/2010/04/04/bierdeckel-economics-vs.-armchair-economics-...-and-what-it-got-to-do-with-greece-and-ireland/</guid>
       <description>As most of you know, I am married to a greek woman and life in Ireland. Therefore the current economic crisis is omnipresent in my life.
 A couple of weeks ago Chris Horn posted an interesting article about certain economical key indicators and what they mean for Ireland. I also saw a good article in the NYT about why and how the US and Ireland and Greece are different (from a financial crises/debt point of view).</description>
-    </item>
-    
-    <item>
-      <title>This blog has moved</title>
-      <link>http://tedn.life/2010/03/06/this-blog-has-moved/</link>
-      <pubDate>Sat, 06 Mar 2010 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/2010/03/06/this-blog-has-moved/</guid>
-      <description>This blog is now located at http://blog.tritsch.org/.
-You will be automatically redirected in 30 seconds, or you may click here.
-For feed subscribers, please update your feed subscriptions to
-http://blog.tritsch.org/atom.xml.</description>
     </item>
     
     <item>
@@ -1038,7 +1037,7 @@ First things first: This guide assumes that you got yourself an Android Dev Phon
       <pubDate>Wed, 27 May 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/05/27/effective-andriod-a-new-category/</guid>
-      <description> Last year I introduced categories like &#34;Link of the Month&#34; and &#34;Effective Mac&#34; to my bloging&#34;. Heads up ... there is a new category coming: Effective Android will talk about my adventures with my new Android phone.
+      <description> Last year I introduced categories like &#34;Link of the Month&#34; and &#34;Effective Mac&#34; to my blogging&#34;. Heads up ... there is a new category coming: Effective Android will talk about my adventures with my new Android phone.
  </description>
     </item>
     

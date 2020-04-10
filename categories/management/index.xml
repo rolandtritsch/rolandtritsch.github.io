@@ -148,5 +148,160 @@ Our VP Product has also articulated a comprehensive, 2-step, &amp;ldquo;Elon Mus
  Make edit, collaborate, share, sign &amp;hellip; work!!! - for everybody (personal and business (wall-to-wall)), everywhere (desktop, browser, mobile) and anytime (always-on).</description>
     </item>
     
+    <item>
+      <title>Visit the Powerscourt Gardens ... the Home of Software Gardening</title>
+      <link>http://tedn.life/2016/10/28/visit-the-powerscourt-gardens-...-the-home-of-software-gardening/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2016/10/28/visit-the-powerscourt-gardens-...-the-home-of-software-gardening/</guid>
+      <description>Clearly &amp;hellip; and obviously &amp;hellip; the idea of Software Gardening is not mine. But as I have already mentioned once or twice &amp;hellip; I like it a lot.
+And it is also something that we have adopted here at Nitro Engineering as a guiding principle for our daily actions and daily habits.
+In general software architecture is something that you cannot see or touch, but in October I had the engineering managers in Dublin and that chance was just too good to not use it, means we all hoped on a bus and went to see the real thing!</description>
+    </item>
+    
+    <item>
+      <title>Zero-to-Hero ... in a day</title>
+      <link>http://tedn.life/2016/10/22/zero-to-hero-...-in-a-day/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2016/10/22/zero-to-hero-...-in-a-day/</guid>
+      <description>Yesterday I had a good day in the office!
+Nitro (like a lot of other startups) is going through growing pains. In the last 2 years we have hired a lot of people (and have not been able to retain all of them). We have build a lot of systems, platforms, features and products (and some of it turned into technical debt faster than we wanted). We implemented processes and practices (and not all of them made us more productive or faster).</description>
+    </item>
+    
+    <item>
+      <title>Talking about the value of immutability ... for deployment platforms and innovation</title>
+      <link>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</link>
+      <pubDate>Tue, 12 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</guid>
+      <description>I am just back from presenting a talk at FutureStack in SFO.
+
+Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku.</description>
+    </item>
+    
+    <item>
+      <title>Gilt CIO talks ... about innovation</title>
+      <link>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation/</link>
+      <pubDate>Tue, 24 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation/</guid>
+      <description>From an interview with Steve. Too good not to turn it into a blog post ...
+&#34;When people talk about innovation they are often talking about the solution to some problem. But the real source of innovation is figuring out what the right problem is to solve. Take Gilt for example: Gilt took the invite only friends &amp;amp; family sample sale invite that existed for coveted brands in cities like New York and moved that model online.</description>
+    </item>
+    
+    <item>
+      <title>Getting GTD done - Thoughts and Tools</title>
+      <link>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</guid>
+      <description>We all have a lot to do. Effective time/task management is essential. I’ve been using GTD (Getting Things Done) for a while now (a long while :)) and for me it comes down to the question, “How do you pick the next, best, most valuable thing to work on?”—basically answering the question of how to make the best use of the time you have.
+Picking something from your list of urgent things to do is kind of easy, but how can you make sure you are not missing the opportunity/chance to work on something important, if you get the chance to do so?</description>
+    </item>
+    
+    <item>
+      <title>Charting some KPIs ... how hard can it be?</title>
+      <link>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</link>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</guid>
+      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.
+As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
+    </item>
+    
+    <item>
+      <title>Dublin Innovation Festival - Talking about Innovation, Gilt and Ireland ... and Evolution and Darwinism</title>
+      <link>http://tedn.life/2011/11/24/dublin-innovation-festival-talking-about-innovation-gilt-and-ireland-...-and-evolution-and-darwinism/</link>
+      <pubDate>Thu, 24 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/11/24/dublin-innovation-festival-talking-about-innovation-gilt-and-ireland-...-and-evolution-and-darwinism/</guid>
+      <description>A couple of weeks ago I had the chance to talk about three things I care about: Innovation, Gilt and Ireland. The occasion was the Dublin Chamber of Commerce Smart Series Event on Innovation (that was the day after Dundrum Shopping Center and half of Dublin got flooded). The objective was to share a couple of thoughts on what innovation is (or is not), what Gilt is doing to foster innovation and what Ireland has to offer to companies like Gilt.</description>
+    </item>
+    
+    <item>
+      <title>Autonomy, Mastery, Purpose - ... or ... how to unleash creativity.</title>
+      <link>http://tedn.life/2010/06/08/autonomy-mastery-purpose-...-or-...-how-to-unleash-creativity./</link>
+      <pubDate>Tue, 08 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/06/08/autonomy-mastery-purpose-...-or-...-how-to-unleash-creativity./</guid>
+      <description>This is going to be a short blog post. A Facebook post by Brian Kelly made me revisit the stuff that Dan Pink did and is doing.
+The main idea behind Drive (RSA, TED) is that Autonomy, Mastery and Purpose unleash the creative power of individuals and teams, not material/monetary incentives. Opensource and Wikipedia and ... are obviously the classic/legendary examples for this FACT (and yes, it is a fact :)).</description>
+    </item>
+    
+    <item>
+      <title>Skills, Innovation and the future of Ireland - Bermuda Triangle or Trinity</title>
+      <link>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</link>
+      <pubDate>Sun, 07 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</guid>
+      <description>Ireland (like any other country in the world right now) needs to reinvent itself. The Celtic Tiger (1.0) is over. Question is: What&#39;s next? Do we want a Celtic Tiger 2.0? If so, how should it look like? And how do we make it happen?
+Chris Horn has published a couple of interesting blog entries and articles on the topic.
+For me the key is skills and innovation. Skill comes in two flavors: expertise and experience.</description>
+    </item>
+    
+    <item>
+      <title>Commercial Open Source for Apache Projects - Survival of the fittest</title>
+      <link>http://tedn.life/2009/01/22/commercial-open-source-for-apache-projects-survival-of-the-fittest/</link>
+      <pubDate>Thu, 22 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/22/commercial-open-source-for-apache-projects-survival-of-the-fittest/</guid>
+      <description>Just found another company offering commercial support for Apache ServiceMix and Apache ActiveMQ (like we do :)). For me this is good news. It shows that more and more people use Apache integration projects in mission-critical deployment scenarios. And that these deployments generate enough value for customers to warrant an &#34;insurance&#34; against worst-case scenarios. 
+For me it was never the goal to be the only company to offer consulting, training and support for Apache integration projects.</description>
+    </item>
+    
+    <item>
+      <title>Open Source Marketing - and what it got to do with the Michelin brothers</title>
+      <link>http://tedn.life/2008/11/11/open-source-marketing-and-what-it-got-to-do-with-the-michelin-brothers/</link>
+      <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/11/open-source-marketing-and-what-it-got-to-do-with-the-michelin-brothers/</guid>
+      <description>Open Core Licensing and the business model behind it is not (really) new. When you look at it from a history/marketing point of view there are lots of examples, where money is/was made with a &#34;handle-blade&#34; model.
+From a marketing point of view the most famous example is probably Gillette. They give away the handles and make a lot of money with the blades. This works because they have a very strong brand and because they &#34;</description>
+    </item>
+    
+    <item>
+      <title>Open Source Business Models - Open-Core Licensing</title>
+      <link>http://tedn.life/2008/09/02/open-source-business-models-open-core-licensing/</link>
+      <pubDate>Tue, 02 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/02/open-source-business-models-open-core-licensing/</guid>
+      <description>OH NO, please!!! YABOOSBM!!! Yet another blog entry on open-source business models :).
+Ok, let&#39;s make it as short and as sweet as possible :).
+This morning I was reading Matt Aslett&#39;s comment on Andrew Lampitt&#39;s blog entry on &#34;Open-Core&#34; licensing (which actually contains a link to a good presentation by MySQL chief Marten Mickos).
+What I like about the approach is that it tries to take the emotion out of the discussion.</description>
+    </item>
+    
+    <item>
+      <title>Randy Pausch - about elephants, walls, rooms and TVs</title>
+      <link>http://tedn.life/2008/08/04/randy-pausch-about-elephants-walls-rooms-and-tvs/</link>
+      <pubDate>Mon, 04 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/08/04/randy-pausch-about-elephants-walls-rooms-and-tvs/</guid>
+      <description>Last week Randy Pausch died. With all the hype around his cancer and &#34;the last lecture&#34;, it was/is kind of hard to see who he was or what he was. Yesterday I tried to find out a little bit more and watched his presentation on time management. Good presentation, but not something that we haven&#39;t heard before. In the end I have to agree with him: He is a smart professor, but there are lots of smart professors out there.</description>
+    </item>
+    
+    <item>
+      <title>Innovation on Innovation - How to make elephants dance</title>
+      <link>http://tedn.life/2008/06/05/innovation-on-innovation-how-to-make-elephants-dance/</link>
+      <pubDate>Thu, 05 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/05/innovation-on-innovation-how-to-make-elephants-dance/</guid>
+      <description>Yesterday I went out and had a pint with Sailesh Panchal. He is an Enterprise Architect with the payments division of Lloyds TSB in London. Part of his responsibility is to foster innovation in Lloyds. 
+Obviously innovation needs to be directed towards a measurable goal/target/impact for the customer and/or the company. To judge, if an/the idea was just a good idea or a real innovation, you must be able to show some measurable ROI in a defined timeframe.</description>
+    </item>
+    
+    <item>
+      <title>The Colossus of Rhodes</title>
+      <link>http://tedn.life/2008/04/20/the-colossus-of-rhodes/</link>
+      <pubDate>Sun, 20 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/04/20/the-colossus-of-rhodes/</guid>
+      <description>Now. Lets get things started. Lets talk about innovation. 
+for a well-known reason (at least) once a year i am in greece. this year we also went to rhodos to see the colossus. 
+question is: was this innovation? i mean, is it innovative to come up with the idea to build something like the colossus?
+what is the nature of innovation? how is it for instance different from creativity?</description>
+    </item>
+    
   </channel>
 </rss>

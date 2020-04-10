@@ -23,6 +23,17 @@ Obviously the key messages/statements from the book are still true (or truer tha
     </item>
     
     <item>
+      <title>The Extreme Digital Nomad (TEDN)</title>
+      <link>http://tedn.life/2020/03/31/the-extreme-digital-nomad-tedn/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/03/31/the-extreme-digital-nomad-tedn/</guid>
+      <description>In the last 25 years I have build and run multiple distributed software engineering organisations.
+My management style/philosophy is based on a couple of core believes &amp;hellip;
+ The Power of Why - I like to lead with Why (to make sure Talent and Passion can meet a Purpose) People first - I always think and feel that people are the solution (not the problem) Heterogenerity for the win - You have to be different to complement each other (and to create innovation) No surprises - Everybody (at all times) should be clear on what is happening and why it is happening, which leads to &amp;hellip; Building and maintain trust (and respect) (between the people) at all cost!</description>
+    </item>
+    
+    <item>
       <title>I love Haskell</title>
       <link>http://tedn.life/2019/04/06/i-love-haskell/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
@@ -263,6 +274,19 @@ For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple
     </item>
     
     <item>
+      <title>I am a lucky guy :) ...</title>
+      <link>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</link>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</guid>
+      <description>Sometimes it takes a while to get to it &amp;hellip;
+ Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
+
+Good morning everybody. On behalf of Nitro: Welcome to Data by the Bay.
+My name is Roland Tritsch and I am German and I am the VP Engineering at Nitro.</description>
+    </item>
+    
+    <item>
       <title>Spotify Light ... Nitro Engineering 2017</title>
       <link>http://tedn.life/2016/12/09/spotify-light-...-nitro-engineering-2017/</link>
       <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
@@ -306,6 +330,204 @@ I am working with Nitro for a year now and have learned a lot about Machine Lear
     </item>
     
     <item>
+      <title>Functional Programming on iOS and Android - Making the impossible ... possible?!?!</title>
+      <link>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</link>
+      <pubDate>Sat, 25 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</guid>
+      <description>Beginning of the year we had one of our Microsoft Senior Architects from the GDC (Global Delivery Center) in India with us. Over a couple of pints the obvious happened: I sparked his interest in functional programming and he sparked my interest in F#.
+First I made Mono&amp;nbsp;and Emacs work, but then I started to use Xamarin.
+Not so much, because I needed a better IDE (Emacs rules :)), but because I got interested in the claim that you can use Xamarin to do Android and iOS cross-platform development with #F.</description>
+    </item>
+    
+    <item>
+      <title>Scala on Android - Gradle, Ensime and the Android UI samples</title>
+      <link>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</guid>
+      <description>Besides getting my first companion app done for my Pebble, I also spend some time on X-Mas to start porting the Android UI samples to Scala. The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step).</description>
+    </item>
+    
+    <item>
+      <title>X-Mas Project 1: Pebble Hello World 2.0 - The companion edition (with Android, Scala, Macroid)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</guid>
+      <description>I love Christmas!!!
+My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).
+My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.
+As a first step I added some text to the standard Pebble Tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Scala, Android and BLE, because ...</title>
+      <link>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</link>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</guid>
+      <description>... everything is better with bluetooth :).
+Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.
+The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.
+We talked about, how to write, compile and run .</description>
+    </item>
+    
+    <item>
+      <title>Scala on the Pebble - Exploring SDK 2.0 ...</title>
+      <link>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</link>
+      <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
+      <description>... just kidding :).
+Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
+
+And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
+    </item>
+    
+    <item>
+      <title>Scala on Android - A start ...</title>
+      <link>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</link>
+      <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</guid>
+      <description>I don&#39;t know what your experience is, but ...
+... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.
+This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
+    </item>
+    
+    <item>
+      <title>Scala on a Chromebook? Yes, we can!!!</title>
+      <link>http://tedn.life/2014/01/22/scala-on-a-chromebook-yes-we-can/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/01/22/scala-on-a-chromebook-yes-we-can/</guid>
+      <description>A couple of weeks ago I got myself an Acer Chromebook and so far I am very happy with it. I use it as a tablet with a keyboard and carry it around with me a lot, but ...
+... sometimes I have an hour to kill in a coffee shop and would like to do some software development (in my case and these days mainly Scala) and started to wonder, if and how this is possible.</description>
+    </item>
+    
+    <item>
+      <title>Talking about the value of immutability ... for deployment platforms and innovation</title>
+      <link>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</link>
+      <pubDate>Tue, 12 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</guid>
+      <description>I am just back from presenting a talk at FutureStack in SFO.
+
+Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku.</description>
+    </item>
+    
+    <item>
+      <title>To become or not to become ... a Sunday with Scala and Actors</title>
+      <link>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</link>
+      <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</guid>
+      <description>It is Sunday, the sun is shining ... in Ireland!!! What do you do? Right: You get your laptop and finally start to get your head around the actor model in Scala.
+In my case I tried to come up with a simulation for the Dining Philosophers Problem (DPP). There are implementations available, but I consolidated them and renamed the states and transitions to make it more obvious what is going on and used plantUML to come up with State Transition Diagrams (STDs) that show what is going on.</description>
+    </item>
+    
+    <item>
+      <title>Charting some KPIs ... how hard can it be?</title>
+      <link>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</link>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</guid>
+      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.
+As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
+    </item>
+    
+    <item>
+      <title>About broken windows and software gardening ... - Thoughts from The Pragmatic Programmer</title>
+      <link>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</link>
+      <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</guid>
+      <description>These days I am writing more source code again (mostly Scala) and decided to (re)read a couple of books to refresh some thoughts and ideas and believes that I always had when it comes to writing source code.
+One of the books I was (re)reading was Clean Code and there are lots of good ideas in it, e.g. after reading the book 15 years ago I got into the habit of refactoring, whenever I feel the urge to put a comment in the code, which is an indication that the code is not clear/self-documenting enough.</description>
+    </item>
+    
+    <item>
+      <title>Sometimes small things make a big difference ... using Source Code Pro with Emacs</title>
+      <link>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</link>
+      <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</guid>
+      <description>&amp;lt;outing alarm&amp;gt;I love my emacs.&amp;lt;/outing alarm&amp;gt;
+Sometimes small things can make a big difference. Like a dot. You can put it at the end of the sentence or in a number (1.001 vs. 100.1 - can make a &#34;small&#34; difference) or you put it into the zero to make it easily&amp;nbsp;distinguishable from capital O.
+Now you might say, who cares, but if you read a lot of source code (like I do) Source Code Pro&amp;nbsp;is a real pleasure for your eyes.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Scala @ TCD ... back to the roots</title>
+      <link>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</link>
+      <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</guid>
+      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
+This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
+    </item>
+    
+    <item>
+      <title>A starting point for ... Apache Felix, OSGi, Scala, Sbt</title>
+      <link>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</guid>
+      <description>It is not a secret ...
+I like OSGi and Scala ... and therefore it was only a question of time until I started to wonder, if there is anything that would prevent me from using OSGi from/with Scala. The short answer and the good news is ... nothing.
+I just checked in my port of the original Apache Felix Tutorial to Scala. As mentioned in the README I do not want to claim that this boilerplate code, but it is a working development environment that you can use as a starting point for your own experiments.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning at Gilt - &#34;Maven-izing&#34; a/the Apache Mahout tutorial</title>
+      <link>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</link>
+      <pubDate>Sun, 11 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</guid>
+      <description>If you work for Gilt Tech than you WILL (sooner or later ... somehow) get involved in our Machine Learning and Recommendation efforts. Our requirements are extremely complex and challenging. We have over 5 million members (fast growing) and a product catalog which features products that are selling out between 10 secs and 3 days, means we need to make recommendations for products that have (almost) no history to members that might not be with us for a long time (yet).</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing - A practical guide for the common user</title>
+      <link>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</guid>
+      <description>These days (and especially after the Amazon EC2 outage :)) everybody is talking about cloud computing. It seems you cannot be sexy, if you do not &#34;live&#34; in the cloud. But most of the more &#34;common&#34; users (and for the sake of the discussion, I am including myself in that group) probably think that cloud computing and using &#34;the cloud&#34; is something that enterprises use to (potentially) safe cost and also to (potentially) gain flexibility.</description>
+    </item>
+    
+    <item>
+      <title>Maven, Flex/Air and Android - Trinity or Bermuda Triangle</title>
+      <link>http://tedn.life/2010/12/19/maven-flex/air-and-android-trinity-or-bermuda-triangle/</link>
+      <pubDate>Sun, 19 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/12/19/maven-flex/air-and-android-trinity-or-bermuda-triangle/</guid>
+      <description>Partially for professional reasons, partially out of plain, naked, old-fashioned curiosity (and also triggered by the Adobe announcement that Adobe Air now runs on Android) I am currently looking to find out how to use Maven to build a Flex/Air application for the Android phone. 
+And ... it is not this easy. I am now working on this for a couple of weeks (elapse time that is - CPU time probably more 16 hours).</description>
+    </item>
+    
+    <item>
+      <title>AquaEmacs and JDEE and Method Completion - Cannot find JDK&#39;s tools jar file (or equivalent)</title>
+      <link>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</link>
+      <pubDate>Wed, 24 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
+      <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).
+Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... 
+Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.</description>
+    </item>
+    
+    <item>
+      <title>Managing complexity with OSGi - In bundles and between bundles</title>
+      <link>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</link>
+      <pubDate>Thu, 22 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</guid>
+      <description>Right now the Brandvis SelectPortal system is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.Triggered by this work and triggered by a talk on reuse of OSGi bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</description>
+    </item>
+    
+    <item>
       <title>International Conference on Mass Customization and Personalization in Central Europe (MCP-CE 2010)</title>
       <link>http://tedn.life/2010/04/07/international-conference-on-mass-customization-and-personalization-in-central-europe-mcp-ce-2010/</link>
       <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
@@ -316,6 +538,325 @@ I am working with Nitro for a year now and have learned a lot about Machine Lear
 About the importance of templates and platforms for &#34;managed customization&#34; in the garment industry
 
 The garment industry is not only looking for a solution to address the increasing demand for customized product solutions for end-customers. As with other industries the solution/approach must take a more hollistic view to also cater for a wider variety of legal (certification) and manufacturing (small batches, short leadtime) requirements (&#34;</description>
+    </item>
+    
+    <item>
+      <title>Effective Android - Using Apache CXF to access SOAP services</title>
+      <link>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</link>
+      <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</guid>
+      <description>A year ago I developed a small set of demos to show how toaccess SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
+
+I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
+    </item>
+    
+    <item>
+      <title>ACCU 2009 - Slides are available</title>
+      <link>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</link>
+      <pubDate>Sat, 20 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</guid>
+      <description>A couple of weeks ago I attended ACCU 2009 to deliver a talk on &#34;RESTful Services and Distributed OSGi - Friends or Foes&#34; and &#34;AJAX for Mobile Devices - Using Apache Projects to get the job done&#34;. The conference was very well organized (thanks Giovanni) and took place in the beautiful city of Oxford. The format (keynote presentations and smaller breakout sessions) allowed for a good mix of thought-provoking presentations and good discussions.</description>
+    </item>
+    
+    <item>
+      <title>Smart Energy - let&#39;s bring Smart Meters, Smart Grid, Micro Grid and the software behind it together</title>
+      <link>http://tedn.life/2009/06/18/smart-energy-lets-bring-smart-meters-smart-grid-micro-grid-and-the-software-behind-it-together/</link>
+      <pubDate>Thu, 18 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/18/smart-energy-lets-bring-smart-meters-smart-grid-micro-grid-and-the-software-behind-it-together/</guid>
+      <description>A year ago I had a couple of pints with Dan Salt (Chief Software Architect at GE Energy) and we discussed the current state of affairs with respect to IT and Software Architectures/Solutions in the Energy/Utility sector. As a result I started to develop an interest in Smart Meter (just watch the first 5 min), Smart Grid, Micro Grid and Grid 2.0 concepts/solutions.
+Here is a summary of the problems as I see them .</description>
+    </item>
+    
+    <item>
+      <title>FUSEforge Lightsaber/Lightsabre - Research on Asynchronous Distributed OSGi (for Jedi&#39;s :))</title>
+      <link>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</link>
+      <pubDate>Tue, 09 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</guid>
+      <description>The Distributed OSGi spec (RFC 119) is coming along nicely, means now might be a good time to raise the head and start to think about what might come next. A couple of month ago David, Roman and myself got together and concluded to set up a research project on the alternatives available to potentially extend the Distributed OSGi spec with some asynchronous messaging concepts/capabilities.
+The research is still ongoing, but the intermediate results (including a first demo!</description>
+    </item>
+    
+    <item>
+      <title>Effective Android - Getting Started Guide for the Android Dev Phone 1</title>
+      <link>http://tedn.life/2009/05/28/effective-android-getting-started-guide-for-the-android-dev-phone-1/</link>
+      <pubDate>Thu, 28 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/05/28/effective-android-getting-started-guide-for-the-android-dev-phone-1/</guid>
+      <description>This week I spend a day to get my new Android Phone up and running.
+
+At the end I figured it might make sense to write up a cookbook on what to do when you finally get your hands on the box and unwrap your new toy. Here we go ...
+The (ultimate :)) Android Getting Started Guide (for Mac Users :)) 
+First things first: This guide assumes that you got yourself an Android Dev Phone 1.</description>
+    </item>
+    
+    <item>
+      <title>Orchestrating the orchestration - EIP vs. BPEL vs. BPML</title>
+      <link>http://tedn.life/2009/01/23/orchestrating-the-orchestration-eip-vs.-bpel-vs.-bpml/</link>
+      <pubDate>Fri, 23 Jan 2009 12:46:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/23/orchestrating-the-orchestration-eip-vs.-bpel-vs.-bpml/</guid>
+      <description>Occasionally (and in any case not often enough) I am having diner or lunch (or any another excuse) to meet my dear friend Klaus Grieger. He is a Principal Architect with CIMT AG. Klaus is what I would call a &#34;deep thinker&#34;. Discussions with him are in between interesting, challenging, invigorating and exhausting :).
+The topic of the Christmas Lunch (we had the choice between &#34;The best Worscht in Town&#34;</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Sleeping on the plane</title>
+      <link>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</link>
+      <pubDate>Sat, 10 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</guid>
+      <description>About a year ago, I &#34;borrowed&#34; the battery from Christina&#39;s MacBook to extend my &#34;life&#34;, while I am on the plane. The Mac (being the Mac) has a nice feature, which will hibernate the machine when the battery gets low. This allows you to change the battery without rebooting.
+I was looking for a way to hibernate the machine on demand. This is also useful if you want to conserve battery power (e.</description>
+    </item>
+    
+    <item>
+      <title>Conference Update - Apache Con, Java Days and ACCU</title>
+      <link>http://tedn.life/2009/01/04/conference-update-apache-con-java-days-and-accu/</link>
+      <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/04/conference-update-apache-con-java-days-and-accu/</guid>
+      <description>It seems over Christmas a lot of people did what I did: Clean up the Todos, catch up on EMail and get ready for 2009. As a side effect my colleagues and I (the Open Source Center of Competence in Progress) got notifications from various conference committees that our speaking proposals got accepted.
+* Andreas and Adrian will talk/present at ApacheCon 2009 in Amsterdam (NL)* David will talk/present at the Italian JavaDays 2009 in Rome (IT)* And myself will talk/present at ACCU 2009 in Oxford (UK)</description>
+    </item>
+    
+    <item>
+      <title>Apache CXF vs. Axis 2 - The current state of affairs or The missing book</title>
+      <link>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</link>
+      <pubDate>Sun, 07 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</guid>
+      <description>(Blogging from the plane again. This time on my way to the Progress Sales Kickoff in Miami.)The other day I stumbled over a good presentation
+from Falko Riemenschneider. The high-level summary is ...
+* Axis 2 is not as easy to use as CXF, but is more ubiquitous in the marketplace (and got better documentation, including a book in german)
+* CXF is a very well developed piece of software, but needs more people using it (and needs more/better documentation, including a book in any language, but preferably in english)</description>
+    </item>
+    
+    <item>
+      <title>FUSE on the german autobahn - listing to a CAOS podcast</title>
+      <link>http://tedn.life/2008/11/25/fuse-on-the-german-autobahn-listing-to-a-caos-podcast/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/25/fuse-on-the-german-autobahn-listing-to-a-caos-podcast/</guid>
+      <description>For private reasons I had/have to spend some time in Germany these days. The house of my parents is about 45 mins away from the office, means I get to listen to some podcasts while I am doing 160 miles/hour on the german autobahn. One of my favorite podcasts is the CAOS Theory podcast from the 451 Group.
+Yesterday I was listening to one that discussed the current state of affairs with respect to the Open Source Middleware space.</description>
+    </item>
+    
+    <item>
+      <title>FUSE Quickstart - a sneak preview</title>
+      <link>http://tedn.life/2008/11/14/fuse-quickstart-a-sneak-preview/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/14/fuse-quickstart-a-sneak-preview/</guid>
+      <description>Yes, we are busy to add new content to FUSEsource :). First we published a/the first set of FUSE TV videos and next we are going to publish a set of &#34;FUSE Quickstart&#34; screen casts. Take a look at the sneak preview and/or wait for the high-res versions to become available on FUSEsource later on this month.
+Tip/Hint: The best way to get the sneak preview is to subscribe to the podcast and download all videos into iTunes :).</description>
+    </item>
+    
+    <item>
+      <title>Open Core Licensing - moving from &#34;bait-and-switch&#34; to &#34;suggest-and-complement&#34;</title>
+      <link>http://tedn.life/2008/11/11/open-core-licensing-moving-from-bait-and-switch-to-suggest-and-complement/</link>
+      <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/11/open-core-licensing-moving-from-bait-and-switch-to-suggest-and-complement/</guid>
+      <description>The Open Core Licensing discussion is really refreshing! Lots of good ideas and lots of good energy. Obviously the &#34;earlier&#34; versions of the model were more oriented towards a &#34;bait-and-switch&#34; approach (get a good stack for free, but then if you want to do real/serious enterprise computing, you have to to buy the real thing :)). Right now the models have evolved into more mature &#34;suggest-and-complement&#34; models (aka. Open Core Licensing).</description>
+    </item>
+    
+    <item>
+      <title>AMQP for dummies - A guide for managers</title>
+      <link>http://tedn.life/2008/10/28/amqp-for-dummies-a-guide-for-managers/</link>
+      <pubDate>Tue, 28 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/28/amqp-for-dummies-a-guide-for-managers/</guid>
+      <description>(I start to like this &#34;plane blogging&#34; thing :))Adrian blogged about Microsoft embracing AMQP.
+Just from a technical point of view this is good news (assuming it will help the adoption of the Advanced Message Queueing Protocol (AMQP)), because AMQP is a very cool (and extremely well thought through) standard.
+Given that there might be a renewed interest in the standard, let me just try to explain (again) what it is good for: The main benefit of AMQP (besides a couple of very cool features in the standard itself) is that it will (finally and for the first time) allow messaging stacks to interoperate.</description>
+    </item>
+    
+    <item>
+      <title>The iPhone screen - Is it a problem or a solution?</title>
+      <link>http://tedn.life/2008/10/05/the-iphone-screen-is-it-a-problem-or-a-solution/</link>
+      <pubDate>Sun, 05 Oct 2008 12:01:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/05/the-iphone-screen-is-it-a-problem-or-a-solution/</guid>
+      <description>Lot&#39;s of interesting exciting stuff is going to happen with FUSE over the next couple of month. 
+Especially on the tooling side. The other day I was riding in the car with Oisin Hurley (Head of Tool Development for FUSE) and we discussed the value of having NOT a lot of screen real-estate, because it really makes you think about what the problem is the user wants/needs to solve and how you can guide the user through that process.</description>
+    </item>
+    
+    <item>
+      <title>Complex Event Processing - An exiting (new) frontier</title>
+      <link>http://tedn.life/2008/10/05/complex-event-processing-an-exiting-new-frontier/</link>
+      <pubDate>Sun, 05 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/05/complex-event-processing-an-exiting-new-frontier/</guid>
+      <description>Through the merger (:)) with Progress, I got exposed to the new exciting field of (Real-Time) Complex Event Processing (CEP). There are a couple of obvious use cases in finance (e.g. algorithmic stock trading) and manufacturing (e.g. detecting possible problems in the assembly line, which might effect your just-in-time service-level-agreements).
+Complex Event Processing or Intelligent Event Correlation is not what excites me. That was/is also possible using large data-warehouses and suitable data-mining solutions, but then you learn about it after the fact.</description>
+    </item>
+    
+    <item>
+      <title>Open Source Innovation - Fact or Fiction</title>
+      <link>http://tedn.life/2008/08/25/open-source-innovation-fact-or-fiction/</link>
+      <pubDate>Mon, 25 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/08/25/open-source-innovation-fact-or-fiction/</guid>
+      <description>Is Open Source Innovation an oxymoron? Is Open-source fostering innovation or killing it?
+There are two school of thoughts out there: First, there are lots of people, who say that open-source is not fostering innovation or even killing it, because it is just about the reimplementation of already solved problems and that it actually kills innovation, because it keeps people from implementing solutions that can not be protected from being reimplemented as an open-source solution.</description>
+    </item>
+    
+    <item>
+      <title>Solid State Disks - Level 5 cache</title>
+      <link>http://tedn.life/2008/08/25/solid-state-disks-level-5-cache/</link>
+      <pubDate>Mon, 25 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/08/25/solid-state-disks-level-5-cache/</guid>
+      <description>Last month I had the pleasure to spend 2 hours in the car with Klaus Grieger. Klaus and myself know each other from ObjectDesign and Versant. Right now he is a partner with CIMT AG in Germany. As always talking to him was invigorating. He is one of the most innovative people I know.
+The topic of the drive was the future of Solid State Disks (SSDs). His thought was/is that with the arrival of in-expensive, fast SSDs we can potentially rethink the way we structure memory and storage in general.</description>
+    </item>
+    
+    <item>
+      <title>Embedded Software Engineering - Can we avoid another software crisis</title>
+      <link>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</link>
+      <pubDate>Tue, 12 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</guid>
+      <description>The term &#34;software crisis&#34; was coined 1968 by F.L. Bauer during the first NATO Software Engineering Conference in Garmisch, Germany and was used by Dijkstra in his very famous lecture on &#34;The humble programmer&#34;:
+[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.</description>
+    </item>
+    
+    <item>
+      <title>RESTful Services - Dana Gardner, Adrian Trenaman, Roland Tritsch - wrapping it up</title>
+      <link>http://tedn.life/2008/07/16/restful-services-dana-gardner-adrian-trenaman-roland-tritsch-wrapping-it-up/</link>
+      <pubDate>Wed, 16 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/16/restful-services-dana-gardner-adrian-trenaman-roland-tritsch-wrapping-it-up/</guid>
+      <description> The Webinar went very well. I think we had over 50 poeple that showed up. The archived webinar and the source code will be available on open.iona.com.
+Check it out. </description>
+    </item>
+    
+    <item>
+      <title>The iPhone - and what you can learn from thinking about it</title>
+      <link>http://tedn.life/2008/07/05/the-iphone-and-what-you-can-learn-from-thinking-about-it/</link>
+      <pubDate>Sat, 05 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/05/the-iphone-and-what-you-can-learn-from-thinking-about-it/</guid>
+      <description>On Sunday I went to the driving range and while Alexandros was working on my early retirement plan (aka. he making lots of money with golf and I am managing his career), I was reading an article on Businessweek about the new iPhone 3G contracts. The article made me think again. It made me think about two presentations that I saw recently: One by Michael Crossey from Aepona at the Mobile Monday in Belfast and the other one by Peter Moeckel from T-Labs (the R&amp;amp;D think-tank of Deutsche Telekom) at the OSGi community event in Berlin.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Payment - what is needed</title>
+      <link>http://tedn.life/2008/07/04/mobile-payment-what-is-needed/</link>
+      <pubDate>Fri, 04 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/04/mobile-payment-what-is-needed/</guid>
+      <description>in the last 4 weeks, i was talking to sailesh panchal (Enterprise Architect - Payments at Lloyds TSB) and hermann sauer (EDS - Integration Engineering Lead EMEA North/Central) about the future of mobile payment.
+there is clearly a need and a benefit to find a solution, but implementations are not available yet (leaving aside lots of POCs that are out there). one obvious driver is the need to find a replacement for cheque payments.</description>
+    </item>
+    
+    <item>
+      <title>2008 OSGi Community Event - talking about trains</title>
+      <link>http://tedn.life/2008/06/23/2008-osgi-community-event-talking-about-trains/</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/23/2008-osgi-community-event-talking-about-trains/</guid>
+      <description>Two weeks ago I attended the OSGi Community Event in Berlin.
+One of the presentations was from Deutsche Bahn about their new Mobile Integration Platform (MIP). It was not only in this presentation that I felt that OSGi has become the ICE of deployment platforms. A 300 km/h high-speed trend/train with a lot of momentum. Think about it: Do you want to be on the train or in front of it.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Radio - talking about OSGi, Rest, Opensource, ...</title>
+      <link>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</guid>
+      <description>In the last four weeks a lot of people asked me about this &#34;show&#34; I am listening to on my way to work. It is called Software Engineering Radio and talks about trends and technologies in Software Engineering (OSGi, Rest, Opensource, ...). I was told that one of the next issues will be an interview with Peter Kriens on the current state of affairs with respect to OSGi.
+Check it out.</description>
+    </item>
+    
+    <item>
+      <title>RESTful Services - Dana Gardner, Adrian Trenaman, Roland Tritsch</title>
+      <link>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</link>
+      <pubDate>Tue, 17 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</guid>
+      <description> Everybody is talking about REST. We do too :).
+Join us on July, 15th for this existing Webinar on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.
+CU there. </description>
+    </item>
+    
+    <item>
+      <title>Innovation on Innovation - How to make elephants dance</title>
+      <link>http://tedn.life/2008/06/05/innovation-on-innovation-how-to-make-elephants-dance/</link>
+      <pubDate>Thu, 05 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/05/innovation-on-innovation-how-to-make-elephants-dance/</guid>
+      <description>Yesterday I went out and had a pint with Sailesh Panchal. He is an Enterprise Architect with the payments division of Lloyds TSB in London. Part of his responsibility is to foster innovation in Lloyds. 
+Obviously innovation needs to be directed towards a measurable goal/target/impact for the customer and/or the company. To judge, if an/the idea was just a good idea or a real innovation, you must be able to show some measurable ROI in a defined timeframe.</description>
+    </item>
+    
+    <item>
+      <title>FUSE Master Class Series - Hidden Gem</title>
+      <link>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</link>
+      <pubDate>Fri, 23 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</guid>
+      <description> A couple of weeks ago, I published the first 3 videos of the FUSE Master Class Series on the open.iona.com wiki. Sooner or later we might link to it from the top page, but for the time being they are hidden gems :). The videos are also available from my homepage. </description>
+    </item>
+    
+    <item>
+      <title>Mobile Monday in Belfast - WebServices to foster innovation</title>
+      <link>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</link>
+      <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</guid>
+      <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).
+Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. 
+My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. 
+One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
+    </item>
+    
+    <item>
+      <title>The sensoric revolution - iPhone/Chumby integration</title>
+      <link>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone/chumby-integration/</link>
+      <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone/chumby-integration/</guid>
+      <description>The embedded/mobile software market is growing faster than the rest of the industry. From my point of view this just the tip of the iceberg, because we are at the beginning of the sensoric revolution. 
+Historically all data got created in the &#34;middle&#34; and we used integration technologies to distribute the data. Web 1.0 turned out to become the preferred mechanism to get this done and we changed the content/data in the middle through the web (e.</description>
+    </item>
+    
+    <item>
+      <title>Complexity explained simple - Ciaran McHale talks about security</title>
+      <link>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</link>
+      <pubDate>Tue, 20 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</guid>
+      <description>Just finished a/the review of agreat presentation on security and security concepts published by Ciaran McHale on www.ciaranmchale.com.
+His claim is that 80% of the the perceived complexity of any given subject is not in the concept, but in the way it is explained to people. His quest is to fix this. Therefore he has started to publish a series of very well written presentations to introduce technical concepts in the most simple way possible.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Monday</title>
+      <link>http://tedn.life/2008/05/13/mobile-monday/</link>
+      <pubDate>Tue, 13 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/13/mobile-monday/</guid>
+      <description> Got invited to talk at the Mobile Monday Series in Belfast.Looks interesting/promising. Will publish a post lateronnext week.
+
+ </description>
+    </item>
+    
+    <item>
+      <title>Apache-CXF generates client-side SOAP stack for the iPhone</title>
+      <link>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</link>
+      <pubDate>Sun, 13 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</guid>
+      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.
+And there is a lot to talk about ... 
+the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
+In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
     
   </channel>

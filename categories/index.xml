@@ -5,10 +5,19 @@
     <link>http://tedn.life/categories/</link>
     <description>Recent content in Categories on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal</title>
+      <link>http://tedn.life/categories/personal/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/personal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Management</title>
@@ -16,15 +25,6 @@
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/categories/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remote</title>
-      <link>http://tedn.life/categories/remote/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/remote/</guid>
       <description></description>
     </item>
     
@@ -38,45 +38,18 @@
     </item>
     
     <item>
-      <title>TEDN</title>
-      <link>http://tedn.life/categories/tedn/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Software Development</title>
+      <link>http://tedn.life/categories/software-development/</link>
+      <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/categories/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>http://tedn.life/categories/personal/</link>
-      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Enginnering</title>
-      <link>http://tedn.life/categories/software-enginnering/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/software-enginnering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functional Programming</title>
-      <link>http://tedn.life/categories/functional-programming/</link>
-      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/functional-programming/</guid>
+      <guid>http://tedn.life/categories/software-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conferences</title>
       <link>http://tedn.life/categories/conferences/</link>
-      <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/categories/conferences/</guid>
       <description></description>

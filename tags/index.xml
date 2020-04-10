@@ -5,10 +5,28 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TEDN</title>
+      <link>http://tedn.life/tags/tedn/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tedn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips-tricks/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Books</title>
@@ -29,11 +47,29 @@
     </item>
     
     <item>
+      <title>Remote</title>
+      <link>http://tedn.life/tags/remote/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/remote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Environment</title>
       <link>http://tedn.life/tags/environment/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Mon, 30 Mar 2020 21:36:09 +0100</pubDate>
+      
+      <guid>http://tedn.life/tags/nerdy/</guid>
       <description></description>
     </item>
     
@@ -83,29 +119,20 @@
     </item>
     
     <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Functional Programming</title>
+      <link>http://tedn.life/tags/functional-programming/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/tags/nerdy/</guid>
+      <guid>http://tedn.life/tags/functional-programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tips and tricks</title>
-      <link>http://tedn.life/tags/tips-and-tricks/</link>
-      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Conferences</title>
+      <link>http://tedn.life/tags/conferences/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/tags/tips-and-tricks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agile</title>
-      <link>http://tedn.life/tags/agile/</link>
-      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/agile/</guid>
+      <guid>http://tedn.life/tags/conferences/</guid>
       <description></description>
     </item>
     
@@ -119,38 +146,11 @@
     </item>
     
     <item>
-      <title>Reading</title>
-      <link>http://tedn.life/tags/reading/</link>
-      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Thoughts</title>
+      <link>http://tedn.life/tags/thoughts/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/tags/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electric Car</title>
-      <link>http://tedn.life/tags/electric-car/</link>
-      <pubDate>Sun, 19 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/electric-car/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Architecture</title>
-      <link>http://tedn.life/tags/architecture/</link>
-      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>http://tedn.life/tags/design/</link>
-      <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/design/</guid>
+      <guid>http://tedn.life/tags/thoughts/</guid>
       <description></description>
     </item>
     
@@ -173,6 +173,15 @@
     </item>
     
     <item>
+      <title>Mac</title>
+      <link>http://tedn.life/tags/mac/</link>
+      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine Learning</title>
       <link>http://tedn.life/tags/machine-learning/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
@@ -182,11 +191,155 @@
     </item>
     
     <item>
+      <title>Mobile</title>
+      <link>http://tedn.life/tags/mobile/</link>
+      <pubDate>Sat, 25 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedded</title>
+      <link>http://tedn.life/tags/embedded/</link>
+      <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovation</title>
+      <link>http://tedn.life/tags/innovation/</link>
+      <pubDate>Tue, 24 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSGi</title>
+      <link>http://tedn.life/tags/osgi/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/osgi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>http://tedn.life/tags/cloud-computing/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mass Customization</title>
       <link>http://tedn.life/tags/mass-customization/</link>
       <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/mass-customization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LOTM</title>
+      <link>http://tedn.life/tags/lotm/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/lotm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOA</title>
+      <link>http://tedn.life/tags/soa/</link>
+      <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/soa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOAP</title>
+      <link>http://tedn.life/tags/soap/</link>
+      <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/soap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Services</title>
+      <link>http://tedn.life/tags/web-services/</link>
+      <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://tedn.life/tags/android/</link>
+      <pubDate>Thu, 28 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://tedn.life/tags/open-source/</link>
+      <pubDate>Thu, 22 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AMQP</title>
+      <link>http://tedn.life/tags/amqp/</link>
+      <pubDate>Tue, 28 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/amqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CEP</title>
+      <link>http://tedn.life/tags/cep/</link>
+      <pubDate>Sun, 05 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/cep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>http://tedn.life/tags/rest/</link>
+      <pubDate>Wed, 16 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://tedn.life/tags/security/</link>
+      <pubDate>Tue, 20 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Art</title>
+      <link>http://tedn.life/tags/art/</link>
+      <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/art/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on tedn.life</title>
+    <link>http://tedn.life/tags/security/</link>
+    <description>Recent content in Security on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 May 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Complexity explained simple - Ciaran McHale talks about security</title>
+      <link>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</link>
+      <pubDate>Tue, 20 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</guid>
+      <description>Just finished a/the review of agreat presentation on security and security concepts published by Ciaran McHale on www.ciaranmchale.com.
+His claim is that 80% of the the perceived complexity of any given subject is not in the concept, but in the way it is explained to people. His quest is to fix this. Therefore he has started to publish a series of very well written presentations to introduce technical concepts in the most simple way possible.</description>
+    </item>
+    
+  </channel>
+</rss>

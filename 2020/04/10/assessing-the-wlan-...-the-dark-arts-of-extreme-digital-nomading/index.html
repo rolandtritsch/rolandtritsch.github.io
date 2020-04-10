@@ -1,0 +1,362 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Assessing the WLAN ... the dark arts of extreme digital nomading </title>
+
+    
+    
+    <meta content="Tips & Tricks, TEDN, Personal" name="keywords">
+    
+    <meta content="tedn.life - When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
+Statements like &hellip;
+ &ldquo;Sorry &hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&rdquo; &ldquo;Can you hear me? Sorry &hellip; I am on a shitty/weak WLAN.&rdquo; &ldquo;Sorry &hellip; can we switch off the video. There is too much lag.&rdquo;  &hellip; are just not good enough." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>Assessing the WLAN ... the dark arts of extreme digital nomading</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-10</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>When you work from <strong>anywhere</strong> (or even from home) it is <strong>YOUR</strong>(!!!) responsibility to ensure that you are connected!!!</p>
+<p>Statements like &hellip;</p>
+<ul>
+<li>&ldquo;Sorry &hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&rdquo;</li>
+<li>&ldquo;Can you hear me? Sorry &hellip; I am on a shitty/weak WLAN.&rdquo;</li>
+<li>&ldquo;Sorry &hellip; can we switch off the video. There is too much lag.&rdquo;</li>
+</ul>
+<p>&hellip; are <strong>just</strong> not good enough.</p>
+<p align="center">
+<img src="https://www.speedtest.net/result/9264515190.png"/>
+</p>
+<p>So here is what you need to do &hellip;</p>
+<ul>
+<li>Use a <a href="https://www.wifimap.io/">WifiFinder</a> to get to a place you want to work from (and get there an hour early to test/measure the internet connection)</li>
+<li>Connect to the given WLAN and run an internet speed test (<a href="https://fast.com">fast.com</a>, <a href="https://www.speedtest.net">speedtest.net</a>, &hellip;)
+<ul>
+<li>Your are looking for 10 Mbps download/5 Mbps upload</li>
+<li>And you are looking for latency of less than 50 - 100 msecs</li>
+<li>You can run these tests from your laptop or from your mobile phone (before you order the coffee/sit down)</li>
+</ul>
+</li>
+<li>But that latency number is only a leading indicator because it only measures the latency between the coffee shop and the internet provider (the first 2-3 hops)</li>
+<li>What you really need to do is to run <code>traceroute</code> from your laptop to the connection (e.g. zoom server) you want/need to make (end-to-end)
+<ul>
+<li>You are looking for 10 - 20 (max) hops and on the last hop for a latency of 50 - 100 msecs (which is the latency between your laptop and that last hop (which should be your destination))</li>
+</ul>
+</li>
+<li>An even better way to ensure that you are on a good connection (for video conferencing; and my experience is, if video conferencing works everything else works too) is to make a test call with somebody and look at the <a href="https://support.zoom.us/hc/en-us/articles/202920719-Meeting-and-phone-statistics">metrics</a> that the video conferencing platform is giving you (again everything under 100 msecs is (probably) good enough)</li>
+<li>And last but not least you do not only need to ensure that the internet connection is high enough bandwith and low enough latency, but also high enough uptime/availability. You can test this by running a <a href="http://startrinity.com/InternetQuality/InternetConnectionMonitor.aspx">ping test</a> for 5 mins (and you want/need this to be 99%; everything less might create an experience where you are dropping off the call for no good reason)</li>
+<li>Last but not least you might want to check the tools you need (e.g. zoom, gmail, slack, github, &hellip;) because some WLANs block connections to some ports you might need (e.g. port 22 (for ssh connections))</li>
+<li>If you find out that the internet connection sucks you can try to use your mobile phone</li>
+<li>I recommend a SIM unlocked, dual SIM phone with one SIM card on your home network and one pay-as-you-go (1GBytes/week is probably enough) SIM card on the provider with the best 4G data coverage in the country you are in
+<ul>
+<li>It might make sense to make sure that you have <a href="https://www.nperf.com/en/map/GR/-/164025.Vodafone-Mobile/signal/?ll=38.058431779655834&amp;lg=22.67333507537842&amp;zoom=14">good 4G coverage in a given location</a> before you go there (just to make sure you have a plan B in case you need it)</li>
+</ul>
+</li>
+<li>You can then get a mobile WLAN hotspot up and running on/from your phone and can measure/test, if that it good enough</li>
+</ul>
+<p>If all of this fails you have 45 mins to relocate to a better place. If that fails too you will probably miss your first meeting, but it is not due to a lack of trying!!!</p>
+<hr>
+<p>PS: One more thing &hellip; you are responsible to create a good experience for the poeple that work with you. That does not only mean that you have to ensure that you are on a good (fast, reliable, &hellip;) internet connection, but also &hellip;</p>
+<ul>
+<li>that you are plugged into a power-supply (so that your laptop does not run out of power in the middle of the call; Remember: doing video conferencing takes a lot of CPU power. Your battery will not last as long as you think)</li>
+<li>that you have a headset with a (good/directional) microphone and that the headset is not wireless (so that you do not have to embares yourself in the middle of the call because your headset was running out of power). Apple earbuds look cool, but &hellip;</li>
+<li>that you find a place that is not noisy. Attending a meeting and being forced to stay on mute for the duration of the meeting because there is too much background noise is unacceptable because it robs the company off the contribution you could/should have made to the meeting</li>
+</ul>
+</div>
+            </div>
+        </div>
+
+        
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/04/07/discussing-remote-...-the-book/">
+                                <h2 class="">Discussing Remote ... the book!!!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-07</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/books">
+            <span class="layui-badge" style="vertical-align: 2px;">Books</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/04/06/tedn-the-most-important-tool-.../">
+                                <h2 class="">TEDN - The most important tool ...</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-06</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/environment">
+            <span class="layui-badge" style="vertical-align: 2px;">Environment</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/03/31/the-extreme-digital-nomad-tedn/">
+                                <h2 class="">The Extreme Digital Nomad (TEDN)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-03-31</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2018/09/21/the-vertical-bar-screen-of-death-...-the-story-of-an-unexpected-win-win/">
+                                <h2 class="">The vertical bar screen of death ... the story of an unexpected win-win</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-09-21</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2018/09/20/make-google-chrome-show-the-wifi-login-screen-best-trick-ever/">
+                                <h2 class="">Make Google Chrome show the Wifi login screen (best trick ever :))</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-09-20</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>

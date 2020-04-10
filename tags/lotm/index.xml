@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LOTM on tedn.life</title>
+    <link>http://tedn.life/tags/lotm/</link>
+    <description>Recent content in LOTM on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/lotm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Link of the Month - The best Zoom feature ever</title>
+      <link>http://tedn.life/2009/12/16/link-of-the-month-the-best-zoom-feature-ever/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/12/16/link-of-the-month-the-best-zoom-feature-ever/</guid>
+      <description>The frontend for many mass-customization, product-configurators is based on Adobe Flash/Flex, but as we all know, a fool with a tool is still a ... and therefore there are lots of examples out there where the design and implementation of the UI leaves &#34;room for improvement&#34;.
+At the same there are also examples of very clever and thought-through UI design/implementation. One example in this category is the website for the movie &#34;</description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - TwitterFeed</title>
+      <link>http://tedn.life/2008/12/28/link-of-the-month-twitterfeed/</link>
+      <pubDate>Sun, 28 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/12/28/link-of-the-month-twitterfeed/</guid>
+      <description>In the last two month I have put some work into my online presence (website, blog, twitter, linked-in, ...). Obviously I try to minimize the maintenance effort for me, but maximize the user experience for the &#34;customers&#34; of my online presence (I am talking about you, dear reader :)). 
+One great tool in this regard is TwitterFeed. It allows you to create &#34;feeds&#34;, which will &#34;listen&#34; on RSS feeds and will then turn them into tweets.</description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - FUSE TV</title>
+      <link>http://tedn.life/2008/10/22/link-of-the-month-fuse-tv/</link>
+      <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/22/link-of-the-month-fuse-tv/</guid>
+      <description> Great new content. Check out FUSEsource.com! 
+4 weeks ago we huddled in our &#34;new&#34; HQ in Bedford for Managment Meetings (and other fun :)). Debbie had the great idea to take advantage of our presence there and record a first set of FUSE TV sessions. Great fun! Check out the result.
+And yes mea culpa, &#34;aaaeeeehhhhhhmmmm&#34; is not a german word. No Oscar for me (this time :)). </description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - FUSE is moving on ...</title>
+      <link>http://tedn.life/2008/10/18/link-of-the-month-fuse-is-moving-on-.../</link>
+      <pubDate>Sat, 18 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/18/link-of-the-month-fuse-is-moving-on-.../</guid>
+      <description>... to FUSEsource.com. As part of the Progress acquisition we decided to change the host/domain name of the FUSE community website from open.iona.com to FUSEsource.com.
+I like the new name better, because what we do here is not about a company (be it IONA or Progress). It is about a project. In our case FUSE.
+The renaming will also allow us to role out more interesting stuff in the near future on a new, consistent family of good host/domain names.</description>
+    </item>
+    
+    <item>
+      <title>Link of the month - Google Twitter (GTwit)</title>
+      <link>http://tedn.life/2008/07/07/link-of-the-month-google-twitter-gtwit/</link>
+      <pubDate>Mon, 07 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/07/link-of-the-month-google-twitter-gtwit/</guid>
+      <description>Micro-blogging (Twitter, Pounce, Facebook, ...) just go a little bit easier. Check out GTwit. It is a light-weight Google App, that allows you to access your Twitter account from any browser you might have access to. It is based on the Twitter API. It stores all tweets that you send/receive in a private &#34;Google-Cloud&#34; and allows you to search on them by whatever you like (word, person, tag).
+Check it out.</description>
+    </item>
+    
+    <item>
+      <title>Link of the month - TwitterFone</title>
+      <link>http://tedn.life/2008/05/21/link-of-the-month-twitterfone/</link>
+      <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/21/link-of-the-month-twitterfone/</guid>
+      <description> Just updated the Link of the Month. It now points to TwitterFone (by Dial2Do). Cool stuff. Traffic in Dublin is a nightmare. Means I am walking a lot. This is the way to Twitter, while you walk (or drive).
+Very innovative. </description>
+    </item>
+    
+  </channel>
+</rss>

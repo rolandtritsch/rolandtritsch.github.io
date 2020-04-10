@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on tedn.life</title>
+    <link>http://tedn.life/tags/open-source/</link>
+    <description>Recent content in Open Source on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Jan 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Commercial Open Source for Apache Projects - Survival of the fittest</title>
+      <link>http://tedn.life/2009/01/22/commercial-open-source-for-apache-projects-survival-of-the-fittest/</link>
+      <pubDate>Thu, 22 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/22/commercial-open-source-for-apache-projects-survival-of-the-fittest/</guid>
+      <description>Just found another company offering commercial support for Apache ServiceMix and Apache ActiveMQ (like we do :)). For me this is good news. It shows that more and more people use Apache integration projects in mission-critical deployment scenarios. And that these deployments generate enough value for customers to warrant an &#34;insurance&#34; against worst-case scenarios. 
+For me it was never the goal to be the only company to offer consulting, training and support for Apache integration projects.</description>
+    </item>
+    
+    <item>
+      <title>Apache CXF vs. Axis 2 - The current state of affairs or The missing book</title>
+      <link>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</link>
+      <pubDate>Sun, 07 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</guid>
+      <description>(Blogging from the plane again. This time on my way to the Progress Sales Kickoff in Miami.)The other day I stumbled over a good presentation
+from Falko Riemenschneider. The high-level summary is ...
+* Axis 2 is not as easy to use as CXF, but is more ubiquitous in the marketplace (and got better documentation, including a book in german)
+* CXF is a very well developed piece of software, but needs more people using it (and needs more/better documentation, including a book in any language, but preferably in english)</description>
+    </item>
+    
+    <item>
+      <title>FUSE on the german autobahn - listing to a CAOS podcast</title>
+      <link>http://tedn.life/2008/11/25/fuse-on-the-german-autobahn-listing-to-a-caos-podcast/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/25/fuse-on-the-german-autobahn-listing-to-a-caos-podcast/</guid>
+      <description>For private reasons I had/have to spend some time in Germany these days. The house of my parents is about 45 mins away from the office, means I get to listen to some podcasts while I am doing 160 miles/hour on the german autobahn. One of my favorite podcasts is the CAOS Theory podcast from the 451 Group.
+Yesterday I was listening to one that discussed the current state of affairs with respect to the Open Source Middleware space.</description>
+    </item>
+    
+    <item>
+      <title>Open Core Licensing - moving from &#34;bait-and-switch&#34; to &#34;suggest-and-complement&#34;</title>
+      <link>http://tedn.life/2008/11/11/open-core-licensing-moving-from-bait-and-switch-to-suggest-and-complement/</link>
+      <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/11/open-core-licensing-moving-from-bait-and-switch-to-suggest-and-complement/</guid>
+      <description>The Open Core Licensing discussion is really refreshing! Lots of good ideas and lots of good energy. Obviously the &#34;earlier&#34; versions of the model were more oriented towards a &#34;bait-and-switch&#34; approach (get a good stack for free, but then if you want to do real/serious enterprise computing, you have to to buy the real thing :)). Right now the models have evolved into more mature &#34;suggest-and-complement&#34; models (aka. Open Core Licensing).</description>
+    </item>
+    
+    <item>
+      <title>Open Source Marketing - and what it got to do with the Michelin brothers</title>
+      <link>http://tedn.life/2008/11/11/open-source-marketing-and-what-it-got-to-do-with-the-michelin-brothers/</link>
+      <pubDate>Tue, 11 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/11/11/open-source-marketing-and-what-it-got-to-do-with-the-michelin-brothers/</guid>
+      <description>Open Core Licensing and the business model behind it is not (really) new. When you look at it from a history/marketing point of view there are lots of examples, where money is/was made with a &#34;handle-blade&#34; model.
+From a marketing point of view the most famous example is probably Gillette. They give away the handles and make a lot of money with the blades. This works because they have a very strong brand and because they &#34;</description>
+    </item>
+    
+    <item>
+      <title>Open Source Business Models - Open-Core Licensing</title>
+      <link>http://tedn.life/2008/09/02/open-source-business-models-open-core-licensing/</link>
+      <pubDate>Tue, 02 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/02/open-source-business-models-open-core-licensing/</guid>
+      <description>OH NO, please!!! YABOOSBM!!! Yet another blog entry on open-source business models :).
+Ok, let&#39;s make it as short and as sweet as possible :).
+This morning I was reading Matt Aslett&#39;s comment on Andrew Lampitt&#39;s blog entry on &#34;Open-Core&#34; licensing (which actually contains a link to a good presentation by MySQL chief Marten Mickos).
+What I like about the approach is that it tries to take the emotion out of the discussion.</description>
+    </item>
+    
+    <item>
+      <title>Open Source Innovation - Fact or Fiction</title>
+      <link>http://tedn.life/2008/08/25/open-source-innovation-fact-or-fiction/</link>
+      <pubDate>Mon, 25 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/08/25/open-source-innovation-fact-or-fiction/</guid>
+      <description>Is Open Source Innovation an oxymoron? Is Open-source fostering innovation or killing it?
+There are two school of thoughts out there: First, there are lots of people, who say that open-source is not fostering innovation or even killing it, because it is just about the reimplementation of already solved problems and that it actually kills innovation, because it keeps people from implementing solutions that can not be protected from being reimplemented as an open-source solution.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Radio - talking about OSGi, Rest, Opensource, ...</title>
+      <link>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</guid>
+      <description>In the last four weeks a lot of people asked me about this &#34;show&#34; I am listening to on my way to work. It is called Software Engineering Radio and talks about trends and technologies in Software Engineering (OSGi, Rest, Opensource, ...). I was told that one of the next issues will be an interview with Peter Kriens on the current state of affairs with respect to OSGi.
+Check it out.</description>
+    </item>
+    
+  </channel>
+</rss>

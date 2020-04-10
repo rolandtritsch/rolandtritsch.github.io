@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on tedn.life</title>
+    <link>http://tedn.life/tags/thoughts/</link>
+    <description>Recent content in Thoughts on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The American election ... 1 year after</title>
+      <link>http://tedn.life/2018/01/21/the-american-election-...-1-year-after/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2018/01/21/the-american-election-...-1-year-after/</guid>
+      <description>The dust has settled. All opinions have been voiced. All articles have been written. Not quite &amp;hellip; here is another one :).
+I am struggling with Donald Trump and his character and his personality and his opinions. A lot!
+And what do to next depend first of all on, if you believe that there is a problem or not and what that problem is. It then comes down to what to do to fix the problem.</description>
+    </item>
+    
+    <item>
+      <title>I am a lucky guy :) ...</title>
+      <link>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</link>
+      <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</guid>
+      <description>Sometimes it takes a while to get to it &amp;hellip;
+ Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
+
+Good morning everybody. On behalf of Nitro: Welcome to Data by the Bay.
+My name is Roland Tritsch and I am German and I am the VP Engineering at Nitro.</description>
+    </item>
+    
+    <item>
+      <title>Getting GTD done - Thoughts and Tools</title>
+      <link>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</guid>
+      <description>We all have a lot to do. Effective time/task management is essential. I’ve been using GTD (Getting Things Done) for a while now (a long while :)) and for me it comes down to the question, “How do you pick the next, best, most valuable thing to work on?”—basically answering the question of how to make the best use of the time you have.
+Picking something from your list of urgent things to do is kind of easy, but how can you make sure you are not missing the opportunity/chance to work on something important, if you get the chance to do so?</description>
+    </item>
+    
+    <item>
+      <title>About broken windows and software gardening ... - Thoughts from The Pragmatic Programmer</title>
+      <link>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</link>
+      <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</guid>
+      <description>These days I am writing more source code again (mostly Scala) and decided to (re)read a couple of books to refresh some thoughts and ideas and believes that I always had when it comes to writing source code.
+One of the books I was (re)reading was Clean Code and there are lots of good ideas in it, e.g. after reading the book 15 years ago I got into the habit of refactoring, whenever I feel the urge to put a comment in the code, which is an indication that the code is not clear/self-documenting enough.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing - A practical guide for the common user</title>
+      <link>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</guid>
+      <description>These days (and especially after the Amazon EC2 outage :)) everybody is talking about cloud computing. It seems you cannot be sexy, if you do not &#34;live&#34; in the cloud. But most of the more &#34;common&#34; users (and for the sake of the discussion, I am including myself in that group) probably think that cloud computing and using &#34;the cloud&#34; is something that enterprises use to (potentially) safe cost and also to (potentially) gain flexibility.</description>
+    </item>
+    
+    <item>
+      <title>Managing complexity with OSGi - In bundles and between bundles</title>
+      <link>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</link>
+      <pubDate>Thu, 22 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</guid>
+      <description>Right now the Brandvis SelectPortal system is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.Triggered by this work and triggered by a talk on reuse of OSGi bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</description>
+    </item>
+    
+    <item>
+      <title>Bierdeckel Economics vs. Armchair Economics - ... and what it got to do with Greece and Ireland</title>
+      <link>http://tedn.life/2010/04/04/bierdeckel-economics-vs.-armchair-economics-...-and-what-it-got-to-do-with-greece-and-ireland/</link>
+      <pubDate>Sun, 04 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/04/04/bierdeckel-economics-vs.-armchair-economics-...-and-what-it-got-to-do-with-greece-and-ireland/</guid>
+      <description>As most of you know, I am married to a greek woman and life in Ireland. Therefore the current economic crisis is omnipresent in my life.
+A couple of weeks ago Chris Horn posted an interesting article about certain economical key indicators and what they mean for Ireland. I also saw a good article in the NYT about why and how the US and Ireland and Greece are different (from a financial crises/debt point of view).</description>
+    </item>
+    
+  </channel>
+</rss>

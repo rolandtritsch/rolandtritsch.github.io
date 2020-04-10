@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSGi on tedn.life</title>
+    <link>http://tedn.life/tags/osgi/</link>
+    <description>Recent content in OSGi on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/osgi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A starting point for ... Apache Felix, OSGi, Scala, Sbt</title>
+      <link>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</guid>
+      <description>It is not a secret ...
+I like OSGi and Scala ... and therefore it was only a question of time until I started to wonder, if there is anything that would prevent me from using OSGi from/with Scala. The short answer and the good news is ... nothing.
+I just checked in my port of the original Apache Felix Tutorial to Scala. As mentioned in the README I do not want to claim that this boilerplate code, but it is a working development environment that you can use as a starting point for your own experiments.</description>
+    </item>
+    
+    <item>
+      <title>Managing complexity with OSGi - In bundles and between bundles</title>
+      <link>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</link>
+      <pubDate>Thu, 22 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</guid>
+      <description>Right now the Brandvis SelectPortal system is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.Triggered by this work and triggered by a talk on reuse of OSGi bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</description>
+    </item>
+    
+    <item>
+      <title>ACCU 2009 - Slides are available</title>
+      <link>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</link>
+      <pubDate>Sat, 20 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</guid>
+      <description>A couple of weeks ago I attended ACCU 2009 to deliver a talk on &#34;RESTful Services and Distributed OSGi - Friends or Foes&#34; and &#34;AJAX for Mobile Devices - Using Apache Projects to get the job done&#34;. The conference was very well organized (thanks Giovanni) and took place in the beautiful city of Oxford. The format (keynote presentations and smaller breakout sessions) allowed for a good mix of thought-provoking presentations and good discussions.</description>
+    </item>
+    
+    <item>
+      <title>FUSEforge Lightsaber/Lightsabre - Research on Asynchronous Distributed OSGi (for Jedi&#39;s :))</title>
+      <link>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</link>
+      <pubDate>Tue, 09 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</guid>
+      <description>The Distributed OSGi spec (RFC 119) is coming along nicely, means now might be a good time to raise the head and start to think about what might come next. A couple of month ago David, Roman and myself got together and concluded to set up a research project on the alternatives available to potentially extend the Distributed OSGi spec with some asynchronous messaging concepts/capabilities.
+The research is still ongoing, but the intermediate results (including a first demo!</description>
+    </item>
+    
+    <item>
+      <title>Embedded Software Engineering - Can we avoid another software crisis</title>
+      <link>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</link>
+      <pubDate>Tue, 12 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</guid>
+      <description>The term &#34;software crisis&#34; was coined 1968 by F.L. Bauer during the first NATO Software Engineering Conference in Garmisch, Germany and was used by Dijkstra in his very famous lecture on &#34;The humble programmer&#34;:
+[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.</description>
+    </item>
+    
+    <item>
+      <title>2008 OSGi Community Event - talking about trains</title>
+      <link>http://tedn.life/2008/06/23/2008-osgi-community-event-talking-about-trains/</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/23/2008-osgi-community-event-talking-about-trains/</guid>
+      <description>Two weeks ago I attended the OSGi Community Event in Berlin.
+One of the presentations was from Deutsche Bahn about their new Mobile Integration Platform (MIP). It was not only in this presentation that I felt that OSGi has become the ICE of deployment platforms. A 300 km/h high-speed trend/train with a lot of momentum. Think about it: Do you want to be on the train or in front of it.</description>
+    </item>
+    
+    <item>
+      <title>Software Engineering Radio - talking about OSGi, Rest, Opensource, ...</title>
+      <link>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</guid>
+      <description>In the last four weeks a lot of people asked me about this &#34;show&#34; I am listening to on my way to work. It is called Software Engineering Radio and talks about trends and technologies in Software Engineering (OSGi, Rest, Opensource, ...). I was told that one of the next issues will be an interview with Peter Kriens on the current state of affairs with respect to OSGi.
+Check it out.</description>
+    </item>
+    
+  </channel>
+</rss>

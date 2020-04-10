@@ -5,10 +5,21 @@
     <link>http://tedn.life/categories/personal/</link>
     <description>Recent content in Personal on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assessing the WLAN ... the dark arts of extreme digital nomading</title>
+      <link>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</guid>
+      <description>When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
+Statements like &amp;hellip;
+ &amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo;  &amp;hellip; are just not good enough.</description>
+    </item>
     
     <item>
       <title>TEDN - The most important tool ...</title>
@@ -32,6 +43,16 @@
 You suddenly find time to do things that you couldn&amp;rsquo;t do (or wouldn&amp;rsquo;t do) for month!!!
 In my case I just updated/refreshed my blogging infrastructure &amp;hellip;
  switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course))  The result is aesthetically pleasing.</description>
+    </item>
+    
+    <item>
+      <title>Make Google Chrome show the Wifi login screen (best trick ever :))</title>
+      <link>http://tedn.life/2018/09/20/make-google-chrome-show-the-wifi-login-screen-best-trick-ever/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2018/09/20/make-google-chrome-show-the-wifi-login-screen-best-trick-ever/</guid>
+      <description>Not sure if this has ever happen to you, &amp;hellip;
+&amp;hellip; but once a month I am sitting in a hotel lobby or a coffee shop and I cannot (for the life of it) make Chrome show me the login screen to the Wifi portal and then you start to fiddle around with stop/start the Wifi and/or disconnect/connect to the Wifi and/or start a different browser (e.g. Firefox or Safari) and/or try a private browser window and/or clear the DNS cache and/or &amp;hellip; reboot!</description>
     </item>
     
     <item>
@@ -65,6 +86,18 @@ And what do to next depend first of all on, if you believe that there is a probl
       <guid>http://tedn.life/2017/03/19/do-the-right-thing-...-how-hard-can-it-be/</guid>
       <description>I am driving an electric car. It is a great experience. Not to a small part, because the Irish government is trying very hard to make it a good experience. Government grants, good infrastructure, friendly people.
 The other day, I noticed something that leaves room for improvement. On a Sunday afternoon, I was charging my car at the quick charger at the LUAS station in Stillorgan. The parking lot is operated by NCPS and has signs on the ground and on sign-posts to indicate that the spaces are reserved for electric vehicle (EV) charging.</description>
+    </item>
+    
+    <item>
+      <title>Ooohhh boy ... twitterfeed is no more</title>
+      <link>http://tedn.life/2016/10/31/ooohhh-boy-...-twitterfeed-is-no-more/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2016/10/31/ooohhh-boy-...-twitterfeed-is-no-more/</guid>
+      <description>The other day I got and email that twitterfeed is no more (they recommend to use buffer or dlvr.it instead).
+My social media setup was to post to Google+ and then use twitterfeed to cross-post to twitter and facebook.
+With twitterfeed going out of business I am &amp;hellip;
+ &amp;hellip; going to retire my Google+ account &amp;hellip; going to use HootSuite to selectively post to twitter (business, technical, work) and facebook (private, personal) &amp;hellip; going to continue to use Flickr to publish pictures &amp;hellip; going to continue to use GitHub to host my blog (and will cross-post on medium and linked-in for visibility).</description>
     </item>
     
     <item>
@@ -112,6 +145,15 @@ In reverse order, first: (Given that I am a VP Infrastructure Engineering) I am 
     </item>
     
     <item>
+      <title>According to the Sunday Independent ... 50 years ago ... the outlook was ... mainly dry</title>
+      <link>http://tedn.life/2015/07/11/according-to-the-sunday-independent-...-50-years-ago-...-the-outlook-was-...-mainly-dry/</link>
+      <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2015/07/11/according-to-the-sunday-independent-...-50-years-ago-...-the-outlook-was-...-mainly-dry/</guid>
+      <description>Nuclear power plant offered to usReports are current in political circles that the Government has received an offer from a German industrialist to build a nuclear reactor in Ireland as part of his plan to provide power for industrial development. Ballad group singers are engagedFolk singer Ann Byrne, of Blackrock, and Paddy Roche, Templeogue, a member of the Ludlow Trio, who have announced their engagement. Both are regular singers at the Abbey Tavern in Howth.</description>
+    </item>
+    
+    <item>
       <title>Range anxiety? What range anxiety! (My first road trip with the BADMobile :))</title>
       <link>http://tedn.life/2015/05/20/range-anxiety-what-range-anxiety-my-first-road-trip-with-the-badmobile/</link>
       <pubDate>Wed, 20 May 2015 00:00:00 +0000</pubDate>
@@ -120,6 +162,345 @@ In reverse order, first: (Given that I am a VP Infrastructure Engineering) I am 
       <description>In case you are wondering ... this is the BADMobile ... (ask me, if you want :)) ...
 
 My friend Klaus and myself have spend more time and more miles (on motorbike(s)) together than we care to count. And the pattern is that once in a while we need to do something crazy. This time around we decided that in the next 5 years we will visit all of the major road races in the UK &amp;amp; Ireland (at least) once.</description>
+    </item>
+    
+    <item>
+      <title>X-Mas Project 2: Building a &#34;FlieWaTuet&#34; - Using Mignon :)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-2-building-a-fliewatuet-using-mignon/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/12/29/x-mas-project-2-building-a-fliewatuet-using-mignon/</guid>
+      <description>Warning!!! This has nothing to do with Scala or Software Engineering in general. Read at your own risk :).
+Ok, I admit it: This post is a little bit off-topic, but we had too much fun not to talk about it.
+It all started with an afternoon and nothing to do. At the end my dad, Alexandros and myself decided to get my dad&#39;s old Mignon box and just build &#34;</description>
+    </item>
+    
+    <item>
+      <title>HTC One Mini ... does it make Sense?</title>
+      <link>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</guid>
+      <description>Update 2004-04-02: The first nightlies for M4 got released on CyanogenMod. Testing now ...
+---
+The short answer is: NO!
+At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!
+
+3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
+    </item>
+    
+    <item>
+      <title>FlightFest @ Gilt ... Location, Location, Location ...</title>
+      <link>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</guid>
+      <description>Psssttt ... don&#39;t tell anybody, but ... at Gilt it is not always about work and writing great code.
+Sometimes we like to party. Especially when something like FlightFest comes along and the office is located right down by the Liffey overlooking the river and the Samuel Beckett Bridge.
+Sometimes it is too good not to do it. What a great day. For the kids. For the girls and the boys.</description>
+    </item>
+    
+    <item>
+      <title>Getting GTD done - Thoughts and Tools</title>
+      <link>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</guid>
+      <description>We all have a lot to do. Effective time/task management is essential. I’ve been using GTD (Getting Things Done) for a while now (a long while :)) and for me it comes down to the question, “How do you pick the next, best, most valuable thing to work on?”—basically answering the question of how to make the best use of the time you have.
+Picking something from your list of urgent things to do is kind of easy, but how can you make sure you are not missing the opportunity/chance to work on something important, if you get the chance to do so?</description>
+    </item>
+    
+    <item>
+      <title>(Small) change to my social networking ...</title>
+      <link>http://tedn.life/2011/06/26/small-change-to-my-social-networking-.../</link>
+      <pubDate>Sun, 26 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/06/26/small-change-to-my-social-networking-.../</guid>
+      <description> First of all ... apologies!!! In the last 2 weeks my (private) tweeds (almost) completely died away. I was just madly busy with work :(. 
+Going forward, I will (continue to) send my &#34;diary&#34; updates to @rolandtritsch, but will send my more work related tweeds (e.g. Blogging about ..., Reading about ..., Looking at ...) to @innolocity. @innolocity is a public feed. Just register here to follow.  </description>
+    </item>
+    
+    <item>
+      <title>Adventure 2.0 - Building the Gilt Software Development Center in Dublin</title>
+      <link>http://tedn.life/2011/04/19/adventure-2.0-building-the-gilt-software-development-center-in-dublin/</link>
+      <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/04/19/adventure-2.0-building-the-gilt-software-development-center-in-dublin/</guid>
+      <description>A couple of weeks ago I got a call from the Gilt Groupe in NYC and they asked, if I would be interested in joining Gilt Groupe to build a software development center in Dublin. I went to NY and met some of the brightest engineers in the industry and was totally blown away by the enthusiasm and the commitment to build and run the best e-commerce shopping experience on the web.</description>
+    </item>
+    
+    <item>
+      <title>Cinema Screening in Aid of Haiti - Watching &#34;The Commitments&#34; (for a good cause)</title>
+      <link>http://tedn.life/2010/08/31/cinema-screening-in-aid-of-haiti-watching-the-commitments-for-a-good-cause/</link>
+      <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/08/31/cinema-screening-in-aid-of-haiti-watching-the-commitments-for-a-good-cause/</guid>
+      <description>Sometimes it is possible to combine something that is fun with something that is useful.
+I am happy to present such an opportunity, since my colleague Susan O&#39;Hara is organizing a charity event in the Sugar Club on Lower Leeson Street to watch &#34;The Commitments&#34; on Wednesday, 15 September 2010 at 7pm.
+The cost is EUR 15,- pp. The feeling to have some fun and do something good is priceless.</description>
+    </item>
+    
+    <item>
+      <title>Bierdeckel Economics vs. Armchair Economics - ... and what it got to do with Greece and Ireland</title>
+      <link>http://tedn.life/2010/04/04/bierdeckel-economics-vs.-armchair-economics-...-and-what-it-got-to-do-with-greece-and-ireland/</link>
+      <pubDate>Sun, 04 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/04/04/bierdeckel-economics-vs.-armchair-economics-...-and-what-it-got-to-do-with-greece-and-ireland/</guid>
+      <description>As most of you know, I am married to a greek woman and life in Ireland. Therefore the current economic crisis is omnipresent in my life.
+A couple of weeks ago Chris Horn posted an interesting article about certain economical key indicators and what they mean for Ireland. I also saw a good article in the NYT about why and how the US and Ireland and Greece are different (from a financial crises/debt point of view).</description>
+    </item>
+    
+    <item>
+      <title>Greek Vacation - Food for thought</title>
+      <link>http://tedn.life/2010/02/17/greek-vacation-food-for-thought/</link>
+      <pubDate>Wed, 17 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/02/17/greek-vacation-food-for-thought/</guid>
+      <description>It is happening again :). I am in Greece ... on vacation. My wife has this unbelievable ability to find wonderful places for us to explore and experience the best of Greece. The (non-complete) list of breaks encompasses ... Visit the home of Zeus (Mount Olympus) (Mountain Resort Semeli)Find out how colosal the Colossus of Rhodes really was (Fashion Hotel Nikos)Take a 6 hour hike through Vikos Canyon Explore the beauty of PiliouFollow the footsteps of Leonard Cohen on Hydra (Four Seasons Hotel)Right now I am in the middle of nowhere in a place called Epohes and again .</description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - The best Zoom feature ever</title>
+      <link>http://tedn.life/2009/12/16/link-of-the-month-the-best-zoom-feature-ever/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/12/16/link-of-the-month-the-best-zoom-feature-ever/</guid>
+      <description>The frontend for many mass-customization, product-configurators is based on Adobe Flash/Flex, but as we all know, a fool with a tool is still a ... and therefore there are lots of examples out there where the design and implementation of the UI leaves &#34;room for improvement&#34;.
+At the same there are also examples of very clever and thought-through UI design/implementation. One example in this category is the website for the movie &#34;</description>
+    </item>
+    
+    <item>
+      <title>Mass-customization delivered - Back to the roots ...</title>
+      <link>http://tedn.life/2009/12/15/mass-customization-delivered-back-to-the-roots-.../</link>
+      <pubDate>Tue, 15 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/12/15/mass-customization-delivered-back-to-the-roots-.../</guid>
+      <description>20 years ago I started my career as a Technical Project Manager/Lead Architect for EDS and was working on Bill-of-Material solutions for the Automotive Industry (e.g. Opel).
+During my self-declared summer-sabbatical, I was musing over what I want to do next and felt that (if possible) I would like to work again in a business domain and (if possible) maybe (again) in manufacturing.
+I am happy to report that it worked out just fine!</description>
+    </item>
+    
+    <item>
+      <title>Social Networking - Updating your status: all or nothing?</title>
+      <link>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</link>
+      <pubDate>Thu, 17 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</guid>
+      <description>Yesterday I was stumbling over a Facebook status update from Oisin Hurley ...
+Oisin Hurley is starting to get a bit irritated with people that unselectively duplicate their twitter stream to their Facebook status. They&#39;re different interactions, people.
+This is an interesting observation and creates a bigger question: where do we go with this social-networking, micro-blogging, status-update thingy? 
+Initially it was easy: there was just/only twitter and this was the place to do micro-blogging and status-updates, but by now all social-networking sites (Facebook, Linked-In, XING, Plaxo, Bebo, .</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Using TimeMachine Part II or Why Restore was greyed out?</title>
+      <link>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</guid>
+      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters?</description>
+    </item>
+    
+    <item>
+      <title>Street Performance World Championship - a non-technical blog post</title>
+      <link>http://tedn.life/2009/06/19/street-performance-world-championship-a-non-technical-blog-post/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/19/street-performance-world-championship-a-non-technical-blog-post/</guid>
+      <description> Sorry - this is a non-technical blog post. If you are not interested in having a good time, stop reading now. Otherwise ...
+I am on the LUAS on the way home from the Street Performance World Championship in Dublin.
+All of the performances are good/funny, but my personal favorite are Alakazam and Mr. Toons.
+Go and check it out. It is worth-while the time.
+ </description>
+    </item>
+    
+    <item>
+      <title>Reading books - Steve Jobs, Raising Boys and The Complete Robot</title>
+      <link>http://tedn.life/2009/06/18/reading-books-steve-jobs-raising-boys-and-the-complete-robot/</link>
+      <pubDate>Thu, 18 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/18/reading-books-steve-jobs-raising-boys-and-the-complete-robot/</guid>
+      <description>A month ago I decided to use some of my time during the summer and work my way through the pile of books that I always wanted to read and never really got to. The first four weeks proofed to be interesting, very interesting.
+I started with &#34;ICon: The Greatest Second Act in the History of Business&#34;. It is obviously a biography about Steve Jobs, but it is also a good book on the history of Apple, the Silicon Valley, Next, Disney and Pixar.</description>
+    </item>
+    
+    <item>
+      <title>TEDx Dublin - Reviewing a very nice friday evening</title>
+      <link>http://tedn.life/2009/06/18/tedx-dublin-reviewing-a-very-nice-friday-evening/</link>
+      <pubDate>Thu, 18 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/18/tedx-dublin-reviewing-a-very-nice-friday-evening/</guid>
+      <description>Last friday (means already almost a week ago) I had the chance to attend the first TEDx event in Dublin at the Science Gallery. To make a long story short ... it was a GREAT event. Great people, great presentations, great location. If you ever get the chance to attend a TEDx event or maybe even to attend a TED conference ... DO IT!!!
+Just in case you have never heard about TED I suggest you check out the website.</description>
+    </item>
+    
+    <item>
+      <title>Skills, Innovation and the future of Ireland - Bermuda Triangle or Trinity</title>
+      <link>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</link>
+      <pubDate>Sun, 07 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</guid>
+      <description>Ireland (like any other country in the world right now) needs to reinvent itself. The Celtic Tiger (1.0) is over. Question is: What&#39;s next? Do we want a Celtic Tiger 2.0? If so, how should it look like? And how do we make it happen?
+Chris Horn has published a couple of interesting blog entries and articles on the topic.
+For me the key is skills and innovation. Skill comes in two flavors: expertise and experience.</description>
+    </item>
+    
+    <item>
+      <title>Effective Andriod - a new category</title>
+      <link>http://tedn.life/2009/05/27/effective-andriod-a-new-category/</link>
+      <pubDate>Wed, 27 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/05/27/effective-andriod-a-new-category/</guid>
+      <description> Last year I introduced categories like &#34;Link of the Month&#34; and &#34;Effective Mac&#34; to my blogging&#34;. Heads up ... there is a new category coming: Effective Android will talk about my adventures with my new Android phone.
+ </description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Make the Mac listen ...</title>
+      <link>http://tedn.life/2009/05/18/effective-mac-make-the-mac-listen-.../</link>
+      <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/05/18/effective-mac-make-the-mac-listen-.../</guid>
+      <description>This morning I was using my new JawBone Bluetooth headset to make a Skype call. The quality was bad and therefore I decided to switch to my headset. The result was better, but still not what I was looking for. At the end I took the time to really understand, where the sound is coming from and to my big surprise I found out that the line-in jack is not working with normal headsets.</description>
+    </item>
+    
+    <item>
+      <title>Need a new phone - iPhone vs. Blackberry vs. Android</title>
+      <link>http://tedn.life/2009/05/18/need-a-new-phone-iphone-vs.-blackberry-vs.-android/</link>
+      <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/05/18/need-a-new-phone-iphone-vs.-blackberry-vs.-android/</guid>
+      <description>Last year I went hill-walking with Andrew and Adrian in Kerry. By now everybody knows the story: I drowned my iPhone in Adrian&#39;s backpack. The backpack was 100% water-proof, means it did not let any water out and at the end of a 4 1/2 hour (irish) survival tour with heavy, &#34;horizontal&#34; rain the iPhone did not pass the &#34;can-your-iPhone-also-work-under-water&#34; test.
+I decided to look at it as an opportunity.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Using OpenOffice, NeoOffice and/or iWorks08</title>
+      <link>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</link>
+      <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</guid>
+      <description>Finally! OpenOffice is now available for the Mac. In the last two month I used OpenOffice 3.0, NeoOffice 2.2.5 and iWorks08 in parallel (with a special focus on the presentation functionality).
+The result is surprising (and maybe not :)). If you use the &#34;native&#34; formats (e.g. ODF, .key/.page) everything works fine. Obviously things get more interesting, if you want to use these tools to read and write MS-Office files (.</description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - TwitterFeed</title>
+      <link>http://tedn.life/2008/12/28/link-of-the-month-twitterfeed/</link>
+      <pubDate>Sun, 28 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/12/28/link-of-the-month-twitterfeed/</guid>
+      <description>In the last two month I have put some work into my online presence (website, blog, twitter, linked-in, ...). Obviously I try to minimize the maintenance effort for me, but maximize the user experience for the &#34;customers&#34; of my online presence (I am talking about you, dear reader :)). 
+One great tool in this regard is TwitterFeed. It allows you to create &#34;feeds&#34;, which will &#34;listen&#34; on RSS feeds and will then turn them into tweets.</description>
+    </item>
+    
+    <item>
+      <title>Social Networking - Del.icio.us rediscovered! or Do we need the Open Social API?</title>
+      <link>http://tedn.life/2008/10/28/social-networking-del.icio.us-rediscovered-or-do-we-need-the-open-social-api/</link>
+      <pubDate>Tue, 28 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/28/social-networking-del.icio.us-rediscovered-or-do-we-need-the-open-social-api/</guid>
+      <description>(Blogging from a plane en-route from DUB to BOS using the email interface of blogger.com :))The other day I updated my website with the details of my new employer and decided to give a second live to my del.icio.us account by using one of the widgets to include my reading list on my blog. I also had to decide, which of my social networks I reference on my site.</description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - FUSE TV</title>
+      <link>http://tedn.life/2008/10/22/link-of-the-month-fuse-tv/</link>
+      <pubDate>Wed, 22 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/22/link-of-the-month-fuse-tv/</guid>
+      <description> Great new content. Check out FUSEsource.com! 
+4 weeks ago we huddled in our &#34;new&#34; HQ in Bedford for Managment Meetings (and other fun :)). Debbie had the great idea to take advantage of our presence there and record a first set of FUSE TV sessions. Great fun! Check out the result.
+And yes mea culpa, &#34;aaaeeeehhhhhhmmmm&#34; is not a german word. No Oscar for me (this time :)). </description>
+    </item>
+    
+    <item>
+      <title>Link of the Month - FUSE is moving on ...</title>
+      <link>http://tedn.life/2008/10/18/link-of-the-month-fuse-is-moving-on-.../</link>
+      <pubDate>Sat, 18 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/18/link-of-the-month-fuse-is-moving-on-.../</guid>
+      <description>... to FUSEsource.com. As part of the Progress acquisition we decided to change the host/domain name of the FUSE community website from open.iona.com to FUSEsource.com.
+I like the new name better, because what we do here is not about a company (be it IONA or Progress). It is about a project. In our case FUSE.
+The renaming will also allow us to role out more interesting stuff in the near future on a new, consistent family of good host/domain names.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Using Time Maschine</title>
+      <link>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</link>
+      <pubDate>Tue, 30 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</guid>
+      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. 
+But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.
+And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my &#34;</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Open Source Mac</title>
+      <link>http://tedn.life/2008/09/10/effective-mac-open-source-mac/</link>
+      <pubDate>Wed, 10 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/10/effective-mac-open-source-mac/</guid>
+      <description> Was looking for an opensource search engine for the Mac and found this interesting website. I am already using half of the apps, but will take a look at the other half too :). </description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Growl back to work</title>
+      <link>http://tedn.life/2008/09/07/effective-mac-growl-back-to-work/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/07/effective-mac-growl-back-to-work/</guid>
+      <description>Stumbled over James&#39;s blog entry about useful software for the Mac and added Growl to my list of software that you need have/use to be effective, but was not able to make it work with X-Chat (AquaChat). Confronted with the option to figure out what is wrong or to try something new, I took the easy way out: I tried Colloquy. This worked out of the box. I know need to find out how to make my Twitter tweeds show up in Growl.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - call me slow</title>
+      <link>http://tedn.life/2008/07/12/effective-mac-call-me-slow/</link>
+      <pubDate>Sat, 12 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/12/effective-mac-call-me-slow/</guid>
+      <description> You can call me slow, but it took me only a year to find the RSS reader that everybody else is using. David Greco finally pointed me to NetNewsWire. This seems to be it :). </description>
+    </item>
+    
+    <item>
+      <title>Link of the month - Google Twitter (GTwit)</title>
+      <link>http://tedn.life/2008/07/07/link-of-the-month-google-twitter-gtwit/</link>
+      <pubDate>Mon, 07 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/07/link-of-the-month-google-twitter-gtwit/</guid>
+      <description>Micro-blogging (Twitter, Pounce, Facebook, ...) just go a little bit easier. Check out GTwit. It is a light-weight Google App, that allows you to access your Twitter account from any browser you might have access to. It is based on the Twitter API. It stores all tweets that you send/receive in a private &#34;Google-Cloud&#34; and allows you to search on them by whatever you like (word, person, tag).
+Check it out.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - the beginning of a journey</title>
+      <link>http://tedn.life/2008/07/04/effective-mac-the-beginning-of-a-journey/</link>
+      <pubDate>Fri, 04 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/04/effective-mac-the-beginning-of-a-journey/</guid>
+      <description>yesterday i finally finished my upgrade to Mac OS X 10.5 (Leopard).
+overall it went well. i did an erase and install (as a 20 year windows user i feel much more comfortable with clean installs. maybe next time if will try it the mac-way :)) and also used the exercise to clean up my disk and the way i work. the biggest problem was that leopard does not come with iLife, means you need to find your old tiger CDs and reinstall iLife from there (or buy (!</description>
+    </item>
+    
+    <item>
+      <title>Link of the month - TwitterFone</title>
+      <link>http://tedn.life/2008/05/21/link-of-the-month-twitterfone/</link>
+      <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/21/link-of-the-month-twitterfone/</guid>
+      <description> Just updated the Link of the Month. It now points to TwitterFone (by Dial2Do). Cool stuff. Traffic in Dublin is a nightmare. Means I am walking a lot. This is the way to Twitter, while you walk (or drive).
+Very innovative. </description>
+    </item>
+    
+    <item>
+      <title>Quantum Leap</title>
+      <link>http://tedn.life/2008/05/18/quantum-leap/</link>
+      <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/18/quantum-leap/</guid>
+      <description>Today we went to a local art (flee) market. We were looking for some paintings for our new house. At the end we could not agree on anything, but I was in the right mindset to find something that will focus the mind, when I am at my desk.
+I like innovation and I like to innovate. Sometimes this requires to take a leap of faith to produce a quantum leap.</description>
     </item>
     
   </channel>

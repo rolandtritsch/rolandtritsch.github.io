@@ -20,5 +20,14 @@
 I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.</description>
     </item>
     
+    <item>
+      <title>Machine Learning at Gilt - &#34;Maven-izing&#34; a/the Apache Mahout tutorial</title>
+      <link>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</link>
+      <pubDate>Sun, 11 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</guid>
+      <description>If you work for Gilt Tech than you WILL (sooner or later ... somehow) get involved in our Machine Learning and Recommendation efforts. Our requirements are extremely complex and challenging. We have over 5 million members (fast growing) and a product catalog which features products that are selling out between 10 secs and 3 days, means we need to make recommendations for products that have (almost) no history to members that might not be with us for a long time (yet).</description>
+    </item>
+    
   </channel>
 </rss>

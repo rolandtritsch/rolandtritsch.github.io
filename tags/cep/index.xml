@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CEP on tedn.life</title>
+    <link>http://tedn.life/tags/cep/</link>
+    <description>Recent content in CEP on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 05 Oct 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/cep/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Complex Event Processing - An exiting (new) frontier</title>
+      <link>http://tedn.life/2008/10/05/complex-event-processing-an-exiting-new-frontier/</link>
+      <pubDate>Sun, 05 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/10/05/complex-event-processing-an-exiting-new-frontier/</guid>
+      <description>Through the merger (:)) with Progress, I got exposed to the new exciting field of (Real-Time) Complex Event Processing (CEP). There are a couple of obvious use cases in finance (e.g. algorithmic stock trading) and manufacturing (e.g. detecting possible problems in the assembly line, which might effect your just-in-time service-level-agreements).
+Complex Event Processing or Intelligent Event Correlation is not what excites me. That was/is also possible using large data-warehouses and suitable data-mining solutions, but then you learn about it after the fact.</description>
+    </item>
+    
+  </channel>
+</rss>

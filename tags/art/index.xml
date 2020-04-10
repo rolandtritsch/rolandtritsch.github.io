@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art on tedn.life</title>
+    <link>http://tedn.life/tags/art/</link>
+    <description>Recent content in Art on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 18 May 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quantum Leap</title>
+      <link>http://tedn.life/2008/05/18/quantum-leap/</link>
+      <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/05/18/quantum-leap/</guid>
+      <description>Today we went to a local art (flee) market. We were looking for some paintings for our new house. At the end we could not agree on anything, but I was in the right mindset to find something that will focus the mind, when I am at my desk.
+I like innovation and I like to innovate. Sometimes this requires to take a leap of faith to produce a quantum leap.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -87,5 +87,102 @@ Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays i
 On Sunday morning I was on Dad-duty driving Alexandros to a paint-ball battle and ended up in coffee shop with three hours of zone time.</description>
     </item>
     
+    <item>
+      <title>Scala on Android - Gradle, Ensime and the Android UI samples</title>
+      <link>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</guid>
+      <description>Besides getting my first companion app done for my Pebble, I also spend some time on X-Mas to start porting the Android UI samples to Scala. The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step).</description>
+    </item>
+    
+    <item>
+      <title>X-Mas Project 1: Pebble Hello World 2.0 - The companion edition (with Android, Scala, Macroid)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</guid>
+      <description>I love Christmas!!!
+My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).
+My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.
+As a first step I added some text to the standard Pebble Tutorial.</description>
+    </item>
+    
+    <item>
+      <title>Scala, Android and BLE, because ...</title>
+      <link>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</link>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</guid>
+      <description>... everything is better with bluetooth :).
+Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.
+The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.
+We talked about, how to write, compile and run .</description>
+    </item>
+    
+    <item>
+      <title>Scala on the Pebble - Exploring SDK 2.0 ...</title>
+      <link>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</link>
+      <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
+      <description>... just kidding :).
+Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
+
+And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
+    </item>
+    
+    <item>
+      <title>Scala on Android - A start ...</title>
+      <link>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</link>
+      <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</guid>
+      <description>I don&#39;t know what your experience is, but ...
+... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.
+This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
+    </item>
+    
+    <item>
+      <title>Scala on a Chromebook? Yes, we can!!!</title>
+      <link>http://tedn.life/2014/01/22/scala-on-a-chromebook-yes-we-can/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/01/22/scala-on-a-chromebook-yes-we-can/</guid>
+      <description>A couple of weeks ago I got myself an Acer Chromebook and so far I am very happy with it. I use it as a tablet with a keyboard and carry it around with me a lot, but ...
+... sometimes I have an hour to kill in a coffee shop and would like to do some software development (in my case and these days mainly Scala) and started to wonder, if and how this is possible.</description>
+    </item>
+    
+    <item>
+      <title>To become or not to become ... a Sunday with Scala and Actors</title>
+      <link>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</link>
+      <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</guid>
+      <description>It is Sunday, the sun is shining ... in Ireland!!! What do you do? Right: You get your laptop and finally start to get your head around the actor model in Scala.
+In my case I tried to come up with a simulation for the Dining Philosophers Problem (DPP). There are implementations available, but I consolidated them and renamed the states and transitions to make it more obvious what is going on and used plantUML to come up with State Transition Diagrams (STDs) that show what is going on.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Scala @ TCD ... back to the roots</title>
+      <link>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</link>
+      <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</guid>
+      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
+This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
+    </item>
+    
+    <item>
+      <title>A starting point for ... Apache Felix, OSGi, Scala, Sbt</title>
+      <link>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</guid>
+      <description>It is not a secret ...
+I like OSGi and Scala ... and therefore it was only a question of time until I started to wonder, if there is anything that would prevent me from using OSGi from/with Scala. The short answer and the good news is ... nothing.
+I just checked in my port of the original Apache Felix Tutorial to Scala. As mentioned in the README I do not want to claim that this boilerplate code, but it is a working development environment that you can use as a starting point for your own experiments.</description>
+    </item>
+    
   </channel>
 </rss>

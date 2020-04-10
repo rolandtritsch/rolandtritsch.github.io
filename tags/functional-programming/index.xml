@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functional Programming on tedn.life</title>
+    <link>http://tedn.life/tags/functional-programming/</link>
+    <description>Recent content in Functional Programming on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 11 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advent of Code 2017 ... Revolutions!!!</title>
+      <link>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</guid>
+      <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!
+Last time we talked about a/the Scala implementation.
+This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.
+There is a separate blog post on what I think about Kotlin, but overall it was a positive experience. I like Kotlin (but would not suggest/recommend it as a replacement for Scala).</description>
+    </item>
+    
+    <item>
+      <title>Kotlin ... the better Java?</title>
+      <link>http://tedn.life/2018/08/11/kotlin-...-the-better-java/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2018/08/11/kotlin-...-the-better-java/</guid>
+      <description>Everybody is talking about Kotlin. Me too!!!
+Obviously the question is: Is Kotlin the next better thing?
+Is Kotlin going to replace Java? Is Kotlin going to replace Scala? Is Kotlin the next better language that will make Software Engineers (much) more productive?
+To find out I ported my Scala Advent of Code solutions to Kotlin.
+My main take aways are &amp;hellip;
+ if you know Java, learning Kotlin will be easier and faster than learning Scala Kotlin is without a doubt &amp;ldquo;the better Java&amp;rdquo;  it compiles fast it runs fast it has very good tooling/IDE support (namely (obviously) the support in Intellij is first-class) it runs on Android hell &amp;hellip; it even runs on Raspberry Pi with Arrows it has a very nice (pure) functional programming library   if you know Scala, learning Kotlin will be even easier, but you will also feel that you are not gaining anything or even that you are loosing some capabilities that are valuable  Sooooo &amp;hellip; my exec summary is &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2017 ... Reloaded!!!</title>
+      <link>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</guid>
+      <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!
+Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!
+If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).
+The puzzles do a lot of different things and will test your ability to come up with good/clever datastructures/algorithms.</description>
+    </item>
+    
+    <item>
+      <title>Category Theory for Programmers ... Reviewing THE course!</title>
+      <link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
+      <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
+Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
+The course is long &amp;hellip;
+ Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
+    </item>
+    
+    <item>
+      <title>How to make your options in the future suck less!!!</title>
+      <link>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</guid>
+      <description>If you are here for some advise on how to invest your money (using options), you are in the wrong place.
+This is about how to use Scala Options in Scala Futures!!!
+Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays in Amsterdam.
+On Sunday morning I was on Dad-duty driving Alexandros to a paint-ball battle and ended up in coffee shop with three hours of zone time.</description>
+    </item>
+    
+    <item>
+      <title>Functional Programming on iOS and Android - Making the impossible ... possible?!?!</title>
+      <link>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</link>
+      <pubDate>Sat, 25 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</guid>
+      <description>Beginning of the year we had one of our Microsoft Senior Architects from the GDC (Global Delivery Center) in India with us. Over a couple of pints the obvious happened: I sparked his interest in functional programming and he sparked my interest in F#.
+First I made Mono&amp;nbsp;and Emacs work, but then I started to use Xamarin.
+Not so much, because I needed a better IDE (Emacs rules :)), but because I got interested in the claim that you can use Xamarin to do Android and iOS cross-platform development with #F.</description>
+    </item>
+    
+    <item>
+      <title>Scala on Android - Gradle, Ensime and the Android UI samples</title>
+      <link>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</guid>
+      <description>Besides getting my first companion app done for my Pebble, I also spend some time on X-Mas to start porting the Android UI samples to Scala. The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step).</description>
+    </item>
+    
+    <item>
+      <title>Scala on Android - A start ...</title>
+      <link>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</link>
+      <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</guid>
+      <description>I don&#39;t know what your experience is, but ...
+... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.
+This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
+    </item>
+    
+    <item>
+      <title>To become or not to become ... a Sunday with Scala and Actors</title>
+      <link>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</link>
+      <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</guid>
+      <description>It is Sunday, the sun is shining ... in Ireland!!! What do you do? Right: You get your laptop and finally start to get your head around the actor model in Scala.
+In my case I tried to come up with a simulation for the Dining Philosophers Problem (DPP). There are implementations available, but I consolidated them and renamed the states and transitions to make it more obvious what is going on and used plantUML to come up with State Transition Diagrams (STDs) that show what is going on.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Scala @ TCD ... back to the roots</title>
+      <link>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</link>
+      <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</guid>
+      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
+This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
+    </item>
+    
+    <item>
+      <title>A starting point for ... Apache Felix, OSGi, Scala, Sbt</title>
+      <link>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</link>
+      <pubDate>Sun, 16 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</guid>
+      <description>It is not a secret ...
+I like OSGi and Scala ... and therefore it was only a question of time until I started to wonder, if there is anything that would prevent me from using OSGi from/with Scala. The short answer and the good news is ... nothing.
+I just checked in my port of the original Apache Felix Tutorial to Scala. As mentioned in the README I do not want to claim that this boilerplate code, but it is a working development environment that you can use as a starting point for your own experiments.</description>
+    </item>
+    
+  </channel>
+</rss>

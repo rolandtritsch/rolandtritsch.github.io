@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on tedn.life</title>
+    <link>http://tedn.life/tags/mac/</link>
+    <description>Recent content in Mac on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Effective Mac - Using TimeMachine Part II or Why Restore was greyed out?</title>
+      <link>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</guid>
+      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters?</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Make the Mac listen ...</title>
+      <link>http://tedn.life/2009/05/18/effective-mac-make-the-mac-listen-.../</link>
+      <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/05/18/effective-mac-make-the-mac-listen-.../</guid>
+      <description>This morning I was using my new JawBone Bluetooth headset to make a Skype call. The quality was bad and therefore I decided to switch to my headset. The result was better, but still not what I was looking for. At the end I took the time to really understand, where the sound is coming from and to my big surprise I found out that the line-in jack is not working with normal headsets.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Sleeping on the plane</title>
+      <link>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</link>
+      <pubDate>Sat, 10 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</guid>
+      <description>About a year ago, I &#34;borrowed&#34; the battery from Christina&#39;s MacBook to extend my &#34;life&#34;, while I am on the plane. The Mac (being the Mac) has a nice feature, which will hibernate the machine when the battery gets low. This allows you to change the battery without rebooting.
+I was looking for a way to hibernate the machine on demand. This is also useful if you want to conserve battery power (e.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Using OpenOffice, NeoOffice and/or iWorks08</title>
+      <link>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</link>
+      <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</guid>
+      <description>Finally! OpenOffice is now available for the Mac. In the last two month I used OpenOffice 3.0, NeoOffice 2.2.5 and iWorks08 in parallel (with a special focus on the presentation functionality).
+The result is surprising (and maybe not :)). If you use the &#34;native&#34; formats (e.g. ODF, .key/.page) everything works fine. Obviously things get more interesting, if you want to use these tools to read and write MS-Office files (.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Using Time Maschine</title>
+      <link>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</link>
+      <pubDate>Tue, 30 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</guid>
+      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. 
+But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.
+And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my &#34;</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Open Source Mac</title>
+      <link>http://tedn.life/2008/09/10/effective-mac-open-source-mac/</link>
+      <pubDate>Wed, 10 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/10/effective-mac-open-source-mac/</guid>
+      <description> Was looking for an opensource search engine for the Mac and found this interesting website. I am already using half of the apps, but will take a look at the other half too :). </description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - Growl back to work</title>
+      <link>http://tedn.life/2008/09/07/effective-mac-growl-back-to-work/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/09/07/effective-mac-growl-back-to-work/</guid>
+      <description>Stumbled over James&#39;s blog entry about useful software for the Mac and added Growl to my list of software that you need have/use to be effective, but was not able to make it work with X-Chat (AquaChat). Confronted with the option to figure out what is wrong or to try something new, I took the easy way out: I tried Colloquy. This worked out of the box. I know need to find out how to make my Twitter tweeds show up in Growl.</description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - call me slow</title>
+      <link>http://tedn.life/2008/07/12/effective-mac-call-me-slow/</link>
+      <pubDate>Sat, 12 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/12/effective-mac-call-me-slow/</guid>
+      <description> You can call me slow, but it took me only a year to find the RSS reader that everybody else is using. David Greco finally pointed me to NetNewsWire. This seems to be it :). </description>
+    </item>
+    
+    <item>
+      <title>Effective Mac - the beginning of a journey</title>
+      <link>http://tedn.life/2008/07/04/effective-mac-the-beginning-of-a-journey/</link>
+      <pubDate>Fri, 04 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2008/07/04/effective-mac-the-beginning-of-a-journey/</guid>
+      <description>yesterday i finally finished my upgrade to Mac OS X 10.5 (Leopard).
+overall it went well. i did an erase and install (as a 20 year windows user i feel much more comfortable with clean installs. maybe next time if will try it the mac-way :)) and also used the exercise to clean up my disk and the way i work. the biggest problem was that leopard does not come with iLife, means you need to find your old tiger CDs and reinstall iLife from there (or buy (!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,10 +5,22 @@
     <link>http://tedn.life/tags/nerdy/</link>
     <description>Recent content in Nerdy on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 21:36:09 +0100</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/nerdy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The corona virus ... and it&#39;s consequences</title>
+      <link>http://tedn.life/2020/03/30/the-corona-virus-...-and-its-consequences/</link>
+      <pubDate>Mon, 30 Mar 2020 21:36:09 +0100</pubDate>
+      
+      <guid>http://tedn.life/2020/03/30/the-corona-virus-...-and-its-consequences/</guid>
+      <description>The corona virus has a lot of weird side effects.
+You suddenly find time to do things that you couldn&amp;rsquo;t do (or wouldn&amp;rsquo;t do) for month!!!
+In my case I just updated/refreshed my blogging infrastructure &amp;hellip;
+ switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course))  The result is aesthetically pleasing.</description>
+    </item>
     
     <item>
       <title>The vertical bar screen of death ... the story of an unexpected win-win</title>
@@ -19,6 +31,108 @@
       <description>Last year I spend some time and money to &amp;ldquo;renovate&amp;rdquo; my old 17-inch Macbook Pro (remember the good old times &amp;hellip; when Apple was building good laptops with great keyboards and no touchbar :)).
 For the last 6 month I was running VirtualBox on it hosting an Ubuntu image.
 That kind of worked (a little bit slow at times and managing the ports was (sometimes) challenging, but otherwise &amp;hellip; ok).</description>
+    </item>
+    
+    <item>
+      <title>X-Mas Project 3: Install Source Code Pro (again) - And make Emacs use it (again)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</link>
+      <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</guid>
+      <description>It is not a secret ... I like Source Code Pro!
+A couple of weeks ago I got myself a new MacBook Air (and resisted the temptation to get the 13-inch and like the 11-inch a lot) and installed Source Code Pro again. Getting it installed using FontBook was no problem, but then I could not remember how make it the default font for Emacs and all the tips and tricks that I was able to find did not work for me.</description>
+    </item>
+    
+    <item>
+      <title>X-Mas Project 1: Pebble Hello World 2.0 - The companion edition (with Android, Scala, Macroid)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</guid>
+      <description>I love Christmas!!!
+My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).
+My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.
+As a first step I added some text to the standard Pebble Tutorial.</description>
+    </item>
+    
+    <item>
+      <title>X-Mas Project 2: Building a &#34;FlieWaTuet&#34; - Using Mignon :)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-2-building-a-fliewatuet-using-mignon/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/12/29/x-mas-project-2-building-a-fliewatuet-using-mignon/</guid>
+      <description>Warning!!! This has nothing to do with Scala or Software Engineering in general. Read at your own risk :).
+Ok, I admit it: This post is a little bit off-topic, but we had too much fun not to talk about it.
+It all started with an afternoon and nothing to do. At the end my dad, Alexandros and myself decided to get my dad&#39;s old Mignon box and just build &#34;</description>
+    </item>
+    
+    <item>
+      <title>Scala, Android and BLE, because ...</title>
+      <link>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</link>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</guid>
+      <description>... everything is better with bluetooth :).
+Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.
+The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.
+We talked about, how to write, compile and run .</description>
+    </item>
+    
+    <item>
+      <title>HTC One Mini ... does it make Sense?</title>
+      <link>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</guid>
+      <description>Update 2004-04-02: The first nightlies for M4 got released on CyanogenMod. Testing now ...
+---
+The short answer is: NO!
+At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!
+
+3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
+    </item>
+    
+    <item>
+      <title>FlightFest @ Gilt ... Location, Location, Location ...</title>
+      <link>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</guid>
+      <description>Psssttt ... don&#39;t tell anybody, but ... at Gilt it is not always about work and writing great code.
+Sometimes we like to party. Especially when something like FlightFest comes along and the office is located right down by the Liffey overlooking the river and the Samuel Beckett Bridge.
+Sometimes it is too good not to do it. What a great day. For the kids. For the girls and the boys.</description>
+    </item>
+    
+    <item>
+      <title>Charting some KPIs ... how hard can it be?</title>
+      <link>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</link>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</guid>
+      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.
+As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
+    </item>
+    
+    <item>
+      <title>Sometimes small things make a big difference ... using Source Code Pro with Emacs</title>
+      <link>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</link>
+      <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</guid>
+      <description>&amp;lt;outing alarm&amp;gt;I love my emacs.&amp;lt;/outing alarm&amp;gt;
+Sometimes small things can make a big difference. Like a dot. You can put it at the end of the sentence or in a number (1.001 vs. 100.1 - can make a &#34;small&#34; difference) or you put it into the zero to make it easily&amp;nbsp;distinguishable from capital O.
+Now you might say, who cares, but if you read a lot of source code (like I do) Source Code Pro&amp;nbsp;is a real pleasure for your eyes.</description>
+    </item>
+    
+    <item>
+      <title>AquaEmacs and JDEE and Method Completion - Cannot find JDK&#39;s tools jar file (or equivalent)</title>
+      <link>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</link>
+      <pubDate>Wed, 24 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
+      <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).
+Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... 
+Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.</description>
     </item>
     
   </channel>
