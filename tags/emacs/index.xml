@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on tedn.life</title>
+    <link>http://tedn.life/tags/emacs/</link>
+    <description>Recent content in Emacs on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs &amp; Lisp ... a match made in heaven</title>
+      <link>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</guid>
+      <description>At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of elixir, the next week I write go, the week afterwards I need to fix some of our terraform configurations and on the weekend I am fixing a bug in a scala project.
+What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &amp;hellip;).</description>
+    </item>
+    
+  </channel>
+</rss>

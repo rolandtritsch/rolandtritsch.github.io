@@ -5,10 +5,46 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://tedn.life/tags/emacs/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lisp</title>
+      <link>http://tedn.life/tags/lisp/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/lisp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips-tricks/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TEDN</title>
@@ -16,15 +52,6 @@
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips &amp; Tricks</title>
-      <link>http://tedn.life/tags/tips-tricks/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tips-tricks/</guid>
       <description></description>
     </item>
     
@@ -61,15 +88,6 @@
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/environment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Mon, 30 Mar 2020 21:36:09 +0100</pubDate>
-      
-      <guid>http://tedn.life/tags/nerdy/</guid>
       <description></description>
     </item>
     
