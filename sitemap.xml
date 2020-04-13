@@ -4,56 +4,71 @@
   
   <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tedn.life/tags/emacs/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/lisp/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/tips-tricks/</loc>
-    <lastmod>2020-04-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</loc>
-    <lastmod>2020-04-10T13:47:02+01:00</lastmod>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/categories/personal/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/2020/04/13/roland-...-whats-in-a-name/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/thoughts/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/emacs/</loc>
+    <lastmod>2020-04-12T21:00:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</loc>
+    <lastmod>2020-04-12T21:00:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/lisp/</loc>
+    <lastmod>2020-04-12T21:00:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/nerdy/</loc>
+    <lastmod>2020-04-12T21:33:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/software-engineering/</loc>
+    <lastmod>2020-04-12T21:33:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/tips-tricks/</loc>
+    <lastmod>2020-04-12T21:33:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</loc>
     <lastmod>2020-04-10T13:47:02+01:00</lastmod>
   </url>
   
@@ -64,11 +79,6 @@
   
   <url>
     <loc>http://tedn.life/tags/books/</loc>
-    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/culture/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url>
   
@@ -243,11 +253,6 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/tags/thoughts/</loc>
-    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/2018/01/20/about-being-a-software-development-manager-...-and-managing-energy/</loc>
     <lastmod>2020-03-30T21:27:02+01:00</lastmod>
   </url>
@@ -319,11 +324,6 @@
   
   <url>
     <loc>http://tedn.life/2016/10/31/ooohhh-boy-...-twitterfeed-is-no-more/</loc>
-    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/2016/10/29/roland-...-whats-in-a-name/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url>
   
@@ -403,13 +403,8 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/categories/software-development/</loc>
-    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</loc>
-    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
+    <lastmod>2020-04-12T21:33:27+01:00</lastmod>
   </url>
   
   <url>
