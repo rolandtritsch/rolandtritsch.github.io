@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TEDN on tedn.life</title>
-    <link>http://tedn.life/categories/tedn/</link>
-    <description>Recent content in TEDN on tedn.life</description>
+    <title>Podcast on tedn.life</title>
+    <link>http://tedn.life/tags/podcast/</link>
+    <description>Recent content in Podcast on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 25 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://tedn.life/categories/tedn/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tedn.life/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,18 +22,6 @@ Wollte schon immer mal ausprobieren wie man sowas produziert.
 Und wie es der Zufall so will hatte ich ueber die letzten Wochen und Monate ein paar super-interessante Gesprache mit meinem Freund Hermann (Sauer).
 Er ist Geschäftsführer und Gründer bei Comidio und Erfinder der Trutzbox.
 Hermann und ich kennen uns jetzt seit mehr als 30 Jahren und wollen in den naechsten Wochen und Monaten eine Podcast-Serie produzieren um zu diskutieren wie man sich heutzutage zeitgemaess davor schuetzen kann das die eigenen Daten unreflektiert dem Internet zur Verfuegung gestellt werden.</description>
-    </item>
-    
-    <item>
-      <title>The TEDN Van</title>
-      <link>http://tedn.life/2020/04/14/the-tedn-van/</link>
-      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/2020/04/14/the-tedn-van/</guid>
-      <description>Here we go again: There is good news and bad news!!!
-The good news is that the TEDN Mobile Office project is making good progress!
-By now we (means mainly my dad :)) have &amp;hellip;
- put in a screen installed an external 230V power plug (so that I can get power on/from a camp-ground) installed a fridge and a sink and a cooker (basically a kitchen) tested the tent (see below) installed a roof box (to store the tent) got ourselves a foldable e-bike  &amp;hellip; means: we are ready to rock and roll!</description>
     </item>
     
   </channel>
