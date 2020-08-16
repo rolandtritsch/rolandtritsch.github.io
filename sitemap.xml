@@ -4,42 +4,42 @@
   
   <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/tags/german/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/tags/podcast/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/2020/07/25/podcast-trutzbox-i/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tedn.life/categories/tedn/</loc>
-    <lastmod>2020-08-13T11:02:26+01:00</lastmod>
+    <loc>http://tedn.life/tags/tedn/</loc>
+    <lastmod>2020-08-15T16:32:29+01:00</lastmod>
   </url>
   
   <url>
@@ -94,11 +94,6 @@
   
   <url>
     <loc>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</loc>
-    <lastmod>2020-04-10T13:47:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/tedn/</loc>
     <lastmod>2020-04-10T13:47:02+01:00</lastmod>
   </url>
   
@@ -173,13 +168,13 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
+    <loc>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</loc>
+    <lastmod>2020-04-05T17:14:15+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</loc>
-    <lastmod>2020-04-05T17:14:15+01:00</lastmod>
+    <loc>http://tedn.life/tags/advent-of-code/</loc>
+    <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url>
   
   <url>
@@ -548,12 +543,12 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/tags/cloud-computing/</loc>
+    <loc>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</loc>
+    <loc>http://tedn.life/tags/cloud-computing/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url>
   
@@ -585,11 +580,6 @@
   <url>
     <loc>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/conferences/</loc>
-    <lastmod>2020-03-31T12:41:25+01:00</lastmod>
   </url>
   
   <url>

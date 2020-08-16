@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>TEDN</title>
+      <link>http://tedn.life/tags/tedn/</link>
+      <pubDate>Sat, 25 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tedn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Culture</title>
       <link>http://tedn.life/tags/culture/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
@@ -83,15 +92,6 @@
     </item>
     
     <item>
-      <title>TEDN</title>
-      <link>http://tedn.life/tags/tedn/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Books</title>
       <link>http://tedn.life/tags/books/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
@@ -128,7 +128,7 @@
     </item>
     
     <item>
-      <title>Advent of Code</title>
+      <title>Advent-of-Code</title>
       <link>http://tedn.life/tags/advent-of-code/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -164,7 +164,7 @@
     </item>
     
     <item>
-      <title>Functional Programming</title>
+      <title>Functional-Programming</title>
       <link>http://tedn.life/tags/functional-programming/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
       
@@ -191,7 +191,7 @@
     </item>
     
     <item>
-      <title>Micro Services</title>
+      <title>Micro-Services</title>
       <link>http://tedn.life/tags/micro-services/</link>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
       
@@ -218,7 +218,7 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
+      <title>Machine-Learning</title>
       <link>http://tedn.life/tags/machine-learning/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
       
@@ -263,7 +263,7 @@
     </item>
     
     <item>
-      <title>Cloud Computing</title>
+      <title>Cloud-Computing</title>
       <link>http://tedn.life/tags/cloud-computing/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
       
@@ -272,7 +272,7 @@
     </item>
     
     <item>
-      <title>Mass Customization</title>
+      <title>Mass-Customization</title>
       <link>http://tedn.life/tags/mass-customization/</link>
       <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
       
@@ -308,7 +308,7 @@
     </item>
     
     <item>
-      <title>Web Services</title>
+      <title>Web-Services</title>
       <link>http://tedn.life/tags/web-services/</link>
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
       
@@ -326,7 +326,7 @@
     </item>
     
     <item>
-      <title>Open Source</title>
+      <title>Open-Source</title>
       <link>http://tedn.life/tags/open-source/</link>
       <pubDate>Thu, 22 Jan 2009 00:00:00 +0000</pubDate>
       
