@@ -11,6 +11,29 @@
     
     
     <item>
+      <title>Haskell &#43; Beam = Hamler (I)</title>
+      <link>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</guid>
+      <description>What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
+Yes, right: Hamler!
+Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
+At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems). Our entire backend runs on the Beam (written in Elixir).
+And I am a big fan of Haskell and Functional Programming and the Advent-of-Code (I guess you can see, where this is going :)).</description>
+    </item>
+    
+    <item>
+      <title>Internet connections ... the life blood of The Extreme Digital Nomad</title>
+      <link>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</guid>
+      <description>I am in Hidden Valley Holiday Park. Working on the career progression framework for Community. It is 5am and &amp;hellip; I realized something. Don&amp;rsquo;t hold your breath: It is something obvious (but I thought I share it anyway).
+If you want to be successful as an Extreme Digital Nomad, having a good internet connection is absolutely essential (this is more true now then ever before, because of Covid-19 an even bigger part of the job relies on videoconverencing).</description>
+    </item>
+    
+    <item>
       <title>What&#39;s a Staff Director?</title>
       <link>http://tedn.life/2020/08/31/whats-a-staff-director/</link>
       <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elixir on tedn.life</title>
+    <link>http://tedn.life/tags/elixir/</link>
+    <description>Recent content in Elixir on tedn.life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Haskell &#43; Beam = Hamler (I)</title>
+      <link>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</guid>
+      <description>What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
+Yes, right: Hamler!
+Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
+At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems). Our entire backend runs on the Beam (written in Elixir).
+And I am a big fan of Haskell and Functional Programming and the Advent-of-Code (I guess you can see, where this is going :)).</description>
+    </item>
+    
+  </channel>
+</rss>

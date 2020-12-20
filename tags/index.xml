@@ -5,10 +5,82 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Advent-of-Code</title>
+      <link>http://tedn.life/tags/advent-of-code/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/advent-of-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://tedn.life/tags/community/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>http://tedn.life/tags/elixir/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional-Programming</title>
+      <link>http://tedn.life/tags/functional-programming/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haskell</title>
+      <link>http://tedn.life/tags/haskell/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/haskell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEDN</title>
+      <link>http://tedn.life/tags/tedn/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tedn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips-tricks/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Culture</title>
@@ -47,15 +119,6 @@
     </item>
     
     <item>
-      <title>TEDN</title>
-      <link>http://tedn.life/tags/tedn/</link>
-      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Emacs</title>
       <link>http://tedn.life/tags/emacs/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
@@ -70,24 +133,6 @@
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/lisp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/nerdy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips &amp; Tricks</title>
-      <link>http://tedn.life/tags/tips-tricks/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tips-tricks/</guid>
       <description></description>
     </item>
     
@@ -119,24 +164,6 @@
     </item>
     
     <item>
-      <title>Haskell</title>
-      <link>http://tedn.life/tags/haskell/</link>
-      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/haskell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Advent-of-Code</title>
-      <link>http://tedn.life/tags/advent-of-code/</link>
-      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/advent-of-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Eta</title>
       <link>http://tedn.life/tags/eta/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
@@ -160,15 +187,6 @@
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/scala/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functional-Programming</title>
-      <link>http://tedn.life/tags/functional-programming/</link>
-      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/functional-programming/</guid>
       <description></description>
     </item>
     
