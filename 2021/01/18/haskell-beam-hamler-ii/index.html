@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>tedn.life - Haskell &#43; Beam = Hamler (I) </title>
+    <title>tedn.life - Haskell &#43; Beam = Hamler (II) </title>
 
     
     
@@ -96,10 +96,10 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
-                    <h1>Haskell &#43; Beam = Hamler (I)</h1>
+                    <h1>Haskell &#43; Beam = Hamler (II)</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2020-12-15</span>
+    <span>2021-01-18</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
@@ -137,29 +137,31 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>What&rsquo;s at the intersection of <a href="https://www.haskell.org/">Haskell</a>, the Erlang <a href="https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)">Beam</a>/<a href="http://erlang.org/doc/system_architecture_intro/sys_arch_intro.html">OTP</a> and the <a href="https://adventofcode.com">Advent-of-Code</a>?</p>
-<p>Yes, right: <a href="https://www.hamler-lang.org">Hamler</a>!</p>
-<p>Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.</p>
-<p>At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems). Our entire backend runs on the Beam (written in Elixir).</p>
-<p>And <a href="https://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut">I am a big fan</a> of Haskell and Functional Programming and the Advent-of-Code (I guess you can see, where this is going :)).</p>
-<p>So &hellip; I figured, this year I do <a href="https://github.com/rolandtritsch/hamler-aoc-2020">the Advent-of-Code in Hamler</a> (and as far as I can see it, I am the only one to do it Hamler).</p>
-<p>There are a couple of questions I want to answer &hellip;</p>
-<ol>
-<li>How stable is Hamler? Does it work? Does it crash? A lot? When compiling code? When running code?</li>
-<li>How close is it to Haskell? Do you have to learn a new language or can you (more or less) write Haskell code and &ldquo;it will just work&rdquo; (tm)?</li>
-<li>How complete is it? Is all of Haskell supported? Or just parts of it? Which parts?</li>
-<li>How about the eco-system? Are there (already) any libraries? Is there a Hamler version of Hackage?</li>
-<li>How about the development environment? Can you use existing IDE&rsquo;s to develop Hamler code?</li>
-<li>How about the performance? Is it as fast as Haskell? As fast as Erlang?</li>
-<li>How about the exisiting Haskell eco-system? Can you use/reuse existing Haskell code in Hamler?</li>
-<li>How about the existing Erlang eco-system? Can you use/resuse existing Erlang code (or maybe even Elixir code) in Hamler?</li>
-<li>How about the Beam/OTP? How can you use GenServers and Supervisors?</li>
-</ol>
-<p>First (to set the scene/stage): Hamler was/is developed/sponsored by EMQ. EMQ is an open source software company providing highly-scalable, real-time messaging and streaming engine for IoT platform &amp; applications in 5G Era. It is implemented in Erlang. But (it seems) that the guys at EMQ also felt that there are a couple of things that are missing, when you use Erlang as the means to get to the goodness of OTP and the Beam (not to dissimilar to Jose&rsquo;s motivation when he started Elixir).</p>
-<img src="/images/2020-12-15-hamler-aoc-I/aoc-week1.png" style="display:block; margin-left: auto; margin-right: auto;" width="80%" hspace="10" vspace="10"/>
-<p>The first impression (week 1) is good. Hamler is much more stable than I thought. The compiler works and is giving meaningful error messages. The runtime works and is only crashing when I am doing something wrong.</p>
-<p>The (not so unexpected) gaps are the lack of tooling (but &hellip; there is a repl and I was able to get good millage out of the emacs haskell-mode (without using a/the lsp-mode/-server (obvisoulsy)) and the small number libraries and packages that are available (when you do the AoC, something like MegaParsec is obviously very useful to read/parse the input files).</p>
-<p>After I am done, I will followup with a couple of blog-posts to answer the questions above. Stay tuned &hellip;</p>
+                    <p>Here comes part II of the <a href="https://tedn.life/2020/12/15/haskell-beam-hamler-i/">Hamler blog post series</a> &hellip;</p>
+<p>For this year&rsquo;s <a href="">Advent-of-Code</a> I wanted to take a look at <a href="https://www.hamler-lang.org/">Hamler</a>.</p>
+<p>I just finished implementing all of the part-1 solutions in <a href="https://github.com/rolandtritsch/hamler-aoc-2020">Hamler</a>.</p>
+<img src="/images/2021-01-18-hamler-aoc-II/aoc-day25.png" style="float:right" width="50%" hspace="1%" vspace="1%"/>
+<p>I had to skip Day 20 (the seamonster), because Hamler only supports a very small/limited number of packages, which means I would have needed to write a lot of code before I would have been able to tackle the actual problem.</p>
+<p>Hamler is under active development and I started to build it from the main branch to make sure I can use some features/capabilities that I needed/wanted (e.g. <code>read</code>) to make my life easier.</p>
+<p>My development environment (emacs) had the source code in a frame on the left and an <code>iwatch -c 'hamler test' src/Day00.hm</code> on the right (that way the tests where running every time I saved the file). I also had a window/frame open with a <code>hamler repl</code> in it and was cutting/pasting code from/to it. This was a very limited IDE, but it worked.</p>
+<p>On Day 23 I build Hamler again and afterwards was not able to make the repl work again. And without the repl development became very cumbersome.</p>
+<p>So I decided that it is time to bite the bullet and port all of the code to <a href="https://github.com/rolandtritsch/haskell-aoc-2020">Haskell</a>.</p>
+<p>That went well, because my Hamler code was very <em>haskell-ish</em>. Means it was not using any of the Erlang capabilities (e.g. GenServers), which made porting it easy (mainly changing <code>Integer</code> to <code>Int</code>, changing list pattern matching from <code>[x|_]</code> to <code>(x:_)</code> and changing some of the functions (e.g. <code>splitOn</code>)). You can take a look at some of the <a href="https://github.com/rolandtritsch/haskell-aoc-2020/commit/e432185ee229276961f886a6e711b6253d38269f">commits</a> to get a feel for the changes I had to make.</p>
+<img src="/images/2021-01-18-hamler-aoc-II/bench.png" style="float:left" width="40%" hspace="1%" vspace="1%"/>
+<p>One big difference was obviously that (suddenly :)) I had a fully functional IDE again (code completion, LSP language server, &hellip;) and that was huge!!!</p>
+<p>After I was done porting Day 1 to 22 to Haskell, I developed the solutions for Day 23 to 25 in Haskell and ported that code back to Hamler. That worked <a href="https://github.com/rolandtritsch/hamler-aoc-2020/commit/6a8b48bfba9075e0b5238f07c7d2ab8b622b8aae">too</a>.</p>
+<p>At the end I did a little bit of <a href="https://docs.google.com/spreadsheets/d/1MEcjgN7xbqkTR79Z5WyITtC5foah_QtG5Nm3EmB4P9w/edit?usp=sharing">benchmarking</a> between Hamler and Haskell. In general Hamler is roughly 5-20 times slower than Haskell. There was/is something wrong with Day 21. For that day Hamler is 6000 times slower than Haskell (running the <em>same</em> code).</p>
+<p>So far the main take-aways for me are &hellip;</p>
+<ul>
+<li>Hamler works much better than I expected</li>
+<li>But there is a lot of tooling missing to support a good development experience</li>
+<li>And there are (a lot of) packages missing</li>
+<li>And Hamler is slower that Haskell</li>
+</ul>
+<p>&hellip; and this assessment is not really fair, because it suggests to look at Hamler as Haskell on the BEAM.</p>
+<p>I am not sure this is a good/the right way to look at this. For me a better/the right way to look at this is to compare Hamler with Erlang and ask: What is Hamler giving me that Erlang is not giving me?</p>
+<p>I think the core strength of Hamler is not that it is a <em>better</em> Haskell, but more that it allows you to get to the capabilities of the BEAM writing Haskell-like code.</p>
+<p>The next step will be/needs to be to investigate some of these strength more (using GenServers, (re)using/linking with existing Erlang/Elixir artifacts, &hellip;). Stay tuned &hellip;</p>
 </div>
             </div>
         </div>
@@ -169,6 +171,52 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <h1 class="single-title">Relevant Topics</h1>
                 
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/12/15/haskell-beam-hamler-i/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (I)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-12-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
@@ -318,44 +366,6 @@ layui.use('element', function(){
                         </blockquote>
                     </div>
                 	
-                    <div style="margin-left: 10px;">
-                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/">
-                                <h2 class="">Internet connections ... the life blood of The Extreme Digital Nomad</h2>
-                            </a>
-                            <h3 style="margin-top:10px; margin-bottom:10px">
-    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2020-09-11</span>
-
-    
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
-    
-        <a href="/categories/personal">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
-        </a>
-    
-        <a href="/categories/software-engineering">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
-        </a>
-    
-    
-        <a href="/tags/tedn">
-            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
-        </a>
-    
-        <a href="/tags/tips-tricks">
-            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
-        </a>
-    
-        <a href="/tags/community">
-            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
-        </a>
-    
-</h3>
-
-                        </blockquote>
-                    </div>
-                	
                 
                 <br />
             </div>
@@ -369,7 +379,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on  2020-12-20 15:27:13 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2020 Roland Tritsch - All rights reserved. Last updated on </p>
     </div>
 </footer>
 
