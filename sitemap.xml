@@ -174,7 +174,7 @@
   
   <url>
     <loc>http://tedn.life/about/</loc>
-    <lastmod>2020-04-05T16:56:04+01:00</lastmod>
+    <lastmod>2021-01-25T11:43:51+00:00</lastmod>
   </url>
   
   <url>
@@ -184,7 +184,7 @@
   
   <url>
     <loc>http://tedn.life/</loc>
-    <lastmod>2020-04-05T16:56:04+01:00</lastmod>
+    <lastmod>2021-01-25T11:43:51+00:00</lastmod>
   </url>
   
   <url>
@@ -195,6 +195,26 @@
   <url>
     <loc>http://tedn.life/2020/03/30/the-corona-virus-...-and-its-consequences/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/conferences/</loc>
+    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/scala/</loc>
+    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -219,11 +239,6 @@
   
   <url>
     <loc>http://tedn.life/tags/kotlin/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/scala/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url>
   
@@ -269,11 +284,6 @@
   
   <url>
     <loc>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/conferences/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url>
   
