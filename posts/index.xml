@@ -40,11 +40,11 @@ I had to skip Day 20 (the seamonster), because Hamler only supports a very small
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</guid>
-      <description>What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
+      <description>Hamler Blog Post Series &amp;hellip;
+ Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster   What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
 Yes, right: Hamler!
 Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
-At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems). Our entire backend runs on the Beam (written in Elixir).
-And I am a big fan of Haskell and Functional Programming and the Advent-of-Code (I guess you can see, where this is going :)).</description>
+At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
     </item>
     
     <item>
