@@ -5,10 +5,22 @@
     <link>http://tedn.life/tags/community/</link>
     <description>Recent content in Community on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Haskell &#43; Beam = Hamler (III)</title>
+      <link>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</guid>
+      <description>Here comes part III of the Hamler blog post series &amp;hellip;
+One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.
+Just looked into this a little bit and there is good news and bad news. The good news is I found something.
+I can make the hamer solution run 10 times faster by changing the implementation of part1 from &amp;hellip;</description>
+    </item>
     
     <item>
       <title>Haskell &#43; Beam = Hamler (II)</title>
