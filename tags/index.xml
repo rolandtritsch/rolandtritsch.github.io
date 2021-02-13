@@ -5,10 +5,28 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Culture</title>
+      <link>http://tedn.life/tags/culture/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote</title>
+      <link>http://tedn.life/tags/remote/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/remote/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Advent-of-Code</title>
@@ -83,15 +101,6 @@
     </item>
     
     <item>
-      <title>Culture</title>
-      <link>http://tedn.life/tags/culture/</link>
-      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Thoughts</title>
       <link>http://tedn.life/tags/thoughts/</link>
       <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
@@ -142,15 +151,6 @@
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remote</title>
-      <link>http://tedn.life/tags/remote/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/remote/</guid>
       <description></description>
     </item>
     
