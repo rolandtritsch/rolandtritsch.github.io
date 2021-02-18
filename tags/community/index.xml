@@ -5,10 +5,20 @@
     <link>http://tedn.life/tags/community/</link>
     <description>Recent content in Community on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The first Summit/Hack-a-thon @ Community</title>
+      <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</guid>
+      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;
+Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
+    </item>
     
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
