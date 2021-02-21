@@ -5,10 +5,16 @@
     <link>http://tedn.life/</link>
     <description>Recent content on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scala 3 is ... gluten-free!!!</title>
+      <link>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</guid>
+      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.
+Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
+    </item>
     
     <item>
       <title>The first Summit/Hack-a-thon @ Community</title>
@@ -505,7 +511,7 @@ The other day, I noticed something that leaves room for improvement. On a Sunday
       
       <guid>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</guid>
       <description>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!
-The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;quot;.
+The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;rdquo;.
 For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</description>
     </item>
     

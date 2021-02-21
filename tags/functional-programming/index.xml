@@ -5,10 +5,16 @@
     <link>http://tedn.life/tags/functional-programming/</link>
     <description>Recent content in Functional-Programming on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scala 3 is ... gluten-free!!!</title>
+      <link>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</guid>
+      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.
+Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
+    </item>
     
     <item>
       <title>Haskell &#43; Beam = Hamler (III)</title>

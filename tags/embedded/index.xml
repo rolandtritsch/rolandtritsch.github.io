@@ -5,11 +5,7 @@
     <link>http://tedn.life/tags/embedded/</link>
     <description>Recent content in Embedded on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Feb 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 06 Feb 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scala on the Pebble - Exploring SDK 2.0 ...</title>
       <link>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</link>

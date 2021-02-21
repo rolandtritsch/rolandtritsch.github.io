@@ -5,10 +5,33 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Functional-Programming</title>
+      <link>http://tedn.life/tags/functional-programming/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/functional-programming/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Scala</title>
+      <link>http://tedn.life/tags/scala/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/scala/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Community</title>
@@ -56,29 +79,11 @@
     </item>
     
     <item>
-      <title>Functional-Programming</title>
-      <link>http://tedn.life/tags/functional-programming/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/functional-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Haskell</title>
       <link>http://tedn.life/tags/haskell/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/haskell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/nerdy/</guid>
       <description></description>
     </item>
     
@@ -173,15 +178,6 @@
     </item>
     
     <item>
-      <title>Scala</title>
-      <link>http://tedn.life/tags/scala/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/scala/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Eta</title>
       <link>http://tedn.life/tags/eta/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
@@ -223,15 +219,6 @@
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mac</title>
-      <link>http://tedn.life/tags/mac/</link>
-      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/mac/</guid>
       <description></description>
     </item>
     
@@ -331,6 +318,15 @@
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://tedn.life/tags/mac/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/mac/</guid>
       <description></description>
     </item>
     

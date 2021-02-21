@@ -1,0 +1,390 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Scala 3 is ... gluten-free!!! </title>
+
+    
+    
+    <meta content="Functional-Programming, Nerdy, Scala, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>Scala 3 is ... gluten-free!!!</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-02-21</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.</p>
+<p>Funny enough I had to find out that (even) late(r) in life you <a href="https://www.everydayhealth.com/news/developing-celiac-later-life-can-you-become-gluten-intolerant/">can &ldquo;become&rdquo; gluten-sensitive/-intolerant</a>. Means &hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &hellip; after 3 days I was pain free!</p>
+<p>But &hellip; I am still learning what I can eat and what I can&rsquo;t eat. Last week I had some bad food (I think a not-excactly-gluten-free meatball sauce) &hellip; and paid for it with a day of stomach cramps.</p>
+<img src="/images/2021-02-21-scala3-gluten-free/scala3.png" style="float:right" width="18%" hspace="5%" vspace="1%"/>
+<p>While I was recovering I was looking for something to sooth my stomach. Some people use Coca-Cola and bretzle-sticks. That&rsquo;s not really my thing.</p>
+<p>Instead I figured (given that it will be released this <a href="http://dotty.epfl.ch/blog/2021/02/17/scala3-rc1.html">year</a>) I try writing some Scala 3 code to see how that feels. And I am happy to report that writing Scala 3 code is very soothing (at least for me) and I can confirm that Scala 3 is 100% gluten-free (it does not cause any stomach cramps :)).</p>
+<p>First I was interested what I need to do to get my (<a href="https://github.com/rolandtritsch/emacs.d">emacs</a>) development environment updated/up-and-running. Short answer: Not a lot &hellip;</p>
+<ul>
+<li>I installed openjdk-16 and</li>
+<li>sbt 1.4.7 and</li>
+<li>forked the <a href="https://github.com/rolandtritsch/scala3-example-project">scala3-example-project</a> and</li>
+<li>was able to run it (<code>sbt run</code>)</li>
+</ul>
+<p>But when I started to edit the sources metals complained that it only supports <code>3.0.0-M3</code> (and not <code>3.0.0-RC1</code> (yet)). Got that fixed (by downgrading to <code>3.0.0-M3</code>) and then moved on to add some tests.</p>
+<p>There are already a couple of good options available how to write tests. You can obviously use <a href="https://alvinalexander.com/scala/how-to-use-junit-testing-with-scala/">junit</a> and <a href="https://github.com/scalatest/scalatest/issues/1138">scalatest</a>. One other mean-and-lean option to write tests for Scala 3 code is to use <a href="https://github.com/monix/minitest">minittest</a>. It even supports an integration with <a href="https://www.scalacheck.org">scalacheck</a> to do some property-based testing.</p>
+<p>I used minitest to add tests to the <a href="https://github.com/rolandtritsch/scala3-example-project">examples project</a>. Enjoy &hellip;</p>
+</div>
+            </div>
+        </div>
+
+        
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/">
+                                <h2 class="">Code Elixir LDN 2019 - 3 languages in 3 minutes</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2019-08-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/02/01/haskell-beam-hamler-iii/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (III)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-02-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/01/18/haskell-beam-hamler-ii/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (II)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-01-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/12/15/haskell-beam-hamler-i/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (I)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-12-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2018/08/11/advent-of-code-2017-...-revolutions/">
+                                <h2 class="">Advent of Code 2017 ... Revolutions!!!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-08-11</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>
