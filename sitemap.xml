@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://tedn.life/tags/advent-of-code/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/functional-programming/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2021/05/01/more-fun-with-scala3/</loc>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/scala/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/</loc>
-    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</loc>
+    <lastmod>2021-02-21T11:27:39+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/community/</loc>
     <lastmod>2021-02-18T10:16:53+00:00</lastmod>
@@ -43,9 +49,6 @@
   </url><url>
     <loc>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</loc>
     <lastmod>2021-02-18T10:16:53+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2021-02-01T09:57:43+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/elixir/</loc>
     <lastmod>2021-02-01T09:57:43+00:00</lastmod>

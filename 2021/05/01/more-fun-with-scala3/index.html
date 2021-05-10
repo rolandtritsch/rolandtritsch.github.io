@@ -3,11 +3,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>tedn.life - Scala 3 is ... gluten-free!!! </title>
+    <title>tedn.life - More fun with Scala3 </title>
 
     
     
-    <meta content="Functional-Programming, Nerdy, Scala, Software-Craftmanship" name="keywords">
+    <meta content="Advent-of-Code, Functional-Programming, Nerdy, Scala, Software-Craftmanship" name="keywords">
     
     <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -96,10 +96,10 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
-                    <h1>Scala 3 is ... gluten-free!!!</h1>
+                    <h1>More fun with Scala3</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2021-02-21</span>
+    <span>2021-05-01</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
@@ -108,6 +108,10 @@ layui.use('element', function(){
             <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
         </a>
     
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
     
         <a href="/tags/functional-programming">
             <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
@@ -125,22 +129,22 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.</p>
-<p>Funny enough I had to find out that (even) late(r) in life you <a href="https://www.everydayhealth.com/news/developing-celiac-later-life-can-you-become-gluten-intolerant/">can &ldquo;become&rdquo; gluten-sensitive/-intolerant</a>. Means &hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &hellip; after 3 days I was pain free!</p>
-<p>But &hellip; I am still learning what I can eat and what I can&rsquo;t eat. Last week I had some bad food (I think a not-excactly-gluten-free meatball sauce) &hellip; and paid for it with a day of stomach cramps.</p>
-<img src="/images/2021-02-21-scala3-gluten-free/scala3.png" style="float:right" width="18%" hspace="5%" vspace="1%"/>
-<p>While I was recovering I was looking for something to sooth my stomach. Some people use Coca-Cola and bretzle-sticks. That&rsquo;s not really my thing.</p>
-<p>Instead I figured (given that it will be released this <a href="http://dotty.epfl.ch/blog/2021/02/17/scala3-rc1.html">year</a>) I try writing some Scala 3 code to see how that feels. And I am happy to report that writing Scala 3 code is very soothing (at least for me) and I can confirm that Scala 3 is 100% gluten-free (it does not cause any stomach cramps :)).</p>
-<p>First I was interested what I need to do to get my (<a href="https://github.com/rolandtritsch/emacs.d">emacs</a>) development environment updated/up-and-running. Short answer: Not a lot &hellip;</p>
-<ul>
-<li>I installed openjdk-16 and</li>
-<li>sbt 1.4.7 and</li>
-<li>forked the <a href="https://github.com/rolandtritsch/scala3-example-project">scala3-example-project</a> and</li>
-<li>was able to run it (<code>sbt run</code>)</li>
-</ul>
-<p>But when I started to edit the sources metals complained that it only supports <code>3.0.0-M3</code> (and not <code>3.0.0-RC1</code> (yet)). Got that fixed (by downgrading to <code>3.0.0-M3</code>) and then moved on to add some tests.</p>
-<p>There are already a couple of good options available how to write tests. You can obviously use <a href="https://alvinalexander.com/scala/how-to-use-junit-testing-with-scala/">junit</a> and <a href="https://github.com/scalatest/scalatest/issues/1138">scalatest</a>. One other mean-and-lean option to write tests for Scala 3 code is to use <a href="https://github.com/monix/minitest">minittest</a>. It even supports an integration with <a href="https://www.scalacheck.org">scalacheck</a> to do some property-based testing.</p>
-<p>I used minitest to add tests to the <a href="https://github.com/rolandtritsch/scala3-example-project">examples project</a>. Enjoy &hellip;</p>
+                    <p>The release of Scala3 is <a href="https://contributors.scala-lang.org/t/scala3-rc3-is-planned/5006">imminent</a>.</p>
+<p>In April I ported/migrated <a href="https://github.com/NinesStack/nmesos">nmesos</a> from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my <a href="https://adventofcode.com">Advent-of-Code</a> implementation from <a href="https://github.com/rolandtritsch/scala-aoc-2017/tree/scala3">2017</a>.</p>
+<p>Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).</p>
+<p>The good news is that migrating to Scala3 is not difficult at all. Mainly because of the Scala2/Scala3 <a href="https://docs.scala-lang.org/scala3/guides/migration/compatibility-intro.html">interoperability</a>, which means that as long as you are on Scala <code>2.13</code> you are more than half-way there.</p>
+<p>Which leads to the main challenge (at least from my point of view) and that is the upgrade to <code>2.13</code>. Both of my migration projects used old(er) versions of Scala and I first had to upgrade both projects and all of the dependencies to Scala <code>2.13</code>, which was 80% of the work/effort.</p>
+<p>And yes, on top of that you need to keep an eye on the marco-based libraries that need to be migrated to <code>3.0</code> and are <a href="https://scalacenter.github.io/scala-3-migration-guide/docs/macros/macro-libraries.html">not migrated yet</a>, but this list will get smaller fast/soon (and was not a problem for me).</p>
+<p>Which leads to the question: Why to migrate to Scala3 (right now)?</p>
+<p>The short answer is probably, that if you do not have a very specific reason (e.g. a bug/bad behavior in Scala2 that is <a href="https://blog.softwaremill.com/annoying-things-in-scala-2-thatll-be-mostly-gone-in-scala-3-e1479a6d855c">bothering</a> you) there is no <strong>need</strong> to migrate right now.</p>
+<p>Instead I would spent time to make sure that my code is current (run/uses <code>2.13</code>), which is a good practice anyway and then migrate to Scala3 when a reason to do so materializes itself.</p>
+<p>Now &hellip; one question that always comes up is, if run-time performance is one of these reasons. The short answer is probably no, because the performance of Scala3 is mainly determined by the performance of the <code>2.13</code> standard libarary, means I do not expect <code>3.0</code> to be much faster then <code>2.13</code>. And I also expect that is is not going to be any slower than <code>2.13</code> (mainly because <a href="http://dotty-bench.epfl.ch">benchmarking</a> <code>3.0</code> against <code>2.13</code> is an on-going effort).</p>
+<img src="/images/2021-05-01-more-scala3/bench.png" style="display:block; margin_right:auto; margin_leaft:auto" width="80%" hspace="1%" vspace="1%"/>
+<p>At the same time I have to say that I did my own <a href="https://docs.google.com/spreadsheets/d/14wLxVAdPpnWcp2c7Sy_tr6PVnBUU17fx39EExUrtbfs/edit?usp=sharing">benchmarking</a> and compared the performance of <code>2.13</code> with the performance of <code>3.0.0-RC3</code> finding the solutions for the 2017 Advent of Code and for Day 18, 22 and 25 I saw performance degradations that I want to investigate more (I will probably wait until 3.0 is released and run the benchmark again).</p>
+<img src="/images/2021-05-01-more-scala3/difference.png" style="display:block; margin_right:auto; margin_leaft:auto" width="80%" hspace="1%" vspace="1%"/>
+<p>Last but not least I also want to call out that from my experience the Scala3 compiler (dotty) is not faster or slower than the Scala2 compiler (compiling my Advent of Code project takes 11 secs in both cases).</p>
+<p>All of this lacks scientific rigour, but gives nevertheless a good first impression how migrating to Scala3 will look like.</p>
+<p>For me the key take-a-way is that there are probably good reason to upgrade to <code>2.13</code>, but I do not see a reason to rush the upgrade/migration to <code>3.0</code>. At the same time it seems, that if you end up with a reason to migrate to <code>3.0</code>, it is a very do-able task.</p>
 </div>
             </div>
         </div>
@@ -153,12 +157,12 @@ layui.use('element', function(){
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/">
-                                <h2 class="">Code Elixir LDN 2019 - 3 languages in 3 minutes</h2>
+                            <a href="/2021/02/21/scala-3-is-...-gluten-free/">
+                                <h2 class="">Scala 3 is ... gluten-free!!!</h2>
                             </a>
                             <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2019-08-01</span>
+    <span>2021-02-21</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
@@ -168,24 +172,8 @@ layui.use('element', function(){
         </a>
     
     
-        <a href="/tags/conferences">
-            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
-        </a>
-    
-        <a href="/tags/community">
-            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
-        </a>
-    
-        <a href="/tags/elixir">
-            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
-        </a>
-    
         <a href="/tags/functional-programming">
             <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
-        </a>
-    
-        <a href="/tags/haskell">
-            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
         </a>
     
         <a href="/tags/nerdy">
@@ -333,35 +321,47 @@ layui.use('element', function(){
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/2018/08/11/advent-of-code-2017-...-revolutions/">
-                                <h2 class="">Advent of Code 2017 ... Revolutions!!!</h2>
+                            <a href="/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/">
+                                <h2 class="">Code Elixir LDN 2019 - 3 languages in 3 minutes</h2>
                             </a>
                             <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2018-08-11</span>
+    <span>2019-08-01</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-engineering">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
         </a>
     
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
     
         <a href="/tags/functional-programming">
             <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
         </a>
     
-        <a href="/tags/advent-of-code">
-            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
         </a>
     
         <a href="/tags/scala">
             <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
-        </a>
-    
-        <a href="/tags/kotlin">
-            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
         </a>
     
 </h3>
@@ -382,7 +382,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-02-21 11:27:39 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on </p>
     </div>
 </footer>
 

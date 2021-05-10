@@ -5,7 +5,19 @@
     <link>http://tedn.life/categories/software-craftmanship/</link>
     <description>Recent content in Software-Craftmanship on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More fun with Scala3</title>
+      <link>http://tedn.life/2021/05/01/more-fun-with-scala3/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/05/01/more-fun-with-scala3/</guid>
+      <description>The release of Scala3 is imminent.
+In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.
+Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).
+The good news is that migrating to Scala3 is not difficult at all.</description>
+    </item>
+    
     <item>
       <title>Scala 3 is ... gluten-free!!!</title>
       <link>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</link>
