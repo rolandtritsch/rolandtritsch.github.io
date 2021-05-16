@@ -5,7 +5,11 @@
     <link>http://tedn.life/tags/mass-customization/</link>
     <description>Recent content in Mass-Customization on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Apr 2010 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/mass-customization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/mass-customization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>International Conference on Mass Customization and Personalization in Central Europe (MCP-CE 2010)</title>
       <link>http://tedn.life/2010/04/07/international-conference-on-mass-customization-and-personalization-in-central-europe-mcp-ce-2010/</link>
