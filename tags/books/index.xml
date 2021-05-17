@@ -5,7 +5,11 @@
     <link>http://tedn.life/tags/books/</link>
     <description>Recent content in Books on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Discussing Remote ... the book!!!</title>
       <link>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</link>

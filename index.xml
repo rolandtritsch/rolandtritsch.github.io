@@ -5,17 +5,19 @@
     <link>http://tedn.life/</link>
     <description>Recent content on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>Some more fun with Scala3</title>
-      <link>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</link>
+      <title>(The Extreme) 100 Day Walking Challenge</title>
+      <link>http://tedn.life/2021/05/15/the-extreme-100-day-walking-challenge/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</guid>
-      <description>Scala3 is here.
-In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.
-And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.
-The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
+      <guid>http://tedn.life/2021/05/15/the-extreme-100-day-walking-challenge/</guid>
+      <description>In January I had a good call with my friend Braggy in Sydney. The insight was, that 2020 was different to what I/we expected, but with 20/20 hint-sight it was not necessarily a bad a year (at least not for me).
+The pandemic forced me to question what I am doing and why I am doing it and how I am doing it in a lot of interesting ways. I will always remember 2020 as a year where I grew a lot, albeit in unexpected ways/directions.</description>
     </item>
     
     <item>
@@ -536,7 +538,7 @@ The other day, I noticed something that leaves room for improvement. On a Sunday
       
       <guid>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</guid>
       <description>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!
-The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;rdquo;.
+The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;quot;.
 For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</description>
     </item>
     
