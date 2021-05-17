@@ -5,10 +5,18 @@
     <link>http://tedn.life/tags/functional-programming/</link>
     <description>Recent content in Functional-Programming on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some more fun with Scala3</title>
+      <link>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</guid>
+      <description>Scala3 is here.
+In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.
+And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.
+The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
+    </item>
     
     <item>
       <title>More fun with Scala3</title>

@@ -5,20 +5,7 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Thoughts</title>
-      <link>http://tedn.life/tags/thoughts/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/thoughts/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advent-of-Code</title>
       <link>http://tedn.life/tags/advent-of-code/</link>
@@ -115,6 +102,15 @@
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>http://tedn.life/tags/thoughts/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/thoughts/</guid>
       <description></description>
     </item>
     
@@ -227,15 +223,6 @@
     </item>
     
     <item>
-      <title>Mac</title>
-      <link>http://tedn.life/tags/mac/</link>
-      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/mac/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Machine-Learning</title>
       <link>http://tedn.life/tags/machine-learning/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
@@ -331,6 +318,15 @@
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://tedn.life/tags/mac/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/mac/</guid>
       <description></description>
     </item>
     
