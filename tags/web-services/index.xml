@@ -5,7 +5,11 @@
     <link>http://tedn.life/tags/web-services/</link>
     <description>Recent content in Web-Services on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Sep 2009 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/web-services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/web-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Effective Android - Using Apache CXF to access SOAP services</title>
       <link>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</link>

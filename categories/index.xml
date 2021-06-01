@@ -5,7 +5,29 @@
     <link>http://tedn.life/categories/</link>
     <description>Recent content in Categories on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Management</title>
+      <link>http://tedn.life/categories/management/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>http://tedn.life/categories/personal/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/personal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Software-Craftmanship</title>
       <link>http://tedn.life/categories/software-craftmanship/</link>
@@ -16,29 +38,11 @@
     </item>
     
     <item>
-      <title>Management</title>
-      <link>http://tedn.life/categories/management/</link>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Software-Engineering</title>
       <link>http://tedn.life/categories/software-engineering/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/categories/software-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>http://tedn.life/categories/personal/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/personal/</guid>
       <description></description>
     </item>
     

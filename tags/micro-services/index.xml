@@ -5,7 +5,11 @@
     <link>http://tedn.life/tags/micro-services/</link>
     <description>Recent content in Micro-Services on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 20 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/micro-services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/micro-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Can Micro-Services Systems be simple?</title>
       <link>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</link>
@@ -13,7 +17,7 @@
       
       <guid>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</guid>
       <description>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!
-The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;rdquo;.
+The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;quot;.
 For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</description>
     </item>
     
