@@ -5,10 +5,17 @@
     <link>http://tedn.life/tags/scala/</link>
     <description>Recent content in Scala on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/tags/scala/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effective Programming with Scala(3)</title>
+      <link>http://tedn.life/2021/06/02/effective-programming-with-scala3/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/06/02/effective-programming-with-scala3/</guid>
+      <description>Just finished the brand new Effective Programming with Scala course on Coursera.
+It is a beginners course and it is excellent for beginners. Good introduction to Scala and also into the basics of functional programming.
+But &amp;hellip; for me the main attraction was that the course is based on (and is using) Scala3, means even if you are a seasoned Scala2 software engineer (and/or have not written Scala code in a while), this course is an excellent refresher that will allow you to grasp the essence of why/how Scala3 is different from Scala2 in the shortest possible time (I was playing the videos on 2x and was able to do all 6 weeks in 6x3=18 hours; and used the exercices to make my IDE (emacs/metals) work with Scala3).</description>
+    </item>
     
     <item>
       <title>Some more fun with Scala3</title>
