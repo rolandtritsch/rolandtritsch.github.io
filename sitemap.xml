@@ -3,61 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2021/06/02/effective-programming-with-scala3/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/functional-programming/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <loc>http://tedn.life/categories/personal/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/scala/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/culture/</loc>
-    <lastmod>2021-06-01T11:50:29+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/2021/06/01/distances-know-them.-manage-them./</loc>
-    <lastmod>2021-06-01T11:50:29+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2021-06-01T11:50:29+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/remote/</loc>
-    <lastmod>2021-06-01T11:50:29+01:00</lastmod>
+    <loc>http://tedn.life/2021/06/10/the-end-of-the-pandemic-social-media-edition/</loc>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/thoughts/</loc>
-    <lastmod>2021-06-01T11:50:29+01:00</lastmod>
+    <lastmod>2021-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2021/06/02/effective-programming-with-scala3/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/functional-programming/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/scala/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2021/06/01/distances-know-them.-manage-them./</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/remote/</loc>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/05/15/the-extreme-100-day-walking-challenge/</loc>
     <lastmod>2021-05-16T18:15:58+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2021-05-17T15:51:22+01:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2021-05-17T15:51:22+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2021-05-16T18:15:58+01:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</loc>
-    <lastmod>2021-05-17T15:51:22+01:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/05/01/more-fun-with-scala3/</loc>
-    <lastmod>2021-05-17T15:51:22+01:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</loc>
     <lastmod>2021-02-21T11:27:39+00:00</lastmod>
@@ -69,16 +72,16 @@
     <lastmod>2021-02-18T10:16:53+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/elixir/</loc>
-    <lastmod>2021-02-01T09:57:43+00:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/haskell/</loc>
-    <lastmod>2021-02-01T09:57:43+00:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</loc>
-    <lastmod>2021-02-01T09:57:43+00:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2021-02-01T09:57:43+00:00</lastmod>
+    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</loc>
     <lastmod>2021-02-01T09:57:43+00:00</lastmod>
