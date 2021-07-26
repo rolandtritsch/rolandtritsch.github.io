@@ -1,0 +1,374 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Good WiFi - More TEDN dark arts </title>
+
+    
+    
+    <meta content="Remote, TEDN, Tips & Tricks, Personal" name="keywords">
+    
+    <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>Good WiFi - More TEDN dark arts</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-07-25</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>As I said <a href="https://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading">before</a> &hellip;</p>
+<blockquote>
+<p>When you work from <strong>anywhere</strong> (or even from home) it is <strong>YOUR</strong>(!!!) responsibility to ensure that you are connected!!!</p>
+<p>Statements like &hellip;</p>
+<ul>
+<li>&ldquo;Sorry &hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&rdquo;</li>
+<li>&ldquo;Can you hear me? Sorry &hellip; I am on a shitty/weak WLAN.&rdquo;</li>
+<li>&ldquo;Sorry &hellip; can we switch off the video. There is too much lag.&rdquo;</li>
+</ul>
+<p>&hellip; are <strong>just</strong> not good enough!!!</p>
+</blockquote>
+<p><a href="https://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading">Last time</a> we mainly talked about how to assess the quality of your connection (in a coffee-shop or campground) and how to judge, if it is good enough.</p>
+<p>This time around I want to talk a little bit about the equipment I am using to get myself into a position where I can be confident that I will have a good enough (at least 5Mbps down/up; less than 50msec latency; 99.99% uptime) WiFi connection to create a good experience for the people that want/need to work with me.</p>
+<p>BTW &hellip; redundancy is king/redundancy is your friend. There is always the risk that something will go wrong (router on the campground is broken) and that plan A does not work (for whatever reason). You want to make sure you have a plan B that you can execute on (fast).</p>
+<p>In that context I am normally planning my trips and my locations and my campgrounds around three options &hellip;</p>
+<ol>
+<li>The campground needs to have a WiFi/internet connection (I am asking them)</li>
+<li>The campground needs to have a strong/4G LTE signal (I use <a href="https://www.nperf.com">nperf</a> or something comparable)</li>
+<li>The campground needs to be close enough to a hotel or a Starbucks or a WeWorks so that I can go there (on my bicycle), if/when I have to (within 30 mins) (Google Maps is your friend here)</li>
+</ol>
+<img src="/images/2021-07-25-good-wifi/van.jpg" style="display:block; margin-right:auto; margin-left:auto" width="80%" hspace="5%" vspace="5%"/>
+<p>When I arrive I find myself a spot for the van and then I am using <a href="https://play.google.com/store/apps/details?id=com.nperf.tester">nperf</a> on my phone to measure the quality of the WiFi signal and the quality of the LTE signal on/from that spot. Especially the strength of the WiFi signal might vary with the spot you pick on the campground (e.g. if there are no repeaters on the ground, you might only be able to get a good signal when you are close to the reception building). You also need to take into consideration that campgrounds are places with high concentration of people and they all share the same WiFi and the same LTE cell/tower, means whatever bandwidth/latency you are measuring in the morning might get halved later in the day/evening, when people start to use the internet (and when you need it the most).</p>
+<p>If the bandwidth/latency is not good enough you need to make the tough call to move to a different location/campground (you might decide to stay for a day and relocate the next day, but you cannot stay on a campground with bad connectivity for five days and make everybody suffer through this with you).</p>
+<p>BTW &hellip; to give myself a chance to react to something like this I normally only relocate from one campground to the next on the weekend. Especially when I am going to a campground that I have never been to before (if I go to a campground that I know, I sometimes take a calculated risk and relocate during the week).</p>
+<p>Now let&rsquo;s assume you found a campground with a good WiFi signal and a good internet connection (which is not necessarily the same thing; what you want is a campground with a good internet connection, because if that is bad there is not a lot you can do; on the other hand, if the signal is weak you can try to find a better place/spot on the campground and or use some of the equipment I mention below to get the most out of the signal you have). How can you get the most out of it?</p>
+<img src="/images/2021-07-25-good-wifi/booster.jpg" style="float:left" width="30%" hspace="5%" vspace="5%"/>
+<p>One good option is to use a repeater to boost the signal. I am using a/the <a href="https://www.amazon.co.uk/dp/B07174FLLC">Aigital 1200Mbps WiFi Booster</a>. I picked this one because I can connect it to my <a href="https://poynting.tech/antennas/puck-7">PUCK-7</a> external antenna, which allows me to stay on campgrounds that have a good internet connection, but the WiFi signal on the ground is weak.</p>
+<p>Here comes the catch: If the WiFi on the campground is public or is secured with a WiFi password, you are good to go. But if the campground restricts access to the WiFi through a paywall and you need to get access by typing in a token/password in a browser the repeater based solution will not work (because there is no way to register the repeater and make it proxy the requests).</p>
+<p>In that case (and if the WiFi signal is weak) you <em>just</em> need to have a good WiFi antenna. I am using the <a href="https://www.amazon.co.uk/dp/B01IEU7UZ0">BrosTrend 1200Mbps Long Range USB WiFi Dongle Adapter</a>.</p>
+<img src="/images/2021-07-25-good-wifi/antenna.jpg" style="float:right" width="30%" hspace="5%" vspace="5%"/>
+<p>Now let&rsquo;s assume you do not have a good enough WiFi connection. Then you need to fallback to using the LTE signal. For that you can obviously use your phone (preferably a phone that has a dual-SIM slot), but if the LTE signal is weak and your are in the van the quality might not be as good as it can be. A better solution is to use an LTE router and an external antenna. I am using the <a href="https://www.amazon.co.uk/dp/B00TKFKLCI">Teltonika RUT950 LTE 4G Router</a> and (again) the <a href="https://poynting.tech/antennas/puck-7">PUCK-7</a>.</p>
+<p>Now &hellip; let&rsquo;s talk about SIMs. Here in Europe I am on a Vodafone RED contract that gives me good enough coverage in most places and I have 10GB of data per month free/included in/with the contract. This is normally enough as long as I am not doing extensive streaming (a lot of long zoom calls) or other crazy things (download a database dump). If I stay in a country for a month I also get myself pay-as-you-go card with unlimited data (and put that card into the LTE router and/or into the second SIM slot on my phone).</p>
+<img src="/images/2021-07-25-good-wifi/lte.jpg" style="display:block; margin-right:auto; margin-left:auto" width="80%" hspace="5%" vspace="5%"/>
+<p>Last but not least &hellip; earlier this year I registered my self for <a href="https://www.starlink.com/faq">StarLink</a> and ordered the beta package (EUR 599 + EUR 99/month) &hellip; and canceled it again after I found out that (right now) StarLink is not location independent. (For now) It only works in a 10 mile radius around your house/service location. I asked the StarLink guys to get back to me as soon as they offer a contract to get the service from any place/location in Europe.</p>
+<p>As I said above the main lesson here is that redundancy is your friend. At home you can get a connection and you can make it work (make it reliable and fast) and then you &ldquo;just&rdquo; use it every day. When you are on the road you need options. The more the better, because you never know what will work (or not work).</p>
+<p>I am thinking to start a blog-post series on good TEDN locations/spots that I have (already) found and that I can recommend. Stay tuned &hellip;</p>
+</div>
+            </div>
+        </div>
+
+        
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/">
+                                <h2 class="">Assessing the WLAN ... the dark arts of extreme digital nomading</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-10</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/">
+                                <h2 class="">Internet connections ... the life blood of The Extreme Digital Nomad</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-09-11</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/04/07/discussing-remote-...-the-book/">
+                                <h2 class="">Discussing Remote ... the book!!!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-07</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/books">
+            <span class="layui-badge" style="vertical-align: 2px;">Books</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/07/04/what-is-better-than-remote-first-1.0-remote-first-2.0/">
+                                <h2 class="">What is better than Remote-First 1.0? Remote-First 2.0!</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-07-04</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/06/01/distances-know-them.-manage-them./">
+                                <h2 class="">Distances - Know them. Manage them.</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-06-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-07-25 07:52:48 &#43;0100 IST </p>
+    </div>
+</footer>
+
+</body>
+</html>

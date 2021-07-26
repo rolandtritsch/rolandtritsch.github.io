@@ -5,22 +5,40 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remote</title>
+      <link>http://tedn.life/tags/remote/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/remote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEDN</title>
+      <link>http://tedn.life/tags/tedn/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tedn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips-tricks/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Culture</title>
       <link>http://tedn.life/tags/culture/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remote</title>
-      <link>http://tedn.life/tags/remote/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/remote/</guid>
       <description></description>
     </item>
     
@@ -93,24 +111,6 @@
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/haskell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TEDN</title>
-      <link>http://tedn.life/tags/tedn/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips &amp; Tricks</title>
-      <link>http://tedn.life/tags/tips-tricks/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tips-tricks/</guid>
       <description></description>
     </item>
     
