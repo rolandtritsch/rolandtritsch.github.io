@@ -5,17 +5,30 @@
     <link>http://tedn.life/posts/</link>
     <description>Recent content in Posts on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
+      <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
+      <description>Updated (2022-01-01): Added stage.
+At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!
+The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.
+To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+    </item>
+    
     <item>
       <title>Good WiFi - More TEDN dark arts</title>
       <link>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</guid>
-      <description>As I said before &amp;hellip;
+      <description>Updated (2021-08-14): Added some test data (at the end; see below)
+As I said before &amp;hellip;
  When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
 Statements like &amp;hellip;
- &amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.</description>
+ &amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video.</description>
     </item>
     
     <item>

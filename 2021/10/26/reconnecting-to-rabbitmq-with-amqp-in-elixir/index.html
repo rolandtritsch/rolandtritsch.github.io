@@ -1,0 +1,493 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Reconnecting to RabbitMQ with AMQP in Elixir </title>
+
+    
+    
+    <meta content="AMQP, Elixir, Functional-Programming, Micro-Services, Tips & Tricks, Web-Services, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>Reconnecting to RabbitMQ with AMQP in Elixir</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-10-26</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/amqp">
+            <span class="layui-badge" style="vertical-align: 2px;">AMQP</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/micro-services">
+            <span class="layui-badge" style="vertical-align: 2px;">Micro-Services</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/web-services">
+            <span class="layui-badge" style="vertical-align: 2px;">Web-Services</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>Updated (2022-01-01): Added <code>stage</code>.</p>
+<p>At Community we are building a platform that will allow you to have
+meaningful conversations with large audiences &hellip; at scale!!!</p>
+<p>The architectural backbone is a shared-nothing micro-services
+architecture, that uses an event-bus for state propagation.</p>
+<p>To avoid any kind of 2-phase-commit shenanigans we are publishing
+events at-least-once (not exactly-once). That means our services need
+to be able to and are able to deal with dublicated events gracefully
+(by ignoring them).</p>
+<p>It also means, that we have to retry publishing an event on the
+event-bus, if the publish fails. One reason the publish can fail
+(especially when you run long event replay jobs) is that the AMQP
+infrastructure (connections, channel, &hellip;) dies.</p>
+<p>The tech-stack is: Elixir, AMQP and RabbitMQ.</p>
+<p>The interesting thing is that, if you use AMQP out of the box and
+create a connection and a channel and start publishing events
+(e.g. from a gen-server), you will not get notified when the
+infrastructure has a problem (e.g. dies).</p>
+<p>Instead you will get a <code>Cannot find process</code> error/exception next
+time you try to use the infrastructure (e.g. publish an event).</p>
+<p>So &hellip; what is going on here?</p>
+<p>After investigating and understanding it the answer is simple: the
+Elixir/Erlang AMQP implementation creates an Erlang process for the
+connection and a process for the channel on that connection and when
+there is a problem these two processes die AND that is the right way
+to implement something like this in Elixir/Erlang.</p>
+<p>So far so good &hellip;</p>
+<p>The problem is that out-of-the-box these processes are not linked to
+the processes that created them, which makes detecting that something
+went wrong (and retrying what ever failed) kind-a interesting.</p>
+<p>At the end we came up with the following approaches to deal with this &hellip;</p>
+<ol>
+<li>Use <code>try/catch</code> around every statement that uses a connection or
+a channel (catching the <code>exit</code>)</li>
+<li>Use <code>Process.trap_exit()</code> AND link the connection process to the
+process that created the connection and handle the <code>exit</code> message</li>
+<li>Take a step back and use a <code>supervisor</code> to restart the connection
+AND retry whatever needs retrying</li>
+<li>Take it one step further and use <code>gen_stages</code> with a <code>supervisor</code></li>
+</ol>
+<p>The good news is there is a
+<a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">repo</a> that
+has all of the code in it that shows how this works (the implementations
+for all the different approaches are on different branches)!!!</p>
+<p>Let&rsquo;s talk about these approaches &hellip;</p>
+<h2 id="using-trycatch">Using try/catch</h2>
+<p>Obviously easy to implement and easy to understand. Retrying whatever
+you did is also easy, because you know what operation you tried/failed.</p>
+<p>But &hellip; you need to wrap every AMQP call in a try/catch. Not so nice.</p>
+<h2 id="using-trap_exit-and-processlink">Using trap_exit (and Process.link())</h2>
+<p>With this you can (just) listen for the <code>exit</code> message to arrive in
+your inbox and handle it with <code>handle_info</code>. On one hand this is much
+nicer, but &hellip; retrying whatever failed becomes harder (you probably
+need to put some info into the state, so that you know what to retry,
+when you get/handle the <code>exit</code>).</p>
+<p>We also realized that just pattern matching on <code>:exit/:infrastructure_died</code>
+is not good enough, because there is small race condition, where the next
+publish happens before you can trap the exit from the connection/channel
+gen_server and in that case you get the treaded <code>:exit/:noproc</code> again (and
+need to handle that too).</p>
+<h2 id="using-a-supervisor">Using a supervisor</h2>
+<p><img src="/images/2021-10-26-amqp-reconnect/processes.jpg"
+style="float:right" width="30%" hspace="5%" vspace="1%"/></p>
+<p>That&rsquo;s obviously a nice solution. For that you create a supervisor
+and a worker and give the work to-do (e.g. publish this batch of
+events) to the worker. The supervisor supervises the worker and if the
+worker has any kind of problem getting the work done the supervisor
+will restart the worker and retry the work (the batch).</p>
+<p>This will also cater for the case that we descibed above, where the
+publisher can exit with at least two abnormal reasons (<code>:infrastructure_died</code>
+and <code>:noproc</code>).</p>
+<h2 id="using-gen_stages-with-a-supervisor">Using gen_stages (with a supervisor)</h2>
+<p>A couple of weeks ago I had a chance to review this work with some
+of my colleagues at Community and the conclusion was that this can
+be improved by using gen_stages.</p>
+<p>The implementation is elegant and can recover from various infrastructure
+problems with connections and channels.</p>
+<p>But there is one thing that you need to think about. One reason why the
+supervisor approach above works well is that we start a worker per batch
+(in sequence, one after the other), means when the worker dies and gets
+restarted the batch to process gets passed to it again (automatically).</p>
+<p>Which gives us the at-least-once semantic we want and need.</p>
+<p>gen_stage pipelines work differently. The publisher is started once
+and will keep on asking for batches until it is stopped or it dies.</p>
+<p>When the publisher is restarted (after it died) it will ask for the
+<code>next</code> batch. It does not know, that it failed to process a batch
+and/or what that batch was/is.</p>
+<p>The solution can be simple: Just use the head of the pipeline (in our
+case the batcher) to hold on to a copy of the current batch until the
+tail of the pipeline (in our case the publisher) has confirmed that
+it has processed the batch. If that ack has not happened and the
+pipeline asks the batcher for the next batch, the batcher can resend
+the batch that was (apparently) not correctly/entirely processed.</p>
+<p><img src="https://media.giphy.com/media/VFvjxRZd5cR7WDeDPj/giphy.gif"
+style="display:block; margin-right:auto; margin-left:auto" width="80%"
+hspace="5%" vspace="5%"/></p>
+<p>Initial implementations of this had very elaborate trapping and linking
+and message passing. The main lesson learned was: Do not try to do the
+work for the OTP. Let the OTP do the work for you. In our case that
+means/meant: Let the worker fail! Let the supervisor restart it. And
+do not use any of the &ldquo;internal&rdquo; messages (e.g. :exit/:normal) to tell
+the batcher to send the next batch. Instead use a custom message (e.g.
+:next). Even more, even further: Use the eco-system! This problem is
+not new and can be solved using existing capabilities (e.g. <code>gen_stages</code>).</p>
+<p>Again: If you want to find out about the details how this works,
+please take a look at the
+<a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">repo</a>.</p>
+<p><img src="/images/2021-10-26-amqp-reconnect/repo.png" style=
+"display:block; margin-right:auto; margin-left:auto" width="80%"
+hspace="5%" vspace="5%"/></p>
+<p>Happy reliable, at-least-once eventing &hellip;</p>
+</div>
+            </div>
+        </div>
+
+        
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <h1 class="single-title">Relevant Topics</h1>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/02/01/haskell-beam-hamler-iii/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (III)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-02-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/01/18/haskell-beam-hamler-ii/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (II)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-01-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/12/15/haskell-beam-hamler-i/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (I)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-12-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/">
+                                <h2 class="">Code Elixir LDN 2019 - 3 languages in 3 minutes</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2019-08-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/07/25/good-wifi-more-tedn-dark-arts/">
+                                <h2 class="">Good WiFi - More TEDN dark arts</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-07-25</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-11-08 04:53:39 &#43;0000 GMT </p>
+    </div>
+</footer>
+
+</body>
+</html>
