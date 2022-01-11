@@ -7,7 +7,7 @@
 
     
     
-    <meta content="AMQP, Elixir, Functional-Programming, Micro-Services, Tips & Tricks, Web-Services, Software-Craftmanship" name="keywords">
+    <meta content="AMQP, Community, Elixir, Event-Sourcing, Functional-Programming, Micro-Services, Tips & Tricks, Web-Services, Software-Craftmanship" name="keywords">
     
     <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -113,8 +113,16 @@ layui.use('element', function(){
             <span class="layui-badge" style="vertical-align: 2px;">AMQP</span>
         </a>
     
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
         <a href="/tags/elixir">
             <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/event-sourcing">
+            <span class="layui-badge" style="vertical-align: 2px;">Event-Sourcing</span>
         </a>
     
         <a href="/tags/functional-programming">
@@ -161,8 +169,7 @@ time you try to use the infrastructure (e.g. publish an event).</p>
 <p>After investigating and understanding it the answer is simple: the
 Elixir/Erlang AMQP implementation creates an Erlang process for the
 connection and a process for the channel on that connection and when
-there is a problem these two processes die AND that is the right way
-to implement something like this in Elixir/Erlang.</p>
+there is a problem these two processes die.</p>
 <p>So far so good &hellip;</p>
 <p>The problem is that out-of-the-box these processes are not linked to
 the processes that created them, which makes detecting that something
@@ -171,8 +178,9 @@ went wrong (and retrying what ever failed) kind-a interesting.</p>
 <ol>
 <li>Use <code>try/catch</code> around every statement that uses a connection or
 a channel (catching the <code>exit</code>)</li>
-<li>Use <code>Process.trap_exit()</code> AND link the connection process to the
-process that created the connection and handle the <code>exit</code> message</li>
+<li>Use <code>Process.flag(:trap_exit, true)</code> AND link the connection
+process to the process that created the connection and handle the
+<code>exit</code> message</li>
 <li>Take a step back and use a <code>supervisor</code> to restart the connection
 AND retry whatever needs retrying</li>
 <li>Take it one step further and use <code>gen_stages</code> with a <code>supervisor</code></li>
@@ -257,90 +265,6 @@ hspace="5%" vspace="5%"/></p>
             <div class="layui-card single-card">
                 <h1 class="single-title">Relevant Topics</h1>
                 
-                	
-                    <div style="margin-left: 10px;">
-                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/2021/02/01/haskell-beam-hamler-iii/">
-                                <h2 class="">Haskell &#43; Beam = Hamler (III)</h2>
-                            </a>
-                            <h3 style="margin-top:10px; margin-bottom:10px">
-    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2021-02-01</span>
-
-    
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
-    
-        <a href="/categories/software-engineering">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
-        </a>
-    
-    
-        <a href="/tags/advent-of-code">
-            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
-        </a>
-    
-        <a href="/tags/functional-programming">
-            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
-        </a>
-    
-        <a href="/tags/haskell">
-            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
-        </a>
-    
-        <a href="/tags/nerdy">
-            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
-        </a>
-    
-        <a href="/tags/elixir">
-            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
-        </a>
-    
-</h3>
-
-                        </blockquote>
-                    </div>
-                	
-                    <div style="margin-left: 10px;">
-                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/2021/01/18/haskell-beam-hamler-ii/">
-                                <h2 class="">Haskell &#43; Beam = Hamler (II)</h2>
-                            </a>
-                            <h3 style="margin-top:10px; margin-bottom:10px">
-    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2021-01-18</span>
-
-    
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
-    
-        <a href="/categories/software-engineering">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
-        </a>
-    
-    
-        <a href="/tags/advent-of-code">
-            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
-        </a>
-    
-        <a href="/tags/functional-programming">
-            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
-        </a>
-    
-        <a href="/tags/haskell">
-            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
-        </a>
-    
-        <a href="/tags/nerdy">
-            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
-        </a>
-    
-        <a href="/tags/elixir">
-            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
-        </a>
-    
-</h3>
-
-                        </blockquote>
-                    </div>
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
@@ -440,12 +364,96 @@ hspace="5%" vspace="5%"/></p>
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/2021/07/25/good-wifi-more-tedn-dark-arts/">
-                                <h2 class="">Good WiFi - More TEDN dark arts</h2>
+                            <a href="/2021/02/01/haskell-beam-hamler-iii/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (III)</h2>
                             </a>
                             <h3 style="margin-top:10px; margin-bottom:10px">
     <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
-    <span>2021-07-25</span>
+    <span>2021-02-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/01/18/haskell-beam-hamler-ii/">
+                                <h2 class="">Haskell &#43; Beam = Hamler (II)</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-01-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="layui-elem-quote" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/">
+                                <h2 class="">Internet connections ... the life blood of The Extreme Digital Nomad</h2>
+                            </a>
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-09-11</span>
 
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
@@ -454,10 +462,10 @@ hspace="5%" vspace="5%"/></p>
             <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
         </a>
     
-    
-        <a href="/tags/remote">
-            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
         </a>
+    
     
         <a href="/tags/tedn">
             <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
@@ -465,6 +473,10 @@ hspace="5%" vspace="5%"/></p>
     
         <a href="/tags/tips-tricks">
             <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
         </a>
     
 </h3>
@@ -485,7 +497,7 @@ hspace="5%" vspace="5%"/></p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-11-08 04:53:39 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2022-01-07 13:59:44 &#43;0000 GMT </p>
     </div>
 </footer>
 

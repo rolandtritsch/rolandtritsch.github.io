@@ -16,11 +16,29 @@
     </item>
     
     <item>
+      <title>Community</title>
+      <link>http://tedn.life/tags/community/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Elixir</title>
       <link>http://tedn.life/tags/elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-Sourcing</title>
+      <link>http://tedn.life/tags/event-sourcing/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/event-sourcing/</guid>
       <description></description>
     </item>
     
@@ -120,15 +138,6 @@
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/nerdy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>http://tedn.life/tags/community/</link>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/community/</guid>
       <description></description>
     </item>
     

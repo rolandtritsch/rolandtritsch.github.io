@@ -5,7 +5,19 @@
     <link>http://tedn.life/tags/community/</link>
     <description>Recent content in Community on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
+      <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
+      <description>Updated (2022-01-01): Added stage.
+At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!
+The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.
+To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+    </item>
+    
     <item>
       <title>The first Summit/Hack-a-thon @ Community</title>
       <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</link>
