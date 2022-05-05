@@ -5,7 +5,11 @@
     <link>http://tedn.life/tags/community/</link>
     <description>Recent content in Community on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
