@@ -1,0 +1,403 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Emacs Pair Programming - Innovation-Week Q2/2022 </title>
+
+    
+    
+    <meta content="Culture, Emacs, Innovation, Lisp, Nerdy, Remote, Tips & Tricks, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Emacs Pair Programming - Innovation-Week Q2/2022</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2022-05-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/emacs">
+            <span class="layui-badge" style="vertical-align: 2px;">Emacs</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/lisp">
+            <span class="layui-badge" style="vertical-align: 2px;">Lisp</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>We (at Community) just had another <a href="https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/">Innovation-Week</a>. I was actually working on generating <a href="https://pactflow.io">pact-files</a> from frontend code and then generating <a href="https://github.com/open-api-spex/open_api_spex">openapi spec files from elxir backend code</a> and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.</p>
+<p>But this is not what this blog post is all about :).</p>
+<p>While working on this <a href="https://www.linkedin.com/in/geoff-smith-46739188">Geoff</a> and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</p>
+<p>There are (obviously) lot&rsquo;s of <a href="https://www.makeitinua.com/posts/13-best-tools-for-remote-pair-programming-in-2020">solutions available</a> (and more like <code>VS live</code> &hellip;), but &hellip; on top of being distributed systems and remote-first software enginering craftsmen, Geoff and myself also like our emacs (Emacs Makes All Computers Special).</p>
+<p>And now it&rsquo;s time to nurture the nerd &hellip;</p>
+<p>We <a href="https://www.emacswiki.org/emacs/CollaborativeEditing">looked around</a> and found a couple of good/interesting solutions to support pair-programming in/with emacs. At the end we decided to take a look at <a href="https://github.com/tjim/lockstep">lookstep</a>, <a href="https://github.com/zk-phi/togetherly">togetherly</a> and <a href="https://github.com/floobits">floobits</a>.</p>
+<p>lookstep and togetherly are non-commercial and a kinda old (last commit was a couple of years ago), but they both work. floobits is a commercial solution. You can try it with a couple of free public workspaces, but if you want/need private workspaces you need to subscribe to it (USD 15/month for 5 private workspaces).</p>
+<p>We tried and tested this by setting up an AWS instance and then SSH into the instance and then starting multiple emacs sessions on the same file/buffer. We then also tried to start a/the main emacs(-daemon) on that box and tried to connect to it from our local boxes.</p>
+<p>Disclaimer: We spend about an hour on every solution and if we were not able to make it work by then we moved on (means if we did not make something work and/or did not find all solutions to all problems, that&rsquo;s probably our fault (or the other way around: the tools might have capabilities that we missed or were not able to make work)).</p>
+<p>Here is (in no particular order) what we found/think &hellip;</p>
+<h2 id="lockstep">Lockstep</h2>
+<ul>
+<li>Very easy to install and then very easy to use</li>
+<li>Just start a daemon and then use two emacsclients to connect to the daemon</li>
+<li>If you then open the same file and start lockstep with <code>M-x lockstep</code> you can see each other typing</li>
+<li>Even on the same line!!!</li>
+<li>It is very fast and responsive</li>
+<li>But there is no support to see each others cursor</li>
+<li>And we where also not able to connect to the daemon from our boxes (which is not really a suprise, because the daemon was never build to be connected to from the outside)</li>
+</ul>
+<h2 id="togetherly">Togetherly</h2>
+<ul>
+<li>Also very easy to install and use</li>
+<li>You just have to start emacs on the AWS instance and open a file and start a/the togetherly-server with <code>M-x togetherly-server-start</code></li>
+<li>If you want to run it just on the box you can use localhost and any available port</li>
+<li>You then start another emacs on the AWS instance and use <code>M-x togetherly-client-start</code> to connect with the server on the given (local)host:port</li>
+<li>To join you are also asked to give yourself a screen name</li>
+<li>And then you end up in a buffer where two people can collaboratively edit a file/the source-code</li>
+<li>But this time you can also see each others cursor and regions and there is a very nice feature/function that is called <code>M-x togetherly-server-comehere</code> that you can use to make the other person join you on a certain line in the code</li>
+<li>If you want to edit another file the person that runs the emacs with the server, just need to open the other file and run <code>M-x togetherly-server-start</code> again. But this time you will not be asked to specify a host:port. Instead togetherly will detect that there is already a server running and will just ask you, if you want to migrate the running session to the new file</li>
+<li>Last but not least (you guessed it), you can also start the server on a publicly available ip-address:port and connect to it from your box</li>
+<li>Overall very nice and simple and probably what we will end up using for now</li>
+</ul>
+<img src="/images/2022-05-01-pair-programming/togetherly.png" style="display:block; margin:auto" width="80%" hspace="1%" vspace="1%"/>
+<h2 id="floobits">FlooBits</h2>
+<ul>
+<li>Looks and feels like the most professional solution</li>
+<li>But &hellip; you need to setup an account</li>
+<li>And &hellip; to use it professionally you need pay for it, because you need private workspaces (to make sure your code is not/does not become visible publicly)</li>
+<li>And &hellip; we were able to make it work, but the workspace concept takes some getting use to</li>
+<li>And &hellip; after you have a shared (private) workspace and you can see each others screen, we were not able to make the cursor work (instead of a cursor we saw that the screen/buffer changed colour)</li>
+<li>And &hellip; we tried the sommon feature and where not able to make that work</li>
+</ul>
+<p>Means for now Geoff and myself and the other emacs enabled engineers will probably start to use <code>togetherly</code> and will see how far we can go with it.</p>
+<p>Happy hacking/pair-programming &hellip;</p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/">
+                                <h3 class="">Emacs &amp; Lisp ... a match made in heaven</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-04-12</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/emacs">
+            <span class="layui-badge" style="vertical-align: 2px;">Emacs</span>
+        </a>
+    
+        <a href="/tags/lisp">
+            <span class="layui-badge" style="vertical-align: 2px;">Lisp</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/07/25/good-wifi-more-tedn-dark-arts/">
+                                <h3 class="">Good WiFi - More TEDN dark arts</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-07-25</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/07/04/what-is-better-than-remote-first-1.0-remote-first-2.0/">
+                                <h3 class="">What is better than Remote-First 1.0? Remote-First 2.0!</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-07-04</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/06/01/distances-know-them.-manage-them./">
+                                <h3 class="">Distances - Know them. Manage them.</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-06-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/02/12/the-first-summit/hack-a-thon-community/">
+                                <h3 class="">The first Summit/Hack-a-thon @ Community</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-02-12</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2022-05-05 17:57:24 &#43;0100 IST </p>
+    </div>
+</footer>
+
+</body>
+</html>

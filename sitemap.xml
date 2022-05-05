@@ -3,12 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tedn.life/tags/amqp/</loc>
-    <lastmod>2022-01-11T07:28:36+00:00</lastmod>
+    <loc>http://tedn.life/categories/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tedn.life/categories/</loc>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/emacs/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/innovation/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/lisp/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/nerdy/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/remote/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/tips-tricks/</loc>
+    <lastmod>2022-05-05T17:57:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tedn.life/tags/amqp/</loc>
     <lastmod>2022-01-11T07:28:36+00:00</lastmod>
   </url>
   
@@ -38,27 +93,7 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2022-01-11T07:28:36+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</loc>
-    <lastmod>2022-01-11T07:28:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2022-01-11T07:28:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/</loc>
-    <lastmod>2022-01-11T07:28:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/tips-tricks/</loc>
     <lastmod>2022-01-11T07:28:36+00:00</lastmod>
   </url>
   
@@ -78,18 +113,8 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/tags/remote/</loc>
-    <lastmod>2021-08-14T13:44:05+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/tags/tedn/</loc>
     <lastmod>2021-08-14T13:44:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/culture/</loc>
-    <lastmod>2021-07-05T14:48:30+01:00</lastmod>
   </url>
   
   <url>
@@ -134,11 +159,6 @@
   
   <url>
     <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/nerdy/</loc>
     <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url>
   
@@ -223,17 +243,7 @@
   </url>
   
   <url>
-    <loc>http://tedn.life/tags/emacs/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/lisp/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url>
   
@@ -600,11 +610,6 @@
   <url>
     <loc>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tedn.life/tags/innovation/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url>
   
   <url>

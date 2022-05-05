@@ -5,10 +5,73 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Culture</title>
+      <link>http://tedn.life/tags/culture/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://tedn.life/tags/emacs/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovation</title>
+      <link>http://tedn.life/tags/innovation/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lisp</title>
+      <link>http://tedn.life/tags/lisp/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/lisp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote</title>
+      <link>http://tedn.life/tags/remote/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/remote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips-tricks/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AMQP</title>
@@ -65,15 +128,6 @@
     </item>
     
     <item>
-      <title>Tips &amp; Tricks</title>
-      <link>http://tedn.life/tags/tips-tricks/</link>
-      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tips-tricks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Web-Services</title>
       <link>http://tedn.life/tags/web-services/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
@@ -83,29 +137,11 @@
     </item>
     
     <item>
-      <title>Remote</title>
-      <link>http://tedn.life/tags/remote/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/remote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>TEDN</title>
       <link>http://tedn.life/tags/tedn/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>http://tedn.life/tags/culture/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/culture/</guid>
       <description></description>
     </item>
     
@@ -137,15 +173,6 @@
     </item>
     
     <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/nerdy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Haskell</title>
       <link>http://tedn.life/tags/haskell/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
@@ -169,24 +196,6 @@
       <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/podcast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emacs</title>
-      <link>http://tedn.life/tags/emacs/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lisp</title>
-      <link>http://tedn.life/tags/lisp/</link>
-      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/lisp/</guid>
       <description></description>
     </item>
     
@@ -286,15 +295,6 @@
       <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/embedded/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Innovation</title>
-      <link>http://tedn.life/tags/innovation/</link>
-      <pubDate>Tue, 24 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/innovation/</guid>
       <description></description>
     </item>
     
