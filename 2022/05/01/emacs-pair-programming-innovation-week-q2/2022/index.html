@@ -144,10 +144,10 @@ layui.use('element', function(){
                     <p>We (at Community) just had another <a href="https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/">Innovation-Week</a>. I was actually working on generating <a href="https://pactflow.io">pact-files</a> from frontend code and then generating <a href="https://github.com/open-api-spex/open_api_spex">openapi spec files from elxir backend code</a> and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.</p>
 <p>But this is not what this blog post is all about :).</p>
 <p>While working on this <a href="https://www.linkedin.com/in/geoff-smith-46739188">Geoff</a> and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</p>
-<p>There are (obviously) lot&rsquo;s of <a href="https://www.makeitinua.com/posts/13-best-tools-for-remote-pair-programming-in-2020">solutions available</a> (and more like <code>VS live</code> &hellip;), but &hellip; on top of being distributed systems and remote-first software enginering craftsmen, Geoff and myself also like our emacs (Emacs Makes All Computers Special).</p>
+<p>There are (obviously) lot&rsquo;s of <a href="https://www.makeitinua.com/posts/13-best-tools-for-remote-pair-programming-in-2020">solutions available</a> (and more like <code>VS live</code> &hellip;), but &hellip; on top of being distributed systems and remote-first software engineering craftsmen, Geoff and myself also like our emacs (Emacs Makes All Computers Special).</p>
 <p>And now it&rsquo;s time to nurture the nerd &hellip;</p>
-<p>We <a href="https://www.emacswiki.org/emacs/CollaborativeEditing">looked around</a> and found a couple of good/interesting solutions to support pair-programming in/with emacs. At the end we decided to take a look at <a href="https://github.com/tjim/lockstep">lookstep</a>, <a href="https://github.com/zk-phi/togetherly">togetherly</a> and <a href="https://github.com/floobits">floobits</a>.</p>
-<p>lookstep and togetherly are non-commercial and a kinda old (last commit was a couple of years ago), but they both work. floobits is a commercial solution. You can try it with a couple of free public workspaces, but if you want/need private workspaces you need to subscribe to it (USD 15/month for 5 private workspaces).</p>
+<p>We <a href="https://www.emacswiki.org/emacs/CollaborativeEditing">looked around</a> and found a couple of good/interesting solutions to support pair-programming in/with emacs. At the end we decided to take a look at <a href="https://github.com/tjim/lockstep">lockstep</a>, <a href="https://github.com/zk-phi/togetherly">togetherly</a> and <a href="https://github.com/floobits">floobits</a>.</p>
+<p>lockstep and togetherly are non-commercial and a kinda old (last commit was a couple of years ago), but they both work. floobits is a commercial solution. You can try it with a couple of free public workspaces, but if you want/need private workspaces you need to subscribe to it (USD 15/month for 5 private workspaces).</p>
 <p>We tried and tested this by setting up an AWS instance and then SSH into the instance and then starting multiple emacs sessions on the same file/buffer. We then also tried to start a/the main emacs(-daemon) on that box and tried to connect to it from our local boxes.</p>
 <p>Disclaimer: We spend about an hour on every solution and if we were not able to make it work by then we moved on (means if we did not make something work and/or did not find all solutions to all problems, that&rsquo;s probably our fault (or the other way around: the tools might have capabilities that we missed or were not able to make work)).</p>
 <p>Here is (in no particular order) what we found/think &hellip;</p>
@@ -159,7 +159,7 @@ layui.use('element', function(){
 <li>Even on the same line!!!</li>
 <li>It is very fast and responsive</li>
 <li>But there is no support to see each others cursor</li>
-<li>And we where also not able to connect to the daemon from our boxes (which is not really a suprise, because the daemon was never build to be connected to from the outside)</li>
+<li>And we where also not able to connect to the daemon from our boxes (which is not really a surprise, because the daemon was never build to be connected to from the outside)</li>
 </ul>
 <h2 id="togetherly">Togetherly</h2>
 <ul>
@@ -182,7 +182,7 @@ layui.use('element', function(){
 <li>And &hellip; to use it professionally you need pay for it, because you need private workspaces (to make sure your code is not/does not become visible publicly)</li>
 <li>And &hellip; we were able to make it work, but the workspace concept takes some getting use to</li>
 <li>And &hellip; after you have a shared (private) workspace and you can see each others screen, we were not able to make the cursor work (instead of a cursor we saw that the screen/buffer changed colour)</li>
-<li>And &hellip; we tried the sommon feature and where not able to make that work</li>
+<li>And &hellip; we tried the summon feature and where not able to make that work</li>
 </ul>
 <p>Means for now Geoff and myself and the other emacs enabled engineers will probably start to use <code>togetherly</code> and will see how far we can go with it.</p>
 <p>Happy hacking/pair-programming &hellip;</p>
@@ -395,7 +395,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2022-05-05 17:57:24 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2022-05-05 18:02:40 &#43;0100 IST </p>
     </div>
 </footer>
 
