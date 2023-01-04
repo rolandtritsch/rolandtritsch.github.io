@@ -5,10 +5,17 @@
     <link>http://tedn.life/</link>
     <description>Recent content on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy new year - I am tooting now ...</title>
+      <link>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</guid>
+      <description>Happy new year to ya all!!!
+What a year it has been. Some of the highlights are &amp;hellip;
+ In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a [Staff Director][] here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
+    </item>
     
     <item>
       <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
@@ -19,6 +26,26 @@
       <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.
 But this is not what this blog post is all about :).
 While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://tedn.life/about/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/about/</guid>
+      <description>Builder and runner of functional teams and functional systems
+  Explorer of extreme digital nomading and remote-first cultures
+ My name is Roland Tritsch. I am The Extreme Digital Nomad (TEDN). I am a Software Craftsman and I am applying my craft to building and maintaining beautiful Software Gardens. I am also a Manager. And a Husband and a Father. I like to make engineers grow and users smile.</description>
+    </item>
+    
+    <item>
+      <title>Social</title>
+      <link>http://tedn.life/social/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/social/</guid>
+      <description>Find out &amp;hellip;  &amp;hellip; where I am working right now &amp;hellip; what I am tooting about &amp;hellip; what I am working on &amp;hellip; what I am looking at &amp;hellip; where I am working today  </description>
     </item>
     
     <item>
@@ -283,26 +310,6 @@ Obviously the key messages/statements from the book are still true (or truer tha
 &amp;hellip; is the mobile phone (with good 4G coverage)? No (and again &amp;hellip; more on this later)!
 &amp;hellip; is a foldable coffee mug!!!
  When you start to work remote (from home, from any place, &amp;hellip;) you will discover that you will end up in coffee shops (either because you want to (because you want/need to fight the cabin fever) or because you have to (because you want/need to find/have a WLAN connection)).</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://tedn.life/about/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/about/</guid>
-      <description>Builder and runner of functional teams and functional systems
-  Explorer of extreme digital nomading and remote-first cultures
- My name is Roland Tritsch. I am a Software Craftsman and I am applying my craft to building and maintaining beautiful software gardens. I am also a Manager. And a Husband and a Father. I like to make engineers grow and users smile. I like computer science. I believe that computers and software can help to make this planet a better place.</description>
-    </item>
-    
-    <item>
-      <title>Social</title>
-      <link>http://tedn.life/social/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/social/</guid>
-      <description>Find out &amp;hellip;  &amp;hellip; what I am doing &amp;hellip; what I am tweeting &amp;hellip; what I am working on &amp;hellip; what I am looking at &amp;hellip; where I am working today  </description>
     </item>
     
     <item>
@@ -629,7 +636,7 @@ The other day, I noticed something that leaves room for improvement. On a Sunday
       
       <guid>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</guid>
       <description>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!
-The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;quot;.
+The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;rdquo;.
 For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</description>
     </item>
     

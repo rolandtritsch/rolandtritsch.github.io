@@ -5,17 +5,76 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Culture</title>
       <link>http://tedn.life/tags/culture/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Politics</title>
+      <link>http://tedn.life/tags/politics/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>http://tedn.life/tags/privacy/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEDN</title>
+      <link>http://tedn.life/tags/tedn/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tedn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>http://tedn.life/tags/thoughts/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips-tricks/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/tips-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://tedn.life/tags/community/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/community/</guid>
       <description></description>
     </item>
     
@@ -47,15 +106,6 @@
     </item>
     
     <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/nerdy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Remote</title>
       <link>http://tedn.life/tags/remote/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
@@ -65,29 +115,11 @@
     </item>
     
     <item>
-      <title>Tips &amp; Tricks</title>
-      <link>http://tedn.life/tags/tips-tricks/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tips-tricks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AMQP</title>
       <link>http://tedn.life/tags/amqp/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/amqp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>http://tedn.life/tags/community/</link>
-      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/community/</guid>
       <description></description>
     </item>
     
@@ -133,24 +165,6 @@
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/web-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TEDN</title>
-      <link>http://tedn.life/tags/tedn/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thoughts</title>
-      <link>http://tedn.life/tags/thoughts/</link>
-      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/thoughts/</guid>
       <description></description>
     </item>
     
@@ -245,29 +259,11 @@
     </item>
     
     <item>
-      <title>Politics</title>
-      <link>http://tedn.life/tags/politics/</link>
-      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/politics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blockchain</title>
       <link>http://tedn.life/tags/blockchain/</link>
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mac</title>
-      <link>http://tedn.life/tags/mac/</link>
-      <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/mac/</guid>
       <description></description>
     </item>
     
@@ -349,6 +345,15 @@
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/soap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://tedn.life/tags/mac/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/mac/</guid>
       <description></description>
     </item>
     

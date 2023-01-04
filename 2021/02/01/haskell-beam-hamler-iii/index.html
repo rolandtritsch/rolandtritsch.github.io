@@ -137,12 +137,12 @@ layui.use('element', function(){
 <p>One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.</p>
 <p>Just looked into this a little bit and there is good news and bad news. The good news is I found something.</p>
 <p>I can make the hamer solution run 10 times faster by changing the implementation of part1 from &hellip;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-haskell" data-lang="haskell">    foodsFreeOfAllergens <span style="color:#f92672">=</span> go foods false <span style="color:#66d9ef">where</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-haskell" data-lang="haskell">    foodsFreeOfAllergens <span style="color:#f92672">=</span> go foods false <span style="color:#66d9ef">where</span>
         go foods&#39; true <span style="color:#f92672">=</span> foods&#39;
         go foods&#39; false <span style="color:#f92672">=</span> go foods&#39;&#39; (foods&#39; <span style="color:#f92672">==</span> foods&#39;&#39;) <span style="color:#66d9ef">where</span>
             foods&#39;&#39; <span style="color:#f92672">=</span> removeIngredientsBySingleton <span style="color:#f92672">$</span> removeIngredientsByIntersection foods&#39; 
 </code></pre></div><p>&hellip; to &hellip;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-haskell" data-lang="haskell">    (foodsFreeOfAllergens, <span style="color:#66d9ef">_</span>) <span style="color:#f92672">=</span> go foods false <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">where</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-haskell" data-lang="haskell">    (foodsFreeOfAllergens, <span style="color:#66d9ef">_</span>) <span style="color:#f92672">=</span> go foods false <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">where</span>
         go foods&#39; true c <span style="color:#f92672">=</span> (foods&#39;, c)
         go foods&#39; false c <span style="color:#f92672">=</span> go foods&#39;&#39; (foods&#39; <span style="color:#f92672">==</span> foods&#39;&#39;) (c <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">where</span>
             foods&#39;&#39; <span style="color:#f92672">=</span> removeIngredientsBySingleton <span style="color:#f92672">$</span> removeIngredientsByIntersection foods&#39; 
@@ -404,7 +404,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-06-02 07:15:02 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-06-02 07:15:02 &#43;0100 BST </p>
     </div>
 </footer>
 
