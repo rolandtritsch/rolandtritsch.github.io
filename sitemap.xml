@@ -2,46 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tedn.life/tags/books/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/culture/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
+    <loc>http://tedn.life/tags/chatgpt/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/remote/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/thoughts/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/2023/01/14/can-we-affort-to-be-surprised-hot-hot-hot/</loc>
-    <lastmod>2023-01-15T07:28:19+00:00</lastmod>
+    <loc>http://tedn.life/tags/climate/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/environment/</loc>
-    <lastmod>2023-01-15T07:28:19+00:00</lastmod>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/innovation/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2023-01-15T07:28:19+00:00</lastmod>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/politics/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/thoughts/</loc>
+    <lastmod>2023-03-13T12:31:09+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/books/</loc>
+    <lastmod>2023-02-10T09:57:21+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/culture/</loc>
+    <lastmod>2023-02-10T09:57:21+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/remote/</loc>
+    <lastmod>2023-02-10T09:57:21+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</loc>
+    <lastmod>2023-02-10T09:57:21+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2023/01/14/can-we-affort-to-be-surprised-hot-hot-hot/</loc>
     <lastmod>2023-01-15T07:28:19+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</loc>
@@ -68,13 +83,7 @@
     <loc>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</loc>
     <lastmod>2022-10-18T08:00:12+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/innovation/</loc>
-    <lastmod>2022-10-18T08:00:12+01:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/tags/lisp/</loc>
-    <lastmod>2022-10-18T08:00:12+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/software-craftmanship/</loc>
     <lastmod>2022-10-18T08:00:12+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/about/</loc>
@@ -137,22 +146,22 @@
     <loc>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</loc>
     <lastmod>2021-02-21T11:27:39+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</loc>
+    <loc>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</loc>
     <lastmod>2021-02-18T10:16:53+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/haskell/</loc>
     <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</loc>
+    <loc>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</loc>
     <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-engineering/</loc>
     <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</loc>
+    <loc>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</loc>
     <lastmod>2021-02-01T09:57:43+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</loc>
+    <loc>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</loc>
     <lastmod>2021-02-01T09:57:43+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</loc>
@@ -248,7 +257,7 @@
     <loc>http://tedn.life/2018/01/25/the-digital-cookbook-...-insights-into-digital-transformation-and-how-to-go-about-it/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2018/01/24/gdse-edx.org-with-tu-delft/</loc>
+    <loc>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2018/01/21/the-american-election-...-1-year-after/</loc>
@@ -257,7 +266,7 @@
     <loc>http://tedn.life/2018/01/20/about-being-a-software-development-manager-...-and-managing-energy/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2017/07/29/hackweeks-nitro-...-the-why-the-what-the-how/</loc>
+    <loc>http://tedn.life/2017/07/29/hackweeks-@-nitro-...-the-why-the-what-the-how/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</loc>
@@ -371,7 +380,7 @@
     <loc>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</loc>
+    <loc>http://tedn.life/2013/09/27/flightfest-@-gilt-...-location-location-location-.../</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2013/09/24/gilt-cio-talks-...-about-innovation/</loc>
@@ -389,7 +398,7 @@
     <loc>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</loc>
+    <loc>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</loc>

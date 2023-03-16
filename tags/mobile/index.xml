@@ -60,7 +60,6 @@ We talked about, how to write, compile and run .</description>
 ---
 The short answer is: NO!
 At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!
-
 3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
     </item>
     
@@ -72,7 +71,6 @@ At least not in my case (anymore). I just removed all (common) Sense from my pho
       <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
       <description>... just kidding :).
 Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
-
 And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
     </item>
     
@@ -93,8 +91,7 @@ This is why I figured it probably makes sense to polish and publish something th
       <pubDate>Sun, 19 Dec 2010 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2010/12/19/maven-flex/air-and-android-trinity-or-bermuda-triangle/</guid>
-      <description>Partially for professional reasons, partially out of plain, naked, old-fashioned curiosity (and also triggered by the Adobe announcement that Adobe Air now runs on Android) I am currently looking to find out how to use Maven to build a Flex/Air application for the Android phone. 
-And ... it is not this easy. I am now working on this for a couple of weeks (elapse time that is - CPU time probably more 16 hours).</description>
+      <description>Partially for professional reasons, partially out of plain, naked, old-fashioned curiosity (and also triggered by the Adobe announcement that Adobe Air now runs on Android) I am currently looking to find out how to use Maven to build a Flex/Air application for the Android phone. And ... it is not this easy. I am now working on this for a couple of weeks (elapse time that is - CPU time probably more 16 hours).</description>
     </item>
     
     <item>
@@ -103,8 +100,7 @@ And ... it is not this easy. I am now working on this for a couple of weeks (ela
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</guid>
-      <description>A year ago I developed a small set of demos to show how toaccess SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
-
+      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
 I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
     </item>
     
@@ -115,10 +111,8 @@ I just finished an update/upgrade of this demo to show that it also works with t
       
       <guid>http://tedn.life/2009/05/28/effective-android-getting-started-guide-for-the-android-dev-phone-1/</guid>
       <description>This week I spend a day to get my new Android Phone up and running.
-
 At the end I figured it might make sense to write up a cookbook on what to do when you finally get your hands on the box and unwrap your new toy. Here we go ...
-The (ultimate :)) Android Getting Started Guide (for Mac Users :)) 
-First things first: This guide assumes that you got yourself an Android Dev Phone 1.</description>
+The (ultimate :)) Android Getting Started Guide (for Mac Users :)) First things first: This guide assumes that you got yourself an Android Dev Phone 1.</description>
     </item>
     
     <item>
@@ -168,9 +162,7 @@ CU there. </description>
       
       <guid>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</guid>
       <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).
-Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. 
-My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. 
-One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
+Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
     </item>
     
     <item>
@@ -179,8 +171,7 @@ One interesting point that he raised is that Mobile Telecom Operators are curren
       <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone/chumby-integration/</guid>
-      <description>The embedded/mobile software market is growing faster than the rest of the industry. From my point of view this just the tip of the iceberg, because we are at the beginning of the sensoric revolution. 
-Historically all data got created in the &#34;middle&#34; and we used integration technologies to distribute the data. Web 1.0 turned out to become the preferred mechanism to get this done and we changed the content/data in the middle through the web (e.</description>
+      <description>The embedded/mobile software market is growing faster than the rest of the industry. From my point of view this just the tip of the iceberg, because we are at the beginning of the sensoric revolution. Historically all data got created in the &#34;middle&#34; and we used integration technologies to distribute the data. Web 1.0 turned out to become the preferred mechanism to get this done and we changed the content/data in the middle through the web (e.</description>
     </item>
     
     <item>
@@ -190,8 +181,7 @@ Historically all data got created in the &#34;middle&#34; and we used integratio
       
       <guid>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</guid>
       <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.
-And there is a lot to talk about ... 
-the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
+And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
 In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
     

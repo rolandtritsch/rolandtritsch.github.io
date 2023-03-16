@@ -12,7 +12,7 @@
       <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</guid>
-      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters?</description>
+      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters? Anyway .</description>
     </item>
     
     <item>
@@ -50,8 +50,7 @@ The result is surprising (and maybe not :)). If you use the &#34;native&#34; for
       <pubDate>Tue, 30 Sep 2008 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</guid>
-      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. 
-But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.
+      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.
 And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my &#34;</description>
     </item>
     

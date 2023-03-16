@@ -24,8 +24,7 @@ To avoid any kind of 2-phase-commit shenanigans we are publishing events at-leas
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</guid>
-      <description>A year ago I developed a small set of demos to show how toaccess SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
-
+      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
 I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
     </item>
     
@@ -57,8 +56,7 @@ from Falko Riemenschneider. The high-level summary is ...
       
       <guid>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</guid>
       <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.
-And there is a lot to talk about ... 
-the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
+And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
 In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
     

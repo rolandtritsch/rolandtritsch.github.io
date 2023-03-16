@@ -59,7 +59,7 @@ Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;be
       
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
       <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
- This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
+This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
 All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
     
@@ -110,7 +110,6 @@ The puzzles do a lot of different things and will test your ability to come up w
       
       <guid>http://tedn.life/2018/05/04/tenable-new-hire-training-...-and-integrating-sbt-release-with-sbt-github-release/</guid>
       <description>The other day I was flying to the Tenable new hire training in Columbia/MD and that means &amp;hellip; 8 hours of uninterrupted coding time!!!
-
 At the same time, I saw/found the sbt-guthub-release plugin and started to wonder, if it would be possible to combine it with the sbt-release plugin.
 And while I was thinking about this I figured &amp;ldquo;what the hell&amp;rdquo;, why not creating another opinionated giter8 template to bootstrap my scala projects, means at the end I decided to spend the 8 hours on bringing a couple of things together &amp;hellip;</description>
     </item>
@@ -181,7 +180,6 @@ We talked about, how to write, compile and run .</description>
       <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
       <description>... just kidding :).
 Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
-
 And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
     </item>
     
@@ -218,10 +216,10 @@ In my case I tried to come up with a simulation for the Dining Philosophers Prob
     
     <item>
       <title>Teaching Scala @ TCD ... back to the roots</title>
-      <link>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</link>
+      <link>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</guid>
+      <guid>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</guid>
       <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
 This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
     </item>

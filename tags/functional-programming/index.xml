@@ -66,10 +66,10 @@ Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;be
     
     <item>
       <title>Haskell &#43; Beam = Hamler (III)</title>
-      <link>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</link>
+      <link>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</guid>
+      <guid>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</guid>
       <description>Here comes part III of the Hamler blog post series &amp;hellip;
 One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.
 Just looked into this a little bit and there is good news and bad news. The good news is I found something.
@@ -78,10 +78,10 @@ I can make the hamer solution run 10 times faster by changing the implementation
     
     <item>
       <title>Haskell &#43; Beam = Hamler (II)</title>
-      <link>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</link>
+      <link>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</guid>
+      <guid>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</guid>
       <description>Here comes part II of the Hamler blog post series &amp;hellip;
 For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.
 I just finished implementing all of the part-1 solutions in Hamler.
@@ -90,12 +90,12 @@ I had to skip Day 20 (the seamonster), because Hamler only supports a very small
     
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
-      <link>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</link>
+      <link>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</guid>
+      <guid>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</guid>
       <description>Hamler Blog Post Series &amp;hellip;
- Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster   What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
+Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
 Yes, right: Hamler!
 Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
 At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
@@ -108,7 +108,7 @@ At Community we are big Beam/OTP fans (because we like highly-scalable and highl
       
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
       <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
- This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
+This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
 All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
     
@@ -135,7 +135,7 @@ Obviously the question is: Is Kotlin the next better thing?
 Is Kotlin going to replace Java? Is Kotlin going to replace Scala? Is Kotlin the next better language that will make Software Engineers (much) more productive?
 To find out I ported my Scala Advent of Code solutions to Kotlin.
 My main take aways are &amp;hellip;
- if you know Java, learning Kotlin will be easier and faster than learning Scala Kotlin is without a doubt &amp;ldquo;the better Java&amp;rdquo;  it compiles fast it runs fast it has very good tooling/IDE support (namely (obviously) the support in Intellij is first-class) it runs on Android hell &amp;hellip; it even runs on Raspberry Pi with Arrows it has a very nice (pure) functional programming library   if you know Scala, learning Kotlin will be even easier, but you will also feel that you are not gaining anything or even that you are loosing some capabilities that are valuable  Sooooo &amp;hellip; my exec summary is &amp;hellip;</description>
+if you know Java, learning Kotlin will be easier and faster than learning Scala Kotlin is without a doubt &amp;ldquo;the better Java&amp;rdquo; it compiles fast it runs fast it has very good tooling/IDE support (namely (obviously) the support in Intellij is first-class) it runs on Android hell &amp;hellip; it even runs on Raspberry Pi with Arrows it has a very nice (pure) functional programming library if you know Scala, learning Kotlin will be even easier, but you will also feel that you are not gaining anything or even that you are loosing some capabilities that are valuable Sooooo &amp;hellip; my exec summary is &amp;hellip;</description>
     </item>
     
     <item>
@@ -159,7 +159,7 @@ The puzzles do a lot of different things and will test your ability to come up w
       <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
 Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
 The course is long &amp;hellip;
- Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
+Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
     </item>
     
     <item>
@@ -217,10 +217,10 @@ In my case I tried to come up with a simulation for the Dining Philosophers Prob
     
     <item>
       <title>Teaching Scala @ TCD ... back to the roots</title>
-      <link>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</link>
+      <link>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</guid>
+      <guid>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</guid>
       <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
 This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
     </item>

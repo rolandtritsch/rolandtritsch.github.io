@@ -5,7 +5,61 @@
     <link>http://tedn.life/tags/</link>
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT</title>
+      <link>http://tedn.life/tags/chatgpt/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate</title>
+      <link>http://tedn.life/tags/climate/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/climate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environment</title>
+      <link>http://tedn.life/tags/environment/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Innovation</title>
+      <link>http://tedn.life/tags/innovation/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Politics</title>
+      <link>http://tedn.life/tags/politics/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>http://tedn.life/tags/thoughts/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Books</title>
       <link>http://tedn.life/tags/books/</link>
@@ -30,33 +84,6 @@
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/remote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thoughts</title>
-      <link>http://tedn.life/tags/thoughts/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/thoughts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Environment</title>
-      <link>http://tedn.life/tags/environment/</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/environment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Politics</title>
-      <link>http://tedn.life/tags/politics/</link>
-      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/politics/</guid>
       <description></description>
     </item>
     
@@ -111,15 +138,6 @@
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Innovation</title>
-      <link>http://tedn.life/tags/innovation/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/tags/innovation/</guid>
       <description></description>
     </item>
     

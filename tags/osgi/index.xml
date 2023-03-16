@@ -23,7 +23,8 @@ I just checked in my port of the original Apache Felix Tutorial to Scala. As men
       <pubDate>Thu, 22 Apr 2010 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2010/04/22/managing-complexity-with-osgi-in-bundles-and-between-bundles/</guid>
-      <description>Right now the Brandvis SelectPortal system is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.Triggered by this work and triggered by a talk on reuse of OSGi bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</description>
+      <description>Right now the Brandvis SelectPortal system is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.
+Triggered by this work and triggered by a talk on reuse of OSGi bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</description>
     </item>
     
     <item>

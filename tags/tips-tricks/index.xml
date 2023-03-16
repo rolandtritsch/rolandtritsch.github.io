@@ -14,7 +14,7 @@
       <guid>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</guid>
       <description>Happy new year to ya all!!!
 What a year it has been. Some of the highlights are &amp;hellip;
- In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
+In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
     </item>
     
     <item>
@@ -48,9 +48,9 @@ To avoid any kind of 2-phase-commit shenanigans we are publishing events at-leas
       <guid>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</guid>
       <description>Updated (2021-08-14): Added some test data (at the end; see below)
 As I said before &amp;hellip;
- When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
+When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
 Statements like &amp;hellip;
- &amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video.</description>
+&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video.</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@ What you need to survive (and stay sane) in such polyglot software engineering e
       <guid>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</guid>
       <description>When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
 Statements like &amp;hellip;
- &amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo;  &amp;hellip; are just not good enough.</description>
+&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo; &amp;hellip; are just not good enough.</description>
     </item>
     
     <item>
@@ -114,7 +114,7 @@ That kind of worked (a little bit slow at times and managing the ports was (some
       <description>The other day I got and email that twitterfeed is no more (they recommend to use buffer or dlvr.it instead).
 My social media setup was to post to Google+ and then use twitterfeed to cross-post to twitter and facebook.
 With twitterfeed going out of business I am &amp;hellip;
- &amp;hellip; going to retire my Google+ account &amp;hellip; going to use HootSuite to selectively post to twitter (business, technical, work) and facebook (private, personal) &amp;hellip; going to continue to use Flickr to publish pictures &amp;hellip; going to continue to use GitHub to host my blog (and will cross-post on medium and linked-in for visibility).</description>
+&amp;hellip; going to retire my Google+ account &amp;hellip; going to use HootSuite to selectively post to twitter (business, technical, work) and facebook (private, personal) &amp;hellip; going to continue to use Flickr to publish pictures &amp;hellip; going to continue to use GitHub to host my blog (and will cross-post on medium and linked-in for visibility).</description>
     </item>
     
     <item>
@@ -144,8 +144,8 @@ Picking something from your list of urgent things to do is kind of easy, but how
       
       <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
       <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).
-Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... 
-Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.</description>
+Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.
+... when you hit C-c C-v .</description>
     </item>
     
     <item>
@@ -156,8 +156,7 @@ Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function
       <guid>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</guid>
       <description>Yesterday I was stumbling over a Facebook status update from Oisin Hurley ...
 Oisin Hurley is starting to get a bit irritated with people that unselectively duplicate their twitter stream to their Facebook status. They&#39;re different interactions, people.
-This is an interesting observation and creates a bigger question: where do we go with this social-networking, micro-blogging, status-update thingy? 
-Initially it was easy: there was just/only twitter and this was the place to do micro-blogging and status-updates, but by now all social-networking sites (Facebook, Linked-In, XING, Plaxo, Bebo, .</description>
+This is an interesting observation and creates a bigger question: where do we go with this social-networking, micro-blogging, status-update thingy? Initially it was easy: there was just/only twitter and this was the place to do micro-blogging and status-updates, but by now all social-networking sites (Facebook, Linked-In, XING, Plaxo, Bebo, .</description>
     </item>
     
     <item>
@@ -166,7 +165,7 @@ Initially it was easy: there was just/only twitter and this was the place to do 
       <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</guid>
-      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters?</description>
+      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters? Anyway .</description>
     </item>
     
     <item>
@@ -223,8 +222,7 @@ The result is surprising (and maybe not :)). If you use the &#34;native&#34; for
       <pubDate>Tue, 30 Sep 2008 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</guid>
-      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. 
-But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.
+      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.
 And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my &#34;</description>
     </item>
     

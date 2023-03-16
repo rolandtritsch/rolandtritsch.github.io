@@ -14,7 +14,7 @@
       <guid>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</guid>
       <description>Happy new year to ya all!!!
 What a year it has been. Some of the highlights are &amp;hellip;
- In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
+In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
     </item>
     
     <item>
@@ -65,10 +65,10 @@ Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;be
     
     <item>
       <title>Haskell &#43; Beam = Hamler (III)</title>
-      <link>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</link>
+      <link>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</guid>
+      <guid>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</guid>
       <description>Here comes part III of the Hamler blog post series &amp;hellip;
 One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.
 Just looked into this a little bit and there is good news and bad news. The good news is I found something.
@@ -77,10 +77,10 @@ I can make the hamer solution run 10 times faster by changing the implementation
     
     <item>
       <title>Haskell &#43; Beam = Hamler (II)</title>
-      <link>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</link>
+      <link>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</guid>
+      <guid>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</guid>
       <description>Here comes part II of the Hamler blog post series &amp;hellip;
 For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.
 I just finished implementing all of the part-1 solutions in Hamler.
@@ -89,12 +89,12 @@ I had to skip Day 20 (the seamonster), because Hamler only supports a very small
     
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
-      <link>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</link>
+      <link>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</guid>
+      <guid>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</guid>
       <description>Hamler Blog Post Series &amp;hellip;
- Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster   What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
+Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
 Yes, right: Hamler!
 Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
 At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
@@ -119,7 +119,7 @@ What you need to survive (and stay sane) in such polyglot software engineering e
       <description>The corona virus has a lot of weird side effects.
 You suddenly find time to do things that you couldn&amp;rsquo;t do (or wouldn&amp;rsquo;t do) for month!!!
 In my case I just updated/refreshed my blogging infrastructure &amp;hellip;
- switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course))  The result is aesthetically pleasing.</description>
+switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course)) The result is aesthetically pleasing.</description>
     </item>
     
     <item>
@@ -129,7 +129,7 @@ In my case I just updated/refreshed my blogging infrastructure &amp;hellip;
       
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
       <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
- This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
+This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
 All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
     
@@ -211,16 +211,15 @@ We talked about, how to write, compile and run .</description>
 ---
 The short answer is: NO!
 At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!
-
 3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
     </item>
     
     <item>
       <title>FlightFest @ Gilt ... Location, Location, Location ...</title>
-      <link>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</link>
+      <link>http://tedn.life/2013/09/27/flightfest-@-gilt-...-location-location-location-.../</link>
       <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2013/09/27/flightfest-gilt-...-location-location-location-.../</guid>
+      <guid>http://tedn.life/2013/09/27/flightfest-@-gilt-...-location-location-location-.../</guid>
       <description>Psssttt ... don&#39;t tell anybody, but ... at Gilt it is not always about work and writing great code.
 Sometimes we like to party. Especially when something like FlightFest comes along and the office is located right down by the Liffey overlooking the river and the Samuel Beckett Bridge.
 Sometimes it is too good not to do it. What a great day. For the kids. For the girls and the boys.</description>
@@ -254,8 +253,8 @@ Now you might say, who cares, but if you read a lot of source code (like I do) S
       
       <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
       <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).
-Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... 
-Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.</description>
+Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.
+... when you hit C-c C-v .</description>
     </item>
     
   </channel>

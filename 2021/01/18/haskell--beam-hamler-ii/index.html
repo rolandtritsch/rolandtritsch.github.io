@@ -1,0 +1,411 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Haskell &#43; Beam = Hamler (II) </title>
+
+    
+    
+    <meta content="Advent-of-Code, Functional-Programming, Haskell, Nerdy, Elixir, Software-Engineering" name="keywords">
+    
+    <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Haskell &#43; Beam = Hamler (II)</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-01-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>Here comes part II of the <a href="https://tedn.life/2020/12/15/haskell-beam-hamler-i/">Hamler blog post series</a> &hellip;</p>
+<p>For this year&rsquo;s <a href="https://adventofcode.com/2020">Advent-of-Code</a> I wanted to take a look at <a href="https://www.hamler-lang.org/">Hamler</a>.</p>
+<p>I just finished implementing all of the part-1 solutions in <a href="https://github.com/rolandtritsch/hamler-aoc-2020">Hamler</a>.</p>
+<img src="/images/2021-01-18-hamler-aoc-II/aoc-day25.png" style="float:right" width="50%" hspace="1%" vspace="1%"/>
+<p>I had to skip Day 20 (the seamonster), because Hamler only supports a very small/limited number of packages, which means I would have needed to write a lot of code before I would have been able to tackle the actual problem.</p>
+<p>Hamler is under active development and I started to build it from the main branch to make sure I can use some features/capabilities that I needed/wanted (e.g. <code>read</code>) to make my life easier.</p>
+<p>My development environment (emacs) had the source code in a frame on the left and an <code>iwatch -c 'hamler test' src/Day00.hm</code> on the right (that way the tests where running every time I saved the file). I also had a window/frame open with a <code>hamler repl</code> in it and was cutting/pasting code from/to it. This was a very limited IDE, but it worked.</p>
+<p>On Day 23 I build Hamler again and afterwards was not able to make the repl work again. And without the repl development became very cumbersome.</p>
+<p>So I decided that it is time to bite the bullet and port all of the code to <a href="https://github.com/rolandtritsch/haskell-aoc-2020">Haskell</a>.</p>
+<p>That went well, because my Hamler code was very <em>haskell-ish</em>. Means it was not using any of the Erlang capabilities (e.g. GenServers), which made porting it easy (mainly changing <code>Integer</code> to <code>Int</code>, changing list pattern matching from <code>[x|_]</code> to <code>(x:_)</code> and changing some of the functions (e.g. <code>splitOn</code>)). You can take a look at some of the <a href="https://github.com/rolandtritsch/haskell-aoc-2020/commit/e432185ee229276961f886a6e711b6253d38269f">commits</a> to get a feel for the changes I had to make.</p>
+<img src="/images/2021-01-18-hamler-aoc-II/bench.png" style="float:left" width="40%" hspace="1%" vspace="1%"/>
+<p>One big difference was obviously that (suddenly :)) I had a fully functional IDE again (code completion, LSP language server, &hellip;) and that was huge!!!</p>
+<p>After I was done porting Day 1 to 22 to Haskell, I developed the solutions for Day 23 to 25 in Haskell and ported that code back to Hamler. That worked <a href="https://github.com/rolandtritsch/hamler-aoc-2020/commit/6a8b48bfba9075e0b5238f07c7d2ab8b622b8aae">too</a>.</p>
+<p>At the end I did a little bit of <a href="https://docs.google.com/spreadsheets/d/1MEcjgN7xbqkTR79Z5WyITtC5foah_QtG5Nm3EmB4P9w/edit?usp=sharing">benchmarking</a> between Hamler and Haskell. In general Hamler is roughly 5-20 times slower than Haskell. There was/is something wrong with Day 21. For that day Hamler is 6000 times slower than Haskell (running the <em>same</em> code).</p>
+<p>So far the main take-aways for me are &hellip;</p>
+<ul>
+<li>Hamler works much better than I expected</li>
+<li>But there is a lot of tooling missing to support a good development experience</li>
+<li>And there are (a lot of) packages missing</li>
+<li>And Hamler is slower that Haskell</li>
+</ul>
+<p>&hellip; and this assessment is not really fair, because it suggests to look at Hamler as Haskell on the BEAM.</p>
+<p>I am not sure this is a good/the right way to look at this. For me a better/the right way to look at this is to compare Hamler with Erlang and ask: What is Hamler giving me that Erlang is not giving me?</p>
+<p>I think the core strength of Hamler is not that it is a <em>better</em> Haskell, but more that it allows you to get to the capabilities of the BEAM writing Haskell-like code.</p>
+<p>The next step will be/needs to be to investigate some of these strength more (using GenServers, (re)using/linking with existing Erlang/Elixir artifacts, &hellip;). Stay tuned &hellip;</p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2020/12/15/haskell--beam-hamler-i/">
+                                <h3 class="">Haskell &#43; Beam = Hamler (I)</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2020-12-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/">
+                                <h3 class="">Code Elixir LDN 2019 - 3 languages in 3 minutes</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2019-08-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/">
+                                <h3 class="">Advent of Code ... Final cut (... and First cut :))</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-11-30</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/eta">
+            <span class="layui-badge" style="vertical-align: 2px;">Eta</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2018/08/11/advent-of-code-2017-...-revolutions/">
+                                <h3 class="">Advent of Code 2017 ... Revolutions!!!</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-08-11</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2018/05/24/advent-of-code-2017-...-reloaded/">
+                                <h3 class="">Advent of Code 2017 ... Reloaded!!!</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2018-05-24</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-engineering">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Engineering</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2021 Roland Tritsch - All rights reserved. Last updated on  2021-02-01 09:57:43 &#43;0000 GMT </p>
+    </div>
+</footer>
+
+</body>
+</html>

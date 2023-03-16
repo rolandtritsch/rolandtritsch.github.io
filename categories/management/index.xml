@@ -5,7 +5,17 @@
     <link>http://tedn.life/categories/management/</link>
     <description>Recent content in Management on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The pillars of a sustainable energy future - A fireside chat</title>
+      <link>http://tedn.life/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/</guid>
+      <description>This blog post is interesting in more than one way, because &amp;hellip;
+I am going to discuss a topic that is deer to my heart: What do we need to do to get to a better place with respect to a sustainable energy future? And I am going to use a new approach: Where I am first going to articulate my thoughts and then I am going to complement it with a fireside chat that I had with chatGPT about the topics at hand.</description>
+    </item>
+    
     <item>
       <title>The Ideal Team Player - HHS vs. DAC</title>
       <link>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</link>
@@ -14,7 +24,7 @@
       <guid>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</guid>
       <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.
 In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;
- Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organisation Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behaviour which sets low standards Inattention to team results — focusing on personal success, status and ego before team success  I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
+Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organisation Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behaviour which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
     </item>
     
     <item>
@@ -42,10 +52,10 @@ Big surprise: Yes! When I build and run remote-first organizations I worry about
     
     <item>
       <title>The first Summit/Hack-a-thon @ Community</title>
-      <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</link>
+      <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/</guid>
+      <guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</guid>
       <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;
 Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
     </item>
@@ -82,7 +92,7 @@ Obviously the key messages/statements from the book are still true (or truer tha
       <guid>http://tedn.life/2020/03/31/the-extreme-digital-nomad-tedn/</guid>
       <description>In the last 25 years I have build and run multiple distributed software engineering organisations.
 My management style/philosophy is based on a couple of core believes &amp;hellip;
- The Power of Why - I like to lead with Why (to make sure Talent and Passion can meet a Purpose) People first - I always think and feel that people are the solution (not the problem) Heterogenerity for the win - You have to be different to complement each other (and to create innovation) No surprises - Everybody (at all times) should be clear on what is happening and why it is happening, which leads to &amp;hellip; Building and maintain trust (and respect) (between the people) at all cost!</description>
+The Power of Why - I like to lead with Why (to make sure Talent and Passion can meet a Purpose) People first - I always think and feel that people are the solution (not the problem) Heterogenerity for the win - You have to be different to complement each other (and to create innovation) No surprises - Everybody (at all times) should be clear on what is happening and why it is happening, which leads to &amp;hellip; Building and maintain trust (and respect) (between the people) at all cost!</description>
     </item>
     
     <item>
@@ -91,7 +101,7 @@ My management style/philosophy is based on a couple of core believes &amp;hellip
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2019/03/01/hub-first-vs.-remote-first-vs.-pod-first-...-skating-to-where-the-puck-is-going-to-be/</guid>
-      <description>Fig 1: Skating to where the puck ...  Finding good and the right talent for an engineering organisation is as challenging as ever.
+      <description>Fig 1: Skating to where the puck ... Finding good and the right talent for an engineering organisation is as challenging as ever.
 And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).
 One key component to get this right is a good/the right structure for your engineering organisation.
 And you probably want to structure it in a way so that it not only works today, but also in 2-3 years from now, because otherwise by the time you are done building the org it will not work (anymore)).</description>
@@ -99,10 +109,10 @@ And you probably want to structure it in a way so that it not only works today, 
     
     <item>
       <title>GDSE @ edx.org (with TU Delft)</title>
-      <link>http://tedn.life/2018/01/24/gdse-edx.org-with-tu-delft/</link>
+      <link>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2018/01/24/gdse-edx.org-with-tu-delft/</guid>
+      <guid>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</guid>
       <description>MOOCs (Massive Open Online Courses) are massive!!!
 I did my first one 7 years ago (on Cousera; Martin Odersky&amp;rsquo;s course on Functional Programming with Scala).
 Since then there has been an explosion of sites and offerings. By now it is clear that, if you do not know, how to use these sites to your own advantage you are putting yourself at a competitive disadvantage (from a skills development point of view).</description>
@@ -121,10 +131,10 @@ You need to be a manager and a leader. You need to be a friend and a dad (or mot
     
     <item>
       <title>Hackweeks @ Nitro ... The Why, The What, The How</title>
-      <link>http://tedn.life/2017/07/29/hackweeks-nitro-...-the-why-the-what-the-how/</link>
+      <link>http://tedn.life/2017/07/29/hackweeks-@-nitro-...-the-why-the-what-the-how/</link>
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2017/07/29/hackweeks-nitro-...-the-why-the-what-the-how/</guid>
+      <guid>http://tedn.life/2017/07/29/hackweeks-@-nitro-...-the-why-the-what-the-how/</guid>
       <description>As already discussed: I am obsessed with building cars!!!
 Not in the sense that I want/need to build cars, but in the sense that Henry Ford famously once upon a time (apparently not) said, that if he would have build what customers wanted, he would have build faster horses.
 Luckily he was able to complement the input from the customers (we want faster horses) with a view of what is possible (cars).</description>
@@ -173,8 +183,8 @@ For me Operational Excellence is the ability of an organization to make (initial
       
       <guid>http://tedn.life/2017/01/19/lol-...-printers-suck/</guid>
       <description>Last year we visited some of our customers in EMEA to get some video footage about their Nitro Experience.
- While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;
- Life at Nitro: The Nitro Family Life Nitro: Our Dedication to Development Life at Nitro: Our Diversity Nitro: Our Vision for PDF Life at Nitro: Our Leaders Nitro: Our Thoughts on Printers  My favorite quote is &amp;hellip; obviously &amp;hellip; &amp;ldquo;Printers suck!</description>
+While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;
+Life at Nitro: The Nitro Family Life Nitro: Our Dedication to Development Life at Nitro: Our Diversity Nitro: Our Vision for PDF Life at Nitro: Our Leaders Nitro: Our Thoughts on Printers My favorite quote is &amp;hellip; obviously &amp;hellip; &amp;ldquo;Printers suck!</description>
     </item>
     
     <item>
@@ -197,7 +207,7 @@ But then you are successful. And you hire more engineers and then you realize th
       <description>We are redoing our engineering website and our blog (stay tuned).
 In parallel we have worked on the Nitro Mission Statement (for 2017 and beyond) and have condensed it down to &amp;hellip;
 Our VP Product has also articulated a comprehensive, 2-step, &amp;ldquo;Elon Musk&amp;rdquo;-style master plan how to get there &amp;hellip;
- Make edit, collaborate, share, sign &amp;hellip; work!!! - for everybody (personal and business (wall-to-wall)), everywhere (desktop, browser, mobile) and anytime (always-on).</description>
+Make edit, collaborate, share, sign &amp;hellip; work!!! - for everybody (personal and business (wall-to-wall)), everywhere (desktop, browser, mobile) and anytime (always-on).</description>
     </item>
     
     <item>
@@ -228,8 +238,7 @@ Nitro (like a lot of other startups) is going through growing pains. In the last
       
       <guid>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</guid>
       <description>I am just back from presenting a talk at FutureStack in SFO.
-
-Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku.</description>
+Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku. Checking out these (and all of the the other talks) is recommended.</description>
     </item>
     
     <item>
@@ -298,8 +307,7 @@ For me the key is skills and innovation. Skill comes in two flavors: expertise a
       <pubDate>Thu, 22 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/01/22/commercial-open-source-for-apache-projects-survival-of-the-fittest/</guid>
-      <description>Just found another company offering commercial support for Apache ServiceMix and Apache ActiveMQ (like we do :)). For me this is good news. It shows that more and more people use Apache integration projects in mission-critical deployment scenarios. And that these deployments generate enough value for customers to warrant an &#34;insurance&#34; against worst-case scenarios. 
-For me it was never the goal to be the only company to offer consulting, training and support for Apache integration projects.</description>
+      <description>Just found another company offering commercial support for Apache ServiceMix and Apache ActiveMQ (like we do :)). For me this is good news. It shows that more and more people use Apache integration projects in mission-critical deployment scenarios. And that these deployments generate enough value for customers to warrant an &#34;insurance&#34; against worst-case scenarios. For me it was never the goal to be the only company to offer consulting, training and support for Apache integration projects.</description>
     </item>
     
     <item>
@@ -339,8 +347,7 @@ What I like about the approach is that it tries to take the emotion out of the d
       <pubDate>Thu, 05 Jun 2008 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2008/06/05/innovation-on-innovation-how-to-make-elephants-dance/</guid>
-      <description>Yesterday I went out and had a pint with Sailesh Panchal. He is an Enterprise Architect with the payments division of Lloyds TSB in London. Part of his responsibility is to foster innovation in Lloyds. 
-Obviously innovation needs to be directed towards a measurable goal/target/impact for the customer and/or the company. To judge, if an/the idea was just a good idea or a real innovation, you must be able to show some measurable ROI in a defined timeframe.</description>
+      <description>Yesterday I went out and had a pint with Sailesh Panchal. He is an Enterprise Architect with the payments division of Lloyds TSB in London. Part of his responsibility is to foster innovation in Lloyds. Obviously innovation needs to be directed towards a measurable goal/target/impact for the customer and/or the company. To judge, if an/the idea was just a good idea or a real innovation, you must be able to show some measurable ROI in a defined timeframe.</description>
     </item>
     
     <item>
@@ -349,9 +356,7 @@ Obviously innovation needs to be directed towards a measurable goal/target/impac
       <pubDate>Sun, 20 Apr 2008 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2008/04/20/the-colossus-of-rhodes/</guid>
-      <description>Now. Lets get things started. Lets talk about innovation. 
-for a well-known reason (at least) once a year i am in greece. this year we also went to rhodos to see the colossus. 
-question is: was this innovation? i mean, is it innovative to come up with the idea to build something like the colossus?
+      <description>Now. Lets get things started. Lets talk about innovation. for a well-known reason (at least) once a year i am in greece. this year we also went to rhodos to see the colossus. question is: was this innovation? i mean, is it innovative to come up with the idea to build something like the colossus?
 what is the nature of innovation? how is it for instance different from creativity?</description>
     </item>
     

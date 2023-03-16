@@ -20,10 +20,10 @@ To avoid any kind of 2-phase-commit shenanigans we are publishing events at-leas
     
     <item>
       <title>Haskell &#43; Beam = Hamler (III)</title>
-      <link>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</link>
+      <link>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/02/01/haskell-beam-hamler-iii/</guid>
+      <guid>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</guid>
       <description>Here comes part III of the Hamler blog post series &amp;hellip;
 One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.
 Just looked into this a little bit and there is good news and bad news. The good news is I found something.
@@ -32,10 +32,10 @@ I can make the hamer solution run 10 times faster by changing the implementation
     
     <item>
       <title>Haskell &#43; Beam = Hamler (II)</title>
-      <link>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</link>
+      <link>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2021/01/18/haskell-beam-hamler-ii/</guid>
+      <guid>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</guid>
       <description>Here comes part II of the Hamler blog post series &amp;hellip;
 For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.
 I just finished implementing all of the part-1 solutions in Hamler.
@@ -44,12 +44,12 @@ I had to skip Day 20 (the seamonster), because Hamler only supports a very small
     
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
-      <link>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</link>
+      <link>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2020/12/15/haskell-beam-hamler-i/</guid>
+      <guid>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</guid>
       <description>Hamler Blog Post Series &amp;hellip;
- Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster   What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
+Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
 Yes, right: Hamler!
 Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
 At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
@@ -62,7 +62,7 @@ At Community we are big Beam/OTP fans (because we like highly-scalable and highl
       
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
       <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
- This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
+This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
 All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
     

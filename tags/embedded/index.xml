@@ -14,7 +14,6 @@
       <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
       <description>... just kidding :).
 Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
-
 And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
     </item>
     

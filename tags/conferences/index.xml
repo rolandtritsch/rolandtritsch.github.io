@@ -13,7 +13,7 @@
       
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
       <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
- This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
+This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
 All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
     
@@ -26,15 +26,15 @@ All of the talks where good, but a couple of them where of even better value to 
       <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
 Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
 The course is long &amp;hellip;
- Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
+Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
     </item>
     
     <item>
       <title>GDSE @ edx.org (with TU Delft)</title>
-      <link>http://tedn.life/2018/01/24/gdse-edx.org-with-tu-delft/</link>
+      <link>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2018/01/24/gdse-edx.org-with-tu-delft/</guid>
+      <guid>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</guid>
       <description>MOOCs (Massive Open Online Courses) are massive!!!
 I did my first one 7 years ago (on Cousera; Martin Odersky&amp;rsquo;s course on Functional Programming with Scala).
 Since then there has been an explosion of sites and offerings. By now it is clear that, if you do not know, how to use these sites to your own advantage you are putting yourself at a competitive disadvantage (from a skills development point of view).</description>
@@ -47,8 +47,7 @@ Since then there has been an explosion of sites and offerings. By now it is clea
       
       <guid>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</guid>
       <description>Sometimes it takes a while to get to it &amp;hellip;
- Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
-
+Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
 Good morning everybody. On behalf of Nitro: Welcome to Data by the Bay.
 My name is Roland Tritsch and I am German and I am the VP Engineering at Nitro.</description>
     </item>
@@ -70,16 +69,15 @@ I am working with Nitro for a year now and have learned a lot about Machine Lear
       
       <guid>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</guid>
       <description>I am just back from presenting a talk at FutureStack in SFO.
-
-Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku.</description>
+Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku. Checking out these (and all of the the other talks) is recommended.</description>
     </item>
     
     <item>
       <title>Teaching Scala @ TCD ... back to the roots</title>
-      <link>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</link>
+      <link>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://tedn.life/2012/11/10/teaching-scala-tcd-...-back-to-the-roots/</guid>
+      <guid>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</guid>
       <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
 This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
     </item>
@@ -91,9 +89,7 @@ This week I got the chance to experience a deja-vu, because earlier this year I 
       
       <guid>http://tedn.life/2010/04/07/international-conference-on-mass-customization-and-personalization-in-central-europe-mcp-ce-2010/</guid>
       <description>Good news :). My talk on ...
-
 About the importance of templates and platforms for &#34;managed customization&#34; in the garment industry
-
 The garment industry is not only looking for a solution to address the increasing demand for customized product solutions for end-customers. As with other industries the solution/approach must take a more hollistic view to also cater for a wider variety of legal (certification) and manufacturing (small batches, short leadtime) requirements (&#34;</description>
     </item>
     
@@ -112,11 +108,10 @@ The garment industry is not only looking for a solution to address the increasin
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2009/06/19/street-performance-world-championship-a-non-technical-blog-post/</guid>
-      <description> Sorry - this is a non-technical blog post. If you are not interested in having a good time, stop reading now. Otherwise ...
+      <description>Sorry - this is a non-technical blog post. If you are not interested in having a good time, stop reading now. Otherwise ...
 I am on the LUAS on the way home from the Street Performance World Championship in Dublin.
 All of the performances are good/funny, but my personal favorite are Alakazam and Mr. Toons.
-Go and check it out. It is worth-while the time.
- </description>
+Go and check it out. It is worth-while the time.</description>
     </item>
     
     <item>
@@ -177,9 +172,7 @@ CU there. </description>
       
       <guid>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</guid>
       <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).
-Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. 
-My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. 
-One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
+Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
     </item>
     
     <item>
@@ -188,9 +181,7 @@ One interesting point that he raised is that Mobile Telecom Operators are curren
       <pubDate>Tue, 13 May 2008 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/2008/05/13/mobile-monday/</guid>
-      <description> Got invited to talk at the Mobile Monday Series in Belfast.Looks interesting/promising. Will publish a post lateronnext week.
-
- </description>
+      <description>Got invited to talk at the Mobile Monday Series in Belfast.Looks interesting/promising. Will publish a post lateronnext week.</description>
     </item>
     
   </channel>
