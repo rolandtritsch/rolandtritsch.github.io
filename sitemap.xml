@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tedn.life/categories/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
+    <loc>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/chatgpt/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
+    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/innovation/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/machine-learning/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/nerdy/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/personal/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/thoughts/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/climate/</loc>
     <lastmod>2023-03-16T11:55:25+00:00</lastmod>
@@ -14,34 +41,10 @@
     <loc>http://tedn.life/tags/environment/</loc>
     <lastmod>2023-03-16T11:55:25+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/innovation/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/tags/politics/</loc>
     <lastmod>2023-03-16T11:55:25+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/</loc>
-    <lastmod>2023-03-16T11:55:25+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/thoughts/</loc>
     <lastmod>2023-03-16T11:55:25+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/books/</loc>
@@ -50,19 +53,19 @@
     <loc>http://tedn.life/tags/culture/</loc>
     <lastmod>2023-02-10T09:57:21+00:00</lastmod>
   </url><url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2023-02-10T09:57:21+00:00</lastmod>
+  </url><url>
     <loc>http://tedn.life/tags/remote/</loc>
     <lastmod>2023-02-10T09:57:21+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</loc>
     <lastmod>2023-02-10T09:57:21+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2023/01/14/can-we-affort-to-be-surprised-hot-hot-hot/</loc>
+    <loc>http://tedn.life/2023/01/14/can-we-afford-to-be-surprised-hot-hot-hot/</loc>
     <lastmod>2023-01-15T07:28:19+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</loc>
-    <lastmod>2023-01-04T12:21:12+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/nerdy/</loc>
     <lastmod>2023-01-04T12:21:12+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/privacy/</loc>
@@ -86,8 +89,11 @@
     <loc>http://tedn.life/tags/lisp/</loc>
     <lastmod>2022-10-18T08:00:12+01:00</lastmod>
   </url><url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2022-10-18T08:00:12+01:00</lastmod>
+  </url><url>
     <loc>http://tedn.life/about/</loc>
-    <lastmod>2023-01-02T06:46:51+00:00</lastmod>
+    <lastmod>2023-03-22T16:21:09+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/social/</loc>
     <lastmod>2023-01-02T06:46:51+00:00</lastmod>
@@ -318,9 +324,6 @@
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2016/09/23/deep-learning-...-and-beyond-rrrs-from-the-deep-learning-summit-2016-in-london/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/machine-learning/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2016/07/10/happy-4th-of-july-or-...-how-to-take-advantage-of-an-opportuunity/</loc>
