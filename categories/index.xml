@@ -5,7 +5,17 @@
     <link>http://tedn.life/categories/</link>
     <description>Recent content in Categories on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software-Craftmanship</title>
+      <link>http://tedn.life/categories/software-craftmanship/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/categories/software-craftmanship/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Personal</title>
       <link>http://tedn.life/categories/personal/</link>
@@ -21,15 +31,6 @@
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://tedn.life/categories/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software-Craftmanship</title>
-      <link>http://tedn.life/categories/software-craftmanship/</link>
-      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/software-craftmanship/</guid>
       <description></description>
     </item>
     

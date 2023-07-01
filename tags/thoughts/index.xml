@@ -5,7 +5,19 @@
     <link>http://tedn.life/tags/thoughts/</link>
     <description>Recent content in Thoughts on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Software Gardening Manifesto - A copy</title>
+      <link>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</guid>
+      <description>In case the Software Gardening Manifesto is down or otherwise not available, here is a copy of it &amp;hellip;
+SOFTWARE GARDENING MANIFESTO Software Gardeners are professionals who perceive software development in a different way. Our goal is to spread the word of our core values, be mentors for the new developers and create software that it is developed at the highest quality bar.
+Every software gardener believes and embraces the following:</description>
+    </item>
+    
     <item>
       <title>Augmented Blogging - The Art of Prompting</title>
       <link>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</link>

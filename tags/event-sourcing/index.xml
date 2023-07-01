@@ -5,6 +5,7 @@
     <link>http://tedn.life/tags/event-sourcing/</link>
     <description>Recent content in Event-Sourcing on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/event-sourcing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
