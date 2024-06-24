@@ -4,186 +4,128 @@
     <title>Conferences on tedn.life</title>
     <link>http://tedn.life/tags/conferences/</link>
     <description>Recent content in Conferences on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 15:27:46 +0000</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Elixir LDN 2019 - 3 languages in 3 minutes</title>
       <link>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
-      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
-This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
-All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
+      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;&#xA;This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.&#xA;All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Category Theory for Programmers ... Reviewing THE course!</title>
       <link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
-      <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
-Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
-The course is long &amp;hellip;
-Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
+      <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).&#xA;Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).&#xA;The course is long &amp;hellip;&#xA;Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
     </item>
-    
     <item>
       <title>GDSE @ edx.org (with TU Delft)</title>
       <link>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</guid>
-      <description>MOOCs (Massive Open Online Courses) are massive!!!
-I did my first one 7 years ago (on Cousera; Martin Odersky&amp;rsquo;s course on Functional Programming with Scala).
-Since then there has been an explosion of sites and offerings. By now it is clear that, if you do not know, how to use these sites to your own advantage you are putting yourself at a competitive disadvantage (from a skills development point of view).</description>
+      <description>MOOCs (Massive Open Online Courses) are massive!!!&#xA;I did my first one 7 years ago (on Cousera; Martin Odersky&amp;rsquo;s course on Functional Programming with Scala).&#xA;Since then there has been an explosion of sites and offerings. By now it is clear that, if you do not know, how to use these sites to your own advantage you are putting yourself at a competitive disadvantage (from a skills development point of view).</description>
     </item>
-    
     <item>
       <title>I am a lucky guy :) ...</title>
       <link>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</link>
       <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/01/18/i-am-a-lucky-guy-.../</guid>
-      <description>Sometimes it takes a while to get to it &amp;hellip;
-Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;
-Good morning everybody. On behalf of Nitro: Welcome to Data by the Bay.
-My name is Roland Tritsch and I am German and I am the VP Engineering at Nitro.</description>
+      <description>Sometimes it takes a while to get to it &amp;hellip;&#xA;Last year I was opening Data-by-the-Bay and was welcoming/addressing the attendees. Wanted to turn it into a blog post and never got around to do it. Finally &amp;hellip; here we go &amp;hellip;&#xA;Good morning everybody. On behalf of Nitro: Welcome to Data by the Bay.&#xA;My name is Roland Tritsch and I am German and I am the VP Engineering at Nitro.</description>
     </item>
-    
     <item>
       <title>Deep Learning ... and beyond - RRRs from the Deep Learning Summit 2016 in London</title>
       <link>http://tedn.life/2016/09/23/deep-learning-...-and-beyond-rrrs-from-the-deep-learning-summit-2016-in-london/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/09/23/deep-learning-...-and-beyond-rrrs-from-the-deep-learning-summit-2016-in-london/</guid>
-      <description>I am just back from the Deep Learning (DL) Summit in London, where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.
-I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.</description>
+      <description>I am just back from the Deep Learning (DL) Summit in London, where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.&#xA;I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.</description>
     </item>
-    
     <item>
       <title>Talking about the value of immutability ... for deployment platforms and innovation</title>
       <link>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</link>
       <pubDate>Tue, 12 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</guid>
-      <description>I am just back from presenting a talk at FutureStack in SFO.
-Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku. Checking out these (and all of the the other talks) is recommended.</description>
+      <description>I am just back from presenting a talk at FutureStack in SFO.&#xA;Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku. Checking out these (and all of the the other talks) is recommended.</description>
     </item>
-    
     <item>
       <title>Teaching Scala @ TCD ... back to the roots</title>
       <link>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</guid>
-      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
-This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
+      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.&#xA;This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
     </item>
-    
     <item>
       <title>International Conference on Mass Customization and Personalization in Central Europe (MCP-CE 2010)</title>
       <link>http://tedn.life/2010/04/07/international-conference-on-mass-customization-and-personalization-in-central-europe-mcp-ce-2010/</link>
       <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2010/04/07/international-conference-on-mass-customization-and-personalization-in-central-europe-mcp-ce-2010/</guid>
-      <description>Good news :). My talk on ...
-About the importance of templates and platforms for &#34;managed customization&#34; in the garment industry
-The garment industry is not only looking for a solution to address the increasing demand for customized product solutions for end-customers. As with other industries the solution/approach must take a more hollistic view to also cater for a wider variety of legal (certification) and manufacturing (small batches, short leadtime) requirements (&#34;</description>
+      <description>Good news :). My talk on ...&#xA;About the importance of templates and platforms for &#34;managed customization&#34; in the garment industry&#xA;The garment industry is not only looking for a solution to address the increasing demand for customized product solutions for end-customers. As with other industries the solution/approach must take a more hollistic view to also cater for a wider variety of legal (certification) and manufacturing (small batches, short leadtime) requirements (&#34;</description>
     </item>
-    
     <item>
       <title>ACCU 2009 - Slides are available</title>
       <link>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</link>
       <pubDate>Sat, 20 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</guid>
       <description>A couple of weeks ago I attended ACCU 2009 to deliver a talk on &#34;RESTful Services and Distributed OSGi - Friends or Foes&#34; and &#34;AJAX for Mobile Devices - Using Apache Projects to get the job done&#34;. The conference was very well organized (thanks Giovanni) and took place in the beautiful city of Oxford. The format (keynote presentations and smaller breakout sessions) allowed for a good mix of thought-provoking presentations and good discussions.</description>
     </item>
-    
     <item>
       <title>Street Performance World Championship - a non-technical blog post</title>
       <link>http://tedn.life/2009/06/19/street-performance-world-championship-a-non-technical-blog-post/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/19/street-performance-world-championship-a-non-technical-blog-post/</guid>
-      <description>Sorry - this is a non-technical blog post. If you are not interested in having a good time, stop reading now. Otherwise ...
-I am on the LUAS on the way home from the Street Performance World Championship in Dublin.
-All of the performances are good/funny, but my personal favorite are Alakazam and Mr. Toons.
-Go and check it out. It is worth-while the time.</description>
+      <description>Sorry - this is a non-technical blog post. If you are not interested in having a good time, stop reading now. Otherwise ...&#xA;I am on the LUAS on the way home from the Street Performance World Championship in Dublin.&#xA;All of the performances are good/funny, but my personal favorite are Alakazam and Mr. Toons.&#xA;Go and check it out. It is worth-while the time.</description>
     </item>
-    
     <item>
       <title>TEDx Dublin - Reviewing a very nice friday evening</title>
       <link>http://tedn.life/2009/06/18/tedx-dublin-reviewing-a-very-nice-friday-evening/</link>
       <pubDate>Thu, 18 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/18/tedx-dublin-reviewing-a-very-nice-friday-evening/</guid>
-      <description>Last friday (means already almost a week ago) I had the chance to attend the first TEDx event in Dublin at the Science Gallery. To make a long story short ... it was a GREAT event. Great people, great presentations, great location. If you ever get the chance to attend a TEDx event or maybe even to attend a TED conference ... DO IT!!!
-Just in case you have never heard about TED I suggest you check out the website.</description>
+      <description>Last friday (means already almost a week ago) I had the chance to attend the first TEDx event in Dublin at the Science Gallery. To make a long story short ... it was a GREAT event. Great people, great presentations, great location. If you ever get the chance to attend a TEDx event or maybe even to attend a TED conference ... DO IT!!!&#xA;Just in case you have never heard about TED I suggest you check out the website.</description>
     </item>
-    
     <item>
       <title>Conference Update - Apache Con, Java Days and ACCU</title>
       <link>http://tedn.life/2009/01/04/conference-update-apache-con-java-days-and-accu/</link>
       <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/01/04/conference-update-apache-con-java-days-and-accu/</guid>
-      <description>It seems over Christmas a lot of people did what I did: Clean up the Todos, catch up on EMail and get ready for 2009. As a side effect my colleagues and I (the Open Source Center of Competence in Progress) got notifications from various conference committees that our speaking proposals got accepted.
-* Andreas and Adrian will talk/present at ApacheCon 2009 in Amsterdam (NL)* David will talk/present at the Italian JavaDays 2009 in Rome (IT)* And myself will talk/present at ACCU 2009 in Oxford (UK)</description>
+      <description>It seems over Christmas a lot of people did what I did: Clean up the Todos, catch up on EMail and get ready for 2009. As a side effect my colleagues and I (the Open Source Center of Competence in Progress) got notifications from various conference committees that our speaking proposals got accepted.&#xA;* Andreas and Adrian will talk/present at ApacheCon 2009 in Amsterdam (NL)* David will talk/present at the Italian JavaDays 2009 in Rome (IT)* And myself will talk/present at ACCU 2009 in Oxford (UK)</description>
     </item>
-    
     <item>
       <title>RESTful Services - Dana Gardner, Adrian Trenaman, Roland Tritsch - wrapping it up</title>
       <link>http://tedn.life/2008/07/16/restful-services-dana-gardner-adrian-trenaman-roland-tritsch-wrapping-it-up/</link>
       <pubDate>Wed, 16 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/07/16/restful-services-dana-gardner-adrian-trenaman-roland-tritsch-wrapping-it-up/</guid>
-      <description> The Webinar went very well. I think we had over 50 poeple that showed up. The archived webinar and the source code will be available on open.iona.com.
-Check it out. </description>
+      <description> The Webinar went very well. I think we had over 50 poeple that showed up. The archived webinar and the source code will be available on open.iona.com.&#xA;Check it out. </description>
     </item>
-    
     <item>
       <title>2008 OSGi Community Event - talking about trains</title>
       <link>http://tedn.life/2008/06/23/2008-osgi-community-event-talking-about-trains/</link>
       <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/06/23/2008-osgi-community-event-talking-about-trains/</guid>
-      <description>Two weeks ago I attended the OSGi Community Event in Berlin.
-One of the presentations was from Deutsche Bahn about their new Mobile Integration Platform (MIP). It was not only in this presentation that I felt that OSGi has become the ICE of deployment platforms. A 300 km/h high-speed trend/train with a lot of momentum. Think about it: Do you want to be on the train or in front of it.</description>
+      <description>Two weeks ago I attended the OSGi Community Event in Berlin.&#xA;One of the presentations was from Deutsche Bahn about their new Mobile Integration Platform (MIP). It was not only in this presentation that I felt that OSGi has become the ICE of deployment platforms. A 300 km/h high-speed trend/train with a lot of momentum. Think about it: Do you want to be on the train or in front of it.</description>
     </item>
-    
     <item>
       <title>RESTful Services - Dana Gardner, Adrian Trenaman, Roland Tritsch</title>
       <link>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</link>
       <pubDate>Tue, 17 Jun 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</guid>
-      <description> Everybody is talking about REST. We do too :).
-Join us on July, 15th for this existing Webinar on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.
-CU there. </description>
+      <description> Everybody is talking about REST. We do too :).&#xA;Join us on July, 15th for this existing Webinar on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.&#xA;CU there. </description>
     </item>
-    
     <item>
       <title>Mobile Monday in Belfast - WebServices to foster innovation</title>
       <link>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</link>
       <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</guid>
-      <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).
-Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
+      <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).&#xA;Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
     </item>
-    
     <item>
       <title>Mobile Monday</title>
       <link>http://tedn.life/2008/05/13/mobile-monday/</link>
       <pubDate>Tue, 13 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/13/mobile-monday/</guid>
       <description>Got invited to talk at the Mobile Monday Series in Belfast.Looks interesting/promising. Will publish a post lateronnext week.</description>
     </item>
-    
   </channel>
 </rss>

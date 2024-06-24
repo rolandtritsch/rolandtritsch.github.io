@@ -4,62 +4,44 @@
     <title>Web-Services on tedn.life</title>
     <link>http://tedn.life/tags/web-services/</link>
     <description>Recent content in Web-Services on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/web-services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 07:28:36 +0000</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/web-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>Updated (2022-01-01): Added stage.
-At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!
-The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.
-To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
     </item>
-    
     <item>
       <title>Effective Android - Using Apache CXF to access SOAP services</title>
       <link>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</link>
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</guid>
-      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
-I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
+      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.&#xA;I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
     </item>
-    
     <item>
       <title>Apache CXF vs. Axis 2 - The current state of affairs or The missing book</title>
       <link>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</link>
       <pubDate>Sun, 07 Dec 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</guid>
-      <description>(Blogging from the plane again. This time on my way to the Progress Sales Kickoff in Miami.)The other day I stumbled over a good presentation
-from Falko Riemenschneider. The high-level summary is ...
-* Axis 2 is not as easy to use as CXF, but is more ubiquitous in the marketplace (and got better documentation, including a book in german)
-* CXF is a very well developed piece of software, but needs more people using it (and needs more/better documentation, including a book in any language, but preferably in english)</description>
+      <description>(Blogging from the plane again. This time on my way to the Progress Sales Kickoff in Miami.)The other day I stumbled over a good presentation&#xA;from Falko Riemenschneider. The high-level summary is ...&#xA;* Axis 2 is not as easy to use as CXF, but is more ubiquitous in the marketplace (and got better documentation, including a book in german)&#xA;* CXF is a very well developed piece of software, but needs more people using it (and needs more/better documentation, including a book in any language, but preferably in english)</description>
     </item>
-    
     <item>
       <title>FUSE Master Class Series - Hidden Gem</title>
       <link>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</link>
       <pubDate>Fri, 23 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</guid>
       <description> A couple of weeks ago, I published the first 3 videos of the FUSE Master Class Series on the open.iona.com wiki. Sooner or later we might link to it from the top page, but for the time being they are hidden gems :). The videos are also available from my homepage. </description>
     </item>
-    
     <item>
       <title>Apache-CXF generates client-side SOAP stack for the iPhone</title>
       <link>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</link>
       <pubDate>Sun, 13 Apr 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</guid>
-      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.
-And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
-In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
+      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.&#xA;And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.&#xA;In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,187 +4,128 @@
     <title>Mobile on tedn.life</title>
     <link>http://tedn.life/tags/mobile/</link>
     <description>Recent content in Mobile on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Functional Programming on iOS and Android - Making the impossible ... possible?!?!</title>
       <link>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</link>
       <pubDate>Sat, 25 Apr 2015 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</guid>
-      <description>Beginning of the year we had one of our Microsoft Senior Architects from the GDC (Global Delivery Center) in India with us. Over a couple of pints the obvious happened: I sparked his interest in functional programming and he sparked my interest in F#.
-First I made Mono&amp;nbsp;and Emacs work, but then I started to use Xamarin.
-Not so much, because I needed a better IDE (Emacs rules :)), but because I got interested in the claim that you can use Xamarin to do Android and iOS cross-platform development with #F.</description>
+      <description>Beginning of the year we had one of our Microsoft Senior Architects from the GDC (Global Delivery Center) in India with us. Over a couple of pints the obvious happened: I sparked his interest in functional programming and he sparked my interest in F#.&#xA;First I made Mono&amp;nbsp;and Emacs work, but then I started to use Xamarin.&#xA;Not so much, because I needed a better IDE (Emacs rules :)), but because I got interested in the claim that you can use Xamarin to do Android and iOS cross-platform development with #F.</description>
     </item>
-    
     <item>
       <title>Scala on Android - Gradle, Ensime and the Android UI samples</title>
       <link>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</link>
       <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</guid>
       <description>Besides getting my first companion app done for my Pebble, I also spend some time on X-Mas to start porting the Android UI samples to Scala. The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step).</description>
     </item>
-    
     <item>
       <title>X-Mas Project 1: Pebble Hello World 2.0 - The companion edition (with Android, Scala, Macroid)</title>
       <link>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</link>
       <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</guid>
-      <description>I love Christmas!!!
-My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).
-My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.
-As a first step I added some text to the standard Pebble Tutorial.</description>
+      <description>I love Christmas!!!&#xA;My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).&#xA;My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.&#xA;As a first step I added some text to the standard Pebble Tutorial.</description>
     </item>
-    
     <item>
       <title>Scala, Android and BLE, because ...</title>
       <link>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</link>
       <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</guid>
-      <description>... everything is better with bluetooth :).
-Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.
-The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.
-We talked about, how to write, compile and run .</description>
+      <description>... everything is better with bluetooth :).&#xA;Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.&#xA;The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.&#xA;We talked about, how to write, compile and run .</description>
     </item>
-    
     <item>
       <title>HTC One Mini ... does it make Sense?</title>
       <link>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</guid>
-      <description>Update 2004-04-02: The first nightlies for M4 got released on CyanogenMod. Testing now ...
----
-The short answer is: NO!
-At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!
-3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
+      <description>Update 2004-04-02: The first nightlies for M4 got released on CyanogenMod. Testing now ...&#xA;---&#xA;The short answer is: NO!&#xA;At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!&#xA;3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
     </item>
-    
     <item>
       <title>Scala on the Pebble - Exploring SDK 2.0 ...</title>
       <link>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</link>
       <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
-      <description>... just kidding :).
-Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
-And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
+      <description>... just kidding :).&#xA;Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!&#xA;And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
     </item>
-    
     <item>
       <title>Scala on Android - A start ...</title>
       <link>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</link>
       <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</guid>
-      <description>I don&#39;t know what your experience is, but ...
-... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.
-This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
+      <description>I don&#39;t know what your experience is, but ...&#xA;... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.&#xA;This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
     </item>
-    
     <item>
       <title>Maven, Flex/Air and Android - Trinity or Bermuda Triangle</title>
       <link>http://tedn.life/2010/12/19/maven-flex/air-and-android-trinity-or-bermuda-triangle/</link>
       <pubDate>Sun, 19 Dec 2010 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2010/12/19/maven-flex/air-and-android-trinity-or-bermuda-triangle/</guid>
       <description>Partially for professional reasons, partially out of plain, naked, old-fashioned curiosity (and also triggered by the Adobe announcement that Adobe Air now runs on Android) I am currently looking to find out how to use Maven to build a Flex/Air application for the Android phone. And ... it is not this easy. I am now working on this for a couple of weeks (elapse time that is - CPU time probably more 16 hours).</description>
     </item>
-    
     <item>
       <title>Effective Android - Using Apache CXF to access SOAP services</title>
       <link>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</link>
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</guid>
-      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
-I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
+      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.&#xA;I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
     </item>
-    
     <item>
       <title>Effective Android - Getting Started Guide for the Android Dev Phone 1</title>
       <link>http://tedn.life/2009/05/28/effective-android-getting-started-guide-for-the-android-dev-phone-1/</link>
       <pubDate>Thu, 28 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/05/28/effective-android-getting-started-guide-for-the-android-dev-phone-1/</guid>
-      <description>This week I spend a day to get my new Android Phone up and running.
-At the end I figured it might make sense to write up a cookbook on what to do when you finally get your hands on the box and unwrap your new toy. Here we go ...
-The (ultimate :)) Android Getting Started Guide (for Mac Users :)) First things first: This guide assumes that you got yourself an Android Dev Phone 1.</description>
+      <description>This week I spend a day to get my new Android Phone up and running.&#xA;At the end I figured it might make sense to write up a cookbook on what to do when you finally get your hands on the box and unwrap your new toy. Here we go ...&#xA;The (ultimate :)) Android Getting Started Guide (for Mac Users :)) First things first: This guide assumes that you got yourself an Android Dev Phone 1.</description>
     </item>
-    
     <item>
       <title>Need a new phone - iPhone vs. Blackberry vs. Android</title>
       <link>http://tedn.life/2009/05/18/need-a-new-phone-iphone-vs.-blackberry-vs.-android/</link>
       <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/05/18/need-a-new-phone-iphone-vs.-blackberry-vs.-android/</guid>
-      <description>Last year I went hill-walking with Andrew and Adrian in Kerry. By now everybody knows the story: I drowned my iPhone in Adrian&#39;s backpack. The backpack was 100% water-proof, means it did not let any water out and at the end of a 4 1/2 hour (irish) survival tour with heavy, &#34;horizontal&#34; rain the iPhone did not pass the &#34;can-your-iPhone-also-work-under-water&#34; test.
-I decided to look at it as an opportunity.</description>
+      <description>Last year I went hill-walking with Andrew and Adrian in Kerry. By now everybody knows the story: I drowned my iPhone in Adrian&#39;s backpack. The backpack was 100% water-proof, means it did not let any water out and at the end of a 4 1/2 hour (irish) survival tour with heavy, &#34;horizontal&#34; rain the iPhone did not pass the &#34;can-your-iPhone-also-work-under-water&#34; test.&#xA;I decided to look at it as an opportunity.</description>
     </item>
-    
     <item>
       <title>The iPhone - and what you can learn from thinking about it</title>
       <link>http://tedn.life/2008/07/05/the-iphone-and-what-you-can-learn-from-thinking-about-it/</link>
       <pubDate>Sat, 05 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/07/05/the-iphone-and-what-you-can-learn-from-thinking-about-it/</guid>
       <description>On Sunday I went to the driving range and while Alexandros was working on my early retirement plan (aka. he making lots of money with golf and I am managing his career), I was reading an article on Businessweek about the new iPhone 3G contracts. The article made me think again. It made me think about two presentations that I saw recently: One by Michael Crossey from Aepona at the Mobile Monday in Belfast and the other one by Peter Moeckel from T-Labs (the R&amp;amp;D think-tank of Deutsche Telekom) at the OSGi community event in Berlin.</description>
     </item>
-    
     <item>
       <title>Mobile Payment - what is needed</title>
       <link>http://tedn.life/2008/07/04/mobile-payment-what-is-needed/</link>
       <pubDate>Fri, 04 Jul 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/07/04/mobile-payment-what-is-needed/</guid>
-      <description>in the last 4 weeks, i was talking to sailesh panchal (Enterprise Architect - Payments at Lloyds TSB) and hermann sauer (EDS - Integration Engineering Lead EMEA North/Central) about the future of mobile payment.
-there is clearly a need and a benefit to find a solution, but implementations are not available yet (leaving aside lots of POCs that are out there). one obvious driver is the need to find a replacement for cheque payments.</description>
+      <description>in the last 4 weeks, i was talking to sailesh panchal (Enterprise Architect - Payments at Lloyds TSB) and hermann sauer (EDS - Integration Engineering Lead EMEA North/Central) about the future of mobile payment.&#xA;there is clearly a need and a benefit to find a solution, but implementations are not available yet (leaving aside lots of POCs that are out there). one obvious driver is the need to find a replacement for cheque payments.</description>
     </item>
-    
     <item>
       <title>RESTful Services - Dana Gardner, Adrian Trenaman, Roland Tritsch</title>
       <link>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</link>
       <pubDate>Tue, 17 Jun 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</guid>
-      <description> Everybody is talking about REST. We do too :).
-Join us on July, 15th for this existing Webinar on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.
-CU there. </description>
+      <description> Everybody is talking about REST. We do too :).&#xA;Join us on July, 15th for this existing Webinar on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.&#xA;CU there. </description>
     </item>
-    
     <item>
       <title>Mobile Monday in Belfast - WebServices to foster innovation</title>
       <link>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</link>
       <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</guid>
-      <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).
-Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
+      <description>Monday evening I spent in Belfast at the Mobile Monday, presenting on &#34;How to access WebServices from the iPhone&#34; (pictures are available upon request :)).&#xA;Good event. We had 30 people in the room. Good format. Four short presentations with good networking before and after the talks. My favorite presentation was Michael Crossey from Aepona, talking about &#34;Exploiting Telco Asserts through Telecom WebServices&#34;. One interesting point that he raised is that Mobile Telecom Operators are currently challenged (or even threatend) by &#34;</description>
     </item>
-    
     <item>
       <title>The sensoric revolution - iPhone/Chumby integration</title>
       <link>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone/chumby-integration/</link>
       <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone/chumby-integration/</guid>
       <description>The embedded/mobile software market is growing faster than the rest of the industry. From my point of view this just the tip of the iceberg, because we are at the beginning of the sensoric revolution. Historically all data got created in the &#34;middle&#34; and we used integration technologies to distribute the data. Web 1.0 turned out to become the preferred mechanism to get this done and we changed the content/data in the middle through the web (e.</description>
     </item>
-    
     <item>
       <title>Apache-CXF generates client-side SOAP stack for the iPhone</title>
       <link>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</link>
       <pubDate>Sun, 13 Apr 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</guid>
-      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.
-And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
-In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
+      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.&#xA;And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.&#xA;In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
-    
   </channel>
 </rss>

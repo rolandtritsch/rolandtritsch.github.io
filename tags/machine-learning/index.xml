@@ -4,39 +4,30 @@
     <title>Machine-Learning on tedn.life</title>
     <link>http://tedn.life/tags/machine-learning/</link>
     <description>Recent content in Machine-Learning on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 12:44:39 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Augmented Blogging - The Art of Prompting</title>
       <link>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</guid>
-      <description>This is a landmark blog post. I just introduced a tag called Augmented-by-AI. And this post is tagged with it.
-This is going to be the new normal. Let me explain &amp;hellip;
-First things first: This blog post is not written by chatGPT.
-It is Sunday morning, 6am and I am sitting here in my living room in my PJ with a cup of coffee and I am typing this. Believe me &amp;hellip;</description>
+      <description>This is a landmark blog post. I just introduced a tag called Augmented-by-AI. And this post is tagged with it.&#xA;This is going to be the new normal. Let me explain &amp;hellip;&#xA;First things first: This blog post is not written by chatGPT.&#xA;It is Sunday morning, 6am and I am sitting here in my living room in my PJ with a cup of coffee and I am typing this. Believe me &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Deep Learning ... and beyond - RRRs from the Deep Learning Summit 2016 in London</title>
       <link>http://tedn.life/2016/09/23/deep-learning-...-and-beyond-rrrs-from-the-deep-learning-summit-2016-in-london/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/09/23/deep-learning-...-and-beyond-rrrs-from-the-deep-learning-summit-2016-in-london/</guid>
-      <description>I am just back from the Deep Learning (DL) Summit in London, where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.
-I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.</description>
+      <description>I am just back from the Deep Learning (DL) Summit in London, where I had very interesting 2 days with a lot of good presentations and a lot of time to think about the future.&#xA;I am working with Nitro for a year now and have learned a lot about Machine Learning (ML) and Natural Language Processing (NLP), but as always: the more you learn, the more you understand that you know nothing.</description>
     </item>
-    
     <item>
       <title>Machine Learning at Gilt - &#34;Maven-izing&#34; a/the Apache Mahout tutorial</title>
       <link>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</link>
       <pubDate>Sun, 11 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</guid>
       <description>If you work for Gilt Tech than you WILL (sooner or later ... somehow) get involved in our Machine Learning and Recommendation efforts. Our requirements are extremely complex and challenging. We have over 5 million members (fast growing) and a product catalog which features products that are selling out between 10 secs and 3 days, means we need to make recommendations for products that have (almost) no history to members that might not be with us for a long time (yet).</description>
     </item>
-    
   </channel>
 </rss>

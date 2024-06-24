@@ -4,282 +4,177 @@
     <title>Nerdy on tedn.life</title>
     <link>http://tedn.life/tags/nerdy/</link>
     <description>Recent content in Nerdy on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/nerdy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 14:04:06 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/nerdy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Augmented Blogging - The Art of Prompting</title>
       <link>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</guid>
-      <description>This is a landmark blog post. I just introduced a tag called Augmented-by-AI. And this post is tagged with it.
-This is going to be the new normal. Let me explain &amp;hellip;
-First things first: This blog post is not written by chatGPT.
-It is Sunday morning, 6am and I am sitting here in my living room in my PJ with a cup of coffee and I am typing this. Believe me &amp;hellip;</description>
+      <description>This is a landmark blog post. I just introduced a tag called Augmented-by-AI. And this post is tagged with it.&#xA;This is going to be the new normal. Let me explain &amp;hellip;&#xA;First things first: This blog post is not written by chatGPT.&#xA;It is Sunday morning, 6am and I am sitting here in my living room in my PJ with a cup of coffee and I am typing this. Believe me &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Renault Zoe - STOP Electric Motor Failure</title>
       <link>http://tedn.life/2023/04/09/renault-zoe-stop-electric-motor-failure/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/04/09/renault-zoe-stop-electric-motor-failure/</guid>
-      <description>I used to have a Nissan Leaf (for 6 years) and now I have a Renault Zoe (for 2 years).
-I was and I am very happy with these cars. I am very happy to drive electric cars. Point. Period.
-What I like is to learn what it takes to drive an electric car. You need to learn a lot. About the car. About electricity. About batteries. About the (charging) infrastructure.</description>
+      <description>I used to have a Nissan Leaf (for 6 years) and now I have a Renault Zoe (for 2 years).&#xA;I was and I am very happy with these cars. I am very happy to drive electric cars. Point. Period.&#xA;What I like is to learn what it takes to drive an electric car. You need to learn a lot. About the car. About electricity. About batteries. About the (charging) infrastructure.</description>
     </item>
-    
     <item>
       <title>Happy new year - I am tooting now ...</title>
       <link>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</guid>
-      <description>Happy new year to ya all!!!
-What a year it has been. Some of the highlights are &amp;hellip;
-In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
+      <description>Happy new year to ya all!!!&#xA;What a year it has been. Some of the highlights are &amp;hellip;&#xA;In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
     </item>
-    
     <item>
       <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
       <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
-      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.
-But this is not what this blog post is all about :).
-While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
     </item>
-    
     <item>
       <title>Some more fun with Scala3</title>
       <link>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</guid>
-      <description>Scala3 is here.
-In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.
-And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.
-The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
+      <description>Scala3 is here.&#xA;In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.&#xA;And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.&#xA;The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
     </item>
-    
     <item>
       <title>More fun with Scala3</title>
       <link>http://tedn.life/2021/05/01/more-fun-with-scala3/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/05/01/more-fun-with-scala3/</guid>
-      <description>Note: Look here for 3.0 benchmark numbers
-The release of Scala3 is imminent.
-In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.
-Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).
-The good news is that migrating to Scala3 is not difficult at all.</description>
+      <description>Note: Look here for 3.0 benchmark numbers&#xA;The release of Scala3 is imminent.&#xA;In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.&#xA;Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).&#xA;The good news is that migrating to Scala3 is not difficult at all.</description>
     </item>
-    
     <item>
       <title>Scala 3 is ... gluten-free!!!</title>
       <link>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</guid>
-      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.
-Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
+      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.&#xA;Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (III)</title>
       <link>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</guid>
-      <description>Here comes part III of the Hamler blog post series &amp;hellip;
-One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.
-Just looked into this a little bit and there is good news and bad news. The good news is I found something.
-I can make the hamer solution run 10 times faster by changing the implementation of part1 from &amp;hellip;</description>
+      <description>Here comes part III of the Hamler blog post series &amp;hellip;&#xA;One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.&#xA;Just looked into this a little bit and there is good news and bad news. The good news is I found something.&#xA;I can make the hamer solution run 10 times faster by changing the implementation of part1 from &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (II)</title>
       <link>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</guid>
-      <description>Here comes part II of the Hamler blog post series &amp;hellip;
-For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.
-I just finished implementing all of the part-1 solutions in Hamler.
-I had to skip Day 20 (the seamonster), because Hamler only supports a very small/limited number of packages, which means I would have needed to write a lot of code before I would have been able to tackle the actual problem.</description>
+      <description>Here comes part II of the Hamler blog post series &amp;hellip;&#xA;For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.&#xA;I just finished implementing all of the part-1 solutions in Hamler.&#xA;I had to skip Day 20 (the seamonster), because Hamler only supports a very small/limited number of packages, which means I would have needed to write a lot of code before I would have been able to tackle the actual problem.</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
       <link>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</guid>
-      <description>Hamler Blog Post Series &amp;hellip;
-Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
-Yes, right: Hamler!
-Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
-At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
+      <description>Hamler Blog Post Series &amp;hellip;&#xA;Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?&#xA;Yes, right: Hamler!&#xA;Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.&#xA;At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
     </item>
-    
     <item>
       <title>Emacs &amp; Lisp ... a match made in heaven</title>
       <link>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</guid>
-      <description>At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of elixir, the next week I write go, the week afterwards I need to fix some of our terraform configurations and on the weekend I am fixing a bug in a scala project.
-What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &amp;hellip;).</description>
+      <description>At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of elixir, the next week I write go, the week afterwards I need to fix some of our terraform configurations and on the weekend I am fixing a bug in a scala project.&#xA;What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &amp;hellip;).</description>
     </item>
-    
     <item>
       <title>The corona virus ... and it&#39;s consequences</title>
       <link>http://tedn.life/2020/03/30/the-corona-virus-...-and-its-consequences/</link>
       <pubDate>Mon, 30 Mar 2020 21:36:09 +0100</pubDate>
-      
       <guid>http://tedn.life/2020/03/30/the-corona-virus-...-and-its-consequences/</guid>
-      <description>The corona virus has a lot of weird side effects.
-You suddenly find time to do things that you couldn&amp;rsquo;t do (or wouldn&amp;rsquo;t do) for month!!!
-In my case I just updated/refreshed my blogging infrastructure &amp;hellip;
-switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course)) The result is aesthetically pleasing.</description>
+      <description>The corona virus has a lot of weird side effects.&#xA;You suddenly find time to do things that you couldn&amp;rsquo;t do (or wouldn&amp;rsquo;t do) for month!!!&#xA;In my case I just updated/refreshed my blogging infrastructure &amp;hellip;&#xA;switching from jekyll to hugo (more capable framework; good support for Emacs org-mode) adding support for tags and categories retiring www.tritsch.org and www.innolocity.org (replacing it with tedn.life (more on that in due course)) The result is aesthetically pleasing.</description>
     </item>
-    
     <item>
       <title>Code Elixir LDN 2019 - 3 languages in 3 minutes</title>
       <link>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
-      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
-This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
-All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
+      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;&#xA;This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.&#xA;All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
-    
     <item>
       <title>The vertical bar screen of death ... the story of an unexpected win-win</title>
       <link>http://tedn.life/2018/09/21/the-vertical-bar-screen-of-death-...-the-story-of-an-unexpected-win-win/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/09/21/the-vertical-bar-screen-of-death-...-the-story-of-an-unexpected-win-win/</guid>
-      <description>Last year I spend some time and money to &amp;ldquo;renovate&amp;rdquo; my old 17-inch Macbook Pro (remember the good old times &amp;hellip; when Apple was building good laptops with great keyboards and no touchbar :)).
-For the last 6 month I was running VirtualBox on it hosting an Ubuntu image.
-That kind of worked (a little bit slow at times and managing the ports was (sometimes) challenging, but otherwise &amp;hellip; ok).</description>
+      <description>Last year I spend some time and money to &amp;ldquo;renovate&amp;rdquo; my old 17-inch Macbook Pro (remember the good old times &amp;hellip; when Apple was building good laptops with great keyboards and no touchbar :)).&#xA;For the last 6 month I was running VirtualBox on it hosting an Ubuntu image.&#xA;That kind of worked (a little bit slow at times and managing the ports was (sometimes) challenging, but otherwise &amp;hellip; ok).</description>
     </item>
-    
     <item>
       <title>Happy 4th of July!!! Or ... how to take advantage of an opportuunity!</title>
       <link>http://tedn.life/2016/07/10/happy-4th-of-july-or-...-how-to-take-advantage-of-an-opportuunity/</link>
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/07/10/happy-4th-of-july-or-...-how-to-take-advantage-of-an-opportuunity/</guid>
-      <description>A long weekend in San Francisco (Jul., 4th - Independence Day), great weather and nothing to do?
-I smell opportunity! Opportunity to do something that I always wanted to do: Explore the bay area on a motor bike.
-The Nitro CEO was kind enough to introduce me to Wolfgang and Wolfgang and his team helped me to get my hands on a BMW R1200 RT and off we go.
-Motorcycling in San Francisco (SF) can be tricky.</description>
+      <description>A long weekend in San Francisco (Jul., 4th - Independence Day), great weather and nothing to do?&#xA;I smell opportunity! Opportunity to do something that I always wanted to do: Explore the bay area on a motor bike.&#xA;The Nitro CEO was kind enough to introduce me to Wolfgang and Wolfgang and his team helped me to get my hands on a BMW R1200 RT and off we go.&#xA;Motorcycling in San Francisco (SF) can be tricky.</description>
     </item>
-    
     <item>
       <title>X-Mas Project 3: Install Source Code Pro (again) - And make Emacs use it (again)</title>
       <link>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</link>
       <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</guid>
-      <description>It is not a secret ... I like Source Code Pro!
-A couple of weeks ago I got myself a new MacBook Air (and resisted the temptation to get the 13-inch and like the 11-inch a lot) and installed Source Code Pro again. Getting it installed using FontBook was no problem, but then I could not remember how make it the default font for Emacs and all the tips and tricks that I was able to find did not work for me.</description>
+      <description>It is not a secret ... I like Source Code Pro!&#xA;A couple of weeks ago I got myself a new MacBook Air (and resisted the temptation to get the 13-inch and like the 11-inch a lot) and installed Source Code Pro again. Getting it installed using FontBook was no problem, but then I could not remember how make it the default font for Emacs and all the tips and tricks that I was able to find did not work for me.</description>
     </item>
-    
     <item>
       <title>X-Mas Project 1: Pebble Hello World 2.0 - The companion edition (with Android, Scala, Macroid)</title>
       <link>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</link>
       <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/12/29/x-mas-project-1-pebble-hello-world-2.0-the-companion-edition-with-android-scala-macroid/</guid>
-      <description>I love Christmas!!!
-My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).
-My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.
-As a first step I added some text to the standard Pebble Tutorial.</description>
+      <description>I love Christmas!!!&#xA;My wife turns the house into the home of all homes, I get to see my all (or at least most of) my friends and ... I get to work on special projects :).&#xA;My first special project was to extend the standard Pebble Tutorial a little bit and show how to build a simple companion app that exchanges data with the watch.&#xA;As a first step I added some text to the standard Pebble Tutorial.</description>
     </item>
-    
     <item>
       <title>X-Mas Project 2: Building a &#34;FlieWaTuet&#34; - Using Mignon :)</title>
       <link>http://tedn.life/2014/12/29/x-mas-project-2-building-a-fliewatuet-using-mignon/</link>
       <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/12/29/x-mas-project-2-building-a-fliewatuet-using-mignon/</guid>
-      <description>Warning!!! This has nothing to do with Scala or Software Engineering in general. Read at your own risk :).
-Ok, I admit it: This post is a little bit off-topic, but we had too much fun not to talk about it.
-It all started with an afternoon and nothing to do. At the end my dad, Alexandros and myself decided to get my dad&#39;s old Mignon box and just build &#34;</description>
+      <description>Warning!!! This has nothing to do with Scala or Software Engineering in general. Read at your own risk :).&#xA;Ok, I admit it: This post is a little bit off-topic, but we had too much fun not to talk about it.&#xA;It all started with an afternoon and nothing to do. At the end my dad, Alexandros and myself decided to get my dad&#39;s old Mignon box and just build &#34;</description>
     </item>
-    
     <item>
       <title>Scala, Android and BLE, because ...</title>
       <link>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</link>
       <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/07/27/scala-android-and-ble-because-.../</guid>
-      <description>... everything is better with bluetooth :).
-Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.
-The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.
-We talked about, how to write, compile and run .</description>
+      <description>... everything is better with bluetooth :).&#xA;Originally I was thinking to do a presentation, but Martin convinced me to turn my talk for the Scala Meetup in Dublin into a hands-on tutorial.&#xA;The main objective was to talk people through a couple of demos that can serve as starting points, so that they can start to do their own development.&#xA;We talked about, how to write, compile and run .</description>
     </item>
-    
     <item>
       <title>HTC One Mini ... does it make Sense?</title>
       <link>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/04/01/htc-one-mini-...-does-it-make-sense/</guid>
-      <description>Update 2004-04-02: The first nightlies for M4 got released on CyanogenMod. Testing now ...
----
-The short answer is: NO!
-At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!
-3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
+      <description>Update 2004-04-02: The first nightlies for M4 got released on CyanogenMod. Testing now ...&#xA;---&#xA;The short answer is: NO!&#xA;At least not in my case (anymore). I just removed all (common) Sense from my phone. HTC Sense that is!&#xA;3 month ago I got myself a new phone and decided to go with the HTC One Mini. It is my kind of phone. It runs Android (means I can write Scala apps for it), it is sturdy, looks good and is not too big.</description>
     </item>
-    
     <item>
       <title>FlightFest @ Gilt ... Location, Location, Location ...</title>
       <link>http://tedn.life/2013/09/27/flightfest-@-gilt-...-location-location-location-.../</link>
       <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/09/27/flightfest-@-gilt-...-location-location-location-.../</guid>
-      <description>Psssttt ... don&#39;t tell anybody, but ... at Gilt it is not always about work and writing great code.
-Sometimes we like to party. Especially when something like FlightFest comes along and the office is located right down by the Liffey overlooking the river and the Samuel Beckett Bridge.
-Sometimes it is too good not to do it. What a great day. For the kids. For the girls and the boys.</description>
+      <description>Psssttt ... don&#39;t tell anybody, but ... at Gilt it is not always about work and writing great code.&#xA;Sometimes we like to party. Especially when something like FlightFest comes along and the office is located right down by the Liffey overlooking the river and the Samuel Beckett Bridge.&#xA;Sometimes it is too good not to do it. What a great day. For the kids. For the girls and the boys.</description>
     </item>
-    
     <item>
       <title>Charting some KPIs ... how hard can it be?</title>
       <link>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</link>
       <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</guid>
-      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.
-As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
+      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.&#xA;As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
     </item>
-    
     <item>
       <title>Sometimes small things make a big difference ... using Source Code Pro with Emacs</title>
       <link>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2012/11/10/sometimes-small-things-make-a-big-difference-...-using-source-code-pro-with-emacs/</guid>
-      <description>&amp;lt;outing alarm&amp;gt;I love my emacs.&amp;lt;/outing alarm&amp;gt;
-Sometimes small things can make a big difference. Like a dot. You can put it at the end of the sentence or in a number (1.001 vs. 100.1 - can make a &#34;small&#34; difference) or you put it into the zero to make it easily&amp;nbsp;distinguishable from capital O.
-Now you might say, who cares, but if you read a lot of source code (like I do) Source Code Pro&amp;nbsp;is a real pleasure for your eyes.</description>
+      <description>&amp;lt;outing alarm&amp;gt;I love my emacs.&amp;lt;/outing alarm&amp;gt;&#xA;Sometimes small things can make a big difference. Like a dot. You can put it at the end of the sentence or in a number (1.001 vs. 100.1 - can make a &#34;small&#34; difference) or you put it into the zero to make it easily&amp;nbsp;distinguishable from capital O.&#xA;Now you might say, who cares, but if you read a lot of source code (like I do) Source Code Pro&amp;nbsp;is a real pleasure for your eyes.</description>
     </item>
-    
     <item>
       <title>AquaEmacs and JDEE and Method Completion - Cannot find JDK&#39;s tools jar file (or equivalent)</title>
       <link>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</link>
       <pubDate>Wed, 24 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
-      <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).
-Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.
-... when you hit C-c C-v .</description>
+      <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).&#xA;Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.&#xA;... when you hit C-c C-v .</description>
     </item>
-    
   </channel>
 </rss>

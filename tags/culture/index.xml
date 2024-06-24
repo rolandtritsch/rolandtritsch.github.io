@@ -4,425 +4,282 @@
     <title>Culture on tedn.life</title>
     <link>http://tedn.life/tags/culture/</link>
     <description>Recent content in Culture on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 10:27:29 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/culture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Software Gardening Manifesto - A copy</title>
       <link>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</guid>
-      <description>In case the Software Gardening Manifesto is down or otherwise not available, here is a copy of it &amp;hellip;
-SOFTWARE GARDENING MANIFESTO Software Gardeners are professionals who perceive software development in a different way. Our goal is to spread the word of our core values, be mentors for the new developers and create software that it is developed at the highest quality bar.
-Every software gardener believes and embraces the following:</description>
+      <description>In case the Software Gardening Manifesto is down or otherwise not available, here is a copy of it &amp;hellip;&#xA;SOFTWARE GARDENING MANIFESTO Software Gardeners are professionals who perceive software development in a different way. Our goal is to spread the word of our core values, be mentors for the new developers and create software that it is developed at the highest quality bar.&#xA;Every software gardener believes and embraces the following:</description>
     </item>
-    
     <item>
       <title>The Ideal Team Player - HHS vs. DAC</title>
       <link>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</guid>
-      <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.
-In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;
-Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organization Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behavior which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
+      <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.&#xA;In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;&#xA;Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organization Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behavior which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Happy new year - I am tooting now ...</title>
       <link>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</guid>
-      <description>Happy new year to ya all!!!
-What a year it has been. Some of the highlights are &amp;hellip;
-In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
+      <description>Happy new year to ya all!!!&#xA;What a year it has been. Some of the highlights are &amp;hellip;&#xA;In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
     </item>
-    
     <item>
       <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
       <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
-      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.
-But this is not what this blog post is all about :).
-While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
     </item>
-    
     <item>
       <title>What is better than Remote-First 1.0? Remote-First 2.0!</title>
       <link>http://tedn.life/2021/07/04/what-is-better-than-remote-first-1.0-remote-first-2.0/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/07/04/what-is-better-than-remote-first-1.0-remote-first-2.0/</guid>
-      <description>Two weeks ago I got my second jab. I am fully vaccinated now. I am now in Germany to see my parents for the first time in 12 month.
-Yes: It is finally happening! The pandemic (slowly, but surely) comes to an end.
-Which creates (for some of us and for some companies) a big question: What&amp;rsquo;s the next step? What&amp;rsquo;s the path forward (e.g. from a organisational structure/development point of view)?</description>
+      <description>Two weeks ago I got my second jab. I am fully vaccinated now. I am now in Germany to see my parents for the first time in 12 month.&#xA;Yes: It is finally happening! The pandemic (slowly, but surely) comes to an end.&#xA;Which creates (for some of us and for some companies) a big question: What&amp;rsquo;s the next step? What&amp;rsquo;s the path forward (e.g. from a organisational structure/development point of view)?</description>
     </item>
-    
     <item>
       <title>Distances - Know them. Manage them.</title>
       <link>http://tedn.life/2021/06/01/distances-know-them.-manage-them./</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/06/01/distances-know-them.-manage-them./</guid>
-      <description>Building and managing remote-first organizations means that you also need to understand (and manage) distances!
-To develop your ability to understand and manage distances is very important because human beings naturally need closeness (to other people and/or the purpose of the endeavor) to feel a sense of belonging.
-But &amp;hellip; wait a sec: What do you mean by distances (plural)? Is there more than one?
-Big surprise: Yes! When I build and run remote-first organizations I worry about and manage at least the following distances &amp;hellip;</description>
+      <description>Building and managing remote-first organizations means that you also need to understand (and manage) distances!&#xA;To develop your ability to understand and manage distances is very important because human beings naturally need closeness (to other people and/or the purpose of the endeavor) to feel a sense of belonging.&#xA;But &amp;hellip; wait a sec: What do you mean by distances (plural)? Is there more than one?&#xA;Big surprise: Yes! When I build and run remote-first organizations I worry about and manage at least the following distances &amp;hellip;</description>
     </item>
-    
     <item>
       <title>The first Summit/Hack-a-thon @ Community</title>
       <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</guid>
-      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;
-Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
+      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;&#xA;Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
     </item>
-    
     <item>
       <title>What&#39;s a Staff Director?</title>
       <link>http://tedn.life/2020/08/31/whats-a-staff-director/</link>
       <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/08/31/whats-a-staff-director/</guid>
-      <description>Community is growing fast.
-More business. More customers. More people. More money. More (necessary) complexity (software and people).
-The demand for this kind of growth can create a lot of interesting strains, problems and challenges.
-In situations like this it is easy to end up between a rock and a hard place: Grow fast and run a/the risk that the growing pains will kill you or end up being too slow to fully capitalize on the magnitude of the opportunity.</description>
+      <description>Community is growing fast.&#xA;More business. More customers. More people. More money. More (necessary) complexity (software and people).&#xA;The demand for this kind of growth can create a lot of interesting strains, problems and challenges.&#xA;In situations like this it is easy to end up between a rock and a hard place: Grow fast and run a/the risk that the growing pains will kill you or end up being too slow to fully capitalize on the magnitude of the opportunity.</description>
     </item>
-    
     <item>
       <title>The TEDN Van</title>
       <link>http://tedn.life/2020/04/14/the-tedn-van/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/14/the-tedn-van/</guid>
-      <description>Here we go again: There is good news and bad news!!!
-The good news is that the TEDN Mobile Office project is making good progress!
-By now we (means mainly my dad :)) have &amp;hellip;
-put in a screen installed an external 230V power plug (so that I can get power on/from a camp-ground) installed a fridge and a sink and a cooker (basically a kitchen) tested the tent (see below) installed a roof box (to store the tent) got ourselves a foldable e-bike &amp;hellip; means: we are ready to rock and roll!</description>
+      <description>Here we go again: There is good news and bad news!!!&#xA;The good news is that the TEDN Mobile Office project is making good progress!&#xA;By now we (means mainly my dad :)) have &amp;hellip;&#xA;put in a screen installed an external 230V power plug (so that I can get power on/from a camp-ground) installed a fridge and a sink and a cooker (basically a kitchen) tested the tent (see below) installed a roof box (to store the tent) got ourselves a foldable e-bike &amp;hellip; means: we are ready to rock and roll!</description>
     </item>
-    
     <item>
       <title>Roland ... what&#39;s in a name</title>
       <link>http://tedn.life/2020/04/13/roland-...-whats-in-a-name/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/13/roland-...-whats-in-a-name/</guid>
-      <description>Updated: On Oct., 11th, 2020 Updated: On Apr., 12th, 2020 Updated: On Oct., 29th, 2016
-A couple of years ago a colleague of mine pointed me to the new website/book from Jim Carrey &amp;ldquo;How Roland rolls&amp;rdquo; and while looking at it I started to think about my name: What does it mean? What is the origin? What are other well-known usages?
-Here is what I found out &amp;hellip; Roland was a knight who fought for Charles the Great (also called the father of Europe).</description>
+      <description>Updated: On Oct., 11th, 2020 Updated: On Apr., 12th, 2020 Updated: On Oct., 29th, 2016&#xA;A couple of years ago a colleague of mine pointed me to the new website/book from Jim Carrey &amp;ldquo;How Roland rolls&amp;rdquo; and while looking at it I started to think about my name: What does it mean? What is the origin? What are other well-known usages?&#xA;Here is what I found out &amp;hellip; Roland was a knight who fought for Charles the Great (also called the father of Europe).</description>
     </item>
-    
     <item>
       <title>Discussing Remote ... the book!!!</title>
       <link>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</guid>
-      <description>These days people look for advice and insight into how to build and run a remote-first engineering organization. And want/need to learn fast!!!
-One good resource is (obviously) Remote (kind of the bible on working remote).
-The book was published in 2013 (and was probably written in the 12 month before that).
-Obviously the key messages/statements from the book are still true (or truer than ever), but I think that since then things have also changed and evolved.</description>
+      <description>These days people look for advice and insight into how to build and run a remote-first engineering organization. And want/need to learn fast!!!&#xA;One good resource is (obviously) Remote (kind of the bible on working remote).&#xA;The book was published in 2013 (and was probably written in the 12 month before that).&#xA;Obviously the key messages/statements from the book are still true (or truer than ever), but I think that since then things have also changed and evolved.</description>
     </item>
-    
     <item>
       <title>The Extreme Digital Nomad (TEDN)</title>
       <link>http://tedn.life/2020/03/31/the-extreme-digital-nomad-tedn/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/03/31/the-extreme-digital-nomad-tedn/</guid>
-      <description>In the last 25 years I have build and run multiple distributed software engineering organisations.
-My management style/philosophy is based on a couple of core believes &amp;hellip;
-The Power of Why - I like to lead with Why (to make sure Talent and Passion can meet a Purpose) People first - I always think and feel that people are the solution (not the problem) Heterogenerity for the win - You have to be different to complement each other (and to create innovation) No surprises - Everybody (at all times) should be clear on what is happening and why it is happening, which leads to &amp;hellip; Building and maintain trust (and respect) (between the people) at all cost!</description>
+      <description>In the last 25 years I have build and run multiple distributed software engineering organisations.&#xA;My management style/philosophy is based on a couple of core believes &amp;hellip;&#xA;The Power of Why - I like to lead with Why (to make sure Talent and Passion can meet a Purpose) People first - I always think and feel that people are the solution (not the problem) Heterogenerity for the win - You have to be different to complement each other (and to create innovation) No surprises - Everybody (at all times) should be clear on what is happening and why it is happening, which leads to &amp;hellip; Building and maintain trust (and respect) (between the people) at all cost!</description>
     </item>
-    
     <item>
       <title>The cost of building a skateboard ... and a lot of PSs</title>
       <link>http://tedn.life/2018/05/26/the-cost-of-building-a-skateboard-...-and-a-lot-of-pss/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/05/26/the-cost-of-building-a-skateboard-...-and-a-lot-of-pss/</guid>
-      <description>The other day I was explaining again how to build an MVP and I was using the skateboard picture (again :)).
-In the middle of the discussion I realized that we only had half of the discussion, because we only talked about the direct benefits of the approach: Fast feedback, less risk to build the wrong thing, &amp;hellip;
-We did not really talk about the cost of getting these benefits. The meeting got interesting when I started to point out that this is not about building the solution the fastest way or the cheapest way.</description>
+      <description>The other day I was explaining again how to build an MVP and I was using the skateboard picture (again :)).&#xA;In the middle of the discussion I realized that we only had half of the discussion, because we only talked about the direct benefits of the approach: Fast feedback, less risk to build the wrong thing, &amp;hellip;&#xA;We did not really talk about the cost of getting these benefits. The meeting got interesting when I started to point out that this is not about building the solution the fastest way or the cheapest way.</description>
     </item>
-    
     <item>
       <title>About being a (software development) manager ... and managing energy!!!</title>
       <link>http://tedn.life/2018/01/20/about-being-a-software-development-manager-...-and-managing-energy/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/01/20/about-being-a-software-development-manager-...-and-managing-energy/</guid>
-      <description>A lot has been written and said about what you need to do as a manager or more specifically as a manager of a software development team/group/organisation.
-You need to understand people and the business and technology (software engineering processes and practices, tools and frameworks, programming languages, &amp;hellip;).
-You need to be a manager and a leader. You need to be a friend and a dad (or mother) and a boss.</description>
+      <description>A lot has been written and said about what you need to do as a manager or more specifically as a manager of a software development team/group/organisation.&#xA;You need to understand people and the business and technology (software engineering processes and practices, tools and frameworks, programming languages, &amp;hellip;).&#xA;You need to be a manager and a leader. You need to be a friend and a dad (or mother) and a boss.</description>
     </item>
-    
     <item>
       <title>Hackweeks @ Nitro ... The Why, The What, The How</title>
       <link>http://tedn.life/2017/07/29/hackweeks-@-nitro-...-the-why-the-what-the-how/</link>
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/07/29/hackweeks-@-nitro-...-the-why-the-what-the-how/</guid>
-      <description>As already discussed: I am obsessed with building cars!!!
-Not in the sense that I want/need to build cars, but in the sense that Henry Ford famously once upon a time (apparently not) said, that if he would have build what customers wanted, he would have build faster horses.
-Luckily he was able to complement the input from the customers (we want faster horses) with a view of what is possible (cars).</description>
+      <description>As already discussed: I am obsessed with building cars!!!&#xA;Not in the sense that I want/need to build cars, but in the sense that Henry Ford famously once upon a time (apparently not) said, that if he would have build what customers wanted, he would have build faster horses.&#xA;Luckily he was able to complement the input from the customers (we want faster horses) with a view of what is possible (cars).</description>
     </item>
-    
     <item>
       <title>Leadership at Amazon ... Productive Friction 2.0</title>
       <link>http://tedn.life/2017/06/12/leadership-at-amazon-...-productive-friction-2.0/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/06/12/leadership-at-amazon-...-productive-friction-2.0/</guid>
-      <description>The other day I was reading the letter that Jeff Bezo&amp;rsquo;s is writing to shareholders every year.
-The obsession with fast, good decision making was and is resonating with me.
-I like fast decision making processes that produce good decisions. And I like cultures and behaviors that foster environments that produce these fast, good decisions.
-In the case of Amazon they have developed a set of leadership principles and behaviors (like the famous 2 pizza rule) to protect their agility and velocity, while they are scaling (and to make sure they stay a Day 1 company).</description>
+      <description>The other day I was reading the letter that Jeff Bezo&amp;rsquo;s is writing to shareholders every year.&#xA;The obsession with fast, good decision making was and is resonating with me.&#xA;I like fast decision making processes that produce good decisions. And I like cultures and behaviors that foster environments that produce these fast, good decisions.&#xA;In the case of Amazon they have developed a set of leadership principles and behaviors (like the famous 2 pizza rule) to protect their agility and velocity, while they are scaling (and to make sure they stay a Day 1 company).</description>
     </item>
-    
     <item>
       <title>Productive Friction and Diversity ... the pillars of innovation ... or: How to NOT build faster horses!</title>
       <link>http://tedn.life/2017/06/12/productive-friction-and-diversity-...-the-pillars-of-innovation-...-or-how-to-not-build-faster-horses/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/06/12/productive-friction-and-diversity-...-the-pillars-of-innovation-...-or-how-to-not-build-faster-horses/</guid>
-      <description>In the week of Jul., 10th we are going to do our next Hackweek.
-The concept is not new. A lot of companies do it.
-The question is: Why is it valuable?
-For me the answer is: Because you want to make sure you are not building faster horses!
-Henry Ford once famously said (or not said :)): &amp;ldquo;If I had asked people what they wanted, they would have said faster horses.</description>
+      <description>In the week of Jul., 10th we are going to do our next Hackweek.&#xA;The concept is not new. A lot of companies do it.&#xA;The question is: Why is it valuable?&#xA;For me the answer is: Because you want to make sure you are not building faster horses!&#xA;Henry Ford once famously said (or not said :)): &amp;ldquo;If I had asked people what they wanted, they would have said faster horses.</description>
     </item>
-    
     <item>
       <title>The myth of ... getting it right the first time</title>
       <link>http://tedn.life/2017/06/06/the-myth-of-...-getting-it-right-the-first-time/</link>
       <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/06/06/the-myth-of-...-getting-it-right-the-first-time/</guid>
-      <description>I am reading it again: Clean Code.
-This time I am reading it differently. The first time around (6 years ago), I was reading it and learned a lot (about how to write clean code) and was using it (a lot) to get other people on board and convince them that this is the way (the only way) to write code.
-I still think that the book can serve that purpose.</description>
+      <description>I am reading it again: Clean Code.&#xA;This time I am reading it differently. The first time around (6 years ago), I was reading it and learned a lot (about how to write clean code) and was using it (a lot) to get other people on board and convince them that this is the way (the only way) to write code.&#xA;I still think that the book can serve that purpose.</description>
     </item>
-    
     <item>
       <title>Thoughts on Operational Excellence</title>
       <link>http://tedn.life/2017/04/30/thoughts-on-operational-excellence/</link>
       <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/04/30/thoughts-on-operational-excellence/</guid>
-      <description>Sometimes for me discussions about Operational Excellence sound like discussions about teenager sex: Everybody is talking about it, nobody &amp;hellip;
-The other day I was wondering again: What is Operational Excellence and why should you have it?
-For me Operational Excellence is the ability of an organization to make (initially small and then over time bigger and bigger) promises and keep them consistently and reliably within budget (time and money).</description>
+      <description>Sometimes for me discussions about Operational Excellence sound like discussions about teenager sex: Everybody is talking about it, nobody &amp;hellip;&#xA;The other day I was wondering again: What is Operational Excellence and why should you have it?&#xA;For me Operational Excellence is the ability of an organization to make (initially small and then over time bigger and bigger) promises and keep them consistently and reliably within budget (time and money).</description>
     </item>
-    
     <item>
       <title>LOL ... printers suck!!!</title>
       <link>http://tedn.life/2017/01/19/lol-...-printers-suck/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/01/19/lol-...-printers-suck/</guid>
-      <description>Last year we visited some of our customers in EMEA to get some video footage about their Nitro Experience.
-While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;
-Life at Nitro: The Nitro Family Life Nitro: Our Dedication to Development Life at Nitro: Our Diversity Nitro: Our Vision for PDF Life at Nitro: Our Leaders Nitro: Our Thoughts on Printers My favorite quote is &amp;hellip; obviously &amp;hellip; &amp;ldquo;Printers suck!</description>
+      <description>Last year we visited some of our customers in EMEA to get some video footage about their Nitro Experience.&#xA;While we had our Creative Director in town (in Dublin), we also decided to shoot some material for some internal videos. Ooohhh &amp;hellip; the fun we had &amp;hellip;&#xA;Life at Nitro: The Nitro Family Life Nitro: Our Dedication to Development Life at Nitro: Our Diversity Nitro: Our Vision for PDF Life at Nitro: Our Leaders Nitro: Our Thoughts on Printers My favorite quote is &amp;hellip; obviously &amp;hellip; &amp;ldquo;Printers suck!</description>
     </item>
-    
     <item>
       <title>Spotify Light ... Nitro Engineering 2017</title>
       <link>http://tedn.life/2016/12/09/spotify-light-...-nitro-engineering-2017/</link>
       <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/12/09/spotify-light-...-nitro-engineering-2017/</guid>
-      <description>Finding a good and maybe even the right org structure for an engineering organization is something of a dark art.
-Initially everything is so easy. 5-10 engineers are in one location, have one boss, work on the one thing and have one common skill.
-But then you are successful. And you hire more engineers and then you realize that to derisk the hiring and the growth you probably want to hire in more than one location and then a couple of engineers will leave, because the people management aspect of the being an engineering manager is not something that comes naturally to most of us.</description>
+      <description>Finding a good and maybe even the right org structure for an engineering organization is something of a dark art.&#xA;Initially everything is so easy. 5-10 engineers are in one location, have one boss, work on the one thing and have one common skill.&#xA;But then you are successful. And you hire more engineers and then you realize that to derisk the hiring and the growth you probably want to hire in more than one location and then a couple of engineers will leave, because the people management aspect of the being an engineering manager is not something that comes naturally to most of us.</description>
     </item>
-    
     <item>
       <title>Why do I work for Nitro ... connecting the dots!</title>
       <link>http://tedn.life/2016/11/11/why-do-i-work-for-nitro-...-connecting-the-dots/</link>
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/11/11/why-do-i-work-for-nitro-...-connecting-the-dots/</guid>
-      <description>We are redoing our engineering website and our blog (stay tuned).
-In parallel we have worked on the Nitro Mission Statement (for 2017 and beyond) and have condensed it down to &amp;hellip;
-Our VP Product has also articulated a comprehensive, 2-step, &amp;ldquo;Elon Musk&amp;rdquo;-style master plan how to get there &amp;hellip;
-Make edit, collaborate, share, sign &amp;hellip; work!!! - for everybody (personal and business (wall-to-wall)), everywhere (desktop, browser, mobile) and anytime (always-on).</description>
+      <description>We are redoing our engineering website and our blog (stay tuned).&#xA;In parallel we have worked on the Nitro Mission Statement (for 2017 and beyond) and have condensed it down to &amp;hellip;&#xA;Our VP Product has also articulated a comprehensive, 2-step, &amp;ldquo;Elon Musk&amp;rdquo;-style master plan how to get there &amp;hellip;&#xA;Make edit, collaborate, share, sign &amp;hellip; work!!! - for everybody (personal and business (wall-to-wall)), everywhere (desktop, browser, mobile) and anytime (always-on).</description>
     </item>
-    
     <item>
       <title>Visit the Powerscourt Gardens ... the Home of Software Gardening</title>
       <link>http://tedn.life/2016/10/28/visit-the-powerscourt-gardens-...-the-home-of-software-gardening/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/10/28/visit-the-powerscourt-gardens-...-the-home-of-software-gardening/</guid>
-      <description>Clearly &amp;hellip; and obviously &amp;hellip; the idea of Software Gardening is not mine. But as I have already mentioned once or twice &amp;hellip; I like it a lot.
-And it is also something that we have adopted here at Nitro Engineering as a guiding principle for our daily actions and daily habits.
-In general software architecture is something that you cannot see or touch, but in October I had the engineering managers in Dublin and that chance was just too good to not use it, means we all hoped on a bus and went to see the real thing!</description>
+      <description>Clearly &amp;hellip; and obviously &amp;hellip; the idea of Software Gardening is not mine. But as I have already mentioned once or twice &amp;hellip; I like it a lot.&#xA;And it is also something that we have adopted here at Nitro Engineering as a guiding principle for our daily actions and daily habits.&#xA;In general software architecture is something that you cannot see or touch, but in October I had the engineering managers in Dublin and that chance was just too good to not use it, means we all hoped on a bus and went to see the real thing!</description>
     </item>
-    
     <item>
       <title>Zero-to-Hero ... in a day</title>
       <link>http://tedn.life/2016/10/22/zero-to-hero-...-in-a-day/</link>
       <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2016/10/22/zero-to-hero-...-in-a-day/</guid>
-      <description>Yesterday I had a good day in the office!
-Nitro (like a lot of other startups) is going through growing pains. In the last 2 years we have hired a lot of people (and have not been able to retain all of them). We have build a lot of systems, platforms, features and products (and some of it turned into technical debt faster than we wanted). We implemented processes and practices (and not all of them made us more productive or faster).</description>
+      <description>Yesterday I had a good day in the office!&#xA;Nitro (like a lot of other startups) is going through growing pains. In the last 2 years we have hired a lot of people (and have not been able to retain all of them). We have build a lot of systems, platforms, features and products (and some of it turned into technical debt faster than we wanted). We implemented processes and practices (and not all of them made us more productive or faster).</description>
     </item>
-    
     <item>
       <title>New Job, New Site, ...</title>
       <link>http://tedn.life/2015/08/14/new-job-new-site-.../</link>
       <pubDate>Fri, 14 Aug 2015 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2015/08/14/new-job-new-site-.../</guid>
-      <description>Yep &amp;hellip; I got a new job and yep &amp;hellip; I got a new website.
-In reverse order, first: (Given that I am a VP Infrastructure Engineering) I am currently in the process to refactor my personal infrastructure and I am consolidate most of it on GitHub and Amazon. The result is the wonderful new website you are looking at. The pages are on GitHub (pages based on Jekyll) and the domains and the DNS are hosted on Amazon.</description>
+      <description>Yep &amp;hellip; I got a new job and yep &amp;hellip; I got a new website.&#xA;In reverse order, first: (Given that I am a VP Infrastructure Engineering) I am currently in the process to refactor my personal infrastructure and I am consolidate most of it on GitHub and Amazon. The result is the wonderful new website you are looking at. The pages are on GitHub (pages based on Jekyll) and the domains and the DNS are hosted on Amazon.</description>
     </item>
-    
     <item>
       <title>According to the Sunday Independent ... 50 years ago ... the outlook was ... mainly dry</title>
       <link>http://tedn.life/2015/07/11/according-to-the-sunday-independent-...-50-years-ago-...-the-outlook-was-...-mainly-dry/</link>
       <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2015/07/11/according-to-the-sunday-independent-...-50-years-ago-...-the-outlook-was-...-mainly-dry/</guid>
       <description>Nuclear power plant offered to usReports are current in political circles that the Government has received an offer from a German industrialist to build a nuclear reactor in Ireland as part of his plan to provide power for industrial development. Ballad group singers are engagedFolk singer Ann Byrne, of Blackrock, and Paddy Roche, Templeogue, a member of the Ludlow Trio, who have announced their engagement. Both are regular singers at the Abbey Tavern in Howth.</description>
     </item>
-    
     <item>
       <title>Talking about the value of immutability ... for deployment platforms and innovation</title>
       <link>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</link>
       <pubDate>Tue, 12 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/11/12/talking-about-the-value-of-immutability-...-for-deployment-platforms-and-innovation/</guid>
-      <description>I am just back from presenting a talk at FutureStack in SFO.
-Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku. Checking out these (and all of the the other talks) is recommended.</description>
+      <description>I am just back from presenting a talk at FutureStack in SFO.&#xA;Very interesting trip. Got very positive feedback on what we are doing. Did meet a lot of people with very interesting ideas (e.g. my friend Klaus (see below)). Lew&#39;s keynote on Rubicon was insightful and inspiring. Kate was talking on the art of self-management and Peter talked about how to run hundreds of Postgres databases for Heroku. Checking out these (and all of the the other talks) is recommended.</description>
     </item>
-    
     <item>
       <title>Charting some KPIs ... how hard can it be?</title>
       <link>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</link>
       <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/05/10/charting-some-kpis-...-how-hard-can-it-be/</guid>
-      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.
-As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
+      <description>In the last couple of weeks I was working on an initiative to make all the Gilt Tech KPIs available in one place. There are lots of dashboard solutions available, but nothing really did what we wanted it to do or it was clumsy to use. At the end we decided to build a small Scala Play app to get what we want.&#xA;As part of that exercise we had to find a way to visualise the history of the KPI values (timestamp, value pairs) and I started to play around with charting frameworks and figured it makes sense to write up what I have found out.</description>
     </item>
-    
     <item>
       <title>About broken windows and software gardening ... - Thoughts from The Pragmatic Programmer</title>
       <link>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</link>
       <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</guid>
-      <description>These days I am writing more source code again (mostly Scala) and decided to (re)read a couple of books to refresh some thoughts and ideas and believes that I always had when it comes to writing source code.
-One of the books I was (re)reading was Clean Code and there are lots of good ideas in it, e.g. after reading the book 15 years ago I got into the habit of refactoring, whenever I feel the urge to put a comment in the code, which is an indication that the code is not clear/self-documenting enough.</description>
+      <description>These days I am writing more source code again (mostly Scala) and decided to (re)read a couple of books to refresh some thoughts and ideas and believes that I always had when it comes to writing source code.&#xA;One of the books I was (re)reading was Clean Code and there are lots of good ideas in it, e.g. after reading the book 15 years ago I got into the habit of refactoring, whenever I feel the urge to put a comment in the code, which is an indication that the code is not clear/self-documenting enough.</description>
     </item>
-    
     <item>
       <title>Dublin Innovation Festival - Talking about Innovation, Gilt and Ireland ... and Evolution and Darwinism</title>
       <link>http://tedn.life/2011/11/24/dublin-innovation-festival-talking-about-innovation-gilt-and-ireland-...-and-evolution-and-darwinism/</link>
       <pubDate>Thu, 24 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2011/11/24/dublin-innovation-festival-talking-about-innovation-gilt-and-ireland-...-and-evolution-and-darwinism/</guid>
       <description>A couple of weeks ago I had the chance to talk about three things I care about: Innovation, Gilt and Ireland. The occasion was the Dublin Chamber of Commerce Smart Series Event on Innovation (that was the day after Dundrum Shopping Center and half of Dublin got flooded). The objective was to share a couple of thoughts on what innovation is (or is not), what Gilt is doing to foster innovation and what Ireland has to offer to companies like Gilt.</description>
     </item>
-    
     <item>
       <title>(Small) change to my social networking ...</title>
       <link>http://tedn.life/2011/06/26/small-change-to-my-social-networking-.../</link>
       <pubDate>Sun, 26 Jun 2011 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2011/06/26/small-change-to-my-social-networking-.../</guid>
       <description> First of all ... apologies!!! In the last 2 weeks my (private) tweeds (almost) completely died away. I was just madly busy with work :(. Going forward, I will (continue to) send my &#34;diary&#34; updates to @rolandtritsch, but will send my more work related tweeds (e.g. Blogging about ..., Reading about ..., Looking at ...) to @innolocity. @innolocity is a public feed. Just register here to follow. </description>
     </item>
-    
     <item>
       <title>Adventure 2.0 - Building the Gilt Software Development Center in Dublin</title>
       <link>http://tedn.life/2011/04/19/adventure-2.0-building-the-gilt-software-development-center-in-dublin/</link>
       <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2011/04/19/adventure-2.0-building-the-gilt-software-development-center-in-dublin/</guid>
       <description>A couple of weeks ago I got a call from the Gilt Groupe in NYC and they asked, if I would be interested in joining Gilt Groupe to build a software development center in Dublin. I went to NY and met some of the brightest engineers in the industry and was totally blown away by the enthusiasm and the commitment to build and run the best e-commerce shopping experience on the web.</description>
     </item>
-    
     <item>
       <title>Cinema Screening in Aid of Haiti - Watching &#34;The Commitments&#34; (for a good cause)</title>
       <link>http://tedn.life/2010/08/31/cinema-screening-in-aid-of-haiti-watching-the-commitments-for-a-good-cause/</link>
       <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2010/08/31/cinema-screening-in-aid-of-haiti-watching-the-commitments-for-a-good-cause/</guid>
-      <description>Sometimes it is possible to combine something that is fun with something that is useful.
-I am happy to present such an opportunity, since my colleague Susan O&#39;Hara is organizing a charity event in the Sugar Club on Lower Leeson Street to watch &#34;The Commitments&#34; on Wednesday, 15 September 2010 at 7pm.
-The cost is EUR 15,- pp. The feeling to have some fun and do something good is priceless.</description>
+      <description>Sometimes it is possible to combine something that is fun with something that is useful.&#xA;I am happy to present such an opportunity, since my colleague Susan O&#39;Hara is organizing a charity event in the Sugar Club on Lower Leeson Street to watch &#34;The Commitments&#34; on Wednesday, 15 September 2010 at 7pm.&#xA;The cost is EUR 15,- pp. The feeling to have some fun and do something good is priceless.</description>
     </item>
-    
     <item>
       <title>Autonomy, Mastery, Purpose - ... or ... how to unleash creativity.</title>
       <link>http://tedn.life/2010/06/08/autonomy-mastery-purpose-...-or-...-how-to-unleash-creativity./</link>
       <pubDate>Tue, 08 Jun 2010 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2010/06/08/autonomy-mastery-purpose-...-or-...-how-to-unleash-creativity./</guid>
-      <description>This is going to be a short blog post. A Facebook post by Brian Kelly made me revisit the stuff that Dan Pink did and is doing.
-The main idea behind Drive (RSA, TED) is that Autonomy, Mastery and Purpose unleash the creative power of individuals and teams, not material/monetary incentives. Opensource and Wikipedia and ... are obviously the classic/legendary examples for this FACT (and yes, it is a fact :)).</description>
+      <description>This is going to be a short blog post. A Facebook post by Brian Kelly made me revisit the stuff that Dan Pink did and is doing.&#xA;The main idea behind Drive (RSA, TED) is that Autonomy, Mastery and Purpose unleash the creative power of individuals and teams, not material/monetary incentives. Opensource and Wikipedia and ... are obviously the classic/legendary examples for this FACT (and yes, it is a fact :)).</description>
     </item>
-    
     <item>
       <title>Greek Vacation - Food for thought</title>
       <link>http://tedn.life/2010/02/17/greek-vacation-food-for-thought/</link>
       <pubDate>Wed, 17 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2010/02/17/greek-vacation-food-for-thought/</guid>
       <description>It is happening again :). I am in Greece ... on vacation. My wife has this unbelievable ability to find wonderful places for us to explore and experience the best of Greece. The (non-complete) list of breaks encompasses ... Visit the home of Zeus (Mount Olympus) (Mountain Resort Semeli)Find out how colosal the Colossus of Rhodes really was (Fashion Hotel Nikos)Take a 6 hour hike through Vikos Canyon Explore the beauty of PiliouFollow the footsteps of Leonard Cohen on Hydra (Four Seasons Hotel)Right now I am in the middle of nowhere in a place called Epohes and again .</description>
     </item>
-    
     <item>
       <title>Social Networking - Updating your status: all or nothing?</title>
       <link>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</link>
       <pubDate>Thu, 17 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</guid>
-      <description>Yesterday I was stumbling over a Facebook status update from Oisin Hurley ...
-Oisin Hurley is starting to get a bit irritated with people that unselectively duplicate their twitter stream to their Facebook status. They&#39;re different interactions, people.
-This is an interesting observation and creates a bigger question: where do we go with this social-networking, micro-blogging, status-update thingy? Initially it was easy: there was just/only twitter and this was the place to do micro-blogging and status-updates, but by now all social-networking sites (Facebook, Linked-In, XING, Plaxo, Bebo, .</description>
+      <description>Yesterday I was stumbling over a Facebook status update from Oisin Hurley ...&#xA;Oisin Hurley is starting to get a bit irritated with people that unselectively duplicate their twitter stream to their Facebook status. They&#39;re different interactions, people.&#xA;This is an interesting observation and creates a bigger question: where do we go with this social-networking, micro-blogging, status-update thingy? Initially it was easy: there was just/only twitter and this was the place to do micro-blogging and status-updates, but by now all social-networking sites (Facebook, Linked-In, XING, Plaxo, Bebo, .</description>
     </item>
-    
     <item>
       <title>Skills, Innovation and the future of Ireland - Bermuda Triangle or Trinity</title>
       <link>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</link>
       <pubDate>Sun, 07 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</guid>
-      <description>Ireland (like any other country in the world right now) needs to reinvent itself. The Celtic Tiger (1.0) is over. Question is: What&#39;s next? Do we want a Celtic Tiger 2.0? If so, how should it look like? And how do we make it happen?
-Chris Horn has published a couple of interesting blog entries and articles on the topic.
-For me the key is skills and innovation. Skill comes in two flavors: expertise and experience.</description>
+      <description>Ireland (like any other country in the world right now) needs to reinvent itself. The Celtic Tiger (1.0) is over. Question is: What&#39;s next? Do we want a Celtic Tiger 2.0? If so, how should it look like? And how do we make it happen?&#xA;Chris Horn has published a couple of interesting blog entries and articles on the topic.&#xA;For me the key is skills and innovation. Skill comes in two flavors: expertise and experience.</description>
     </item>
-    
     <item>
       <title>Randy Pausch - about elephants, walls, rooms and TVs</title>
       <link>http://tedn.life/2008/08/04/randy-pausch-about-elephants-walls-rooms-and-tvs/</link>
       <pubDate>Mon, 04 Aug 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/08/04/randy-pausch-about-elephants-walls-rooms-and-tvs/</guid>
       <description>Last week Randy Pausch died. With all the hype around his cancer and &#34;the last lecture&#34;, it was/is kind of hard to see who he was or what he was. Yesterday I tried to find out a little bit more and watched his presentation on time management. Good presentation, but not something that we haven&#39;t heard before. In the end I have to agree with him: He is a smart professor, but there are lots of smart professors out there.</description>
     </item>
-    
     <item>
       <title>Quantum Leap</title>
       <link>http://tedn.life/2008/05/18/quantum-leap/</link>
       <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/18/quantum-leap/</guid>
-      <description>Today we went to a local art (flee) market. We were looking for some paintings for our new house. At the end we could not agree on anything, but I was in the right mindset to find something that will focus the mind, when I am at my desk.
-I like innovation and I like to innovate. Sometimes this requires to take a leap of faith to produce a quantum leap.</description>
+      <description>Today we went to a local art (flee) market. We were looking for some paintings for our new house. At the end we could not agree on anything, but I was in the right mindset to find something that will focus the mind, when I am at my desk.&#xA;I like innovation and I like to innovate. Sometimes this requires to take a leap of faith to produce a quantum leap.</description>
     </item>
-    
   </channel>
 </rss>

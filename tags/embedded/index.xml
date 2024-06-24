@@ -4,29 +4,23 @@
     <title>Embedded on tedn.life</title>
     <link>http://tedn.life/tags/embedded/</link>
     <description>Recent content in Embedded on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/embedded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scala on the Pebble - Exploring SDK 2.0 ...</title>
       <link>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</link>
       <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/02/06/scala-on-the-pebble-exploring-sdk-2.0-.../</guid>
-      <description>... just kidding :).
-Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!
-And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
+      <description>... just kidding :).&#xA;Reality is ... triggered by the release of the Pebble SDK 2.0 on Feb., 3rd (iOS only, more on this later) and after more than 20 years of JVM based software development I willingful decided to write some C code again!!!&#xA;And I liked it. Mainly because of CloudPebble. As pointed out here, setting up a software development environment can be a daunting task. Not so with CloudPebble.</description>
     </item>
-    
     <item>
       <title>Embedded Software Engineering - Can we avoid another software crisis</title>
       <link>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</link>
       <pubDate>Tue, 12 Aug 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</guid>
-      <description>The term &#34;software crisis&#34; was coined 1968 by F.L. Bauer during the first NATO Software Engineering Conference in Garmisch, Germany and was used by Dijkstra in his very famous lecture on &#34;The humble programmer&#34;:
-[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.</description>
+      <description>The term &#34;software crisis&#34; was coined 1968 by F.L. Bauer during the first NATO Software Engineering Conference in Garmisch, Germany and was used by Dijkstra in his very famous lecture on &#34;The humble programmer&#34;:&#xA;[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.</description>
     </item>
-    
   </channel>
 </rss>

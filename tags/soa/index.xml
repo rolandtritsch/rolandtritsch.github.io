@@ -4,108 +4,79 @@
     <title>SOA on tedn.life</title>
     <link>http://tedn.life/tags/soa/</link>
     <description>Recent content in SOA on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2009 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/soa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/soa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Effective Android - Using Apache CXF to access SOAP services</title>
       <link>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</link>
       <pubDate>Mon, 21 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/09/21/effective-android-using-apache-cxf-to-access-soap-services/</guid>
-      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.
-I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
+      <description>A year ago I developed a small set of demos to show how to access SOAP services from the iPhone. To do this I used a very interesting feature of Apache CXF: The ability to generate a complete JavaScript client-side SOAP-stack on the fly.&#xA;I just finished an update/upgrade of this demo to show that it also works with the Android Phone. I also ported it to maven, means installing, building and running the demo is much easier now.</description>
     </item>
-    
     <item>
       <title>ACCU 2009 - Slides are available</title>
       <link>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</link>
       <pubDate>Sat, 20 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/20/accu-2009-slides-are-available/</guid>
       <description>A couple of weeks ago I attended ACCU 2009 to deliver a talk on &#34;RESTful Services and Distributed OSGi - Friends or Foes&#34; and &#34;AJAX for Mobile Devices - Using Apache Projects to get the job done&#34;. The conference was very well organized (thanks Giovanni) and took place in the beautiful city of Oxford. The format (keynote presentations and smaller breakout sessions) allowed for a good mix of thought-provoking presentations and good discussions.</description>
     </item>
-    
     <item>
       <title>FUSEforge Lightsaber/Lightsabre - Research on Asynchronous Distributed OSGi (for Jedi&#39;s :))</title>
       <link>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</link>
       <pubDate>Tue, 09 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</guid>
-      <description>The Distributed OSGi spec (RFC 119) is coming along nicely, means now might be a good time to raise the head and start to think about what might come next. A couple of month ago David, Roman and myself got together and concluded to set up a research project on the alternatives available to potentially extend the Distributed OSGi spec with some asynchronous messaging concepts/capabilities.
-The research is still ongoing, but the intermediate results (including a first demo!</description>
+      <description>The Distributed OSGi spec (RFC 119) is coming along nicely, means now might be a good time to raise the head and start to think about what might come next. A couple of month ago David, Roman and myself got together and concluded to set up a research project on the alternatives available to potentially extend the Distributed OSGi spec with some asynchronous messaging concepts/capabilities.&#xA;The research is still ongoing, but the intermediate results (including a first demo!</description>
     </item>
-    
     <item>
       <title>Orchestrating the orchestration - EIP vs. BPEL vs. BPML</title>
       <link>http://tedn.life/2009/01/23/orchestrating-the-orchestration-eip-vs.-bpel-vs.-bpml/</link>
       <pubDate>Fri, 23 Jan 2009 12:46:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/01/23/orchestrating-the-orchestration-eip-vs.-bpel-vs.-bpml/</guid>
-      <description>Occasionally (and in any case not often enough) I am having diner or lunch (or any another excuse) to meet my dear friend Klaus Grieger. He is a Principal Architect with CIMT AG. Klaus is what I would call a &#34;deep thinker&#34;. Discussions with him are in between interesting, challenging, invigorating and exhausting :).
-The topic of the Christmas Lunch (we had the choice between &#34;The best Worscht in Town&#34;</description>
+      <description>Occasionally (and in any case not often enough) I am having diner or lunch (or any another excuse) to meet my dear friend Klaus Grieger. He is a Principal Architect with CIMT AG. Klaus is what I would call a &#34;deep thinker&#34;. Discussions with him are in between interesting, challenging, invigorating and exhausting :).&#xA;The topic of the Christmas Lunch (we had the choice between &#34;The best Worscht in Town&#34;</description>
     </item>
-    
     <item>
       <title>Apache CXF vs. Axis 2 - The current state of affairs or The missing book</title>
       <link>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</link>
       <pubDate>Sun, 07 Dec 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/12/07/apache-cxf-vs.-axis-2-the-current-state-of-affairs-or-the-missing-book/</guid>
-      <description>(Blogging from the plane again. This time on my way to the Progress Sales Kickoff in Miami.)The other day I stumbled over a good presentation
-from Falko Riemenschneider. The high-level summary is ...
-* Axis 2 is not as easy to use as CXF, but is more ubiquitous in the marketplace (and got better documentation, including a book in german)
-* CXF is a very well developed piece of software, but needs more people using it (and needs more/better documentation, including a book in any language, but preferably in english)</description>
+      <description>(Blogging from the plane again. This time on my way to the Progress Sales Kickoff in Miami.)The other day I stumbled over a good presentation&#xA;from Falko Riemenschneider. The high-level summary is ...&#xA;* Axis 2 is not as easy to use as CXF, but is more ubiquitous in the marketplace (and got better documentation, including a book in german)&#xA;* CXF is a very well developed piece of software, but needs more people using it (and needs more/better documentation, including a book in any language, but preferably in english)</description>
     </item>
-    
     <item>
       <title>The iPhone screen - Is it a problem or a solution?</title>
       <link>http://tedn.life/2008/10/05/the-iphone-screen-is-it-a-problem-or-a-solution/</link>
       <pubDate>Sun, 05 Oct 2008 12:01:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/10/05/the-iphone-screen-is-it-a-problem-or-a-solution/</guid>
       <description>Lot&#39;s of interesting exciting stuff is going to happen with FUSE over the next couple of month. Especially on the tooling side. The other day I was riding in the car with Oisin Hurley (Head of Tool Development for FUSE) and we discussed the value of having NOT a lot of screen real-estate, because it really makes you think about what the problem is the user wants/needs to solve and how you can guide the user through that process.</description>
     </item>
-    
     <item>
       <title>Complex Event Processing - An exiting (new) frontier</title>
       <link>http://tedn.life/2008/10/05/complex-event-processing-an-exiting-new-frontier/</link>
       <pubDate>Sun, 05 Oct 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/10/05/complex-event-processing-an-exiting-new-frontier/</guid>
-      <description>Through the merger (:)) with Progress, I got exposed to the new exciting field of (Real-Time) Complex Event Processing (CEP). There are a couple of obvious use cases in finance (e.g. algorithmic stock trading) and manufacturing (e.g. detecting possible problems in the assembly line, which might effect your just-in-time service-level-agreements).
-Complex Event Processing or Intelligent Event Correlation is not what excites me. That was/is also possible using large data-warehouses and suitable data-mining solutions, but then you learn about it after the fact.</description>
+      <description>Through the merger (:)) with Progress, I got exposed to the new exciting field of (Real-Time) Complex Event Processing (CEP). There are a couple of obvious use cases in finance (e.g. algorithmic stock trading) and manufacturing (e.g. detecting possible problems in the assembly line, which might effect your just-in-time service-level-agreements).&#xA;Complex Event Processing or Intelligent Event Correlation is not what excites me. That was/is also possible using large data-warehouses and suitable data-mining solutions, but then you learn about it after the fact.</description>
     </item>
-    
     <item>
       <title>Embedded Software Engineering - Can we avoid another software crisis</title>
       <link>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</link>
       <pubDate>Tue, 12 Aug 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/08/12/embedded-software-engineering-can-we-avoid-another-software-crisis/</guid>
-      <description>The term &#34;software crisis&#34; was coined 1968 by F.L. Bauer during the first NATO Software Engineering Conference in Garmisch, Germany and was used by Dijkstra in his very famous lecture on &#34;The humble programmer&#34;:
-[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.</description>
+      <description>The term &#34;software crisis&#34; was coined 1968 by F.L. Bauer during the first NATO Software Engineering Conference in Garmisch, Germany and was used by Dijkstra in his very famous lecture on &#34;The humble programmer&#34;:&#xA;[The major cause of the software crisis is] that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.</description>
     </item>
-    
     <item>
       <title>FUSE Master Class Series - Hidden Gem</title>
       <link>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</link>
       <pubDate>Fri, 23 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</guid>
       <description> A couple of weeks ago, I published the first 3 videos of the FUSE Master Class Series on the open.iona.com wiki. Sooner or later we might link to it from the top page, but for the time being they are hidden gems :). The videos are also available from my homepage. </description>
     </item>
-    
     <item>
       <title>Apache-CXF generates client-side SOAP stack for the iPhone</title>
       <link>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</link>
       <pubDate>Sun, 13 Apr 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/04/13/apache-cxf-generates-client-side-soap-stack-for-the-iphone/</guid>
-      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.
-And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.
-In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
+      <description>Yep. It was inevitable. Sooner or later we need to talk about the iPhone.&#xA;And there is a lot to talk about ... the innovative hardwarethe business model behind itthe market this device might be able to createand a lot of other disruptive changes that come with itBut today I just want to talk about a neat feature that I discovered in Apache-CXF.&#xA;In January I was looking for ways to make the mobile device a first-class citizen in a distributed SOA.</description>
     </item>
-    
   </channel>
 </rss>

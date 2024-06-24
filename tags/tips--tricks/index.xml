@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips &amp; Tricks on tedn.life</title>
+    <link>http://tedn.life/tags/tips--tricks/</link>
+    <description>Recent content in Tips &amp; Tricks on tedn.life</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Apr 2023 14:04:06 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/tips--tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Renault Zoe - STOP Electric Motor Failure</title>
+      <link>http://tedn.life/2023/04/09/renault-zoe-stop-electric-motor-failure/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2023/04/09/renault-zoe-stop-electric-motor-failure/</guid>
+      <description>I used to have a Nissan Leaf (for 6 years) and now I have a Renault Zoe (for 2 years).&#xA;I was and I am very happy with these cars. I am very happy to drive electric cars. Point. Period.&#xA;What I like is to learn what it takes to drive an electric car. You need to learn a lot. About the car. About electricity. About batteries. About the (charging) infrastructure.</description>
+    </item>
+    <item>
+      <title>Happy new year - I am tooting now ...</title>
+      <link>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2023/01/01/happy-new-year-i-am-tooting-now-.../</guid>
+      <description>Happy new year to ya all!!!&#xA;What a year it has been. Some of the highlights are &amp;hellip;&#xA;In February I spend a week with the European Community Engineers in Lisbon/Portugal for the first (actually the second) EMEA tribe meeting after the pandemic In June I spend a week with Christina in London to deliver a talk on Micros-Services &amp;amp; Event-Based Systems In August I spend 3 weeks on the Isle Of Man to attend the Manx GP and (finally) got my TT Race Course Marshall certification In May I Went do the US for 3 weeks to attend the US east/west coast tribe meetings &amp;hellip; and had to isolate for 10 days because I got Covid (but got a good sunrise out of it) We continue to do Innovation-Weeks at Community :) &amp;hellip; I really enjoyed working as a Staff-Director here at Community (I get to do all (or at least a lot of) the good/interesting stuff) Installed a stove at home and bought one(solo) for the mobile office Spend a week in county Donegal (working remote) Spend a week in county Clare (working remote) using the most remote co-working space in Ireland Had two weeks of outstanding boating again (no remote working; just vacation :)) Doing (another) 100 day walking challenge Got a full-body check-up done (first after 6 years).</description>
+    </item>
+    <item>
+      <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
+      <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
+      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+    </item>
+    <item>
+      <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
+      <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
+      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+    </item>
+    <item>
+      <title>Good WiFi - More TEDN dark arts</title>
+      <link>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</guid>
+      <description>Updated (2021-08-14): Added some test data (at the end; see below)&#xA;As I said before &amp;hellip;&#xA;When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!&#xA;Statements like &amp;hellip;&#xA;&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video.</description>
+    </item>
+    <item>
+      <title>Internet connections ... the life blood of The Extreme Digital Nomad</title>
+      <link>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</guid>
+      <description>I am in Hidden Valley Holiday Park. Working on the career progression framework for Community. It is 5am and &amp;hellip; I realized something. Don&amp;rsquo;t hold your breath: It is something obvious (but I thought I share it anyway).&#xA;If you want to be successful as an Extreme Digital Nomad, having a good internet connection is absolutely essential (this is more true now then ever before, because of Covid-19 an even bigger part of the job relies on videoconverencing).</description>
+    </item>
+    <item>
+      <title>Emacs &amp; Lisp ... a match made in heaven</title>
+      <link>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</guid>
+      <description>At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of elixir, the next week I write go, the week afterwards I need to fix some of our terraform configurations and on the weekend I am fixing a bug in a scala project.&#xA;What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &amp;hellip;).</description>
+    </item>
+    <item>
+      <title>Assessing the WLAN ... the dark arts of extreme digital nomading</title>
+      <link>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</guid>
+      <description>When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!&#xA;Statements like &amp;hellip;&#xA;&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo; &amp;hellip; are just not good enough.</description>
+    </item>
+    <item>
+      <title>The vertical bar screen of death ... the story of an unexpected win-win</title>
+      <link>http://tedn.life/2018/09/21/the-vertical-bar-screen-of-death-...-the-story-of-an-unexpected-win-win/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2018/09/21/the-vertical-bar-screen-of-death-...-the-story-of-an-unexpected-win-win/</guid>
+      <description>Last year I spend some time and money to &amp;ldquo;renovate&amp;rdquo; my old 17-inch Macbook Pro (remember the good old times &amp;hellip; when Apple was building good laptops with great keyboards and no touchbar :)).&#xA;For the last 6 month I was running VirtualBox on it hosting an Ubuntu image.&#xA;That kind of worked (a little bit slow at times and managing the ports was (sometimes) challenging, but otherwise &amp;hellip; ok).</description>
+    </item>
+    <item>
+      <title>Make Google Chrome show the Wifi login screen (best trick ever :))</title>
+      <link>http://tedn.life/2018/09/20/make-google-chrome-show-the-wifi-login-screen-best-trick-ever/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2018/09/20/make-google-chrome-show-the-wifi-login-screen-best-trick-ever/</guid>
+      <description>Not sure if this has ever happen to you, &amp;hellip;&#xA;&amp;hellip; but once a month I am sitting in a hotel lobby or a coffee shop and I cannot (for the life of it) make Chrome show me the login screen to the Wifi portal and then you start to fiddle around with stop/start the Wifi and/or disconnect/connect to the Wifi and/or start a different browser (e.g. Firefox or Safari) and/or try a private browser window and/or clear the DNS cache and/or &amp;hellip; reboot!</description>
+    </item>
+    <item>
+      <title>Ooohhh boy ... twitterfeed is no more</title>
+      <link>http://tedn.life/2016/10/31/ooohhh-boy-...-twitterfeed-is-no-more/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2016/10/31/ooohhh-boy-...-twitterfeed-is-no-more/</guid>
+      <description>The other day I got and email that twitterfeed is no more (they recommend to use buffer or dlvr.it instead).&#xA;My social media setup was to post to Google+ and then use twitterfeed to cross-post to twitter and facebook.&#xA;With twitterfeed going out of business I am &amp;hellip;&#xA;&amp;hellip; going to retire my Google+ account &amp;hellip; going to use HootSuite to selectively post to twitter (business, technical, work) and facebook (private, personal) &amp;hellip; going to continue to use Flickr to publish pictures &amp;hellip; going to continue to use GitHub to host my blog (and will cross-post on medium and linked-in for visibility).</description>
+    </item>
+    <item>
+      <title>X-Mas Project 3: Install Source Code Pro (again) - And make Emacs use it (again)</title>
+      <link>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</link>
+      <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2014/12/29/x-mas-project-3-install-source-code-pro-again-and-make-emacs-use-it-again/</guid>
+      <description>It is not a secret ... I like Source Code Pro!&#xA;A couple of weeks ago I got myself a new MacBook Air (and resisted the temptation to get the 13-inch and like the 11-inch a lot) and installed Source Code Pro again. Getting it installed using FontBook was no problem, but then I could not remember how make it the default font for Emacs and all the tips and tricks that I was able to find did not work for me.</description>
+    </item>
+    <item>
+      <title>Getting GTD done - Thoughts and Tools</title>
+      <link>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</link>
+      <pubDate>Mon, 19 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2013/08/19/getting-gtd-done-thoughts-and-tools/</guid>
+      <description>We all have a lot to do. Effective time/task management is essential. I’ve been using GTD (Getting Things Done) for a while now (a long while :)) and for me it comes down to the question, “How do you pick the next, best, most valuable thing to work on?”—basically answering the question of how to make the best use of the time you have.&#xA;Picking something from your list of urgent things to do is kind of easy, but how can you make sure you are not missing the opportunity/chance to work on something important, if you get the chance to do so?</description>
+    </item>
+    <item>
+      <title>AquaEmacs and JDEE and Method Completion - Cannot find JDK&#39;s tools jar file (or equivalent)</title>
+      <link>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</link>
+      <pubDate>Wed, 24 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</guid>
+      <description>Hhhmmm ... nerd alert: If you do not like AquaEmacs, JDEE and Method Completion ... don&#39;t read this :).&#xA;Otherwise ... good news: Not sure, if you have stumbled over this, but if you try to make your method completion work you might get an error message along the lines of ... Cannot find JDK&#39;s tools jar file (or equivalent). Type M-x describe-function [RET] jde-get-jdk-dir for more info.&#xA;... when you hit C-c C-v .</description>
+    </item>
+    <item>
+      <title>Social Networking - Updating your status: all or nothing?</title>
+      <link>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</link>
+      <pubDate>Thu, 17 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2009/09/17/social-networking-updating-your-status-all-or-nothing/</guid>
+      <description>Yesterday I was stumbling over a Facebook status update from Oisin Hurley ...&#xA;Oisin Hurley is starting to get a bit irritated with people that unselectively duplicate their twitter stream to their Facebook status. They&#39;re different interactions, people.&#xA;This is an interesting observation and creates a bigger question: where do we go with this social-networking, micro-blogging, status-update thingy? Initially it was easy: there was just/only twitter and this was the place to do micro-blogging and status-updates, but by now all social-networking sites (Facebook, Linked-In, XING, Plaxo, Bebo, .</description>
+    </item>
+    <item>
+      <title>Effective Mac - Using TimeMachine Part II or Why Restore was greyed out?</title>
+      <link>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2009/09/12/effective-mac-using-timemachine-part-ii-or-why-restore-was-greyed-out/</guid>
+      <description>It happened again!!! Another HD crash. A year ago I lost my original 160GB drive and replaced it with a 250GB drive. Now this one failed only 12 month later. I am not sure what is happening here, but I do not feel that I &#34;mishandle&#34; my MacBook in a way that would explain this rate of failure. Let me know, what your experience is. Are MacBooks DiskEaters? Anyway .</description>
+    </item>
+    <item>
+      <title>Effective Mac - Make the Mac listen ...</title>
+      <link>http://tedn.life/2009/05/18/effective-mac-make-the-mac-listen-.../</link>
+      <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2009/05/18/effective-mac-make-the-mac-listen-.../</guid>
+      <description>This morning I was using my new JawBone Bluetooth headset to make a Skype call. The quality was bad and therefore I decided to switch to my headset. The result was better, but still not what I was looking for. At the end I took the time to really understand, where the sound is coming from and to my big surprise I found out that the line-in jack is not working with normal headsets.</description>
+    </item>
+    <item>
+      <title>Need a new phone - iPhone vs. Blackberry vs. Android</title>
+      <link>http://tedn.life/2009/05/18/need-a-new-phone-iphone-vs.-blackberry-vs.-android/</link>
+      <pubDate>Mon, 18 May 2009 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2009/05/18/need-a-new-phone-iphone-vs.-blackberry-vs.-android/</guid>
+      <description>Last year I went hill-walking with Andrew and Adrian in Kerry. By now everybody knows the story: I drowned my iPhone in Adrian&#39;s backpack. The backpack was 100% water-proof, means it did not let any water out and at the end of a 4 1/2 hour (irish) survival tour with heavy, &#34;horizontal&#34; rain the iPhone did not pass the &#34;can-your-iPhone-also-work-under-water&#34; test.&#xA;I decided to look at it as an opportunity.</description>
+    </item>
+    <item>
+      <title>Effective Mac - Sleeping on the plane</title>
+      <link>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</link>
+      <pubDate>Sat, 10 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</guid>
+      <description>About a year ago, I &#34;borrowed&#34; the battery from Christina&#39;s MacBook to extend my &#34;life&#34;, while I am on the plane. The Mac (being the Mac) has a nice feature, which will hibernate the machine when the battery gets low. This allows you to change the battery without rebooting.&#xA;I was looking for a way to hibernate the machine on demand. This is also useful if you want to conserve battery power (e.</description>
+    </item>
+    <item>
+      <title>Effective Mac - Using OpenOffice, NeoOffice and/or iWorks08</title>
+      <link>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</link>
+      <pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</guid>
+      <description>Finally! OpenOffice is now available for the Mac. In the last two month I used OpenOffice 3.0, NeoOffice 2.2.5 and iWorks08 in parallel (with a special focus on the presentation functionality).&#xA;The result is surprising (and maybe not :)). If you use the &#34;native&#34; formats (e.g. ODF, .key/.page) everything works fine. Obviously things get more interesting, if you want to use these tools to read and write MS-Office files (.</description>
+    </item>
+    <item>
+      <title>Social Networking - Del.icio.us rediscovered! or Do we need the Open Social API?</title>
+      <link>http://tedn.life/2008/10/28/social-networking-del.icio.us-rediscovered-or-do-we-need-the-open-social-api/</link>
+      <pubDate>Tue, 28 Oct 2008 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2008/10/28/social-networking-del.icio.us-rediscovered-or-do-we-need-the-open-social-api/</guid>
+      <description>(Blogging from a plane en-route from DUB to BOS using the email interface of blogger.com :))The other day I updated my website with the details of my new employer and decided to give a second live to my del.icio.us account by using one of the widgets to include my reading list on my blog. I also had to decide, which of my social networks I reference on my site.</description>
+    </item>
+    <item>
+      <title>Effective Mac - Using Time Maschine</title>
+      <link>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</link>
+      <pubDate>Tue, 30 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2008/09/30/effective-mac-using-time-maschine/</guid>
+      <description>On Saturday at 08:00am it happend to me. I move/dragged an email into a folder on my Mac and the machine froze. Diagnosis: Catastrophic harddisk failure. But hey ... look at the bright side: I got to replace my 160GB disk with a bigger 250GB disk and got to test, if my Time Machine backup really works.&#xA;And there is where the problem starts. In an ill-conceived effort to minimize the disk space and the time I need for my backup, I excluded all directories besides my &#34;</description>
+    </item>
+    <item>
+      <title>Effective Mac - Open-Source Mac</title>
+      <link>http://tedn.life/2008/09/10/effective-mac-open-source-mac/</link>
+      <pubDate>Wed, 10 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2008/09/10/effective-mac-open-source-mac/</guid>
+      <description> Was looking for an opensource search engine for the Mac and found this interesting website. I am already using half of the apps, but will take a look at the other half too :). </description>
+    </item>
+    <item>
+      <title>Effective Mac - Growl back to work</title>
+      <link>http://tedn.life/2008/09/07/effective-mac-growl-back-to-work/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2008/09/07/effective-mac-growl-back-to-work/</guid>
+      <description>Stumbled over James&#39;s blog entry about useful software for the Mac and added Growl to my list of software that you need have/use to be effective, but was not able to make it work with X-Chat (AquaChat). Confronted with the option to figure out what is wrong or to try something new, I took the easy way out: I tried Colloquy. This worked out of the box. I know need to find out how to make my Twitter tweeds show up in Growl.</description>
+    </item>
+    <item>
+      <title>Effective Mac - call me slow</title>
+      <link>http://tedn.life/2008/07/12/effective-mac-call-me-slow/</link>
+      <pubDate>Sat, 12 Jul 2008 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2008/07/12/effective-mac-call-me-slow/</guid>
+      <description> You can call me slow, but it took me only a year to find the RSS reader that everybody else is using. David Greco finally pointed me to NetNewsWire. This seems to be it :). </description>
+    </item>
+    <item>
+      <title>Effective Mac - the beginning of a journey</title>
+      <link>http://tedn.life/2008/07/04/effective-mac-the-beginning-of-a-journey/</link>
+      <pubDate>Fri, 04 Jul 2008 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2008/07/04/effective-mac-the-beginning-of-a-journey/</guid>
+      <description>yesterday i finally finished my upgrade to Mac OS X 10.5 (Leopard).&#xA;overall it went well. i did an erase and install (as a 20 year windows user i feel much more comfortable with clean installs. maybe next time if will try it the mac-way :)) and also used the exercise to clean up my disk and the way i work. the biggest problem was that leopard does not come with iLife, means you need to find your old tiger CDs and reinstall iLife from there (or buy (!</description>
+    </item>
+  </channel>
+</rss>

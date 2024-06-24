@@ -4,44 +4,37 @@
     <title>Categories on tedn.life</title>
     <link>http://tedn.life/categories/</link>
     <description>Recent content in Categories on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Software-Craftmanship</title>
-      <link>http://tedn.life/categories/software-craftmanship/</link>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://tedn.life/categories/software-craftmanship/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 07 Jun 2024 12:22:29 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal</title>
       <link>http://tedn.life/categories/personal/</link>
-      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/categories/personal/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Software-Craftmanship</title>
+      <link>http://tedn.life/categories/software-craftmanship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/categories/software-craftmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Management</title>
       <link>http://tedn.life/categories/management/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/categories/management/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Software-Engineering</title>
       <link>http://tedn.life/categories/software-engineering/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/categories/software-engineering/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

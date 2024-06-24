@@ -4,111 +4,72 @@
     <title>Remote on tedn.life</title>
     <link>http://tedn.life/tags/remote/</link>
     <description>Recent content in Remote on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/remote/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 12:42:30 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/remote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Ideal Team Player - HHS vs. DAC</title>
       <link>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</guid>
-      <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.
-In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;
-Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organization Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behavior which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
+      <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.&#xA;In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;&#xA;Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organization Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behavior which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
       <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
-      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.
-But this is not what this blog post is all about :).
-While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
     </item>
-    
     <item>
       <title>Good WiFi - More TEDN dark arts</title>
       <link>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</guid>
-      <description>Updated (2021-08-14): Added some test data (at the end; see below)
-As I said before &amp;hellip;
-When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
-Statements like &amp;hellip;
-&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video.</description>
+      <description>Updated (2021-08-14): Added some test data (at the end; see below)&#xA;As I said before &amp;hellip;&#xA;When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!&#xA;Statements like &amp;hellip;&#xA;&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video.</description>
     </item>
-    
     <item>
       <title>What is better than Remote-First 1.0? Remote-First 2.0!</title>
       <link>http://tedn.life/2021/07/04/what-is-better-than-remote-first-1.0-remote-first-2.0/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/07/04/what-is-better-than-remote-first-1.0-remote-first-2.0/</guid>
-      <description>Two weeks ago I got my second jab. I am fully vaccinated now. I am now in Germany to see my parents for the first time in 12 month.
-Yes: It is finally happening! The pandemic (slowly, but surely) comes to an end.
-Which creates (for some of us and for some companies) a big question: What&amp;rsquo;s the next step? What&amp;rsquo;s the path forward (e.g. from a organisational structure/development point of view)?</description>
+      <description>Two weeks ago I got my second jab. I am fully vaccinated now. I am now in Germany to see my parents for the first time in 12 month.&#xA;Yes: It is finally happening! The pandemic (slowly, but surely) comes to an end.&#xA;Which creates (for some of us and for some companies) a big question: What&amp;rsquo;s the next step? What&amp;rsquo;s the path forward (e.g. from a organisational structure/development point of view)?</description>
     </item>
-    
     <item>
       <title>Distances - Know them. Manage them.</title>
       <link>http://tedn.life/2021/06/01/distances-know-them.-manage-them./</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/06/01/distances-know-them.-manage-them./</guid>
-      <description>Building and managing remote-first organizations means that you also need to understand (and manage) distances!
-To develop your ability to understand and manage distances is very important because human beings naturally need closeness (to other people and/or the purpose of the endeavor) to feel a sense of belonging.
-But &amp;hellip; wait a sec: What do you mean by distances (plural)? Is there more than one?
-Big surprise: Yes! When I build and run remote-first organizations I worry about and manage at least the following distances &amp;hellip;</description>
+      <description>Building and managing remote-first organizations means that you also need to understand (and manage) distances!&#xA;To develop your ability to understand and manage distances is very important because human beings naturally need closeness (to other people and/or the purpose of the endeavor) to feel a sense of belonging.&#xA;But &amp;hellip; wait a sec: What do you mean by distances (plural)? Is there more than one?&#xA;Big surprise: Yes! When I build and run remote-first organizations I worry about and manage at least the following distances &amp;hellip;</description>
     </item>
-    
     <item>
       <title>The first Summit/Hack-a-thon @ Community</title>
       <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</guid>
-      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;
-Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
+      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;&#xA;Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Assessing the WLAN ... the dark arts of extreme digital nomading</title>
       <link>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading/</guid>
-      <description>When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!
-Statements like &amp;hellip;
-&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo; &amp;hellip; are just not good enough.</description>
+      <description>When you work from anywhere (or even from home) it is YOUR(!!!) responsibility to ensure that you are connected!!!&#xA;Statements like &amp;hellip;&#xA;&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo; &amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo; &amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo; &amp;hellip; are just not good enough.</description>
     </item>
-    
     <item>
       <title>Discussing Remote ... the book!!!</title>
       <link>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</guid>
-      <description>These days people look for advice and insight into how to build and run a remote-first engineering organization. And want/need to learn fast!!!
-One good resource is (obviously) Remote (kind of the bible on working remote).
-The book was published in 2013 (and was probably written in the 12 month before that).
-Obviously the key messages/statements from the book are still true (or truer than ever), but I think that since then things have also changed and evolved.</description>
+      <description>These days people look for advice and insight into how to build and run a remote-first engineering organization. And want/need to learn fast!!!&#xA;One good resource is (obviously) Remote (kind of the bible on working remote).&#xA;The book was published in 2013 (and was probably written in the 12 month before that).&#xA;Obviously the key messages/statements from the book are still true (or truer than ever), but I think that since then things have also changed and evolved.</description>
     </item>
-    
     <item>
       <title>Hub-First vs. Remote-First vs. Pod-First ... Skating to where the puck is going to be</title>
       <link>http://tedn.life/2019/03/01/hub-first-vs.-remote-first-vs.-pod-first-...-skating-to-where-the-puck-is-going-to-be/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2019/03/01/hub-first-vs.-remote-first-vs.-pod-first-...-skating-to-where-the-puck-is-going-to-be/</guid>
-      <description>Fig 1: Skating to where the puck ... Finding good and the right talent for an engineering organisation is as challenging as ever.
-And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).
-One key component to get this right is a good/the right structure for your engineering organisation.
-And you probably want to structure it in a way so that it not only works today, but also in 2-3 years from now, because otherwise by the time you are done building the org it will not work (anymore)).</description>
+      <description>Fig 1: Skating to where the puck ... Finding good and the right talent for an engineering organisation is as challenging as ever.&#xA;And then you need to keep engagement high and attrition low and you need to build/deliver something (with good/high velocity/efficiency/quality).&#xA;One key component to get this right is a good/the right structure for your engineering organisation.&#xA;And you probably want to structure it in a way so that it not only works today, but also in 2-3 years from now, because otherwise by the time you are done building the org it will not work (anymore)).</description>
     </item>
-    
   </channel>
 </rss>

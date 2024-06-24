@@ -4,112 +4,79 @@
     <title>Books on tedn.life</title>
     <link>http://tedn.life/tags/books/</link>
     <description>Recent content in Books on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 12:42:30 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Ideal Team Player - HHS vs. DAC</title>
       <link>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</guid>
-      <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.
-In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;
-Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organization Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behavior which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
+      <description>Patrick Lencioni (obviously) wrote The Five Dysfunctions of a Team.&#xA;In that book we learn that the five dysfunctions you need to avoid are &amp;hellip;&#xA;Absence of trust — unwilling to be vulnerable within the group Fear of conflict — seeking artificial harmony over constructive passionate debate Lack of commitment — feigning buy-in for group decisions creates ambiguity throughout the organization Avoidance of accountability — ducking the responsibility to call peers, superiors on counterproductive behavior which sets low standards Inattention to team results — focusing on personal success, status and ego before team success I always try to frame these in positive/actionable terms by asking people to help me to build teams that show/exhibit the following characteristics &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Discussing Remote ... the book!!!</title>
       <link>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/04/07/discussing-remote-...-the-book/</guid>
-      <description>These days people look for advice and insight into how to build and run a remote-first engineering organization. And want/need to learn fast!!!
-One good resource is (obviously) Remote (kind of the bible on working remote).
-The book was published in 2013 (and was probably written in the 12 month before that).
-Obviously the key messages/statements from the book are still true (or truer than ever), but I think that since then things have also changed and evolved.</description>
+      <description>These days people look for advice and insight into how to build and run a remote-first engineering organization. And want/need to learn fast!!!&#xA;One good resource is (obviously) Remote (kind of the bible on working remote).&#xA;The book was published in 2013 (and was probably written in the 12 month before that).&#xA;Obviously the key messages/statements from the book are still true (or truer than ever), but I think that since then things have also changed and evolved.</description>
     </item>
-    
     <item>
       <title>The Digital Cookbook ... Insights into Digital Transformation and how to go about it!</title>
       <link>http://tedn.life/2018/01/25/the-digital-cookbook-...-insights-into-digital-transformation-and-how-to-go-about-it/</link>
       <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/01/25/the-digital-cookbook-...-insights-into-digital-transformation-and-how-to-go-about-it/</guid>
-      <description>Nitro&amp;rsquo;s mission statement is &amp;hellip;
-And right now &amp;hellip; Digital Transformation is a very hot topic. For most of the Fortune 500 companies! And it is also a very complex topic (e.g. How to make sure that (PDF) documents can become a first class citizen in the Digital Transformation initiative).
-Companies obviously want it. Either to gain a competitive advantage or at least to not put themselves at a competitive disadvantage.</description>
+      <description>Nitro&amp;rsquo;s mission statement is &amp;hellip;&#xA;And right now &amp;hellip; Digital Transformation is a very hot topic. For most of the Fortune 500 companies! And it is also a very complex topic (e.g. How to make sure that (PDF) documents can become a first class citizen in the Digital Transformation initiative).&#xA;Companies obviously want it. Either to gain a competitive advantage or at least to not put themselves at a competitive disadvantage.</description>
     </item>
-    
     <item>
       <title>The myth of ... getting it right the first time</title>
       <link>http://tedn.life/2017/06/06/the-myth-of-...-getting-it-right-the-first-time/</link>
       <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/06/06/the-myth-of-...-getting-it-right-the-first-time/</guid>
-      <description>I am reading it again: Clean Code.
-This time I am reading it differently. The first time around (6 years ago), I was reading it and learned a lot (about how to write clean code) and was using it (a lot) to get other people on board and convince them that this is the way (the only way) to write code.
-I still think that the book can serve that purpose.</description>
+      <description>I am reading it again: Clean Code.&#xA;This time I am reading it differently. The first time around (6 years ago), I was reading it and learned a lot (about how to write clean code) and was using it (a lot) to get other people on board and convince them that this is the way (the only way) to write code.&#xA;I still think that the book can serve that purpose.</description>
     </item>
-    
     <item>
       <title>About broken windows and software gardening ... - Thoughts from The Pragmatic Programmer</title>
       <link>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</link>
       <pubDate>Sat, 16 Feb 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/02/16/about-broken-windows-and-software-gardening-...-thoughts-from-the-pragmatic-programmer/</guid>
-      <description>These days I am writing more source code again (mostly Scala) and decided to (re)read a couple of books to refresh some thoughts and ideas and believes that I always had when it comes to writing source code.
-One of the books I was (re)reading was Clean Code and there are lots of good ideas in it, e.g. after reading the book 15 years ago I got into the habit of refactoring, whenever I feel the urge to put a comment in the code, which is an indication that the code is not clear/self-documenting enough.</description>
+      <description>These days I am writing more source code again (mostly Scala) and decided to (re)read a couple of books to refresh some thoughts and ideas and believes that I always had when it comes to writing source code.&#xA;One of the books I was (re)reading was Clean Code and there are lots of good ideas in it, e.g. after reading the book 15 years ago I got into the habit of refactoring, whenever I feel the urge to put a comment in the code, which is an indication that the code is not clear/self-documenting enough.</description>
     </item>
-    
     <item>
       <title>Reading books - Steve Jobs, Raising Boys and The Complete Robot</title>
       <link>http://tedn.life/2009/06/18/reading-books-steve-jobs-raising-boys-and-the-complete-robot/</link>
       <pubDate>Thu, 18 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2009/06/18/reading-books-steve-jobs-raising-boys-and-the-complete-robot/</guid>
-      <description>A month ago I decided to use some of my time during the summer and work my way through the pile of books that I always wanted to read and never really got to. The first four weeks proofed to be interesting, very interesting.
-I started with &#34;ICon: The Greatest Second Act in the History of Business&#34;. It is obviously a biography about Steve Jobs, but it is also a good book on the history of Apple, the Silicon Valley, Next, Disney and Pixar.</description>
+      <description>A month ago I decided to use some of my time during the summer and work my way through the pile of books that I always wanted to read and never really got to. The first four weeks proofed to be interesting, very interesting.&#xA;I started with &#34;ICon: The Greatest Second Act in the History of Business&#34;. It is obviously a biography about Steve Jobs, but it is also a good book on the history of Apple, the Silicon Valley, Next, Disney and Pixar.</description>
     </item>
-    
     <item>
       <title>FUSE Quickstart - a sneak preview</title>
       <link>http://tedn.life/2008/11/14/fuse-quickstart-a-sneak-preview/</link>
       <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/11/14/fuse-quickstart-a-sneak-preview/</guid>
-      <description>Yes, we are busy to add new content to FUSEsource :). First we published a/the first set of FUSE TV videos and next we are going to publish a set of &#34;FUSE Quickstart&#34; screen casts. Take a look at the sneak preview and/or wait for the high-res versions to become available on FUSEsource later on this month.
-Tip/Hint: The best way to get the sneak preview is to subscribe to the podcast and download all videos into iTunes :).</description>
+      <description>Yes, we are busy to add new content to FUSEsource :). First we published a/the first set of FUSE TV videos and next we are going to publish a set of &#34;FUSE Quickstart&#34; screen casts. Take a look at the sneak preview and/or wait for the high-res versions to become available on FUSEsource later on this month.&#xA;Tip/Hint: The best way to get the sneak preview is to subscribe to the podcast and download all videos into iTunes :).</description>
     </item>
-    
     <item>
       <title>Software Engineering Radio - talking about OSGi, Rest, Opensource, ...</title>
       <link>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</link>
       <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/06/23/software-engineering-radio-talking-about-osgi-rest-opensource-.../</guid>
-      <description>In the last four weeks a lot of people asked me about this &#34;show&#34; I am listening to on my way to work. It is called Software Engineering Radio and talks about trends and technologies in Software Engineering (OSGi, Rest, Opensource, ...). I was told that one of the next issues will be an interview with Peter Kriens on the current state of affairs with respect to OSGi.
-Check it out.</description>
+      <description>In the last four weeks a lot of people asked me about this &#34;show&#34; I am listening to on my way to work. It is called Software Engineering Radio and talks about trends and technologies in Software Engineering (OSGi, Rest, Opensource, ...). I was told that one of the next issues will be an interview with Peter Kriens on the current state of affairs with respect to OSGi.&#xA;Check it out.</description>
     </item>
-    
     <item>
       <title>FUSE Master Class Series - Hidden Gem</title>
       <link>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</link>
       <pubDate>Fri, 23 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/23/fuse-master-class-series-hidden-gem/</guid>
       <description> A couple of weeks ago, I published the first 3 videos of the FUSE Master Class Series on the open.iona.com wiki. Sooner or later we might link to it from the top page, but for the time being they are hidden gems :). The videos are also available from my homepage. </description>
     </item>
-    
     <item>
       <title>Complexity explained simple - Ciaran McHale talks about security</title>
       <link>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</link>
       <pubDate>Tue, 20 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</guid>
-      <description>Just finished a/the review of a great presentation on security and security concepts published by Ciaran McHale on www.ciaranmchale.com.
-His claim is that 80% of the the perceived complexity of any given subject is not in the concept, but in the way it is explained to people. His quest is to fix this. Therefore he has started to publish a series of very well written presentations to introduce technical concepts in the most simple way possible.</description>
+      <description>Just finished a/the review of a great presentation on security and security concepts published by Ciaran McHale on www.ciaranmchale.com.&#xA;His claim is that 80% of the the perceived complexity of any given subject is not in the concept, but in the way it is explained to people. His quest is to fix this. Therefore he has started to publish a series of very well written presentations to introduce technical concepts in the most simple way possible.</description>
     </item>
-    
   </channel>
 </rss>

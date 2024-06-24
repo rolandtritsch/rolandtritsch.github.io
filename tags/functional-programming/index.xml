@@ -4,238 +4,149 @@
     <title>Functional-Programming on tedn.life</title>
     <link>http://tedn.life/tags/functional-programming/</link>
     <description>Recent content in Functional-Programming on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 07:28:36 +0000</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>Updated (2022-01-01): Added stage.
-At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!
-The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.
-To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
     </item>
-    
     <item>
       <title>Effective Programming with Scala(3)</title>
       <link>http://tedn.life/2021/06/02/effective-programming-with-scala3/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/06/02/effective-programming-with-scala3/</guid>
-      <description>Just finished the brand new Effective Programming with Scala course on Coursera.
-It is a beginners course and it is excellent for beginners. Good introduction to Scala and also into the basics of functional programming.
-But &amp;hellip; for me the main attraction was that the course is based on (and is using) Scala3, means even if you are a seasoned Scala2 software engineer (and/or have not written Scala code in a while), this course is an excellent refresher that will allow you to grasp the essence of why/how Scala3 is different from Scala2 in the shortest possible time (I was playing the videos on 2x and was able to do all 6 weeks in 6x3=18 hours; and used the exercices to make my IDE (emacs/metals) work with Scala3).</description>
+      <description>Just finished the brand new Effective Programming with Scala course on Coursera.&#xA;It is a beginners course and it is excellent for beginners. Good introduction to Scala and also into the basics of functional programming.&#xA;But &amp;hellip; for me the main attraction was that the course is based on (and is using) Scala3, means even if you are a seasoned Scala2 software engineer (and/or have not written Scala code in a while), this course is an excellent refresher that will allow you to grasp the essence of why/how Scala3 is different from Scala2 in the shortest possible time (I was playing the videos on 2x and was able to do all 6 weeks in 6x3=18 hours; and used the exercices to make my IDE (emacs/metals) work with Scala3).</description>
     </item>
-    
     <item>
       <title>Some more fun with Scala3</title>
       <link>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</guid>
-      <description>Scala3 is here.
-In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.
-And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.
-The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
+      <description>Scala3 is here.&#xA;In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.&#xA;And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.&#xA;The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
     </item>
-    
     <item>
       <title>More fun with Scala3</title>
       <link>http://tedn.life/2021/05/01/more-fun-with-scala3/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/05/01/more-fun-with-scala3/</guid>
-      <description>Note: Look here for 3.0 benchmark numbers
-The release of Scala3 is imminent.
-In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.
-Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).
-The good news is that migrating to Scala3 is not difficult at all.</description>
+      <description>Note: Look here for 3.0 benchmark numbers&#xA;The release of Scala3 is imminent.&#xA;In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.&#xA;Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).&#xA;The good news is that migrating to Scala3 is not difficult at all.</description>
     </item>
-    
     <item>
       <title>Scala 3 is ... gluten-free!!!</title>
       <link>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</guid>
-      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.
-Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
+      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.&#xA;Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (III)</title>
       <link>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</guid>
-      <description>Here comes part III of the Hamler blog post series &amp;hellip;
-One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.
-Just looked into this a little bit and there is good news and bad news. The good news is I found something.
-I can make the hamer solution run 10 times faster by changing the implementation of part1 from &amp;hellip;</description>
+      <description>Here comes part III of the Hamler blog post series &amp;hellip;&#xA;One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.&#xA;Just looked into this a little bit and there is good news and bad news. The good news is I found something.&#xA;I can make the hamer solution run 10 times faster by changing the implementation of part1 from &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (II)</title>
       <link>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</guid>
-      <description>Here comes part II of the Hamler blog post series &amp;hellip;
-For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.
-I just finished implementing all of the part-1 solutions in Hamler.
-I had to skip Day 20 (the seamonster), because Hamler only supports a very small/limited number of packages, which means I would have needed to write a lot of code before I would have been able to tackle the actual problem.</description>
+      <description>Here comes part II of the Hamler blog post series &amp;hellip;&#xA;For this year&amp;rsquo;s Advent-of-Code I wanted to take a look at Hamler.&#xA;I just finished implementing all of the part-1 solutions in Hamler.&#xA;I had to skip Day 20 (the seamonster), because Hamler only supports a very small/limited number of packages, which means I would have needed to write a lot of code before I would have been able to tackle the actual problem.</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
       <link>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</guid>
-      <description>Hamler Blog Post Series &amp;hellip;
-Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
-Yes, right: Hamler!
-Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
-At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
+      <description>Hamler Blog Post Series &amp;hellip;&#xA;Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?&#xA;Yes, right: Hamler!&#xA;Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.&#xA;At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
     </item>
-    
     <item>
       <title>Code Elixir LDN 2019 - 3 languages in 3 minutes</title>
       <link>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
-      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
-This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
-All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
+      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;&#xA;This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.&#xA;All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Advent of Code 2017 ... Revolutions!!!</title>
       <link>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/08/11/advent-of-code-2017-...-revolutions/</guid>
-      <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!
-Last time we talked about a/the Scala implementation.
-This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.
-There is a separate blog post on what I think about Kotlin, but overall it was a positive experience. I like Kotlin (but would not suggest/recommend it as a replacement for Scala).</description>
+      <description>Let&amp;rsquo;s talk about the Advent of Code &amp;hellip; again!!!&#xA;Last time we talked about a/the Scala implementation.&#xA;This time around I figured that I need to understand what the hype about Kotlin is all about and decided to port my Scala solutions to Kotlin.&#xA;There is a separate blog post on what I think about Kotlin, but overall it was a positive experience. I like Kotlin (but would not suggest/recommend it as a replacement for Scala).</description>
     </item>
-    
     <item>
       <title>Kotlin ... the better Java?</title>
       <link>http://tedn.life/2018/08/11/kotlin-...-the-better-java/</link>
       <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/08/11/kotlin-...-the-better-java/</guid>
-      <description>Everybody is talking about Kotlin. Me too!!!
-Obviously the question is: Is Kotlin the next better thing?
-Is Kotlin going to replace Java? Is Kotlin going to replace Scala? Is Kotlin the next better language that will make Software Engineers (much) more productive?
-To find out I ported my Scala Advent of Code solutions to Kotlin.
-My main take aways are &amp;hellip;
-if you know Java, learning Kotlin will be easier and faster than learning Scala Kotlin is without a doubt &amp;ldquo;the better Java&amp;rdquo; it compiles fast it runs fast it has very good tooling/IDE support (namely (obviously) the support in Intellij is first-class) it runs on Android hell &amp;hellip; it even runs on Raspberry Pi with Arrows it has a very nice (pure) functional programming library if you know Scala, learning Kotlin will be even easier, but you will also feel that you are not gaining anything or even that you are loosing some capabilities that are valuable Sooooo &amp;hellip; my exec summary is &amp;hellip;</description>
+      <description>Everybody is talking about Kotlin. Me too!!!&#xA;Obviously the question is: Is Kotlin the next better thing?&#xA;Is Kotlin going to replace Java? Is Kotlin going to replace Scala? Is Kotlin the next better language that will make Software Engineers (much) more productive?&#xA;To find out I ported my Scala Advent of Code solutions to Kotlin.&#xA;My main take aways are &amp;hellip;&#xA;if you know Java, learning Kotlin will be easier and faster than learning Scala Kotlin is without a doubt &amp;ldquo;the better Java&amp;rdquo; it compiles fast it runs fast it has very good tooling/IDE support (namely (obviously) the support in Intellij is first-class) it runs on Android hell &amp;hellip; it even runs on Raspberry Pi with Arrows it has a very nice (pure) functional programming library if you know Scala, learning Kotlin will be even easier, but you will also feel that you are not gaining anything or even that you are loosing some capabilities that are valuable Sooooo &amp;hellip; my exec summary is &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Advent of Code 2017 ... Reloaded!!!</title>
       <link>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/05/24/advent-of-code-2017-...-reloaded/</guid>
-      <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!
-Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!
-If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).
-The puzzles do a lot of different things and will test your ability to come up with good/clever datastructures/algorithms.</description>
+      <description>OK &amp;hellip; it took me a while, but &amp;hellip; hopefully it was worth it!!!&#xA;Last year at christmas I did the Advent of Code and &amp;hellip; really liked it!!!&#xA;If you do not know it, it is a series (25 of them) of code puzzles that need to be solved to unlock a/the christmas tree (every day (between Dec. 1st and Dec. 25th) a new/the next puzzle becomes available).&#xA;The puzzles do a lot of different things and will test your ability to come up with good/clever datastructures/algorithms.</description>
     </item>
-    
     <item>
       <title>Category Theory for Programmers ... Reviewing THE course!</title>
       <link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
-      <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).
-Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).
-The course is long &amp;hellip;
-Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
+      <description>A couple of weeks ago Angel pointed me to a very nice lecture: Category Theory for Programmers (from/by Bartosz Milewski).&#xA;Bartosz Milewski is a physisist, a philosopher (on computer science and life in general :)) and runs his own company to make the world a better place by means of Category Theory and Haskell :).&#xA;The course is long &amp;hellip;&#xA;Category Theory 1.1: Motivation and Philosophy Category Theory 1.2: What is a category?</description>
     </item>
-    
     <item>
       <title>How to make your options in the future suck less!!!</title>
       <link>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2017/06/26/how-to-make-your-options-in-the-future-suck-less/</guid>
-      <description>If you are here for some advise on how to invest your money (using options), you are in the wrong place.
-This is about how to use Scala Options in Scala Futures!!!
-Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays in Amsterdam.
-On Sunday morning I was on Dad-duty driving Alexandros to a paint-ball battle and ended up in coffee shop with three hours of zone time.</description>
+      <description>If you are here for some advise on how to invest your money (using options), you are in the wrong place.&#xA;This is about how to use Scala Options in Scala Futures!!!&#xA;Erik Bakker delivered an excellent talk on this topic in 2015 at the ScalaDays in Amsterdam.&#xA;On Sunday morning I was on Dad-duty driving Alexandros to a paint-ball battle and ended up in coffee shop with three hours of zone time.</description>
     </item>
-    
     <item>
       <title>Functional Programming on iOS and Android - Making the impossible ... possible?!?!</title>
       <link>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</link>
       <pubDate>Sat, 25 Apr 2015 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2015/04/25/functional-programming-on-ios-and-android-making-the-impossible-...-possible/</guid>
-      <description>Beginning of the year we had one of our Microsoft Senior Architects from the GDC (Global Delivery Center) in India with us. Over a couple of pints the obvious happened: I sparked his interest in functional programming and he sparked my interest in F#.
-First I made Mono&amp;nbsp;and Emacs work, but then I started to use Xamarin.
-Not so much, because I needed a better IDE (Emacs rules :)), but because I got interested in the claim that you can use Xamarin to do Android and iOS cross-platform development with #F.</description>
+      <description>Beginning of the year we had one of our Microsoft Senior Architects from the GDC (Global Delivery Center) in India with us. Over a couple of pints the obvious happened: I sparked his interest in functional programming and he sparked my interest in F#.&#xA;First I made Mono&amp;nbsp;and Emacs work, but then I started to use Xamarin.&#xA;Not so much, because I needed a better IDE (Emacs rules :)), but because I got interested in the claim that you can use Xamarin to do Android and iOS cross-platform development with #F.</description>
     </item>
-    
     <item>
       <title>Scala on Android - Gradle, Ensime and the Android UI samples</title>
       <link>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</link>
       <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2015/01/27/scala-on-android-gradle-ensime-and-the-android-ui-samples/</guid>
       <description>Besides getting my first companion app done for my Pebble, I also spend some time on X-Mas to start porting the Android UI samples to Scala. The samples obviously use gradle. I normally use sbt to build my apps, but this time I decided to stick with gradle, because I wanted to make it easy for people to consume the code (and embracing a new build system might be too big of a step as a first step).</description>
     </item>
-    
     <item>
       <title>Scala on Android - A start ...</title>
       <link>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</link>
       <pubDate>Tue, 28 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2014/01/28/scala-on-android-a-start-.../</guid>
-      <description>I don&#39;t know what your experience is, but ...
-... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.
-This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
+      <description>I don&#39;t know what your experience is, but ...&#xA;... in my case, when I look at a new technology, one of the main (or first) hurdles is, that it takes some time to get the initial development environment up and running.&#xA;This is why I figured it probably makes sense to polish and publish something that I did a couple of month ago: Porting the basic Android tutorial to Scala.</description>
     </item>
-    
     <item>
       <title>To become or not to become ... a Sunday with Scala and Actors</title>
       <link>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</link>
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2013/10/07/to-become-or-not-to-become-...-a-sunday-with-scala-and-actors/</guid>
-      <description>It is Sunday, the sun is shining ... in Ireland!!! What do you do? Right: You get your laptop and finally start to get your head around the actor model in Scala.
-In my case I tried to come up with a simulation for the Dining Philosophers Problem (DPP). There are implementations available, but I consolidated them and renamed the states and transitions to make it more obvious what is going on and used plantUML to come up with State Transition Diagrams (STDs) that show what is going on.</description>
+      <description>It is Sunday, the sun is shining ... in Ireland!!! What do you do? Right: You get your laptop and finally start to get your head around the actor model in Scala.&#xA;In my case I tried to come up with a simulation for the Dining Philosophers Problem (DPP). There are implementations available, but I consolidated them and renamed the states and transitions to make it more obvious what is going on and used plantUML to come up with State Transition Diagrams (STDs) that show what is going on.</description>
     </item>
-    
     <item>
       <title>Teaching Scala @ TCD ... back to the roots</title>
       <link>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</link>
       <pubDate>Sat, 10 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2012/11/10/teaching-scala-@-tcd-...-back-to-the-roots/</guid>
-      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.
-This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
+      <description>20 years ago I used to teach object-oriented programming (based on Eiffel) at my old university in Germany.&#xA;This week I got the chance to experience a deja-vu, because earlier this year I did run into Glenn Strong who is teaching Functional Programming in TCD in Dublin and we started to develop the idea that it would be useful to add a Scala module to his Haskell based lecture.</description>
     </item>
-    
     <item>
       <title>A starting point for ... Apache Felix, OSGi, Scala, Sbt</title>
       <link>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</link>
       <pubDate>Sun, 16 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2012/09/16/a-starting-point-for-...-apache-felix-osgi-scala-sbt/</guid>
-      <description>It is not a secret ...
-I like OSGi and Scala ... and therefore it was only a question of time until I started to wonder, if there is anything that would prevent me from using OSGi from/with Scala. The short answer and the good news is ... nothing.
-I just checked in my port of the original Apache Felix Tutorial to Scala. As mentioned in the README I do not want to claim that this boilerplate code, but it is a working development environment that you can use as a starting point for your own experiments.</description>
+      <description>It is not a secret ...&#xA;I like OSGi and Scala ... and therefore it was only a question of time until I started to wonder, if there is anything that would prevent me from using OSGi from/with Scala. The short answer and the good news is ... nothing.&#xA;I just checked in my port of the original Apache Felix Tutorial to Scala. As mentioned in the README I do not want to claim that this boilerplate code, but it is a working development environment that you can use as a starting point for your own experiments.</description>
     </item>
-    
   </channel>
 </rss>

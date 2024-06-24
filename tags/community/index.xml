@@ -4,75 +4,51 @@
     <title>Community on tedn.life</title>
     <link>http://tedn.life/tags/community/</link>
     <description>Recent content in Community on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 08:00:12 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
       <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
-      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.
-But this is not what this blog post is all about :).
-While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
     </item>
-    
     <item>
       <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>Updated (2022-01-01): Added stage.
-At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!
-The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.
-To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
     </item>
-    
     <item>
       <title>The first Summit/Hack-a-thon @ Community</title>
       <link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</guid>
-      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;
-Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
+      <description>As people know &amp;hellip; I am big fan of building and maintain this balance between Product and Engineering where &amp;hellip;&#xA;Product makes sure we build the right thing and Engineering makes sure we built it right (and we help each other to do so :)) But that is only the start. The real magic happens when we get to a point where we are not building faster horses. If the conversation goes wrong it goes like this &amp;hellip;</description>
     </item>
-    
     <item>
       <title>Haskell &#43; Beam = Hamler (I)</title>
       <link>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/12/15/haskell--beam-hamler-i/</guid>
-      <description>Hamler Blog Post Series &amp;hellip;
-Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?
-Yes, right: Hamler!
-Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.
-At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
+      <description>Hamler Blog Post Series &amp;hellip;&#xA;Hamler (I) - First week (this post) Hamler (II) - All solutions for part 1 (in Hamler and Haskell) Hamler (III) - Making Day21 10 times faster What&amp;rsquo;s at the intersection of Haskell, the Erlang Beam/OTP and the Advent-of-Code?&#xA;Yes, right: Hamler!&#xA;Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.&#xA;At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems).</description>
     </item>
-    
     <item>
       <title>Internet connections ... the life blood of The Extreme Digital Nomad</title>
       <link>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2020/09/11/internet-connections-...-the-life-blood-of-the-extreme-digital-nomad/</guid>
-      <description>I am in Hidden Valley Holiday Park. Working on the career progression framework for Community. It is 5am and &amp;hellip; I realized something. Don&amp;rsquo;t hold your breath: It is something obvious (but I thought I share it anyway).
-If you want to be successful as an Extreme Digital Nomad, having a good internet connection is absolutely essential (this is more true now then ever before, because of Covid-19 an even bigger part of the job relies on videoconverencing).</description>
+      <description>I am in Hidden Valley Holiday Park. Working on the career progression framework for Community. It is 5am and &amp;hellip; I realized something. Don&amp;rsquo;t hold your breath: It is something obvious (but I thought I share it anyway).&#xA;If you want to be successful as an Extreme Digital Nomad, having a good internet connection is absolutely essential (this is more true now then ever before, because of Covid-19 an even bigger part of the job relies on videoconverencing).</description>
     </item>
-    
     <item>
       <title>Code Elixir LDN 2019 - 3 languages in 3 minutes</title>
       <link>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
-      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
-This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
-All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
+      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;&#xA;This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.&#xA;All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
-    
   </channel>
 </rss>

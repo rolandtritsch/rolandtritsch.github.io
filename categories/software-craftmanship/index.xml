@@ -4,99 +4,65 @@
     <title>Software-Craftmanship on tedn.life</title>
     <link>http://tedn.life/categories/software-craftmanship/</link>
     <description>Recent content in Software-Craftmanship on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 10:27:29 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Software Gardening Manifesto - A copy</title>
       <link>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</guid>
-      <description>In case the Software Gardening Manifesto is down or otherwise not available, here is a copy of it &amp;hellip;
-SOFTWARE GARDENING MANIFESTO Software Gardeners are professionals who perceive software development in a different way. Our goal is to spread the word of our core values, be mentors for the new developers and create software that it is developed at the highest quality bar.
-Every software gardener believes and embraces the following:</description>
+      <description>In case the Software Gardening Manifesto is down or otherwise not available, here is a copy of it &amp;hellip;&#xA;SOFTWARE GARDENING MANIFESTO Software Gardeners are professionals who perceive software development in a different way. Our goal is to spread the word of our core values, be mentors for the new developers and create software that it is developed at the highest quality bar.&#xA;Every software gardener believes and embraces the following:</description>
     </item>
-    
     <item>
       <title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
       <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
-      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.
-But this is not what this blog post is all about :).
-While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
     </item>
-    
     <item>
       <title>Reconnecting to RabbitMQ with AMQP in Elixir</title>
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>Updated (2022-01-01): Added stage.
-At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!
-The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.
-To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
     </item>
-    
     <item>
       <title>Effective Programming with Scala(3)</title>
       <link>http://tedn.life/2021/06/02/effective-programming-with-scala3/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/06/02/effective-programming-with-scala3/</guid>
-      <description>Just finished the brand new Effective Programming with Scala course on Coursera.
-It is a beginners course and it is excellent for beginners. Good introduction to Scala and also into the basics of functional programming.
-But &amp;hellip; for me the main attraction was that the course is based on (and is using) Scala3, means even if you are a seasoned Scala2 software engineer (and/or have not written Scala code in a while), this course is an excellent refresher that will allow you to grasp the essence of why/how Scala3 is different from Scala2 in the shortest possible time (I was playing the videos on 2x and was able to do all 6 weeks in 6x3=18 hours; and used the exercices to make my IDE (emacs/metals) work with Scala3).</description>
+      <description>Just finished the brand new Effective Programming with Scala course on Coursera.&#xA;It is a beginners course and it is excellent for beginners. Good introduction to Scala and also into the basics of functional programming.&#xA;But &amp;hellip; for me the main attraction was that the course is based on (and is using) Scala3, means even if you are a seasoned Scala2 software engineer (and/or have not written Scala code in a while), this course is an excellent refresher that will allow you to grasp the essence of why/how Scala3 is different from Scala2 in the shortest possible time (I was playing the videos on 2x and was able to do all 6 weeks in 6x3=18 hours; and used the exercices to make my IDE (emacs/metals) work with Scala3).</description>
     </item>
-    
     <item>
       <title>Some more fun with Scala3</title>
       <link>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</guid>
-      <description>Scala3 is here.
-In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.
-And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.
-The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
+      <description>Scala3 is here.&#xA;In my earlier post I saw some weird performance differences between Scala2 and Scala3 (RC3) and felt (obviously) compelled to run the benchmark again against 3.0.0.&#xA;And &amp;hellip; big surprise: Everything is back to normal. Scala3 is as fast as Scala2.&#xA;The big differences come from very small numbers (e.g. Day13). The biggest (reproducible) differences is on Day3(part1): 112 msecs vs. 255 msecs. If I am getting really bored one day I might take a look at it.</description>
     </item>
-    
     <item>
       <title>More fun with Scala3</title>
       <link>http://tedn.life/2021/05/01/more-fun-with-scala3/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/05/01/more-fun-with-scala3/</guid>
-      <description>Note: Look here for 3.0 benchmark numbers
-The release of Scala3 is imminent.
-In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.
-Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).
-The good news is that migrating to Scala3 is not difficult at all.</description>
+      <description>Note: Look here for 3.0 benchmark numbers&#xA;The release of Scala3 is imminent.&#xA;In April I ported/migrated nmesos from Scala2 to Scala3 and I just did a quick benchmark to see what Scala3 is doing to my Advent-of-Code implementation from 2017.&#xA;Initially I was wondering (and maybe a little bit afraid) how difficult migrating to Scala3 will be (and what problems I will be running into).&#xA;The good news is that migrating to Scala3 is not difficult at all.</description>
     </item>
-    
     <item>
       <title>Scala 3 is ... gluten-free!!!</title>
       <link>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</guid>
-      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.
-Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
+      <description>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.&#xA;Funny enough I had to find out that (even) late(r) in life you can &amp;ldquo;become&amp;rdquo; gluten-sensitive/-intolerant. Means &amp;hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &amp;hellip; after 3 days I was pain free!</description>
     </item>
-    
     <item>
       <title>Code Elixir LDN 2019 - 3 languages in 3 minutes</title>
       <link>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/</guid>
-      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;
-This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.
-All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
+      <description>Last week I was in London attending Code Elixir LDN 2019 delivering a lightening talk on 3 languages in 3 minutes &amp;hellip;&#xA;This was my first Elixir conference. We had about 100 people there. The conference was very well organized. From what I can see London is one the Elixir hotspots in Europe.&#xA;All of the talks where good, but a couple of them where of even better value to me personally (because I am the newbie) &amp;hellip;</description>
     </item>
-    
   </channel>
 </rss>

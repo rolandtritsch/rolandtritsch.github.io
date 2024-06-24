@@ -4,17 +4,16 @@
     <title>Cloud-Computing on tedn.life</title>
     <link>http://tedn.life/tags/cloud-computing/</link>
     <description>Recent content in Cloud-Computing on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://tedn.life/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
+    <atom:link href="http://tedn.life/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloud Computing - A practical guide for the common user</title>
       <link>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</link>
       <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
-      
       <guid>http://tedn.life/2011/05/01/cloud-computing-a-practical-guide-for-the-common-user/</guid>
       <description>These days (and especially after the Amazon EC2 outage :)) everybody is talking about cloud computing. It seems you cannot be sexy, if you do not &#34;live&#34; in the cloud. But most of the more &#34;common&#34; users (and for the sake of the discussion, I am including myself in that group) probably think that cloud computing and using &#34;the cloud&#34; is something that enterprises use to (potentially) safe cost and also to (potentially) gain flexibility.</description>
     </item>
-    
   </channel>
 </rss>
