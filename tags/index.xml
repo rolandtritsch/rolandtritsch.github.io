@@ -6,8 +6,36 @@
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jul 2024 05:48:51 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2024 12:59:28 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Augmented-by-AI</title>
+      <link>http://tedn.life/tags/augmented-by-ai/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/augmented-by-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>http://tedn.life/tags/innovation/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>http://tedn.life/tags/machine-learning/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thoughts</title>
+      <link>http://tedn.life/tags/thoughts/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/thoughts/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Emacs</title>
       <link>http://tedn.life/tags/emacs/</link>
@@ -37,13 +65,6 @@
       <description></description>
     </item>
     <item>
-      <title>Thoughts</title>
-      <link>http://tedn.life/tags/thoughts/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/thoughts/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Culture</title>
       <link>http://tedn.life/tags/culture/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
@@ -51,31 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>Augmented-by-AI</title>
-      <link>http://tedn.life/tags/augmented-by-ai/</link>
-      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/augmented-by-ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Environment</title>
       <link>http://tedn.life/tags/environment/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/environment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Innovation</title>
-      <link>http://tedn.life/tags/innovation/</link>
-      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/innovation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine-Learning</title>
-      <link>http://tedn.life/tags/machine-learning/</link>
-      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>

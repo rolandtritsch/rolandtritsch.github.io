@@ -2,14 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/innovation/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/machine-learning/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/management/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
     <loc>http://tedn.life/posts/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/</loc>
     <lastmod>2024-10-24T12:59:28+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/</loc>
     <lastmod>2024-10-24T12:59:28+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/categories/</loc>
-    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
+    <loc>http://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/thoughts/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/emacs/</loc>
     <lastmod>2024-07-05T13:16:54+01:00</lastmod>
@@ -21,9 +45,6 @@
     <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/</loc>
     <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tedn/</loc>
@@ -38,13 +59,7 @@
     <loc>http://tedn.life/2024/06/01/iom-tt-2024-history-was-made/</loc>
     <lastmod>2024-06-24T10:16:07+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/thoughts/</loc>
-    <lastmod>2024-06-24T10:16:07+01:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/tags/culture/</loc>
-    <lastmod>2023-07-01T10:27:29+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/software-craftmanship/</loc>
     <lastmod>2023-07-01T10:27:29+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</loc>
@@ -53,17 +68,8 @@
     <loc>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</loc>
     <lastmod>2023-04-09T12:44:39+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
-    <lastmod>2023-04-09T12:44:39+01:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/tags/environment/</loc>
     <lastmod>2023-04-09T14:04:06+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/innovation/</loc>
-    <lastmod>2023-04-09T12:44:39+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/machine-learning/</loc>
-    <lastmod>2023-04-09T12:44:39+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/04/09/renault-zoe-stop-electric-motor-failure/</loc>
     <lastmod>2023-04-09T14:04:06+01:00</lastmod>
@@ -78,9 +84,6 @@
     <lastmod>2023-04-09T12:42:30+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/books/</loc>
-    <lastmod>2023-04-09T12:42:30+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/management/</loc>
     <lastmod>2023-04-09T12:42:30+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/remote/</loc>
