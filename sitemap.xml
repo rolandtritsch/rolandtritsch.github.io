@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/</loc>
+    <lastmod>2024-10-24T12:59:28+01:00</lastmod>
+  </url><url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
+    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/emacs/</loc>
     <lastmod>2024-07-05T13:16:54+01:00</lastmod>
@@ -12,22 +18,16 @@
     <lastmod>2024-07-05T13:16:54+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
+    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
+    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
+    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tedn/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/</loc>
-    <lastmod>2024-07-05T13:16:54+01:00</lastmod>
+    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tips--tricks/</loc>
     <lastmod>2024-07-05T13:16:54+01:00</lastmod>
@@ -342,7 +342,7 @@
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2016/07/10/happy-4th-of-july-or-...-how-to-take-advantage-of-an-opportunity/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
+    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2016/02/08/why-are-we-surprised-hot-hot-hot/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>

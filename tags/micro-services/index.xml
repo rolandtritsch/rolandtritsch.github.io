@@ -13,14 +13,14 @@
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+      <description>&lt;p&gt;Updated (2022-01-01): Added &lt;code&gt;stage&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At Community we are building a platform that will allow you to have&#xA;meaningful conversations with large audiences &amp;hellip; at scale!!!&lt;/p&gt;&#xA;&lt;p&gt;The architectural backbone is a shared-nothing micro-services&#xA;architecture, that uses an event-bus for state propagation.&lt;/p&gt;&#xA;&lt;p&gt;To avoid any kind of 2-phase-commit shenanigans we are publishing&#xA;events at-least-once (not exactly-once). That means our services need&#xA;to be able to and are able to deal with dublicated events gracefully&#xA;(by ignoring them).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Can Micro-Services Systems be simple?</title>
       <link>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</link>
       <pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2017/01/20/can-micro-services-systems-be-simple/</guid>
-      <description>Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!&#xA;The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;rdquo;.&#xA;For that I recommend to watch Rich Hickey&amp;rsquo;s talk on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that simple is actually very hard (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).</description>
+      <description>&lt;p&gt;Architecting and designing large (distributed) systems makes you think about complexity. A lot!!!&lt;/p&gt;&#xA;&lt;p&gt;The first question that you want to ask yourself is probably &amp;ldquo;What is complexity?&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;For that I recommend to watch &lt;a href=&#34;https://www.infoq.com/presentations/Simple-Made-Easy&#34;&gt;Rich Hickey&amp;rsquo;s talk&lt;/a&gt; on complexity (Simple Made Easy). In this talk he raises awareness for the difference between something being complex or complicated. And he also (rightfully) points out that &lt;strong&gt;simple is actually very hard&lt;/strong&gt; (every idiot can build a complicated solution) and that simple is a relative term (something that is simple for you can look complex and/or complicated to others).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

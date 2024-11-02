@@ -123,18 +123,18 @@ layui.use('element', function(){
 <p>I want to define simple systems as systems that have <strong>no unnecessary complexity</strong> and are not more complicated than they need to be.</p>
 <p>You can Google lots of different definitions of complex vs. complicated. Most of these definitions have their roots in <a href="">Systems Thinking</a>. For me the difference is that systems can be complex (have a lot of components and a lot of relationships between the components). A complex system becomes complicated, if it is not homogeneous or consistent. Complex systems are hard to learn. Complicated systems are hard to change. 123456789 is complex number. 738164952 is a complicated number.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center">Complex</th>
-<th style="text-align:center">Complicated</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="http://woodka.com/wp-content/uploads/2009/01/babel.jpg" alt=""></td>
-<td style="text-align:center"><img src="http://www.basement.org/c/images/blog/night-cycle.gif" alt=""></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center">Complex</th>
+          <th style="text-align: center">Complicated</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><img src="http://woodka.com/wp-content/uploads/2009/01/babel.jpg" alt=""></td>
+          <td style="text-align: center"><img src="http://www.basement.org/c/images/blog/night-cycle.gif" alt=""></td>
+      </tr>
+  </tbody>
 </table>
 <p>Designing simple systems that are not unnecessarily complex or complicated requires tradeoffs. For instance you need to decide where to put the necessary complexity: In the components (making them bigger and harder to change/maintain) or between the components (making the system harder to understand/learn/change). There is <a href="http://www.tritsch.org/2010/04/22/managing-complexity-with-osgi-in-and.html">no simple answer</a>.</p>
 <p>I was reminded of this the other day. We had a discussion about adding a capability to our system and had to decide, if we want implement that capability as a library or as a service. When I started to build micro-services systems, I was always pushing for the smallest possible <em>thing</em> (abstraction) and then turn it into a services. This gives you very good seperation of concern and also allows to deploy changes without running the risk that you need to touch a larger then necessary part of the system. On the other hand &hellip; over time &hellip; you will end up with a lot of services and the service management and the service discovery and the service orchestration becomes a problem on its own. Means you might regret to have (too) many services. It is a trade-off and not one to take lightly.</p>
@@ -163,7 +163,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2023 Roland Tritsch - All rights reserved. Last updated on  2020-08-16 16:11:59 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2024 Roland Tritsch - All rights reserved. Last updated on  2020-08-16 16:11:59 &#43;0100 IST </p>
     </div>
 </footer>
 
