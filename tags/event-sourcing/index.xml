@@ -4,7 +4,7 @@
     <title>Event-Sourcing on tedn.life</title>
     <link>http://tedn.life/tags/event-sourcing/</link>
     <description>Recent content in Event-Sourcing on tedn.life</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Jan 2022 07:28:36 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/event-sourcing/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>&lt;p&gt;Updated (2022-01-01): Added &lt;code&gt;stage&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At Community we are building a platform that will allow you to have&#xA;meaningful conversations with large audiences &amp;hellip; at scale!!!&lt;/p&gt;&#xA;&lt;p&gt;The architectural backbone is a shared-nothing micro-services&#xA;architecture, that uses an event-bus for state propagation.&lt;/p&gt;&#xA;&lt;p&gt;To avoid any kind of 2-phase-commit shenanigans we are publishing&#xA;events at-least-once (not exactly-once). That means our services need&#xA;to be able to and are able to deal with dublicated events gracefully&#xA;(by ignoring them).&lt;/p&gt;</description>
+      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
     </item>
   </channel>
 </rss>
