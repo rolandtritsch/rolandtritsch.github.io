@@ -6,8 +6,15 @@
     <description>Recent content in Scala on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Jun 2021 07:15:02 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Huffman Trees/Codes - Why are they different?</title>
+      <link>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</guid>
+      <description>Right now I am solving the 99-scala-problems. Again!!!&#xA;This time around I am using them to learn more about what it means to be an Augmented Software Engineer (ASE). Just subscribe to the podcast to follow along.&#xA;P50 is to build a Huffman tree and to return the set of Huffman codes for the given string.&#xA;codeium found a good implementation, but struggled to find tests that worked.&#xA;I then tried various websites ([1], [2], [3], [4]) to test various strings and noticed that the trees and the resulting set of codes are different between the implementations.</description>
+    </item>
     <item>
       <title>Effective Programming with Scala(3)</title>
       <link>http://tedn.life/2021/06/02/effective-programming-with-scala3/</link>

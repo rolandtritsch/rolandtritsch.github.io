@@ -6,13 +6,34 @@
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2024 10:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Augmented-by-AI</title>
       <link>http://tedn.life/tags/augmented-by-ai/</link>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/augmented-by-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional-Programming</title>
+      <link>http://tedn.life/tags/functional-programming/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scala</title>
+      <link>http://tedn.life/tags/scala/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/scala/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +62,6 @@
       <link>http://tedn.life/tags/emacs/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/emacs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/nerdy/</guid>
       <description></description>
     </item>
     <item>
@@ -149,13 +163,6 @@
       <description></description>
     </item>
     <item>
-      <title>Functional-Programming</title>
-      <link>http://tedn.life/tags/functional-programming/</link>
-      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/functional-programming/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Micro-Services</title>
       <link>http://tedn.life/tags/micro-services/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
@@ -167,13 +174,6 @@
       <link>http://tedn.life/tags/web-services/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/web-services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scala</title>
-      <link>http://tedn.life/tags/scala/</link>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/scala/</guid>
       <description></description>
     </item>
     <item>

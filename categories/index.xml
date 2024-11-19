@@ -6,20 +6,20 @@
     <description>Recent content in Categories on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2024 10:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software-Craftmanship</title>
+      <link>http://tedn.life/categories/software-craftmanship/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/categories/software-craftmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Management</title>
       <link>http://tedn.life/categories/management/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/categories/management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software-Craftmanship</title>
-      <link>http://tedn.life/categories/software-craftmanship/</link>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/categories/software-craftmanship/</guid>
       <description></description>
     </item>
     <item>

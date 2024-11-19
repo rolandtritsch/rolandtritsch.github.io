@@ -1,0 +1,435 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Huffman Trees/Codes - Why are they different? </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Functional-Programming, Nerdy, Scala, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Huffman Trees/Codes - Why are they different?</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-11-19</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>Right now I am solving the <a href="https://aperiodic.net/pip/scala/s-99">99-scala-problems</a>. Again!!!</p>
+<p>This time around I am using them to learn more about what it means to
+be an Augmented Software Engineer (<a href="https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it">ASE</a>). Just subscribe to the
+<a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">podcast</a> to follow along.</p>
+<p><a href="https://aperiodic.net/pip/scala/s-99/#p50">P50</a> is to build a <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman tree</a> and to return the set of
+Huffman codes for the given string.</p>
+<p><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220906180456/6.png" 
+style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></p>
+<p><a href="https://codeium.com">codeium</a> found a good implementation, but struggled to find tests
+that worked.</p>
+<p>I then tried various websites ([<a href="https://planetcalc.com/2481">1</a>], [<a href="https://www.csfieldguide.org.nz/en/interactives/huffman-tree">2</a>], [<a href="https://suhaan-bhandary.github.io/Huffman-Coding">3</a>],
+[<a href="https://huffman.ooz.ie">4</a>]) to test various strings and noticed that the trees and
+the resulting set of codes are different between the implementations.
+Even more interesting for the same implementation the set is different
+when you reverse the string.</p>
+<p>That felt strange to me. My expectation was that the same set of
+(character, frequency) tuples will always create the same set of
+Huffman codes.</p>
+<p>So I started digging. Here is what <a href="https://chatgpt.com/share/673c3869-4a38-8013-83de-644ce2582981">chatGPT</a> had to say about it &hellip;</p>
+<pre tabindex="0"><code>You&#39;re absolutely correct to ask this question. When there are multiple
+nodes with the same weight in the priority queue, the behavior can indeed
+depend on how the priority queue resolves ties. This can result in different
+tree structures, which could lead to different Huffman codes, even though
+all such codes would still represent valid Huffman encodings (i.e., they
+would satisfy the prefix-free property and correspond to the correct
+frequencies).
+</code></pre><p>So it seems that Huffman codes can be different for the same set of
+<code>(character, frequency)</code> pairs, because there is an edge case where you
+need to dequeue the top two nodes from the priority queue with the
+lowest weight. If there are three or more nodes that have the same
+lowest weight it depends on the order the nodes where put into the
+queue and the internal implementation of the queue, which two of the
+three or more nodes are the top nodes that get dequeued.</p>
+<p>To address this and to make the set of generated Huffman codes
+deterministic I changed the implementation to keep track of the largest
+character in the sub-tree and sort the queue by <code>weight(descending) and maxChar(ascending)</code> and use the guaranteed-to-be-unique <code>maxChar</code> as a
+tie-breaker for the sorting of the priority queue. This will ensure
+that we always dequeue the same two nodes, regardless of the order the
+nodes were put into the queue and regardless of the internal
+implementation of the queue.</p>
+<p>Note: This would (obviously) also work with <code>minChar</code> as a
+tie-breaker. Your call.</p>
+<p>That way we will always get the same set of Huffman codes for the same
+set of frequencies (means <code>huffman(text) == huffman(text.reverse)</code>,
+which is not true for most of the implementations out there.</p>
+<p>That was an interesting one.</p>
+<p>And it drives home one of the main/major points that you need to
+consider as an Augmented Software Engineer: <strong>The code you get is a
+suggestion. A starting point. You are well-advised to reason about it
+and dig into it, if/when you do not understand something.</strong></p>
+<p>I was very close to moving on to the next problem, because getting
+the first/initial implementation and the first/initial tests work
+was a very fast and smooth experience (with the help of <a href="https://codeium.com">codeium</a>).</p>
+<p>It was only when I started to question the implementation and the
+test against my own understanding, that I realized that something
+is not quite right.</p>
+<p>With that additional step/work we are now in a good place: We
+saved some time to get the initial implementation done, but I
+also have a much deeper understanding how Huffman trees work
+and how to implement them so that they are more deterministic.</p>
+<p>Feel free to check out the <a href="https://github.com/rolandtritsch/99-scala3-problems">code</a>.</p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/05/15/some-more-fun-with-scala3/">
+                                <h3 class="">Some more fun with Scala3</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-05-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/05/01/more-fun-with-scala3/">
+                                <h3 class="">More fun with Scala3</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-05-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/02/21/scala-3-is-...-gluten-free/">
+                                <h3 class="">Scala 3 is ... gluten-free!!!</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-02-21</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2019/08/01/code-elixir-ldn-2019-3-languages-in-3-minutes/">
+                                <h3 class="">Code Elixir LDN 2019 - 3 languages in 3 minutes</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2019-08-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2023/04/09/augmented-blogging-the-art-of-prompting/">
+                                <h3 class="">Augmented Blogging - The Art of Prompting</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2023-04-09</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2024 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>
