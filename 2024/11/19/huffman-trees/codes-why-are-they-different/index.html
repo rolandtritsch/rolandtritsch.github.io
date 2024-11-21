@@ -171,9 +171,18 @@ nodes were put into the queue and regardless of the internal
 implementation of the queue.</p>
 <p>Note: This would (obviously) also work with <code>minChar</code> as a
 tie-breaker. Your call.</p>
-<p>That way we will always get the same set of Huffman codes for the same
-set of frequencies (means <code>huffman(text) == huffman(text.reverse)</code>,
-which is not true for most of the implementations out there.</p>
+<p>With that we get two very nice benefits: First, we can change the
+signature of <code>huffman()</code> from <code>huffman(List of (character, frequency) pairs): returning List of (character, huffman-code) pairs</code> to
+<code>huffman(Set of (character, frequency) pairs): returning Set of (character, huffman-code) pairs</code>, which feels much more natural and
+correct, because the huffman codes you get should not depend on the
+order of the <code>(character, frequency)</code> pairs.</p>
+<p>And second, we can now change the implementation of the priority
+queue without (potentially) breaking our tests (because without
+the tie-breaker the implementation of the priority queue decides
+which two nodes are top of the queue).</p>
+<p>That also means that we will always get the same set of Huffman codes
+for the same set of frequencies (means <code>huffman(text) == huffman(text.reverse)</code>, which is not true for most of the
+implementations out there.</p>
 <p>That was an interesting one.</p>
 <p>And it drives home one of the main/major points that you need to
 consider as an Augmented Software Engineer: <strong>The code you get is a
@@ -427,7 +436,7 @@ and how to implement them so that they are more deterministic.</p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2024 Roland Tritsch - All rights reserved. Last updated on  2024-11-19 09:19:41 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2024 Roland Tritsch - All rights reserved. Last updated on  2024-11-21 12:10:40 &#43;0000 GMT </p>
     </div>
 </footer>
 
