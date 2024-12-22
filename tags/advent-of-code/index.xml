@@ -6,8 +6,15 @@
     <description>Recent content in Advent-of-Code on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Jun 2021 07:15:02 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/advent-of-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About AOC, VSCode, Scala, Mill and NO_COLOR</title>
+      <link>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</guid>
+      <description>It is this time of the year again: We are all doing the Advent of Code (AOC), right?&#xA;For me the AOC has never been about speed and solving the problems fast and the leaderboard.&#xA;For me it has always been about learning something new or getting better at something (sharpening the saw) or developing a new, better way to solve problems (also known as becoming a better sofware craftsman).</description>
+    </item>
     <item>
       <title>Some more fun with Scala3</title>
       <link>http://tedn.life/2021/05/15/some-more-fun-with-scala3/</link>

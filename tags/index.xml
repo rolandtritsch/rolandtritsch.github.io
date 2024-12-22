@@ -6,13 +6,41 @@
     <description>Recent content in Tags on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Nov 2024 08:09:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent-of-Code</title>
+      <link>http://tedn.life/tags/advent-of-code/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/advent-of-code/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Augmented-by-AI</title>
       <link>http://tedn.life/tags/augmented-by-ai/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/augmented-by-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nerdy</title>
+      <link>http://tedn.life/tags/nerdy/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/nerdy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scala</title>
+      <link>http://tedn.life/tags/scala/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/scala/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>http://tedn.life/tags/tips--tricks/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/tags/tips--tricks/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +48,6 @@
       <link>http://tedn.life/tags/functional-programming/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/functional-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nerdy</title>
-      <link>http://tedn.life/tags/nerdy/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/nerdy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scala</title>
-      <link>http://tedn.life/tags/scala/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/scala/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +83,6 @@
       <link>http://tedn.life/tags/tedn/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/tedn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tips &amp; Tricks</title>
-      <link>http://tedn.life/tags/tips--tricks/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/tips--tricks/</guid>
       <description></description>
     </item>
     <item>
@@ -174,13 +181,6 @@
       <link>http://tedn.life/tags/web-services/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/tags/web-services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Advent-of-Code</title>
-      <link>http://tedn.life/tags/advent-of-code/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/tags/advent-of-code/</guid>
       <description></description>
     </item>
     <item>
