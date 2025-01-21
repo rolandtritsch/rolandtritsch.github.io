@@ -1,0 +1,22 @@
+# tedn.life
+
+> About the Life of The Extreme Digital Nomad (TEDN). Builder and runner of functional teams and functional systems. Explorer of extreme digital nomading and remote-first cultures.
+
+My name is Roland Tritsch. I am `The Extreme Digital Nomad (TEDN)`. I
+am a Software Craftsman and I am applying my craft to building and
+maintaining beautiful Software Gardens. I am also a Manager. And a
+Husband and a Father. I like to make engineers grow and users smile. I
+like computer science. I believe that computers and software can help
+to make this planet a better place. When I am not building, running or
+fixing something (preferably using a functional programming language
+like Haskell or Scala), I am on a hike (somewhere).
+
+## Blog Posts - Highlights
+
+- [The Augmented Software Engineer](https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it): About the future of software-engineering
+- [The Ideal Team Player](https://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac): I like people that are Decent, Ambitious, Competent
+- [Distances](https://tedn.life/2021/06/01/distances-know-them.-manage-them.): About the importance of timezones, when running a remote-first organisation
+
+## Other Resources
+
+- [Linked-In](https://www.linkedin.com/in/rolandtritsch): My history. My background. My CV.
