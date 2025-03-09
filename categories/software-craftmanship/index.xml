@@ -6,8 +6,15 @@
     <description>Recent content in Software-Craftmanship on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 04:25:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu, Wayland, Sway - Just mirror the screen!</title>
+      <link>http://tedn.life/2025/03/09/ubuntu-wayland-sway-just-mirror-the-screen/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2025/03/09/ubuntu-wayland-sway-just-mirror-the-screen/</guid>
+      <description>This is a good one. Let me go back to the beginning &amp;hellip;&#xA;Once upon a time there was a pandemic and during this pandemic we forgot how to do meetups.&#xA;We also (after the pandemic) updated and upgraded ourselves from Ubuntu/X11/i3 to Ubuntu/Wayland/Sway.&#xA;And the world was good. Until &amp;hellip;&#xA;&amp;hellip; I tried to do a live demo at the latest Augmented Software Engineering Meetup.&#xA;Imaging my surprise when I found out that with Ubuntu/Wayland/Sway there is no good/easy way to mirror your screen to a projector.</description>
+    </item>
     <item>
       <title>About AOC, VSCode, Scala, Mill and NO_COLOR</title>
       <link>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</link>
