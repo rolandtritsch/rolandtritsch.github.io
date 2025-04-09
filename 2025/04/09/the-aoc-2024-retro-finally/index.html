@@ -1,0 +1,610 @@
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - The AOC 2024 Retro - Finally!!! </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Advent-of-Code, Functional-Programming, Nerdy, Scala, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>The AOC 2024 Retro - Finally!!!</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-04-09</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>I am calling it! I declare <a href="https://github.com/rolandtritsch/scala3-aoc-2024">my</a> Advent of Code (<a href="https://adventofcode.com">AOC</a>) for 2024 done! Finally!</p>
+<p>Clarification: This does not mean that I did all of it, but I did what I wanted to do and was able to do to make the tree look like this &hellip;</p>
+<p><img src="/images/2025-04-09-aoc/aoc-tree.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>The last star that was missing was part1 of Day21 (more on this later).</p>
+<p>This year my main focus was on refreshing my scala3 skills and to learn a lot about how AI-enabled IDEs can support a scala-engineer to write better code and to solve problems faster. And (ooohhh boy) &hellip; it was a wild ride.</p>
+<p>On the <code>Scala3</code> side I &hellip;</p>
+<ul>
+<li>&hellip; used <a href="https://mill-build.org">mill</a> (instead of <code>sbt</code>)</li>
+<li>&hellip; used <code>extensions</code>, <code>given</code> and <code>using</code> (extensively)</li>
+<li>&hellip; experimented with curly-brackets vs. indentation (the verdict is out on that one)</li>
+<li>&hellip; used <a href="https://scalameta.org/scalafmt">scalafmt</a> and <a href="https://scalacenter.github.io/scalafix">scalafix</a> (extensively)</li>
+<li>&hellip; used <a href="https://github.com/scalanlp/breeze">breeze</a> (to solve linear equation systems and <a href="https://scala-graph.org">scala-graph</a> (to find the shortest path in a graph (or 2-dim grid)) and <a href="https://github.com/rolandtritsch/scala-corner">scala-corner</a> (to count the number of corners of regions in a 2-dim grid)</li>
+</ul>
+<p>&hellip; and &hellip;</p>
+<ul>
+<li>&hellip; (last, but not least) used <code>VsCode/Copilot</code> and <a href="https://windsurf.com">Windsurf</a> to write code</li>
+</ul>
+<p>Using AI to help me solve the problems was an <code>interesting</code> experience. Here are my main take-aways &hellip;</p>
+<ul>
+<li>Sometimes the help I got was very effective and efficient. The approach was good and the code was good (and idomatic)</li>
+<li>But also (sometimes) less so. Which (sometimes) created problems when I tried to solve part2, because I either did not fully understand the code that was generated for part1 and was therefore not able to make good suggestions how to change the code to make part2 work or there was a small subtle bug in part1 that I did not see/find until I started to put some serious time into debugging part1</li>
+<li>I think for me to become more effective and efficient with using AI will require that I get much better at writing better prompts and providing better context(s) for the prompts (e.g. get better at tunning the <a href="https://windsurf.com/editor/directory">windsurfrules</a> file) and (first of all) develop a better feeling for when not to use AI or when to stop using it when it gets stuck in a loop or goes down a rabbit-hole (rule number one, when you are in a hole: Stop digging!)</li>
+<li>The new/next generation of AI-enabled IDEs (like <a href="https://windsurf.com">Windsurf</a>) are a quantum-leap forward. Mainly because they not only support chat, but also tools that allow you to run tools locally (e.g. run your tests and make changes to the code until all tests pass</li>
+<li>I tried and tested a lot of different IDEs, extensions and stand-alone tools. The one that worked/works best for me (right now) is <a href="https://windsurf.com">Windsurf</a>. It also features (now; since February 2025) a capability to configure and use MCP-servers (e.g. you can use the GitHub MCP-server to enable prompts that will manage your GitHub repo for you (creating issues, merging PRs, &hellip;))</li>
+<li>Also experimented with <a href="https://www.warp.dev">Warp</a>. <a href="https://www.warp.dev">Warp</a> is an AI-enabled terminal that make solving problems much more effective. Means my workflow is to use the IDE to develop code, but when it comes to all the other tasks (creatig tickets, building and deploying (docker) services, writing bash/python command-line tools, &hellip;) I am using <a href="https://www.warp.dev">Warp</a> (which is much better than using the terminal in the IDE)</li>
+</ul>
+<p>The work on AOC 2024 also inspired my to create a <a href="https://youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">pod-cast</a> series and a <a href="https://www.meetup.com/the-augmented-software-engineer">meetup</a> about <code>Augmented Software Engineering</code>. Feel free to <a href="https://youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">subscribe</a>. Feel free to <a href="https://www.meetup.com/the-augmented-software-engineer">join</a>.</p>
+<p>With all of this I was able to do solve part1 and part2 until we hit half-time (Day 13). Then I had to scale back to just solving part1. Hence the shape/look of the tree &hellip;</p>
+<p><img src="/images/2025-04-09-aoc/aoc-tree.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>And even to get to this point took me a while (because of Day 21 (that I only/finally cracked over the weekend); see below).</p>
+<p>So here are some of the high-lights from this years implementation &hellip;</p>
+<ul>
+<li><strong>Day01</strong> - Warmup and setup. Configure <code>scalafmt</code></li>
+<li><strong>Day02</strong> - Using <code>extensions</code> on standard types. Improves the readability of the code</li>
+<li><strong>Day03</strong> - Using AI to do some good <code>regex</code>-ing to parse the input file</li>
+<li><strong>Day04</strong> - Using <code>extensions</code> again/more</li>
+<li><strong>Day05</strong> - Using <code>extensions</code> again/more</li>
+<li><strong>Day06</strong> - Using <code>classes/methods</code> instead of <code>types/functions</code></li>
+<li><strong>Day07</strong> - Sucessfully avoid the premature optimization trap. Found a minimal implementation for part1. And part2 was just a small change from there. Happy with that one.</li>
+<li><strong>Day08</strong> - More of the same. Nothing special about this one</li>
+<li><strong>Day09</strong> - The opposite experience of Day07. Found a solution for part1, but had to completely refactor/rewrite it for part2</li>
+<li><strong>Day10</strong> - The opposite experience of Day09. Guessed part2 right. Using an <code>array-of-array</code> instead of a set-of-positions</li>
+<li><strong>Day11</strong> - Going back to using a <code>set-of-positions</code> for modeling the grid. And start using a <code>cache</code> to make part2 work (duh!)</li>
+<li><strong>Day12</strong> - Used the <a href="https://github.com/rolandtritsch/scala-corner">scala-corner</a> library to solve the problems. With the lib it was easy. Oh wait &hellip; ;)</li>
+<li><strong>Day13</strong> - LOL. Good one. Did part1 (the hard way). Overlooked that it is a system of linear equations. Changed gears for part2. And then I found <a href="https://github.com/scalanlp/breeze">breeze</a>. Definetely one of these cases, where 20 mins of reading, thinking and searching (for the right library) can save you 2 hours of work (going into the wrong direction).</li>
+<li><strong>Day14</strong> - From now on I am just focusing on solving part1. Running a simulation on a grid (again; going with my trusted set-of-positions/-robots approach)</li>
+<li><strong>Day15</strong> - Another grid. Using sets-of-positions to model walls and also free-spaces (for elegance and speed). Having a wall around the grid also helps with the boundary-checking (you need none)</li>
+<li><strong>Day16</strong> - There must be a better way to solve grid-walking/shortest-path problems, right? And yes, there is: Let&rsquo;s use <a href="https://scala-graph.org">scala-graph</a>. The lesson learned is (big surprise): After really understanding the problem and after learning the library, the actual solution is short and elegant</li>
+<li><strong>Day17</strong> - A little bit of a breather. (Simple enough) State-Machine running instructions simulation problem. Good usage of <code>case classes</code></li>
+<li><strong>Day18</strong> - Another dfs-/bfs-grid-traversal problem. My ambition got the better of me. I first implememented a solution myself (worked, but slow and ugly). Then I refactored/reimplemented the entire thing. Switched to using <a href="https://scala-graph.org">scala-graph</a>. Now it is fast and elegant</li>
+<li><strong>Day19</strong> - Nice. Read the problem description. Realize that you can solve it with <code>regex</code> pattern-mattching. This is the solution <code>raw&quot;(${towels.mkString(&quot;|&quot;)})+&quot;.r</code></li>
+<li><strong>Day20</strong> - Another grid-traversal. Another usage of <a href="https://scala-graph.org">scala-graph</a>. Decided to wrap <a href="https://scala-graph.org">scala-graph</a> in my own wrapper (<code>util.GridGraph</code>) and (re)use it multiple times (Day16, Day18, Day20)</li>
+<li><strong>Day21</strong> - Ooohhh boy. That one was my waterloo (or sea-monster, if you get my drift). Took me 3 month to crack it. First I (rightfully) wanted to use <a href="https://scala-graph.org">scala-graph</a> again to find the shortest-path on the numeric keypad. Then I realized that I can build the following key-sequences on the directional keypads just by (string-)replacing the key-strokes (that works well). But then I failed to realize that my cost function for finding the shortest-path on the numeric key-pad was wrong. The fix was to calculate the cost dynamically and make the cost of paths that are straigt (e.g. &raquo;&gt;) cheap</li>
+<li><strong>Day22</strong> - <code>LazyList</code> to the rescue. That one took less than 30 mins</li>
+<li><strong>Day23</strong> - Used that one to experiment with a lot of different language models. The best solution was generated by <code>claude-3.5-sonnet</code></li>
+<li><strong>Day24</strong> - Almost done. Loved this one. It&rsquo;s a boolean expression evaluator. Do we have one? Sure we do! It is called Scala!!! Means we just need to generate the right scala code (on the fly) and feed it to the <a href="https://www.scala-lang.org/api/2.13.7/scala-compiler/scala/tools/reflect/ToolBox.html">toolbox</a> <code>evaluate()</code> function. Done!</li>
+<li><strong>Day25</strong> - Just the intersection of two sets (set-of-keys and set-of-locks)</li>
+</ul>
+<p>That&rsquo;s it. That&rsquo;s a wrap. Really enjoyed it (again; maybe Day21 not so much ;)). Learned a ton. About Scala3 (again). And about using AI and <a href="https://windsurf.com">Windsurf</a> (specifically). And about using <a href="https://scala-graph.org">scala-graph</a>. And about reading problem statements carefully. And about building stuff with some flexibility in mind, but not too much.</p>
+<p>See you in December for AOC 2025.</p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/01/01/title-subtitle/">
+                                <h3 class="">Title - Subtitle</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-01-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/amqp">
+            <span class="layui-badge" style="vertical-align: 2px;">AMQP</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/android">
+            <span class="layui-badge" style="vertical-align: 2px;">Android</span>
+        </a>
+    
+        <a href="/tags/art">
+            <span class="layui-badge" style="vertical-align: 2px;">Art</span>
+        </a>
+    
+        <a href="/tags/blockchain">
+            <span class="layui-badge" style="vertical-align: 2px;">Blockchain</span>
+        </a>
+    
+        <a href="/tags/books">
+            <span class="layui-badge" style="vertical-align: 2px;">Books</span>
+        </a>
+    
+        <a href="/tags/cep">
+            <span class="layui-badge" style="vertical-align: 2px;">CEP</span>
+        </a>
+    
+        <a href="/tags/climate">
+            <span class="layui-badge" style="vertical-align: 2px;">Climate</span>
+        </a>
+    
+        <a href="/tags/cloud-computing">
+            <span class="layui-badge" style="vertical-align: 2px;">Cloud-Computing</span>
+        </a>
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/emacs">
+            <span class="layui-badge" style="vertical-align: 2px;">Emacs</span>
+        </a>
+    
+        <a href="/tags/embedded">
+            <span class="layui-badge" style="vertical-align: 2px;">Embedded</span>
+        </a>
+    
+        <a href="/tags/environment">
+            <span class="layui-badge" style="vertical-align: 2px;">Environment</span>
+        </a>
+    
+        <a href="/tags/eta">
+            <span class="layui-badge" style="vertical-align: 2px;">Eta</span>
+        </a>
+    
+        <a href="/tags/event-sourcing">
+            <span class="layui-badge" style="vertical-align: 2px;">Event-Sourcing</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/german">
+            <span class="layui-badge" style="vertical-align: 2px;">German</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
+        <a href="/tags/lotm">
+            <span class="layui-badge" style="vertical-align: 2px;">LOTM</span>
+        </a>
+    
+        <a href="/tags/lisp">
+            <span class="layui-badge" style="vertical-align: 2px;">Lisp</span>
+        </a>
+    
+        <a href="/tags/mac">
+            <span class="layui-badge" style="vertical-align: 2px;">Mac</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/mass-customization">
+            <span class="layui-badge" style="vertical-align: 2px;">Mass-Customization</span>
+        </a>
+    
+        <a href="/tags/micro-services">
+            <span class="layui-badge" style="vertical-align: 2px;">Micro-Services</span>
+        </a>
+    
+        <a href="/tags/mobile">
+            <span class="layui-badge" style="vertical-align: 2px;">Mobile</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/osgi">
+            <span class="layui-badge" style="vertical-align: 2px;">OSGi</span>
+        </a>
+    
+        <a href="/tags/open-source">
+            <span class="layui-badge" style="vertical-align: 2px;">Open-Source</span>
+        </a>
+    
+        <a href="/tags/podcast">
+            <span class="layui-badge" style="vertical-align: 2px;">Podcast</span>
+        </a>
+    
+        <a href="/tags/politics">
+            <span class="layui-badge" style="vertical-align: 2px;">Politics</span>
+        </a>
+    
+        <a href="/tags/privacy">
+            <span class="layui-badge" style="vertical-align: 2px;">Privacy</span>
+        </a>
+    
+        <a href="/tags/rest">
+            <span class="layui-badge" style="vertical-align: 2px;">REST</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/soa">
+            <span class="layui-badge" style="vertical-align: 2px;">SOA</span>
+        </a>
+    
+        <a href="/tags/soap">
+            <span class="layui-badge" style="vertical-align: 2px;">SOAP</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/security">
+            <span class="layui-badge" style="vertical-align: 2px;">Security</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/web-services">
+            <span class="layui-badge" style="vertical-align: 2px;">Web-Services</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/">
+                                <h3 class="">About AOC, VSCode, Scala, Mill and NO_COLOR</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-12-22</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/11/19/huffman-trees/codes-why-are-they-different/">
+                                <h3 class="">Huffman Trees/Codes - Why are they different?</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-11-19</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/05/15/some-more-fun-with-scala3/">
+                                <h3 class="">Some more fun with Scala3</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-05-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/05/01/more-fun-with-scala3/">
+                                <h3 class="">More fun with Scala3</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-05-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>
