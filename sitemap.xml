@@ -2,23 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tedn.life/posts/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
+    <loc>http://tedn.life/tags/advent-of-code/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
+    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2025-03-09T19:57:04+00:00</lastmod>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/functional-programming/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2025-03-09T19:57:04+00:00</lastmod>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/posts/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/scala/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2025-03-09T19:57:04+00:00</lastmod>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2025-03-09T19:57:04+00:00</lastmod>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</loc>
+    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tips--tricks/</loc>
     <lastmod>2025-03-09T19:57:04+00:00</lastmod>
@@ -28,18 +43,6 @@
   </url><url>
     <loc>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</loc>
     <lastmod>2024-12-22T07:15:33+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2024-12-22T07:15:33+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
-    <lastmod>2025-02-27T04:25:21+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/scala/</loc>
-    <lastmod>2024-12-22T07:15:33+00:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/functional-programming/</loc>
-    <lastmod>2024-11-21T12:10:40+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</loc>
     <lastmod>2024-11-21T12:10:40+00:00</lastmod>

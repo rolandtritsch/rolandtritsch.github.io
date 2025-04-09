@@ -6,8 +6,15 @@
     <description>Recent content in Scala on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Dec 2024 07:15:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Apr 2025 13:29:32 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AOC 2024 Retro - Finally!!!</title>
+      <link>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</link>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</guid>
+      <description>I am calling it! I declare my Advent of Code (AOC) for 2024 done! Finally!&#xA;Clarification: This does not mean that I did all of it, but I did what I wanted to do and was able to do to make the tree look like this &amp;hellip;&#xA;The last star that was missing was part1 of Day21 (more on this later).&#xA;This year my main focus was on refreshing my scala3 skills and to learn a lot about how AI-enabled IDEs can support a scala-engineer to write better code and to solve problems faster.</description>
+    </item>
     <item>
       <title>About AOC, VSCode, Scala, Mill and NO_COLOR</title>
       <link>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</link>
