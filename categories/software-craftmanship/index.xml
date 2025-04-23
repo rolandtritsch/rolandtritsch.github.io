@@ -6,8 +6,15 @@
     <description>Recent content in Software-Craftmanship on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Apr 2025 13:29:32 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Track-pad behaving erratic - TEDN problem from hell</title>
+      <link>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</guid>
+      <description>This goes into the bucket of problems-people-do-not-have-that-live-a-less-ambitious-life.&#xA;I am The Extreme Digital Nomad. I write code. Always and everywhere.&#xA;Right now I am in Athens Airport (in the FloCafe). I am sitting down. I plug in my laptop and connect to the internet. I go to my browser (to finish my installation of LibreChat (highly recommended; more on that in a separate blog post)) and realize that my mouse pointer is suddenly moving erratically.</description>
+    </item>
     <item>
       <title>The AOC 2024 Retro - Finally!!!</title>
       <link>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</link>

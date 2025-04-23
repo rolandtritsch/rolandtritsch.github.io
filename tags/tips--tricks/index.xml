@@ -6,8 +6,15 @@
     <description>Recent content in Tips &amp; Tricks on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Mar 2025 19:57:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/tips--tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Track-pad behaving erratic - TEDN problem from hell</title>
+      <link>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</guid>
+      <description>This goes into the bucket of problems-people-do-not-have-that-live-a-less-ambitious-life.&#xA;I am The Extreme Digital Nomad. I write code. Always and everywhere.&#xA;Right now I am in Athens Airport (in the FloCafe). I am sitting down. I plug in my laptop and connect to the internet. I go to my browser (to finish my installation of LibreChat (highly recommended; more on that in a separate blog post)) and realize that my mouse pointer is suddenly moving erratically.</description>
+    </item>
     <item>
       <title>Ubuntu, Wayland, Sway - Just mirror the screen!</title>
       <link>http://tedn.life/2025/03/09/ubuntu-wayland-sway-just-mirror-the-screen/</link>

@@ -2,41 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/functional-programming/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/scala/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+    <lastmod>2025-04-23T11:32:21+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/tedn/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</loc>
-    <lastmod>2025-04-09T13:29:32+01:00</lastmod>
+    <lastmod>2025-04-23T11:32:21+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tips--tricks/</loc>
-    <lastmod>2025-03-09T19:57:04+00:00</lastmod>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/advent-of-code/</loc>
+    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
+    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/functional-programming/</loc>
+    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/scala/</loc>
+    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</loc>
+    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2025/03/09/ubuntu-wayland-sway-just-mirror-the-screen/</loc>
     <lastmod>2025-03-09T19:57:04+00:00</lastmod>
@@ -69,9 +75,6 @@
     <lastmod>2024-07-05T13:16:54+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2024-07-09T05:48:51+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/tedn/</loc>
     <lastmod>2024-07-09T05:48:51+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2024/07/04/note-to-myself-how-to-make-manxtelecom-work/</loc>
