@@ -2,37 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
+  </url><url>
     <loc>http://tedn.life/categories/</loc>
-    <lastmod>2025-04-23T15:51:42+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2025-04-23T12:02:59+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/open-source/</loc>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2025-04-23T15:51:42+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/remote/</loc>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2025/05/04/replacing-skype-tedn-is-using-the-force-again/</loc>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2025-04-23T12:02:59+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2025-04-23T15:51:42+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tedn/</loc>
-    <lastmod>2025-04-23T12:02:59+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/</loc>
-    <lastmod>2025-04-23T15:51:42+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/tips--tricks/</loc>
-    <lastmod>2025-04-23T12:02:59+01:00</lastmod>
+    <lastmod>2025-05-04T12:55:13+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</loc>
     <lastmod>2025-04-23T12:02:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
     <lastmod>2025-04-09T13:35:42+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/functional-programming/</loc>
@@ -60,7 +69,7 @@
     <lastmod>2025-02-27T04:25:21+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2025-02-27T04:25:21+00:00</lastmod>
+    <lastmod>2025-04-28T10:33:21+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/</loc>
     <lastmod>2025-02-27T04:25:21+00:00</lastmod>
@@ -84,7 +93,7 @@
     <lastmod>2024-06-24T10:16:07+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/culture/</loc>
-    <lastmod>2025-04-23T15:51:42+01:00</lastmod>
+    <lastmod>2025-04-28T10:33:21+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/07/01/the-software-gardening-manifesto-a-copy/</loc>
     <lastmod>2023-07-01T10:27:29+01:00</lastmod>
@@ -108,9 +117,6 @@
     <lastmod>2023-04-09T12:42:30+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/books/</loc>
-    <lastmod>2023-04-09T12:42:30+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/remote/</loc>
     <lastmod>2023-04-09T12:42:30+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2023/02/10/the-ideal-team-player-hhs-vs.-dac/</loc>
@@ -195,7 +201,7 @@
     <lastmod>2021-06-02T07:15:02+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/software-engineering/</loc>
-    <lastmod>2021-06-02T07:15:02+01:00</lastmod>
+    <lastmod>2025-04-28T10:33:21+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2021/01/18/haskell--beam-hamler-ii/</loc>
     <lastmod>2021-02-01T09:57:43+00:00</lastmod>
@@ -303,7 +309,7 @@
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2018/01/20/about-being-a-software-development-manager-...-and-managing-energy/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
+    <lastmod>2025-04-28T10:33:21+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2017/07/29/hackweeks-@-nitro-...-the-why-the-what-the-how/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
@@ -555,9 +561,6 @@
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2009/01/22/commercial-open-source-for-apache-projects-survival-of-the-fittest/</loc>
-    <lastmod>2020-08-16T16:11:59+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/open-source/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2009/01/10/effective-mac-sleeping-on-the-plane/</loc>

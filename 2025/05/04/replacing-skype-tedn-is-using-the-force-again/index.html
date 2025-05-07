@@ -1,0 +1,452 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Replacing Skype - TEDN is using the force (again) </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Nerdy, Open-Source, Remote, TEDN, Tips &amp; Tricks, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Replacing Skype - TEDN is using the force (again)</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-05-04</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/open-source">
+            <span class="layui-badge" style="vertical-align: 2px;">Open-Source</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>First of all: May the 4th be with you! Always!!!</p>
+<p><img src="https://live.staticflickr.com/7345/11734671183_21ddacc2c0_w.jpg" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>Second: (Obviously) In May Microsoft is going to retire <code>Skype</code> and is asking everybody to migrate to <code>Microsoft Teams</code>.</p>
+<p><img src="/images/2025-05-04-replacing-skype/skype.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>My only use-case for Skype was to dial landline numbers from my (ubuntu) laptop. As an alternative I have looked into <code>Google Voice</code>, but was not able to associate my Irish mobile phone number with my Goggle account to enable the voice features.</p>
+<p>Means I was kind-a stuck.</p>
+<p>Then I had a quick discussion with <a href="https://claude.ai">Claude</a> and realized that I have been thinking about it wrong. I was not necessarily looking for a new tool, but more for a solution to make outbound landline calls from my laptop (preferably using a command line tool).</p>
+<p>Means, if I go from first principles I will probably come up with something mean and lean that will <code>just work</code> (tm).</p>
+<p>First principles means, I just need a platform that can make calls. Luckily I have spend the last <a href="https://www.community.com">5 years</a> of my live using such a platform to send SMS messages, namely <a href="https://www.twilio.com">Twilio</a>.</p>
+<p>Turns out there is a small wrinkle: When I tried to buy an Irish phone number that I can use with the Twilio API/CLI to place the calls, I was not able to do so, because regulations only give you certain numbers for the address that needs to be asscociated with the phone number (in my case phone numbers that start with <code>+335-1-122...</code>).</p>
+<p>Then I realized that to make calls (outbound) you actually do not need a phone number. What you need is just a(n) <code>(Elastic) SIP trunk</code>.</p>
+<p>Means my next step was to setup a SIP trunk and configure the termination endpoint. Given that I only want to place calls and do not want to receive calls, I do not need to set up the origination and I do not need to buy a number.</p>
+<p><img src="/images/2025-05-04-replacing-skype/esip.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>Configuring the SIP is easy and straight-forward (see also screencast below), but there is one thing that is tricky: To make outbound calls you need to make sure the calls are initiated from a <code>Verified Caller ID</code>. There are 2 steps here &hellip;</p>
+<ol>
+<li>Set up a <code>Verified Caller ID</code></li>
+<li>Use the <code>Verified Caller ID</code> to make calls</li>
+</ol>
+<p>First: To set up the <code>Verified Caller ID</code> you need go to the <code>Verified Caller ID</code> <a href="https://console.twilio.com/us1/develop/phone-numbers/manage/verified">page</a> and verify a phone number (landline or mobile) that you have access to.</p>
+<p><img src="/images/2025-05-04-replacing-skype/verified.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>Second: You need to use it. More on that later/below. (Important) Note: To be able to use it, you also need to make sure that the username of the credentials that you are configuring for the termination matches the phonenumber that you have verified.</p>
+<p><img src="/images/2025-05-04-replacing-skype/username.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>You can then use <a href="https://www.twilio.com/docs/twilio-cli">twilio-cli</a> to make calls, but this will not give you want you want because <code>twilio-cli</code> cannot handle the audio streams that you want/need to run over the call. For that you need a <code>softphone</code>. Luckily there is a very good/popular open-source option available: <a href="https://www.linphone.org/en/homepage-linphone">linphone</a>. <code>linphone</code> comes with a UI, but also with a CLI: <a href="https://manpages.ubuntu.com/manpages/jammy/en/man1/linphonec.1.html">linphonec</a>. Given my preference for CLIs I decided to use <code>linphonec</code>. You can install it with <code>sudo apt install linphone-cli</code>.</p>
+<p>Setting it up is easy. You just run <code>linphonec</code> and then add your proxy with <code>proxy add</code>. If there is more than one proxy make sure you use <code>proxy use &lt;n&gt;</code> to define the proxy you want to use. Then you list all of the audio interfaces with <code>soundcard list</code> and pick the headset interface with <code>soundcard use &lt;n&gt;</code>. With that you should be ready to place your first call. I suggest to use one of the test numbers that are suggested on the Elastic SIP trunk configuration page, means the command to use is (for instance) <code>call +441749608378</code>.</p>
+<p>If this is not working you can restart <code>linphonec</code> with <code>linphonec -d 6 -l /tmp/linphone_$(date +%Y%m%d-%H%M%S).log</code> and use the logfile to debug what is wrong.</p>
+<p>After this works you can then try to dial other numbers. That might work right away &hellip; or not :).</p>
+<p>If it does not work, you want to check that you have configured/enabled the right <a href="https://console.twilio.com/us1/develop/voice/settings/geo-permissions">Voice Geographic Permissions</a>.</p>
+<p>Even more important (as mentioned above) you need to use a <code>Verified Caller ID</code>. That means the username for the SIP trunk authentication needs to be your <code>Verified Caller ID</code> phonenumber. And that means your <code>reg_identity</code> configuration in your <code>.linphonerc</code> file needs to look like this &hellip;</p>
+<pre tabindex="0"><code>[proxy_0]
+reg_proxy=&lt;sip:linphone-rolandtritsch.pstn.dublin.twilio.com;transport=udp&gt;
+reg_identity=&#34;+353868563975&#34; &lt;sip:+353868563975@linphone-rolandtritsch.pstn.dublin.twilio.com&gt;
+... &lt;more&gt; ...
+</code></pre><p>After that is configured you should be fine to make calls to any number you like.</p>
+<p>With that I am now able to make a call with &hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>linphonec
+</span></span><span style="display:flex;"><span>Warning: video is disabled in linphonec, use -V or -C or -D to enable.
+</span></span><span style="display:flex;"><span>linphonec&gt; call +441749608378
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Establishing call id to sip:+441749608378@linphone-rolandtritsch.pstn.dublin.twilio.com, assigned id <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>Call <span style="color:#ae81ff">1</span> to sip:+441749608378@linphone-rolandtritsch.pstn.dublin.twilio.com in progress.
+</span></span><span style="display:flex;"><span>Call <span style="color:#ae81ff">1</span> to sip:+441749608378@linphone-rolandtritsch.pstn.dublin.twilio.com ringing.
+</span></span><span style="display:flex;"><span>soundcardCall <span style="color:#ae81ff">1</span> with sip:+441749608378@linphone-rolandtritsch.pstn.dublin.twilio.com connected.
+</span></span><span style="display:flex;"><span>Media streams established with sip:+441749608378@linphone-rolandtritsch.pstn.dublin.twilio.com <span style="color:#66d9ef">for</span> call <span style="color:#ae81ff">1</span> <span style="color:#f92672">(</span>audio<span style="color:#f92672">)</span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>linphonec&gt; terminate
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Call <span style="color:#ae81ff">1</span> with sip:+441749608378@linphone-rolandtritsch.pstn.dublin.twilio.com ended <span style="color:#f92672">(</span>No error<span style="color:#f92672">)</span>.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>linphonec&gt;
+</span></span></code></pre></div><p>Here is a screencast to explain even more/better how this works &hellip;</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FBXTCVJ2R0s?si=SjYvKmMTrgisSRUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br></br>
+<p>I am using this now for a week and it works great. Good quality. Reliable connections. And it is cheap.</p>
+<p>May the force be with you. Always &hellip;</p>
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmd3aGtqZ2RxeXMxdmxlMnp6bzh5eDR6dHBseDB1OHVwMXkwYnRkOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zQhFEBrX6plKg/giphy.gif" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/">
+                                <h3 class="">Track-pad behaving erratic - TEDN problem from hell</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-04-23</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/">
+                                <h3 class="">About AOC, VSCode, Scala, Mill and NO_COLOR</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-12-22</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/07/05/mastodon-and-emacs-the-restart/">
+                                <h3 class="">Mastodon and Emacs - The Restart</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-07-05</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/emacs">
+            <span class="layui-badge" style="vertical-align: 2px;">Emacs</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2023/01/01/happy-new-year-i-am-tooting-now-.../">
+                                <h3 class="">Happy new year - I am tooting now ...</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2023-01-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/politics">
+            <span class="layui-badge" style="vertical-align: 2px;">Politics</span>
+        </a>
+    
+        <a href="/tags/privacy">
+            <span class="layui-badge" style="vertical-align: 2px;">Privacy</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/">
+                                <h3 class="">Emacs Pair Programming - Innovation-Week Q2/2022</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2022-05-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/emacs">
+            <span class="layui-badge" style="vertical-align: 2px;">Emacs</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/lisp">
+            <span class="layui-badge" style="vertical-align: 2px;">Lisp</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2025-05-04 12:55:13 &#43;0100 IST </p>
+    </div>
+</footer>
+
+</body>
+</html>
