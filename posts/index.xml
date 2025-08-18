@@ -6,8 +6,15 @@
     <description>Recent content in Posts on tedn.life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 07:28:14 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 12:56:41 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whisper for Wayland - A vibe coding journey</title>
+      <link>http://tedn.life/2025/08/18/whisper-for-wayland-a-vibe-coding-journey/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2025/08/18/whisper-for-wayland-a-vibe-coding-journey/</guid>
+      <description>Sometimes it is the simple things that are hard.&#xA;These days I am doing a lot of vibe-coding or agentic-coding or &amp;hellip; whatver you want to call it when you do not describe how to build something, but describe what you want the AI to build.&#xA;And sometimes you reach a state of flow, when the requirements just flow out of you, but then you have to start typing and the typing can break the flow.</description>
+    </item>
     <item>
       <title>Replacing Skype - TEDN is using the force (again)</title>
       <link>http://tedn.life/2025/05/04/replacing-skype-tedn-is-using-the-force-again/</link>
