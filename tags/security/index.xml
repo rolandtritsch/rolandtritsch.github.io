@@ -4,7 +4,7 @@
     <title>Security on tedn.life</title>
     <link>http://tedn.life/tags/security/</link>
     <description>Recent content in Security on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/tags/security/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</link>
       <pubDate>Tue, 20 May 2008 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</guid>
-      <description>Just finished a/the review of a great presentation on security and security concepts published by Ciaran McHale on www.ciaranmchale.com.&#xA;His claim is that 80% of the the perceived complexity of any given subject is not in the concept, but in the way it is explained to people. His quest is to fix this. Therefore he has started to publish a series of very well written presentations to introduce technical concepts in the most simple way possible.</description>
+      <description>Just finished a/the review of a&lt;a href=&#34;http://www.ciaranmchale.com/training-courses.html#training-secure-communications&#34;&gt; great presentation on security and security concepts&lt;/a&gt; published by Ciaran McHale on &lt;a href=&#34;http://www.ciaranmchale.com/&#34;&gt;www.ciaranmchale.com&lt;/a&gt;.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;His claim is that 80% of the the perceived complexity of any given subject is not in the concept, but in the way it is explained to people. His quest is to fix this. Therefore he has started to publish a series of very well written presentations to introduce technical concepts in the most simple way possible.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;He also plays with the idea to use opensource engineering principles to develop courseware.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Very innovative.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Check it out.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt; &lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

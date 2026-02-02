@@ -1,0 +1,509 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Claude Code - Tools Primer </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Claude Code - Tools Primer</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-02-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <blockquote>
+<p><strong>Note:</strong> This blog post was generated through a conversation with Claude based on my explorations of Claude Code&rsquo;s architecture. You can <a href="https://claude.ai/chat/CHAT_ID">read the full conversation here</a> to see how we worked through these ideas together. The thoughts and arguments are mine, but Claude helped me articulate and structure them.</p>
+</blockquote>
+<hr>
+<p>Let&rsquo;s set the stage. Claude Code has been making waves in the agentic coding space. But if you dive into it, you&rsquo;ll quickly encounter a constellation of concepts: Commands, Skills, Agents (Subagents), and MCP Servers. The marketing materials make them all sound essential. The reality? It&rsquo;s more nuanced than that.</p>
+<p>By now I have spent some time exploring what these tools actually do, when you should use each one, and more importantly, when you <em>shouldn&rsquo;t</em>. What I found surprised me: the simplest solution is often the best one, and the MCP hype might be leading folks down unnecessarily complex paths.</p>
+<h2 id="the-four-concepts">The Four Concepts</h2>
+<p>Let me break down what Claude Code actually gives you:</p>
+<p><strong>Commands (Slash Commands)</strong> - These are your keyboard shortcuts on steroids. You manually trigger them with <code>/command-name</code>. Think <code>/commit</code>, <code>/test</code>, or custom deployment scripts. They&rsquo;re explicit, predictable, and completely under your control.</p>
+<p><strong>Skills</strong> - Now this is interesting. Skills are folders containing instructions, scripts, and resources that Claude automatically discovers and loads when relevant. They use &ldquo;progressive disclosure&rdquo; - only loading what&rsquo;s needed when it&rsquo;s needed. The key word here is <em>automatic</em>. Claude figures out when to use them.</p>
+<p><strong>Agents (Subagents)</strong> - Specialized AI assistants with their own isolated context windows and tool permissions. They handle discrete tasks independently - code review, test generation, debugging. Think of them as specialized team members you can delegate work to.</p>
+<p><strong>MCP Servers</strong> - The Model Context Protocol. A universal connection layer for external tools and data sources. Think GitHub, databases, Google Drive, Slack. The marketing pitch? It&rsquo;s like USB-C for AI.</p>
+<h2 id="the-question-nobody-asks">The Question Nobody Asks</h2>
+<p>Here&rsquo;s where it gets interesting. After understanding these concepts, a developer asked me a really good question:</p>
+<blockquote>
+<p>&ldquo;Wouldn&rsquo;t it be better to use Skills (with command line tools) than MCP servers?&rdquo;</p>
+</blockquote>
+<p>This is the right question. Because when you look at what MCP actually does, versus what you can accomplish with a Skill that runs bash commands or Python scripts &hellip; well, there&rsquo;s a lot of overlap.</p>
+<h2 id="when-skills-win">When Skills Win</h2>
+<p>For most local development tasks, Skills with command-line tools are simpler and better. Consider:</p>
+<ul>
+<li><strong>File manipulation</strong> - bash commands work fine</li>
+<li><strong>Git operations</strong> - <code>git</code> CLI is comprehensive</li>
+<li><strong>Running tests/linters</strong> - standard tooling</li>
+<li><strong>Data transformations</strong> - Python/bash scripts</li>
+<li><strong>Text processing</strong> - grep/awk/sed</li>
+</ul>
+<p>All of this can live in a self-contained Skill. No server infrastructure. No authentication complexity. Just portable, version-controlled expertise that works everywhere (Claude.ai, Claude Code, and the API).</p>
+<p>The advantages are real:</p>
+<ul>
+<li>✅ Simpler setup (no server infrastructure)</li>
+<li>✅ Self-contained (everything in one folder)</li>
+<li>✅ More efficient context (progressive disclosure)</li>
+<li>✅ Works everywhere (not just Claude Code)</li>
+<li>✅ Easy to version control and share</li>
+</ul>
+<p><strong>Example</strong>: A &ldquo;code review&rdquo; Skill that runs <code>git diff</code>, uses <code>grep</code> to find patterns, and executes custom scripts - all self-contained. No server needed.</p>
+<h2 id="the-mcp-reality-check">The MCP Reality Check</h2>
+<p>Let&rsquo;s be honest about the GitHub MCP server example that gets thrown around a lot. Compare it to the <code>gh</code> CLI:</p>
+<p>The GitHub CLI (<code>gh</code>) can:</p>
+<ul>
+<li>Create/edit/close issues and PRs</li>
+<li>Review PRs, add comments, approve/request changes</li>
+<li>Manage releases, workflows, secrets</li>
+<li>Search code, issues, PRs</li>
+<li>Authentication via <code>gh auth login</code></li>
+<li>Output JSON with <code>--json</code> flag</li>
+</ul>
+<p>The GitHub MCP server adds:</p>
+<ul>
+<li>Structured tool definitions</li>
+<li>Parsed responses (JSON)</li>
+<li>Slightly easier for Claude to use</li>
+</ul>
+<p>But honestly? A Skill using <code>gh</code> CLI would be simpler, just as capable, more portable, self-contained, and easier to debug.</p>
+<p>The GitHub MCP server is more about demonstrating MCP than solving a real problem.</p>
+<h2 id="when-mcp-actually-matters">When MCP Actually Matters</h2>
+<p>Don&rsquo;t get me wrong - MCP isn&rsquo;t useless. It genuinely adds value when:</p>
+<ol>
+<li><strong>No good CLI tool exists</strong> - Slack, Google Drive, many proprietary APIs</li>
+<li><strong>Real-time event handling needed</strong> - WebSockets, webhooks</li>
+<li><strong>Complex state management</strong> - Authenticated sessions, connection pools</li>
+<li><strong>Service has terrible CLI ergonomics</strong> - Some APIs are just painful to use from bash</li>
+</ol>
+<p><strong>Better MCP examples:</strong></p>
+<p><strong>Slack MCP Server:</strong></p>
+<ul>
+<li>No good CLI alternative</li>
+<li>Handles WebSocket connections for real-time events</li>
+<li>Maintains authentication state properly</li>
+<li>Manages rate limiting</li>
+</ul>
+<p><strong>Database MCP Server:</strong></p>
+<ul>
+<li>Connection pooling</li>
+<li>Transaction management</li>
+<li>Better error handling for Claude</li>
+<li>(Though honestly, a Skill with <code>psql</code> works fine for many cases)</li>
+</ul>
+<p><strong>Google Drive MCP Server:</strong></p>
+<ul>
+<li>No good CLI alternative</li>
+<li>OAuth flow is complex</li>
+<li>MCP handles this properly</li>
+</ul>
+<h2 id="the-hybrid-approach">The Hybrid Approach</h2>
+<p>The real power comes from using them together strategically:</p>
+<pre tabindex="0"><code>MCP Server: Connects to GitHub API
+Skill: Teaches Claude your code review standards
+
+Together: Claude uses GitHub MCP to fetch PR data,
+then applies your Skill&#39;s expertise to review it
+</code></pre><p>Another example:</p>
+<pre tabindex="0"><code>MCP Server: Connects to your database
+Skill: Contains your SQL best practices and query patterns
+
+Together: MCP provides access, Skill ensures queries
+follow your organization&#39;s conventions
+</code></pre><h2 id="my-take">My Take</h2>
+<p>Here&rsquo;s what I&rsquo;ve learned: The MCP hype has led to servers being built for things that don&rsquo;t need them. Many MCP servers are solving problems that good CLI tools already solve.</p>
+<p><strong>Better mental model:</strong></p>
+<ul>
+<li><strong>Skills + CLI</strong> = For most things (which is probably 80% of your use cases)</li>
+<li><strong>MCP</strong> = For services without good CLI tools or complex API requirements</li>
+<li><strong>Both together</strong> = When you need both access AND expertise</li>
+</ul>
+<p>The Skills + CLI approach is underutilized. It&rsquo;s simpler, more portable, and often the right choice. Before you spin up an MCP server, ask yourself: &ldquo;Could I do this with a Skill and some bash/Python scripts?&rdquo;</p>
+<p>If the answer is yes, you probably should.</p>
+<h2 id="the-bigger-picture">The Bigger Picture</h2>
+<p>Looking at the four concepts together:</p>
+<p><strong>Commands</strong> - Manual control when you want it
+<strong>Skills</strong> - Automatic expertise that follows you everywhere<br>
+<strong>Subagents</strong> - Task delegation with isolated contexts
+<strong>MCP</strong> - External system connectivity (when you really need it)</p>
+<p>They&rsquo;re complementary tools. But start simple. Start with Skills. Add MCP only when you genuinely need it.</p>
+<p>The best engineers I know use the simplest tool that solves the problem. Not the most impressive one.</p>
+<h2 id="what-about-agents">What About Agents?</h2>
+<p>Quick note on Subagents: They&rsquo;re powerful for task specialization - code review, debugging, parallel work.</p>
+<p>Use Subagents when you need:</p>
+<ul>
+<li>Isolated context (don&rsquo;t pollute main conversation)</li>
+<li>Different tool permissions for different tasks</li>
+<li>Parallel execution</li>
+</ul>
+<p>But again - start simple. A well-crafted Skill might be all you need.</p>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>The agentic coding space is moving fast. New tools emerge constantly. Marketing materials make everything sound essential.</p>
+<p>But software craftsmanship is about knowing when to use the simple solution. Skills with command-line tools are often that simple solution. They&rsquo;re portable, self-contained, and just work.</p>
+<p>MCP has its place. But don&rsquo;t let the hype drive your architecture decisions. Build what solves your actual problems, not what sounds impressive in blog posts.</p>
+<p>I like to think of myself as a realistic optimist. These tools can make us more effective. But only if we use them thoughtfully.</p>
+<p>Start with Skills. Add complexity only when you need it.</p>
+<p>Now get back to building something great.</p>
+<hr>
+<h2 id="references-and-further-reading">References and Further Reading</h2>
+<p>If you want to dive deeper into this topic, here are the best resources I found:</p>
+<p><strong>Official Anthropic Documentation:</strong></p>
+<ol>
+<li><a href="https://claude.com/blog/skills-explained">Skills explained: How Skills compares to prompts, Projects, MCP, and subagents</a> - The authoritative comparison from Anthropic (Nov 13, 2025)</li>
+<li><a href="https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers">Extending Claude&rsquo;s capabilities with skills and MCP servers</a> - Official deep dive with real use cases (Dec 19, 2025)</li>
+</ol>
+<p><strong>Independent Analysis and Practical Guides:</strong>
+3. <a href="https://alexop.dev/posts/understanding-claude-code-full-stack/">Understanding Claude Code&rsquo;s Full Stack: MCP, Skills, Subagents, and Hooks Explained</a> - Excellent developer perspective covering the entire stack (Nov 9, 2025)
+4. <a href="https://www.cdata.com/blog/claude-skills-vs-mcp-better-together-with-connect-ai">Claude Skills vs MCP: Better Together with Connect AI</a> - Empirical testing with token usage measurements (Nov 11, 2025)
+5. <a href="https://dev.to/fourixai/beyond-deadwoodworks-how-claude-code-skills-super-charge-mcp-servers-and-everyday-workflows-69">Beyond Deadwoodworks: How Claude Code Skills Super-charge MCP Servers</a> - Practical workflow examples (Dec 15, 2025)</p>
+<p><strong>Technical Deep Dives:</strong>
+6. <a href="https://intuitionlabs.ai/articles/claude-skills-vs-mcp">Claude Skills vs. MCP: A Technical Comparison for AI Workflows</a> - Comprehensive technical analysis (Oct 27, 2025)
+7. <a href="https://subramanya.ai/2025/10/30/claude-skills-vs-mcp-a-tale-of-two-ai-customization-philosophies/">Claude Skills vs. MCP: A Tale of Two AI Customization Philosophies</a> - Architectural analysis (Oct 30, 2025)
+8. <a href="https://www.cometapi.com/claude-skills-vs-mcp-the-2026-guide-to-agentic-architecture/">Claude Skills vs MCP: The 2026 Guide to Agentic Architecture</a> - Forward-looking perspective (Jan 2026)</p>
+<p><strong>Note:</strong> While these resources are excellent, most of them treat MCP as essential infrastructure without questioning whether simpler CLI-based Solutions might suffice. That&rsquo;s the gap this post aims to fill - helping you think critically about which tool actually solves your problem.</p>
+<hr>
+<h2 id="relevant-topics">Relevant Topics</h2>
+<blockquote>
+<p><a href="/2024/10/24/the-augmented-software-engineer-what-is-it/">### The Augmented Software Engineer - What is it?</a></p>
+<h3 id="2024-10-24-management-software-craftmanship-augmented-by-ai-innovation-machine-learning-thoughts">2024-10-24 <a href="/categories/management">Management</a> <a href="/categories/software-craftmanship">Software-Craftmanship</a> <a href="/tags/augmented-by-ai">Augmented-by-AI</a> <a href="/tags/innovation">Innovation</a> <a href="/tags/machine-learning">Machine-Learning</a> <a href="/tags/thoughts">Thoughts</a></h3>
+</blockquote>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/08/18/whisper-for-wayland-a-vibe-coding-journey/">
+                                <h3 class="">Whisper for Wayland - A vibe coding journey</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-08-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/05/04/replacing-skype-tedn-is-using-the-force-again/">
+                                <h3 class="">Replacing Skype - TEDN is using the force (again)</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-05-04</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/open-source">
+            <span class="layui-badge" style="vertical-align: 2px;">Open-Source</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/04/09/the-aoc-2024-retro-finally/">
+                                <h3 class="">The AOC 2024 Retro - Finally!!!</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-04-09</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/">
+                                <h3 class="">About AOC, VSCode, Scala, Mill and NO_COLOR</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-12-22</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/11/19/huffman-trees/codes-why-are-they-different/">
+                                <h3 class="">Huffman Trees/Codes - Why are they different?</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-11-19</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>

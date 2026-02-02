@@ -4,7 +4,7 @@
     <title>REST on tedn.life</title>
     <link>http://tedn.life/tags/rest/</link>
     <description>Recent content in REST on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/tags/rest/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://tedn.life/2008/07/16/restful-services-dana-gardner-adrian-trenaman-roland-tritsch-wrapping-it-up/</link>
       <pubDate>Wed, 16 Jul 2008 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2008/07/16/restful-services-dana-gardner-adrian-trenaman-roland-tritsch-wrapping-it-up/</guid>
-      <description> The Webinar went very well. I think we had over 50 poeple that showed up. The archived webinar and the source code will be available on open.iona.com.&#xA;Check it out. </description>
+      <description>The Webinar went very well. I think we had over 50 poeple that showed up. The &lt;a href=&#34;http://open.iona.com/resources/video-archived-webinars/&#34;&gt;archived webinar&lt;/a&gt; and the &lt;a href=&#34;http://www.tritsch.org/downloads/iphone.v2.zip&#34;&gt;source code&lt;/a&gt; will be available on open.iona.com.&lt;br /&gt;&lt;br /&gt;Check it out.</description>
     </item>
     <item>
       <title>RESTful Services - Dana Gardner, Adrian Trenaman, Roland Tritsch</title>
       <link>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</link>
       <pubDate>Tue, 17 Jun 2008 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2008/06/17/restful-services-dana-gardner-adrian-trenaman-roland-tritsch/</guid>
-      <description> Everybody is talking about REST. We do too :).&#xA;Join us on July, 15th for this existing Webinar on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.&#xA;CU there. </description>
+      <description>Everybody is talking about REST. We do too :).&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Join us on July, 15th for this existing &lt;a href=&#34;https://cc.readytalk.com/cc/schedule/display.do?rfe=m22h7mxrysq5&amp;amp;udc=lnlszx6tq3fw&#34;&gt;Webinar&lt;/a&gt; on REST and RESTful Services. Will include a live demo of a RESTful iPhone integration.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;CU there.&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

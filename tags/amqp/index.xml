@@ -4,7 +4,7 @@
     <title>AMQP on tedn.life</title>
     <link>http://tedn.life/tags/amqp/</link>
     <description>Recent content in AMQP on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Jan 2022 07:28:36 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/amqp/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-      <description>Updated (2022-01-01): Added stage.&#xA;At Community we are building a platform that will allow you to have meaningful conversations with large audiences &amp;hellip; at scale!!!&#xA;The architectural backbone is a shared-nothing micro-services architecture, that uses an event-bus for state propagation.&#xA;To avoid any kind of 2-phase-commit shenanigans we are publishing events at-least-once (not exactly-once). That means our services need to be able to and are able to deal with dublicated events gracefully (by ignoring them).</description>
+      <description>&lt;p&gt;Updated (2022-01-01): Added &lt;code&gt;stage&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At Community we are building a platform that will allow you to have&#xA;meaningful conversations with large audiences &amp;hellip; at scale!!!&lt;/p&gt;&#xA;&lt;p&gt;The architectural backbone is a shared-nothing micro-services&#xA;architecture, that uses an event-bus for state propagation.&lt;/p&gt;&#xA;&lt;p&gt;To avoid any kind of 2-phase-commit shenanigans we are publishing&#xA;events at-least-once (not exactly-once). That means our services need&#xA;to be able to and are able to deal with dublicated events gracefully&#xA;(by ignoring them).&lt;/p&gt;</description>
     </item>
     <item>
       <title>AMQP for dummies - A guide for managers</title>
       <link>http://tedn.life/2008/10/28/amqp-for-dummies-a-guide-for-managers/</link>
       <pubDate>Tue, 28 Oct 2008 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2008/10/28/amqp-for-dummies-a-guide-for-managers/</guid>
-      <description>(I start to like this &#34;plane blogging&#34; thing :))Adrian blogged about Microsoft embracing AMQP.&#xA;Just from a technical point of view this is good news (assuming it will help the adoption of the Advanced Message Queueing Protocol (AMQP)), because AMQP is a very cool (and extremely well thought through) standard.&#xA;Given that there might be a renewed interest in the standard, let me just try to explain (again) what it is good for: The main benefit of AMQP (besides a couple of very cool features in the standard itself) is that it will (finally and for the first time) allow messaging stacks to interoperate.</description>
+      <description>(I start to like this &#34;plane blogging&#34; thing :))&lt;p&gt;&lt;a href=&#34;http://trenaman.blogspot.com&#34;&gt;Adrian&lt;/a&gt; blogged about Microsoft embracing &lt;a href=&#34;http://jira.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol&#34;&gt;AMQP&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Just from a technical point of view this is good news (assuming it will help the adoption of the Advanced Message Queueing Protocol (AMQP)), because AMQP is a very cool (and extremely well thought through) standard.&lt;/p&gt;&lt;p&gt;Given that there might be a renewed interest in the standard, let me just try to explain (again) what it is good for: The main benefit of AMQP (besides a couple of very cool features in the standard itself) is that it will (finally and for the first time) allow messaging stacks to interoperate. Today we have lots of good payload formats/protocols (e.g. XML) and even better standard APIs (e.g. JMS), but no standard wire-level protocol to allow one messaging stack talk to another. That means that currently all of your messaging endpoints need to have the same message stack. This creates a huge, hidden vendor lock-in. Yes, your JMS API allows your to replace a JMS provider with another one, but then you need to do it for all endpoints at the same time, because the wire-level protocol is different (and proprietary) for each and every message broker implementation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

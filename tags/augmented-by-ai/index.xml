@@ -4,65 +4,72 @@
     <title>Augmented-by-AI on tedn.life</title>
     <link>http://tedn.life/tags/augmented-by-ai/</link>
     <description>Recent content in Augmented-by-AI on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/augmented-by-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code - Tools Primer</title>
+      <link>http://tedn.life/2026/02/01/claude-code-tools-primer/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/02/01/claude-code-tools-primer/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blog post was generated through a conversation with Claude based on my explorations of Claude Code&amp;rsquo;s architecture. You can &lt;a href=&#34;https://claude.ai/chat/CHAT_ID&#34;&gt;read the full conversation here&lt;/a&gt; to see how we worked through these ideas together. The thoughts and arguments are mine, but Claude helped me articulate and structure them.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s set the stage. Claude Code has been making waves in the agentic coding space. But if you dive into it, you&amp;rsquo;ll quickly encounter a constellation of concepts: Commands, Skills, Agents (Subagents), and MCP Servers. The marketing materials make them all sound essential. The reality? It&amp;rsquo;s more nuanced than that.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Whisper for Wayland - A vibe coding journey</title>
       <link>http://tedn.life/2025/08/18/whisper-for-wayland-a-vibe-coding-journey/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2025/08/18/whisper-for-wayland-a-vibe-coding-journey/</guid>
-      <description>Sometimes it is the simple things that are hard.&#xA;These days I am doing a lot of vibe-coding or agentic-coding or &amp;hellip; whatver you want to call it when you do not describe how to build something, but describe what you want the AI to build.&#xA;And sometimes you reach a state of flow, when the requirements just flow out of you, but then you have to start typing and the typing can break the flow.</description>
+      <description>&lt;p&gt;Sometimes it is the simple things that are hard.&lt;/p&gt;&#xA;&lt;p&gt;These days I am doing a lot of vibe-coding or agentic-coding or &amp;hellip; whatver you want to call it when you do not describe how to build something, but describe what you want the AI to build.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://secure.meetupstatic.com/photos/event/2/7/a/4/clean_524890148.webp&#34; style=&#34;display:block;margin:auto&#34; width=&#34;80%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;And sometimes you reach a state of flow, when the requirements just flow out of you, but then you have to start typing and the typing can break the flow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Replacing Skype - TEDN is using the force (again)</title>
       <link>http://tedn.life/2025/05/04/replacing-skype-tedn-is-using-the-force-again/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2025/05/04/replacing-skype-tedn-is-using-the-force-again/</guid>
-      <description>First of all: May the 4th be with you! Always!!!&#xA;Second: (Obviously) In May Microsoft is going to retire Skype and is asking everybody to migrate to Microsoft Teams.&#xA;My only use-case for Skype was to dial landline numbers from my (ubuntu) laptop. As an alternative I have looked into Google Voice, but was not able to associate my Irish mobile phone number with my Goggle account to enable the voice features.</description>
+      <description>&lt;p&gt;First of all: May the 4th be with you! Always!!!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://live.staticflickr.com/7345/11734671183_21ddacc2c0_w.jpg&#34; style=&#34;display:block;margin:auto&#34; width=&#34;80%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Second: (Obviously) In May Microsoft is going to retire &lt;code&gt;Skype&lt;/code&gt; and is asking everybody to migrate to &lt;code&gt;Microsoft Teams&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://tedn.life/images/2025-05-04-replacing-skype/skype.png&#34; style=&#34;display:block;margin:auto&#34; width=&#34;80%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;My only use-case for Skype was to dial landline numbers from my (ubuntu) laptop. As an alternative I have looked into &lt;code&gt;Google Voice&lt;/code&gt;, but was not able to associate my Irish mobile phone number with my Goggle account to enable the voice features.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The AOC 2024 Retro - Finally!!!</title>
       <link>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</guid>
-      <description>I am calling it! I declare my Advent of Code (AOC) for 2024 done! Finally!&#xA;Clarification: This does not mean that I did all of it, but I did what I wanted to do and was able to do to make the tree look like this &amp;hellip;&#xA;The last star that was missing was part1 of Day21 (more on this later).&#xA;This year my main focus was on refreshing my scala3 skills and to learn a lot about how AI-enabled IDEs can support a scala-engineer to write better code and to solve problems faster.</description>
+      <description>&lt;p&gt;I am calling it! I declare &lt;a href=&#34;https://github.com/rolandtritsch/scala3-aoc-2024&#34;&gt;my&lt;/a&gt; Advent of Code (&lt;a href=&#34;https://adventofcode.com&#34;&gt;AOC&lt;/a&gt;) for 2024 done! Finally!&lt;/p&gt;&#xA;&lt;p&gt;Clarification: This does not mean that I did all of it, but I did what I wanted to do and was able to do to make the tree look like this &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://tedn.life/images/2025-04-09-aoc/aoc-tree.png&#34; style=&#34;display:block;margin:auto&#34; width=&#34;80%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;The last star that was missing was part1 of Day21 (more on this later).&lt;/p&gt;&#xA;&lt;p&gt;This year my main focus was on refreshing my scala3 skills and to learn a lot about how AI-enabled IDEs can support a scala-engineer to write better code and to solve problems faster. And (ooohhh boy) &amp;hellip; it was a wild ride.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About AOC, VSCode, Scala, Mill and NO_COLOR</title>
       <link>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</link>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</guid>
-      <description>It is this time of the year again: We are all doing the Advent of Code (AOC), right?&#xA;For me the AOC has never been about speed and solving the problems fast and the leaderboard.&#xA;For me it has always been about learning something new or getting better at something (sharpening the saw) or developing a new, better way to solve problems (also known as becoming a better sofware craftsman).</description>
+      <description>&lt;p&gt;It is this time of the year again: We are all doing the Advent of Code (&lt;a href=&#34;https://github.com/rolandtritsch/scala-aoc-2017&#34;&gt;AOC&lt;/a&gt;), right?&lt;/p&gt;&#xA;&lt;p&gt;For me the AOC has never been about speed and solving the problems fast and the leaderboard.&lt;/p&gt;&#xA;&lt;p&gt;For me it has always been about learning something new or getting better at something (sharpening the saw) or developing a new, better way to solve problems (also known as becoming a better sofware craftsman).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Huffman Trees/Codes - Why are they different?</title>
       <link>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</guid>
-      <description>Right now I am solving the 99-scala-problems. Again!!!&#xA;This time around I am using them to learn more about what it means to be an Augmented Software Engineer (ASE). Just subscribe to the podcast to follow along.&#xA;P50 is to build a Huffman tree and to return the set of Huffman codes for the given string.&#xA;codeium found a good implementation, but struggled to find tests that worked.&#xA;I then tried various websites ([1], [2], [3], [4]) to test various strings and noticed that the trees and the resulting set of codes are different between the implementations.</description>
+      <description>&lt;p&gt;Right now I am solving the &lt;a href=&#34;https://aperiodic.net/pip/scala/s-99&#34;&gt;99-scala-problems&lt;/a&gt;. Again!!!&lt;/p&gt;&#xA;&lt;p&gt;This time around I am using them to learn more about what it means to&#xA;be an Augmented Software Engineer (&lt;a href=&#34;https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it&#34;&gt;ASE&lt;/a&gt;). Just subscribe to the&#xA;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_&#34;&gt;podcast&lt;/a&gt; to follow along.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aperiodic.net/pip/scala/s-99/#p50&#34;&gt;P50&lt;/a&gt; is to build a &lt;a href=&#34;https://en.wikipedia.org/wiki/Huffman_coding&#34;&gt;Huffman tree&lt;/a&gt; and to return the set of&#xA;Huffman codes for the given string.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://media.geeksforgeeks.org/wp-content/uploads/20220906180456/6.png&#34; &#xA;style=&#34;display:block;margin:auto&#34; width=&#34;80%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://codeium.com&#34;&gt;codeium&lt;/a&gt; found a good implementation, but struggled to find tests&#xA;that worked.&lt;/p&gt;&#xA;&lt;p&gt;I then tried various websites ([&lt;a href=&#34;https://planetcalc.com/2481&#34;&gt;1&lt;/a&gt;], [&lt;a href=&#34;https://www.csfieldguide.org.nz/en/interactives/huffman-tree&#34;&gt;2&lt;/a&gt;], [&lt;a href=&#34;https://suhaan-bhandary.github.io/Huffman-Coding&#34;&gt;3&lt;/a&gt;],&#xA;[&lt;a href=&#34;https://huffman.ooz.ie&#34;&gt;4&lt;/a&gt;]) to test various strings and noticed that the trees and&#xA;the resulting set of codes are different between the implementations.&#xA;Even more interesting for the same implementation the set is different&#xA;when you reverse the string.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Augmented Software Engineer - What is it?</title>
       <link>http://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/</guid>
-      <description>Updated &amp;hellip;&#xA;2024-11-08: Added section at the end on published and planned episodes 2024-11-19: Added episode 3-5 2024-11-25: Added episode 6 2024-11-28: Added episode 7-10 2024-12-23: Added episode 11-13 2024-01-26: Added episode 14 2024-02-27: Added episode 15-17 I can hear you loud and clear &amp;hellip;&#xA;Ooohhh my god: Not another blog post about AI!!!&#xA;Bear with me. I will try to make reading it (or watching it) worth while your time.</description>
+      <description>&lt;p&gt;Updated &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2024-11-08: Added section at the end on published and planned episodes&lt;/li&gt;&#xA;&lt;li&gt;2024-11-19: Added episode 3-5&lt;/li&gt;&#xA;&lt;li&gt;2024-11-25: Added episode 6&lt;/li&gt;&#xA;&lt;li&gt;2024-11-28: Added episode 7-10&lt;/li&gt;&#xA;&lt;li&gt;2024-12-23: Added episode 11-13&lt;/li&gt;&#xA;&lt;li&gt;2024-01-26: Added episode 14&lt;/li&gt;&#xA;&lt;li&gt;2024-02-27: Added episode 15-17&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I can hear you loud and clear &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ooohhh my god: Not another blog post about AI!!!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bear with me. I will try to make reading it (or watching it) worth&#xA;while your time. I promise.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Augmented Blogging - The Art of Prompting</title>
       <link>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2023/04/09/augmented-blogging-the-art-of-prompting/</guid>
-      <description>This is a landmark blog post. I just introduced a tag called Augmented-by-AI. And this post is tagged with it.&#xA;This is going to be the new normal. Let me explain &amp;hellip;&#xA;First things first: This blog post is not written by chatGPT.&#xA;It is Sunday morning, 6am and I am sitting here in my living room in my PJ with a cup of coffee and I am typing this. Believe me &amp;hellip;</description>
+      <description>&lt;p&gt;This is a landmark blog post. I just introduced a tag called&#xA;&lt;code&gt;Augmented-by-AI&lt;/code&gt;. And this post is tagged with it.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://tedn.life/images/2023-04-09-augmented-blogging/roland.jpg&#34;&#xA;style=&#34;float:right; margin:auto&#34; width=&#34;20%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is going to be the new normal. Let me explain &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;First things first: This blog post is not written by &lt;code&gt;chatGPT&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It is Sunday morning, 6am and I am sitting here in my living room in&#xA;my PJ with a cup of coffee and I am typing this. Believe me &amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The pillars of a sustainable energy future - A fireside chat</title>
       <link>http://tedn.life/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/</link>
       <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/</guid>
-      <description>This blog post is interesting in more than one way, because &amp;hellip;&#xA;I am going to discuss a topic that is deer to my heart: What do we need to do to get to a better place with respect to a sustainable energy future? And I am going to use a new approach: Where I am first going to articulate my thoughts and then I am going to complement it with a fireside chat that I had with chatGPT about the topics at hand.</description>
+      <description>&lt;p&gt;This blog post is interesting in more than one way, because &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I am going to discuss a topic that is deer to my heart: What do we&#xA;need to do to get to a better place with respect to a sustainable&#xA;energy future?&lt;/li&gt;&#xA;&lt;li&gt;And I am going to use a new approach: Where I am first going to&#xA;articulate my thoughts and then I am going to complement it with a&#xA;fireside chat that I had with &lt;code&gt;chatGPT&lt;/code&gt; about the topics at hand.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here we go &amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

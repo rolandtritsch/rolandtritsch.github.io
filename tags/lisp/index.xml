@@ -4,7 +4,7 @@
     <title>Lisp on tedn.life</title>
     <link>http://tedn.life/tags/lisp/</link>
     <description>Recent content in Lisp on tedn.life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 18 Oct 2022 08:00:12 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/tags/lisp/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
-      <description>We (at Community) just had another Innovation-Week. I was actually working on generating pact-files from frontend code and then generating openapi spec files from elxir backend code and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&#xA;But this is not what this blog post is all about :).&#xA;While working on this Geoff and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.</description>
+      <description>&lt;p&gt;We (at Community) just had another &lt;a href=&#34;https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/&#34;&gt;Innovation-Week&lt;/a&gt;. I was actually working on generating &lt;a href=&#34;https://pactflow.io&#34;&gt;pact-files&lt;/a&gt; from frontend code and then generating &lt;a href=&#34;https://github.com/open-api-spex/open_api_spex&#34;&gt;openapi spec files from elxir backend code&lt;/a&gt; and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&lt;/p&gt;&#xA;&lt;p&gt;But this is not what this blog post is all about :).&lt;/p&gt;&#xA;&lt;p&gt;While working on this &lt;a href=&#34;https://www.linkedin.com/in/geoff-smith-46739188&#34;&gt;Geoff&lt;/a&gt; and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emacs &amp; Lisp ... a match made in heaven</title>
       <link>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</link>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/2020/04/12/emacs-lisp-...-a-match-made-in-heaven/</guid>
-      <description>At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of elixir, the next week I write go, the week afterwards I need to fix some of our terraform configurations and on the weekend I am fixing a bug in a scala project.&#xA;What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &amp;hellip;).</description>
+      <description>&lt;p&gt;At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of &lt;strong&gt;elixir&lt;/strong&gt;, the next week I write &lt;strong&gt;go&lt;/strong&gt;, the week afterwards I need to fix some of our &lt;strong&gt;terraform&lt;/strong&gt; configurations and on the weekend I am fixing a bug in a &lt;a href=&#34;https://github.com/Nitro/nmesos&#34;&gt;&lt;strong&gt;scala&lt;/strong&gt;&lt;/a&gt; project.&lt;/p&gt;&#xA;&lt;p&gt;What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &amp;hellip;).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
