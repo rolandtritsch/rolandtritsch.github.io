@@ -6,8 +6,15 @@
     <description>Recent content in Thoughts on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Aug 2025 12:56:41 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 15:21:26 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Augmented Software Organisation - Moving on</title>
+      <link>http://tedn.life/2026/02/07/the-augmented-software-organisation-moving-on/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/02/07/the-augmented-software-organisation-moving-on/</guid>
+      <description>&lt;p&gt;I am running &lt;a href=&#34;https://www.meetup.com/the-augmented-software-engineer&#34;&gt;The Augmented Software-Engineer&lt;/a&gt; (ASE) Meetup in Dublin. The other day we we had the first one for this year (Note: Fantastic event. Check it out &lt;a href=&#34;https://www.meetup.com/the-augmented-software-engineer/events/312875427&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;A year ago we had 50 members. Today we have ~750 members on the meetup-group. We are (all) learning a lot. Tools, Best Practices, Workflows, &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;And some of the presentation are obviously &amp;ldquo;success-stories&amp;rdquo;. Mainly how much time you can save with using AI. In the best case you can for instance generate a complete Proof-of-Concepts (POC) or Minimal-Viable-Products (MVP) from scratch in less than a week (maybe down from a month), which sends a message along the lines of: &lt;strong&gt;AI makes Software-Engineers 400% faster/more productive!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Augmented Software Engineer - What is it?</title>
       <link>http://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/</link>

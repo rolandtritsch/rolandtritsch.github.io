@@ -1,0 +1,434 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - The Augmented Software Organisation - Moving on </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Thoughts, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>The Augmented Software Organisation - Moving on</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-02-07</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>I am running <a href="https://www.meetup.com/the-augmented-software-engineer">The Augmented Software-Engineer</a> (ASE) Meetup in Dublin. The other day we we had the first one for this year (Note: Fantastic event. Check it out <a href="https://www.meetup.com/the-augmented-software-engineer/events/312875427">here</a>).</p>
+<p>A year ago we had 50 members. Today we have ~750 members on the meetup-group. We are (all) learning a lot. Tools, Best Practices, Workflows, &hellip;</p>
+<p>And some of the presentation are obviously &ldquo;success-stories&rdquo;. Mainly how much time you can save with using AI. In the best case you can for instance generate a complete Proof-of-Concepts (POC) or Minimal-Viable-Products (MVP) from scratch in less than a week (maybe down from a month), which sends a message along the lines of: <strong>AI makes Software-Engineers 400% faster/more productive!</strong></p>
+<p>Then you talk to CTOs that run large(r) software-engineering organisations (~100 engineers) and the story looks/sounds different. Yes, there are productivity gains, but some of these gains then get eaten again by additional effort to check/validate/correct some of the things the AI has produced/generated. And also the bigger the organisation the smaller the amount of actual coding time per engineer (because the amount of time the engineers needs to spend to coordinate work with the rest of the organisation increases). And god forbid you are not doing greenfield development from scratch, but maintain a large software-system that is 10 years old with 100 million users, because in that case generating something that is roughly right is not what the customers/users want (anymore). They want a specific fix/feature-enhancement to a specific problem without breaking stuff some place else or introducing new problems.</p>
+<p>Means (right now) I can observe this weird disconnect between the experience of the individual, were for certain tasks (that you can do on your own) you experience these blibs of hyper-productivity (especially in smaller start-up organisations with less than 10 engineers). On the other side you have software-engineering organisations who can barely break-even on the ROI (they (maybe) see productivity gains of 5-20%) and then (still) have to pay for all the tokens that got spend to materialize the (meager) ROI.</p>
+<p>This does not sound so good! What the hell is going on?</p>
+<p>First of all: Don&rsquo;t panic and don&rsquo;t forget your towel!</p>
+<p>I think the root-cause here is, that we are still learning how to leverage AI for the craft of software-engineering. In 2025 the main focus was on how to level up individuals/engineers. I think for 2026 this focus will (and has to) change to leveling up software-engineering organisations.</p>
+<p>And this will be challenging, because right now 50% of the organisations just equip the individuals with AI and hope/think that they can get the gains everybody is looking for. I think this will not work.</p>
+<p>I think 2026 needs to be(come) the year of <strong>The Augmented Software-Organisation (ASO)</strong>. An ASO understands that AI is not an evolution, but a revolution. Means we need to rethink and reimagine how the software-engineering process and the software-engineering organisation looks like. We need to add steps that are needed and remove steps that are not needed anymore. More importantly we need to remove roles that we do not need anymore and need to add roles that are (urgently) needed now.</p>
+<p>Here are a couple of thoughts &hellip;</p>
+<p>The disconnect between individual hyper-productivity and organizational mediocrity has a clear explanation: <strong>Hype measures local speed improvements, while reality measures system throughput</strong>.</p>
+<p>AI dramatically accelerates certain micro-tasks:</p>
+<ul>
+<li>Boilerplate code generation</li>
+<li>Test scaffolding</li>
+<li>Mechanical refactoring</li>
+<li>API exploration</li>
+<li>Documentation drafting</li>
+</ul>
+<p>But real engineering productivity in an organization includes:</p>
+<ul>
+<li>Coordination across teams</li>
+<li>Code review processes</li>
+<li>Verification and testing</li>
+<li>Decision-making at multiple levels</li>
+<li>Risk management</li>
+</ul>
+<p>These systemic bottlenecks cap overall measured gains. You can write code five ties faster, but if code review, deployment pipelines, and cross-team coordination haven&rsquo;t changed, the system still moves at the old pace.</p>
+<p>And not all work benefits equally from AI:</p>
+<p><strong>Near-Automation Work</strong> (where we should see dramatic gains):</p>
+<ul>
+<li>CRUD and glue code</li>
+<li>Test generation</li>
+<li>Mechanical refactors</li>
+<li>Documentation</li>
+</ul>
+<p><strong>Human-Gated Acceleration</strong> (where we need workflow changes):</p>
+<ul>
+<li>Feature scaffolding</li>
+<li>Debugging assistance</li>
+<li>Code review support</li>
+</ul>
+<p><strong>Minimally Affected Areas</strong> (where humans remain essential):</p>
+<ul>
+<li>Product prioritization</li>
+<li>Cross-team coordination</li>
+<li>Risk decisions</li>
+</ul>
+<p>That means to unlock organizational gains, we need to redesign the entire delivery pipeline:</p>
+<p><strong>Stage 0 - Problem Intake</strong>: Humans define goals, constraints, and invariants</p>
+<p><strong>Stage 1 - Solution Framing</strong>: AI proposes approaches; humans select constraints</p>
+<p><strong>Stage 2 - Task Decomposition</strong>: AI generates executable task graphs</p>
+<p><strong>Stage 3 - Implementation</strong>: AI writes code and tests, iterates until green</p>
+<p><strong>Stage 4 - Tiered Review</strong>: Auto-merge for low-risk changes, human oversight based on risk classification</p>
+<p><strong>Stage 5 - Release &amp; Feedback</strong>: AI monitors signals and proposes optimizations</p>
+<p>The key insight: Most organizations are still using 2020 workflows with 2026 tools.</p>
+<p>Here is an illustration how a better workflow/process can look like &hellip;</p>
+<p><img src="/images/2026-02-07-aso/future-feature-development.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>The ASO also needs new high-leverage roles:</p>
+<p><strong>Problem Architect</strong> - Defines constraints and invariants, not implementations</p>
+<p><strong>AI Orchestrator</strong> - Manages agent workflows and trust rules</p>
+<p><strong>System Reviewer</strong> - Reviews intent and correctness, not syntax</p>
+<p><strong>Platform Guardrail Engineer</strong> - Ensures safe deployment and rollback capabilities</p>
+<p>Senior engineers should shift from implementation volume to system judgment. The question changes from &ldquo;Can you write this feature?&rdquo; to &ldquo;Should this feature exist, and what could go wrong?&rdquo;</p>
+<p>Here is an illustration how the new roles and responsibilities can look like &hellip;</p>
+<p><img src="/images/2026-02-07-aso/future-org.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>Executives need a new mental model. Here&rsquo;s the reframe: <strong>AI might make engineers five times faster at certain tasks, but that is not what we want. What we want is an organizations that doubles its output/throughput. Means we are looking for organisations that are willing to delete work rather than accelerate it</strong>.</p>
+<p>The highest leverage comes from:</p>
+<ul>
+<li>Redefining work units (what requires human judgment vs AI execution)</li>
+<li>Establishing new trust boundaries (what can auto-merge vs what needs review)</li>
+<li>Redesigning human roles (upstream problem shaping, downstream risk judgment)</li>
+</ul>
+<p>The limiting factor is no longer coding speed. It is organizational design.</p>
+<p>What does this mean for 2026?</p>
+<p>Organizations that win will:</p>
+<ol>
+<li><strong>Redesign workflows</strong> around AI-as-executor, not AI-as-assistant</li>
+<li><strong>Establish auto-merge lanes</strong> for low-risk, well-tested changes</li>
+<li><strong>Move engineers upstream</strong> to problem definition and constraint specification</li>
+<li><strong>Build guardrails</strong> that enable speed without sacrificing safety</li>
+<li><strong>Measure throughput</strong>, not just coding speed</li>
+</ol>
+<p><strong>The goal is to double organizational throughput by eliminating bottlenecks that AI has made obsolete.</strong></p>
+<p>This is uncomfortable work. It requires killing processes people have built careers around. It requires trusting AI in ways that feel premature. It requires admitting that some coordination overhead was always wasteful, and AI is just making that waste visible.</p>
+<p>But the organizations that figure this out will have an insurmountable advantage. Because while everyone else is debating whether AI makes engineers 20% or 30% faster, ASOs will be shipping double the features with the same headcount.</p>
+<p>The race is on.</p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/10/24/the-augmented-software-engineer-what-is-it/">
+                                <h3 class="">The Augmented Software Engineer - What is it?</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-10-24</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2023/04/09/augmented-blogging-the-art-of-prompting/">
+                                <h3 class="">Augmented Blogging - The Art of Prompting</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2023-04-09</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2023/03/12/the-pillars-of-a-sustainable-energy-future-a-fireside-chat/">
+                                <h3 class="">The pillars of a sustainable energy future - A fireside chat</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2023-03-12</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/climate">
+            <span class="layui-badge" style="vertical-align: 2px;">Climate</span>
+        </a>
+    
+        <a href="/tags/environment">
+            <span class="layui-badge" style="vertical-align: 2px;">Environment</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/politics">
+            <span class="layui-badge" style="vertical-align: 2px;">Politics</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2026/02/01/claude-code-tools-primer/">
+                                <h3 class="">Claude Code - Tools Primer</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-02-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/08/18/whisper-for-wayland-a-vibe-coding-journey/">
+                                <h3 class="">Whisper for Wayland - A vibe coding journey</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-08-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-02-07 15:21:26 &#43;0000 GMT </p>
+    </div>
+</footer>
+
+</body>
+</html>
