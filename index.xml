@@ -6,8 +6,15 @@
     <description>Recent content on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Feb 2026 16:01:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 09:45:34 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The ASO - State of the Union</title>
+      <link>http://tedn.life/2026/04/15/the-aso-state-of-the-union/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/04/15/the-aso-state-of-the-union/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was generated through a conversation with &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. The research was AI-assisted. Here are the two prompts that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Prompt 1:&lt;/em&gt; &amp;ldquo;Let&amp;rsquo;s do some research. Who else is thinking and talking about the AI-assisted or AI-enabled Software Engineering Organisation of the future? Who are the thought-leaders? And what do they say? What are the top 10 thoughts, ideas, predictions? Make sure the research focuses on the last 3 months. It needs to be current.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Augmented Software Organization - Moving on</title>
       <link>http://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</link>
