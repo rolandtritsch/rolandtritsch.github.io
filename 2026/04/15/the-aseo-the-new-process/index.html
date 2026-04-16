@@ -1,0 +1,454 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - The ASEO - The New Process </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Thoughts, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>The ASEO - The New Process</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-04-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <blockquote>
+<p><strong>AI Disclosure:</strong> This blog post was generated through a conversation with <a href="https://claude.ai/code">Claude Code</a>. The research was AI-assisted. Here is the prompt that drove it:</p>
+<p><em>&ldquo;Research the top 3 AI-enabled software-development processes that are currently (last 3 months) discussed and suggested. Identify the top 3 AI-enabled full SDLC methodologies (end-to-end delivery frameworks, not just tools or single-step patterns) that are being actively discussed, proposed, or adopted in the software engineering community. For each: core idea, key proponents, adoption status, a &lsquo;watch out&rsquo;, and sources.&rdquo;</em></p>
+</blockquote>
+<hr>
+<p>The discourse has caught up to the diagnosis.</p>
+<p>If you have been following the conversation about the <strong>Augmented Software-Engineering Organization (ASEO)</strong> — the idea that AI is not an evolution but a revolution requiring a fundamental redesign of how engineering organizations deliver software — the question that naturally follows is: <em>what does the new process actually look like?</em></p>
+<p>The answer, as of April 2026, is that three distinct methodologies have emerged from the noise. None of them is finished. None of them has a definitive playbook. But all three are concrete enough to evaluate, and one of them is mature enough to bet on.</p>
+<p>Here they are.</p>
+<hr>
+<h2 id="1-spec-driven-development-sdd">1. Spec-Driven Development (SDD)</h2>
+<p><img src="/images/2026-04-15-aso-the-new-process/image1-sdd.png"
+style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>The most structurally radical of the three. Spec-Driven Development inverts the traditional SDLC by making the <strong>specification — not the code — the primary maintained artifact</strong>. Engineers write structured functional specs (using formats like EARS notation or OpenAPI contracts). AI agents then generate, regenerate, and validate code against those specs continuously. The code is explicitly <em>disposable</em> — never manually edited, always regenerable from an upstream spec.</p>
+<p>The five-layer pipeline proposed by Griffin and Carroll (InfoQ, January 2026) runs from Specification → Generation → Artifact → Validation → Runtime, with the key principle that drift between spec and runtime is detected and flagged automatically. AWS&rsquo;s Kiro IDE tool operationalizes this as: natural language → structured requirements → architecture doc → task list → agent-driven implementation. Tessl&rsquo;s version is the most provocative: the spec <em>replaces</em> the codebase as the thing your team actually maintains.</p>
+<p>The fundamental shift for engineering managers: <strong>your engineers stop being code authors and become contract authors.</strong> Architecture reviews become spec reviews. PRs become spec diffs.</p>
+<p><strong>Adoption status:</strong> Early and experimental. Kiro and GitHub&rsquo;s spec-kit have active early adopters. The Thoughtworks Technology Radar Vol. 34 (April 2026) rates it &ldquo;Assess&rdquo; — worth piloting, not yet ready for broad production use.</p>
+<p><strong>Watch out:</strong> Thoughtworks delivers the sharpest critique directly: <em>&ldquo;teams may be relearning a bitter lesson — that handcrafting detailed rules for AI ultimately doesn&rsquo;t scale.&rdquo;</em> Specs can become the new legacy: large, opaque, and owned by no one. The cognitive shift to contract-first reasoning is non-trivial, and proving that generated code is <em>correct</em> — not just specification-conformant — remains an open problem.</p>
+<p><em>Sources: Leigh Griffin and Ray Carroll, &ldquo;Spec Driven Development: When Architecture Becomes Executable,&rdquo; InfoQ, January 12, 2026; Thoughtworks Technology Radar Vol. 34, April 2026; Markus Eisele, O&rsquo;Reilly Radar, April 8, 2026</em></p>
+<hr>
+<h2 id="2-harness-engineering">2. Harness Engineering</h2>
+<p><img src="/images/2026-04-15-aso-the-new-process/image2-harness.png"
+style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>The most mature and most precisely specified of the three. Coined by Birgitta Böckeler at Thoughtworks (February 2026, published April 2026), Harness Engineering proposes that the central engineering discipline for AI-assisted teams is no longer writing code — it is <strong>designing the control system around the coding agent</strong>.</p>
+<p>The harness is everything around the model itself: feedforward controls (guides that steer the agent before it acts) and feedback controls (sensors that detect problems after the agent acts and trigger self-correction). These operate across two axes:</p>
+<ul>
+<li><strong>Timing:</strong> Feedforward (anticipatory) vs. Feedback (reactive)</li>
+<li><strong>Execution:</strong> Computational (deterministic: linters, type checkers, test runners — fast and cheap) vs. Inferential (semantic: AI-powered reviewers — slower, capable of detecting meaning-level problems)</li>
+</ul>
+<p>Three harness layers cover the full lifecycle: a <strong>Maintainability Harness</strong> (internal code quality), an <strong>Architecture Fitness Harness</strong> (structural conformance), and a <strong>Behaviour Harness</strong> (functional correctness). The timing model — keep quality left — maps directly to a delivery pipeline: fast computational sensors pre-commit, comprehensive AI reviews post-integration, SLO drift monitoring at runtime.</p>
+<p>The fundamental shift for engineering managers: <strong>quality assurance stops being a gate and becomes a continuously active control system.</strong> The senior engineer&rsquo;s job is to design, tune, and evaluate the harness — not to review 500-line diffs.</p>
+<p><strong>Adoption status:</strong> The most production-ready of the three. Thoughtworks rates &ldquo;Feedback Sensors for Coding Agents&rdquo; at Trial and &ldquo;Curated Shared Instructions for Software Teams&rdquo; at Adopt. Internal Thoughtworks client engagements have deployed this framework. It is the closest thing to a named, deployable methodology that currently exists.</p>
+<p><strong>Watch out:</strong> Böckeler names the gap directly: the Behaviour Harness — proving functional correctness — is largely unsolved. Computational sensors catch structural problems; neither computational nor inferential sensors reliably catch misdiagnosed requirements or over-engineered solutions. There is also a diagnostic paradox: if sensors never fire, is that evidence of quality or of inadequate detection? As harnesses grow, instruction coherence becomes a serious maintenance burden — what the Thoughtworks Radar separately labels &ldquo;Agent Instruction Bloat&rdquo; (Hold).</p>
+<p><em>Sources: Birgitta Böckeler, &ldquo;Harness Engineering for Coding Agent Users,&rdquo; martinfowler.com, April 2, 2026; Rahul Garg, &ldquo;Feedback Flywheel&rdquo; and &ldquo;Context Anchoring,&rdquo; martinfowler.com, March–April 2026; Thoughtworks Technology Radar Vol. 34, April 2026</em></p>
+<hr>
+<h2 id="3-agent-driven-development-add">3. Agent-Driven Development (ADD)</h2>
+<p><img src="/images/2026-04-15-aso-the-new-process/image3-add.png"
+style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+<p>The most widely practiced but least governed of the three. Agent-Driven Development designates AI coding agents as the <strong>primary contributors</strong> to software, with human engineers shifting roles from implementers to strategic planners, architects, and final reviewers.</p>
+<p>The canonical ADD workflow (Tyler McGoffin, GitHub Copilot Applied Science, March 2026):</p>
+<ol>
+<li><strong>Plan</strong> — conversational, verbose scoping with the agent in planning mode (human-led)</li>
+<li><strong>Implement</strong> — agent executes autonomously; human observes</li>
+<li><strong>Agent Review</strong> — a dedicated review agent inspects output against quality criteria</li>
+<li><strong>Human Oversight</strong> — final human review enforcing architectural patterns and business intent</li>
+<li><strong>Maintenance Loop</strong> — periodic automated reviews for duplication, coverage, and documentation gaps</li>
+</ol>
+<p>DHH at 37signals runs two models simultaneously (a fast model for iteration, a powerful model for complex reasoning) and applies the same quality bar as pre-AI work — the point is not to lower standards but to reach them faster. Amazon enforces a governance layer: junior engineers may not merge agent-generated code without senior sign-off.</p>
+<p>The fundamental shift for engineering managers: <strong>code authorship is no longer the bottleneck.</strong> Clean architecture, comprehensive tests, and thorough documentation become <em>prerequisites for agent effectiveness</em> rather than nice-to-haves that get cut under deadline pressure. This inverts traditional prioritization entirely.</p>
+<p><strong>Adoption status:</strong> Actively practiced at scale. 37signals, Amazon, Meta, Uber, Sentry, and Stripe (reportedly thousands of agent-generated PRs per week) are all cited in The Pragmatic Engineer&rsquo;s March and April 2026 coverage. Adoption is ahead of methodology — teams are doing it before any standard playbook exists.</p>
+<p><strong>Watch out:</strong> The Pragmatic Engineer&rsquo;s March 2026 investigation (&ldquo;Are AI Agents Actually Slowing Us Down?&rdquo;) provides the counter-evidence: more pull requests do not correlate with business impact. Amazon&rsquo;s 13-hour AWS outage was traced in part to AI-assisted changes. The core failure mode is what Thoughtworks labels &ldquo;Codebase Cognitive Debt&rdquo; (Hold): speed metrics look good while human understanding of the system quietly degrades. ADD assumes human review can scale with agent output. The evidence so far suggests it cannot — without structural changes, the review bottleneck becomes the new constraint.</p>
+<p><em>Sources: Tyler McGoffin, &ldquo;Agent-Driven Development in Copilot Applied Science,&rdquo; GitHub Blog, March 31, 2026; Gergely Orosz, &ldquo;Are AI Agents Actually Slowing Us Down?&rdquo; and &ldquo;DHH&rsquo;s New Way of Writing Code,&rdquo; The Pragmatic Engineer, March–April 2026; Thoughtworks Technology Radar Vol. 34, April 2026</em></p>
+<hr>
+<h2 id="side-by-side">Side by Side</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th><strong>SDD</strong></th>
+          <th><strong>Harness Engineering</strong></th>
+          <th><strong>ADD</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Human role</strong></td>
+          <td>Contract author</td>
+          <td>Control system designer</td>
+          <td>Planner + final reviewer</td>
+      </tr>
+      <tr>
+          <td><strong>Where judgment lives</strong></td>
+          <td>Spec-writing time</td>
+          <td>Harness-design time</td>
+          <td>Review time</td>
+      </tr>
+      <tr>
+          <td><strong>Code status</strong></td>
+          <td>Disposable artifact</td>
+          <td>Agent output under control</td>
+          <td>Primary deliverable</td>
+      </tr>
+      <tr>
+          <td><strong>Maturity</strong></td>
+          <td>Experimental</td>
+          <td>Production-ready (partial)</td>
+          <td>Widely practiced, ungoverned</td>
+      </tr>
+      <tr>
+          <td><strong>Main failure mode</strong></td>
+          <td>Spec becomes new legacy</td>
+          <td>Behaviour harness gap</td>
+          <td>Review bottleneck</td>
+      </tr>
+      <tr>
+          <td><strong>Best fit</strong></td>
+          <td>Greenfield, API-heavy systems</td>
+          <td>Teams with existing CI/CD discipline</td>
+          <td>Orgs already running agents at scale</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="the-pattern-underneath">The Pattern Underneath</h2>
+<p>All three methodologies are solving the same problem from different angles: <strong>agent output is outpacing human judgment.</strong></p>
+<p>SDD moves judgment left — to the specification. Harness Engineering moves judgment into the control plane — to sensor and guide design. ADD moves judgment to the right — to the review and oversight layer. The failure mode is identical across all three: the methodology breaks when the human judgment layer is underpowered relative to the volume of agent output passing through it.</p>
+<p>This is not a tool problem. It is an organizational design problem. The question for engineering managers in 2026 is not &ldquo;which AI tools should we adopt?&rdquo; It is: &ldquo;where in our delivery pipeline do we have enough judgment capacity to actually govern what the agents produce?&rdquo;</p>
+<h2 id="where-to-start">Where to Start</h2>
+<p>If your organization has strong CI/CD discipline and an existing investment in automated quality gates, <strong>Harness Engineering is the most actionable starting point</strong>. It builds on what you already have, introduces control incrementally, and has the most production evidence behind it. It is also the only one of the three with a named, published framework you can hand to a team lead on Monday morning.</p>
+<p>SDD is the most transformative long-term bet — but it requires a level of specification discipline most organizations do not yet have. ADD is already happening whether you planned it or not; the question is whether you govern it before the cognitive debt compounds.</p>
+<p>The race is still on. But now we have frameworks to run it with.</p>
+<hr>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2026/04/12/the-aseo-product-managers-to-the-rescue/">
+                                <h3 class="">The ASEO - Product Managers to the Rescue</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-04-12</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2026/04/11/managing-transitions-fear-uncertainty-and-doubt/">
+                                <h3 class="">Managing Transitions - Fear, Uncertainty and Doubt</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-04-11</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2026/04/10/the-aseo-state-of-the-union/">
+                                <h3 class="">The ASEO - State of the Union</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-04-10</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2026/02/07/the-ai-enabled-software-engineering-organization-aseo-the-next-frontier/">
+                                <h3 class="">The AI-enabled Software-Engineering Organization (ASEO) - The next frontier</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-02-07</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/10/24/the-augmented-software-engineer-what-is-it/">
+                                <h3 class="">The Augmented Software Engineer - What is it?</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-10-24</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -6,20 +6,41 @@
     <description>Recent content on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 15:16:34 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The ASO - State of the Union</title>
-      <link>http://tedn.life/2026/04/15/the-aso-state-of-the-union/</link>
+      <title>The ASEO - The New Process</title>
+      <link>http://tedn.life/2026/04/15/the-aseo-the-new-process/</link>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/2026/04/15/the-aso-state-of-the-union/</guid>
+      <guid>http://tedn.life/2026/04/15/the-aseo-the-new-process/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was generated through a conversation with &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. The research was AI-assisted. Here is the prompt that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Research the top 3 AI-enabled software-development processes that are currently (last 3 months) discussed and suggested. Identify the top 3 AI-enabled full SDLC methodologies (end-to-end delivery frameworks, not just tools or single-step patterns) that are being actively discussed, proposed, or adopted in the software engineering community. For each: core idea, key proponents, adoption status, a &amp;lsquo;watch out&amp;rsquo;, and sources.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The ASEO - Product Managers to the Rescue</title>
+      <link>http://tedn.life/2026/04/12/the-aseo-product-managers-to-the-rescue/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/04/12/the-aseo-product-managers-to-the-rescue/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was written with the help of &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. Here is the prompt that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Prompt:&lt;/em&gt; &amp;ldquo;Take a look at the last 5 blog posts in content/posts. Especially the ones about the ASO. Write another blog post. The title is: The ASO - Product Managers to the rescue. The main idea/premise here is that the role of the PM has already changed (in the last 24 months). Today the AI-enabled PM is much more self-sufficient and independent than he/she used to be. The existing tooling (lovable, vercel, figma, &amp;hellip; and the like) has already changed what PMs are doing and the way PMs work (one step closer to a feature fly-wheel). Please make sure the list of tools PMs use right now is complete and comprehensive (Top 10). The next step is to not only change how the PM is working, but to evolve the role itself. In that context we want to come up with a new name for a role that current PMs can play in the next better AI-enabled SDLC and write a job description for that role.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing Transitions - Fear, Uncertainty and Doubt</title>
+      <link>http://tedn.life/2026/04/11/managing-transitions-fear-uncertainty-and-doubt/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/04/11/managing-transitions-fear-uncertainty-and-doubt/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was written with the help of &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. Here is the prompt that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Prompt:&lt;/em&gt; &amp;ldquo;Write a new blog post: Managing Transitions - Fear, Uncertainty and Doubt. In the context of ASEO. Change leads to uncertainty, which leads to fear, which leads to resistance. People who resist the AI transformation either honestly believe it is bad and does not work, or they are afraid that the new jobs are jobs they either do not want to do or even worse cannot do. Change is uncomfortable. People who are comfortable feeling uncomfortable will thrive. AI-Adoption at an organisational level is not necessarily a technical problem, but more a communication challenge. You need to be able to articulate how the place you are going to looks like and why/how this is a good place for everybody involved. You know you have succeeded when the employees can see themselves in this new picture.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The ASEO - State of the Union</title>
+      <link>http://tedn.life/2026/04/10/the-aseo-state-of-the-union/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/04/10/the-aseo-state-of-the-union/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was generated through a conversation with &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. The research was AI-assisted. Here are the two prompts that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Prompt 1:&lt;/em&gt; &amp;ldquo;Let&amp;rsquo;s do some research. Who else is thinking and talking about the AI-assisted or AI-enabled Software Engineering Organisation of the future? Who are the thought-leaders? And what do they say? What are the top 10 thoughts, ideas, predictions? Make sure the research focuses on the last 3 months. It needs to be current.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Augmented Software Organization - Moving on</title>
-      <link>http://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</link>
+      <title>The AI-enabled Software-Engineering Organization (ASEO) - The next frontier</title>
+      <link>http://tedn.life/2026/02/07/the-ai-enabled-software-engineering-organization-aseo-the-next-frontier/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</guid>
+      <guid>http://tedn.life/2026/02/07/the-ai-enabled-software-engineering-organization-aseo-the-next-frontier/</guid>
       <description>&lt;p&gt;I am running &lt;a href=&#34;https://www.meetup.com/the-augmented-software-engineer&#34;&gt;The Augmented Software-Engineer&lt;/a&gt; (ASE) Meetup in Dublin. The other day we we had the first one for this year (Note: Fantastic event. Check it out &lt;a href=&#34;https://www.meetup.com/the-augmented-software-engineer/events/312875427&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;A year ago we had 50 members. Today we have ~750 members on the meetup-group. We are (all) learning a lot. Tools, Best Practices, Workflows, &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;And some of the presentation are obviously &amp;ldquo;success-stories&amp;rdquo;. Mainly how much time you can save with using AI. In the best case you can for instance generate a complete Proof-of-Concepts (POC) or Minimal-Viable-Products (MVP) from scratch in less than a week (maybe down from a month), which sends a message along the lines of: &lt;strong&gt;AI makes Software-Engineers 400% faster/more productive!&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>

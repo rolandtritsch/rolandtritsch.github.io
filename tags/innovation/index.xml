@@ -6,8 +6,22 @@
     <description>Recent content in Innovation on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 04:25:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tedn.life/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The ASEO - Product Managers to the Rescue</title>
+      <link>http://tedn.life/2026/04/12/the-aseo-product-managers-to-the-rescue/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/04/12/the-aseo-product-managers-to-the-rescue/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was written with the help of &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. Here is the prompt that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Prompt:&lt;/em&gt; &amp;ldquo;Take a look at the last 5 blog posts in content/posts. Especially the ones about the ASO. Write another blog post. The title is: The ASO - Product Managers to the rescue. The main idea/premise here is that the role of the PM has already changed (in the last 24 months). Today the AI-enabled PM is much more self-sufficient and independent than he/she used to be. The existing tooling (lovable, vercel, figma, &amp;hellip; and the like) has already changed what PMs are doing and the way PMs work (one step closer to a feature fly-wheel). Please make sure the list of tools PMs use right now is complete and comprehensive (Top 10). The next step is to not only change how the PM is working, but to evolve the role itself. In that context we want to come up with a new name for a role that current PMs can play in the next better AI-enabled SDLC and write a job description for that role.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing Transitions - Fear, Uncertainty and Doubt</title>
+      <link>http://tedn.life/2026/04/11/managing-transitions-fear-uncertainty-and-doubt/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/04/11/managing-transitions-fear-uncertainty-and-doubt/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; This blog post was written with the help of &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. Here is the prompt that drove it:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Prompt:&lt;/em&gt; &amp;ldquo;Write a new blog post: Managing Transitions - Fear, Uncertainty and Doubt. In the context of ASEO. Change leads to uncertainty, which leads to fear, which leads to resistance. People who resist the AI transformation either honestly believe it is bad and does not work, or they are afraid that the new jobs are jobs they either do not want to do or even worse cannot do. Change is uncomfortable. People who are comfortable feeling uncomfortable will thrive. AI-Adoption at an organisational level is not necessarily a technical problem, but more a communication challenge. You need to be able to articulate how the place you are going to looks like and why/how this is a good place for everybody involved. You know you have succeeded when the employees can see themselves in this new picture.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Augmented Software Engineer - What is it?</title>
       <link>http://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/</link>

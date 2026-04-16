@@ -1,0 +1,671 @@
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - Using AI for Software Development - State of the Union </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Thoughts, Tips &amp; Tricks, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>Using AI for Software Development - State of the Union</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-10-18</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <p>I am using AI for 2 years now. Let&rsquo;s talk about where I am right now.</p>
+<p>Let&rsquo;s talk about the tools I am using and how I use them. Let&rsquo;s talk about my setup, my configuration, best practices and workflows.</p>
+<ul>
+<li>Preamble</li>
+</ul>
+<p>I started with a view that the AI will mainly assist and augment the software-engineer of the future and that the engineer will be not only be in the loop, but will control and drive the loop. Like the driver of a car that has a lot of asisttance (lane change detection, blind spot detection, navigation, cruise control, impact warning, parallel parking, &hellip;) to make him/her a better driver.</p>
+<p>Today my view is that we will get to fully-automous driving much faster than I thought. Means the engineer gets into the car and describes the destination of the journey. The destination can either be an address (fix this bug) or a place you want to go to. Like &hellip;</p>
+<p>Go to a restaurant with an outdoor area, that serves beer and burgers (like Sandyford House in Dublin), where the burger is less than EUR 20 and that can be reached in less than 30 mins. They need to have a table for 4 available. On the way there, please take the most senic route. Please avoid traffic. Please avoid tolls. Please keep the temperature in the car at 20 degrees celcius. Please play contemporary classical piano music (like Ludovico Einaudi) and notify me when we are 5 mins from our destination. Ask me at least 3 clarifying questions about the destination and the journey (each). Then make a plan and show me the plan before you start driving.</p>
+<p>For the first 5 mins you probaly want to watch the car driving and want to correct it when it is doing something that you do not like. Then you get the laptop out and get work done while the car is driving you to your destination.</p>
+<p>A year ago I was mainly using windsurf. Today I am mainly using claude-code.</p>
+<p>Let&rsquo;s go &hellip;</p>
+<ul>
+<li>The future</li>
+</ul>
+<p>I think that tools and tooling will converge. Means sooner or later it will not matter, if you use claude-code, gemini-cli, codex-cli or something else. They will all roughly be able to do the same (like Intelij vs. VsCode). Same is true for models. Sooner or later all the models will be (more or less) equally good at developing software and writing code.</p>
+<p>What will make a difference is how you use the tools. Do you know, where you want to go? How good can you describe the destination?</p>
+<p>The software-engineer of the future (at least for the next 5 years), will be a product-engineer (a mix of a software-engineer and a product-manager).</p>
+<p>And the software-engineer of the future will be very articulated and will be able to express himself/herself clearly and succinctly.</p>
+<p>The software-engineer of the future will have a lot of business-domain know-how.</p>
+<p>Over the next couple of years it will become much more important to know where you want to go, then knowing how to get there.</p>
+<ul>
+<li>Tools</li>
+</ul>
+<p>I am using claude-code. I have not tried any of the claude-code alternatives. Means I do not know, if they are better of worse than claude-code.</p>
+<p>I am using claude-sonnet-4.5. I have not tried any other models and cannot comment on other models being better or worse than claude-sonnet-4.5.</p>
+<p>I am on the MAX plan (EUR 100/month).</p>
+<p>I have MCPservers configured to use gemini (for code analysis (because gemini has a 1M token context window)) and to access JIRA and GitHub. Very soon I will probably retire my usage of MCP servers and will use command line tools (gemini, git, gh, &hellip;) and skills instead.</p>
+<p>I run claude-code with <code>&quot;defaultMode&quot;: &quot;bypassPermissions&quot;</code> (YOLO-mode). They only command that I do not allow is <code>sudo</code>. To make this safe, I run claude-code in a sandbox docker-container that only mounts the source code that I need into the container. The source code is obviously managed by git and whatever claude-code is doing is recoverable. Note: For this to work you need to make sure that your git-user cannot delete repos. The sandbox also has a firewall configured that only allows access to certain domains. Means the container prevents access to random domains.</p>
+<p>To make this even more useable, I have wrapped the docker-container in a devcontainer and can now start this devcontainer in vscode.</p>
+<p>Right now my vscode has all the extensions configured that I want and need for TypeScript, Python and Scala. Then I have a lot of general purpose extensions for GitHub, Markdown and so on. Right now it is one big mess. Sooner or later I will probably refactor this into language specific or repo specific devcontainers.</p>
+<p>In vscode I also have GitHub Copilot configured. Mainly for hyper-intelligent code completion. For everything else I am using claude-code (e.g. I do not use the GitHub CoPilot chat).</p>
+<p>As a terminal I am using Warp in <code>auto(responsive)</code> mode (auto modes intelligently select the best model for the task at hand based on the context and request type).</p>
+<ul>
+<li>Workflows</li>
+</ul>
+<p>My workflows start with a JIRA ticket. I either write a ticket by hand or I ask claude-code to create one from the context we are in (e.g. fix something that needs fixing later).</p>
+<p>Once a week (or the latests when I pick up a ticket) I do a ticket review/hardening for all tickets. As part of that hardening, I make sure that the ticket is complete and correct and can be implemented in not more than 3 days. That polishing/hardening happens by means of a claude-code command that drives a conversation between the AI and myself, where I am asking the AI to ask me questions about the ticket to make the ticket better. For instance, every ticket should have a clear definition of done. While we are polishing and hardening the tickets, the tickets get updated and new/more tickets get created.</p>
+<p>To close/implement the ticket we might require multiple PRs on multiple repos. I have not mastered the art of directing the AI at the ticket and it tell it to just do it.</p>
+<p>Instead I am now going to the repo where the change needs to be implemented and I am firing up my vscode and start the devcontainer and start my claude-code. I then run a command that will create the branch and the PR for the given ticket.</p>
+<p>If this is the first time I am visiting this repo, I run the init command to create the CLAUDE.md file (and also link that file to WARP.md). Then I am running my own init command to create a good seperation of concern between the README, CLAUDE and CONTRIBUTING. If the files are there, but it has been a while that I have worked on the repo I use my init/refresh command and use gemini to review/refresh the three files to make sure they are current and complete.</p>
+<p>Every repo has a prompts folder. When I work on a ticket a folder with the ticket-number gets created. In that folder I am maintaining th elist of prompts I have used to implement the ticket. If it is a complex ticket I run the requirements command, which will break down the ticket into a requirements, design and implementation/tasks.</p>
+<p>I then ask the AI to execute the task list. I normally watch it for the first 5 mins to make sure it is doing the right thing. If not I hit ESC and course-correct. After I have convinced mysef that the AI is doing the right things, I am moving to do something different.</p>
+<p>After/When the AI is done I am asking github to use the GHCP reviewer bot and review the PR. Then I am using the pr-comments command to get all the comments and address them one-by-one. Some times claude-code will just explain why the comment can be ignored, but in some cases GHCP is raising a good point and claude-code will make changes to the code based on the feedback that was provided.</p>
+<p>After a couple of iterations I am ready to merge the PR and close the ticket.</p>
+<p>These days I am also investing a lot of time in good, mocked unit-tests. These tests needs to achive at least 80% code coverage.</p>
+<p>I am also running integration-tests that are not mocked. It is these integration tests that give me confidence that everything is working as it should be.</p>
+<p>Note: Orthogonal to this (once an hour) we are also running system-tests.</p>
+<ul>
+<li>The Software-Development Process</li>
+</ul>
+<p>I do not want to teach how cranny needs to suck eggs, but would nevertheless quickly talk about the software-development process.</p>
+<p>The process needs to bridge the gap between vage, high-level idea to a very detailed implementation.</p>
+<p>That gap cannot be bridged in one go. You need to break this down into phases and layers of artitacts (requirements, architecture, design, implementation). Every layer/phase will add more detail until there is enough detail to implemement an incarnation of the idea (on of many) in code. Between the idea and code, what needs to be implemented and how was/is a moving target and there was always drift and creep. Means the code and the (original) idea were/are different. In a world like this the code is the ultimate truth. If you ask: What is this system doing, you never look at the requirements or the design. You always look at the code.</p>
+<p>I believe that this will change. I think that code will become ephermal and that the system is defined by the set of prompts that created the system.</p>
+<p>But between now and then we still need to bridge the gap somehow.</p>
+<p>feature-brief, A&amp;D (in-the-large/-small; design of the system/service), implementation, &hellip;</p>
+<hr>
+<p>Configure Claude to use Gemini for sub-tasks (as a sub-agent)</p>
+<p>Use commands (a lot)
+Use clear/reset (a lot)
+Use memory (#) (a lot) (do not forget to SCC it/back it up)
+Invest in a good CLAUDE.md file</p>
+<p>2 Phase Approach</p>
+<ul>
+<li>Trust and Verify</li>
+<li>Build and Polish</li>
+<li>Fix and Review</li>
+</ul>
+<p>CC (claude-code) and VSC (vscode (with CC))</p>
+<ul>
+<li>not using windsurf (anymore)</li>
+<li>the death of the IDE VSC, zed, &hellip;)</li>
+</ul>
+<p>Human in the middle vs Human in the loop</p>
+<ul>
+<li>Picture/Graph</li>
+<li>Who is in control?</li>
+<li>The human as an agent?</li>
+</ul>
+<p>Need to make done (how good and right looks like) measurable!!!</p>
+<ul>
+<li>at least 80% code coverage</li>
+<li>no file has more than 150 lines</li>
+<li>no function, method is more than 50 lines</li>
+</ul>
+<p>Instructions &hellip;</p>
+<ul>
+<li>see previous, plus &hellip;</li>
+<li>the code must be readable by humans</li>
+<li>comments should not explain what the code does, but why the code is the way it is (why is it implemented this way and not any other way)</li>
+<li>write idiomatic code</li>
+<li>for every plan or todo-list ask me 3-5 questions to make the plan better</li>
+<li>do not generate a lot of code. Do not repeat yourself. Reuse and/or extend existing code and functions and artifacts (creating a new function vs. extending an existing one)</li>
+<li>follow the clean-code/-design manifesto</li>
+</ul>
+<p>Find a way for the AI to find code-smells and design-smells and code-/design-hygiene problems</p>
+<ul>
+<li>Make the AI (or another AI) look at the code and critic it</li>
+</ul>
+<p>News &hellip;</p>
+<ul>
+<li>chatGPT 5 (flop)</li>
+<li>sycophancy (flip)</li>
+<li>windsurf (flop)</li>
+<li>the death of the IDE (flip)</li>
+<li>the death of the keyboard (flip)</li>
+</ul>
+<p>AIs are good at software-development</p>
+<ul>
+<li>But not predictably good</li>
+<li>Do NOT trust them (yet)
+<ul>
+<li>Trust and verify</li>
+</ul>
+</li>
+<li>Much less good/helpful at infrastructure, dev-ops, &hellip;
+<ul>
+<li>Results look equally good, but lack quality (wrong more often)</li>
+</ul>
+</li>
+</ul>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/01/01/title-subtitle/">
+                                <h3 class="">Title - Subtitle</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-01-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/personal">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Personal</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/amqp">
+            <span class="layui-badge" style="vertical-align: 2px;">AMQP</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/android">
+            <span class="layui-badge" style="vertical-align: 2px;">Android</span>
+        </a>
+    
+        <a href="/tags/art">
+            <span class="layui-badge" style="vertical-align: 2px;">Art</span>
+        </a>
+    
+        <a href="/tags/blockchain">
+            <span class="layui-badge" style="vertical-align: 2px;">Blockchain</span>
+        </a>
+    
+        <a href="/tags/books">
+            <span class="layui-badge" style="vertical-align: 2px;">Books</span>
+        </a>
+    
+        <a href="/tags/cep">
+            <span class="layui-badge" style="vertical-align: 2px;">CEP</span>
+        </a>
+    
+        <a href="/tags/climate">
+            <span class="layui-badge" style="vertical-align: 2px;">Climate</span>
+        </a>
+    
+        <a href="/tags/cloud-computing">
+            <span class="layui-badge" style="vertical-align: 2px;">Cloud-Computing</span>
+        </a>
+    
+        <a href="/tags/conferences">
+            <span class="layui-badge" style="vertical-align: 2px;">Conferences</span>
+        </a>
+    
+        <a href="/tags/community">
+            <span class="layui-badge" style="vertical-align: 2px;">Community</span>
+        </a>
+    
+        <a href="/tags/culture">
+            <span class="layui-badge" style="vertical-align: 2px;">Culture</span>
+        </a>
+    
+        <a href="/tags/elixir">
+            <span class="layui-badge" style="vertical-align: 2px;">Elixir</span>
+        </a>
+    
+        <a href="/tags/emacs">
+            <span class="layui-badge" style="vertical-align: 2px;">Emacs</span>
+        </a>
+    
+        <a href="/tags/embedded">
+            <span class="layui-badge" style="vertical-align: 2px;">Embedded</span>
+        </a>
+    
+        <a href="/tags/environment">
+            <span class="layui-badge" style="vertical-align: 2px;">Environment</span>
+        </a>
+    
+        <a href="/tags/eta">
+            <span class="layui-badge" style="vertical-align: 2px;">Eta</span>
+        </a>
+    
+        <a href="/tags/event-sourcing">
+            <span class="layui-badge" style="vertical-align: 2px;">Event-Sourcing</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/german">
+            <span class="layui-badge" style="vertical-align: 2px;">German</span>
+        </a>
+    
+        <a href="/tags/haskell">
+            <span class="layui-badge" style="vertical-align: 2px;">Haskell</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/kotlin">
+            <span class="layui-badge" style="vertical-align: 2px;">Kotlin</span>
+        </a>
+    
+        <a href="/tags/lotm">
+            <span class="layui-badge" style="vertical-align: 2px;">LOTM</span>
+        </a>
+    
+        <a href="/tags/lisp">
+            <span class="layui-badge" style="vertical-align: 2px;">Lisp</span>
+        </a>
+    
+        <a href="/tags/mac">
+            <span class="layui-badge" style="vertical-align: 2px;">Mac</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/mass-customization">
+            <span class="layui-badge" style="vertical-align: 2px;">Mass-Customization</span>
+        </a>
+    
+        <a href="/tags/micro-services">
+            <span class="layui-badge" style="vertical-align: 2px;">Micro-Services</span>
+        </a>
+    
+        <a href="/tags/mobile">
+            <span class="layui-badge" style="vertical-align: 2px;">Mobile</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/osgi">
+            <span class="layui-badge" style="vertical-align: 2px;">OSGi</span>
+        </a>
+    
+        <a href="/tags/open-source">
+            <span class="layui-badge" style="vertical-align: 2px;">Open-Source</span>
+        </a>
+    
+        <a href="/tags/podcast">
+            <span class="layui-badge" style="vertical-align: 2px;">Podcast</span>
+        </a>
+    
+        <a href="/tags/politics">
+            <span class="layui-badge" style="vertical-align: 2px;">Politics</span>
+        </a>
+    
+        <a href="/tags/privacy">
+            <span class="layui-badge" style="vertical-align: 2px;">Privacy</span>
+        </a>
+    
+        <a href="/tags/rest">
+            <span class="layui-badge" style="vertical-align: 2px;">REST</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/soa">
+            <span class="layui-badge" style="vertical-align: 2px;">SOA</span>
+        </a>
+    
+        <a href="/tags/soap">
+            <span class="layui-badge" style="vertical-align: 2px;">SOAP</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/security">
+            <span class="layui-badge" style="vertical-align: 2px;">Security</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+        <a href="/tags/web-services">
+            <span class="layui-badge" style="vertical-align: 2px;">Web-Services</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/05/04/replacing-skype-tedn-is-using-the-force-again/">
+                                <h3 class="">Replacing Skype - TEDN is using the force (again)</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-05-04</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/open-source">
+            <span class="layui-badge" style="vertical-align: 2px;">Open-Source</span>
+        </a>
+    
+        <a href="/tags/remote">
+            <span class="layui-badge" style="vertical-align: 2px;">Remote</span>
+        </a>
+    
+        <a href="/tags/tedn">
+            <span class="layui-badge" style="vertical-align: 2px;">TEDN</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/">
+                                <h3 class="">About AOC, VSCode, Scala, Mill and NO_COLOR</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-12-22</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/11/20/software-estimations-everybody-needs-them.-nobody-likes-them/">
+                                <h3 class="">Software Estimations - Everybody needs them. Nobody likes them</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-11-20</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/10/24/the-augmented-software-engineer-what-is-it/">
+                                <h3 class="">The Augmented Software Engineer - What is it?</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-10-24</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/management">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Management</span>
+        </a>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/innovation">
+            <span class="layui-badge" style="vertical-align: 2px;">Innovation</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine-Learning</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2025-10-23 05:40:35 &#43;0100 IST </p>
+    </div>
+</footer>
+
+</body>
+</html>
