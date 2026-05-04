@@ -6,8 +6,15 @@
     <description>Recent content in Software-Craftmanship on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 07:19:10 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/categories/software-craftmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Factories Squared - Solving the MVF problem</title>
+      <link>http://tedn.life/2026/05/03/dark-factories-squared-solving-the-mvf-problem/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/2026/05/03/dark-factories-squared-solving-the-mvf-problem/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; So &amp;hellip; this one is &amp;hellip; 100% written by human/natural&#xA;intelligence. I only used AI for spell-checking and polishing and the images.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Startups are hard. For a lot of reasons. One is that you not only need to&#xA;fly/run the planes/features from A to B (with your customers on-board), you also&#xA;need to build new planes — and you also need to build/configure/set-up the&#xA;factory that builds/runs/operates the planes (the engineering org, processes,&#xA;build-platform, runtime-/deployment-platform, &amp;hellip;).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The ASEO - The New Process</title>
       <link>http://tedn.life/2026/04/15/the-aseo-the-new-process/</link>

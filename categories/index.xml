@@ -6,20 +6,20 @@
     <description>Recent content in Categories on tedn.life</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 07:19:10 +0100</lastBuildDate>
     <atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Software-Craftmanship</title>
-      <link>http://tedn.life/categories/software-craftmanship/</link>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/categories/software-craftmanship/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Management</title>
       <link>http://tedn.life/categories/management/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
       <guid>http://tedn.life/categories/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Craftmanship</title>
+      <link>http://tedn.life/categories/software-craftmanship/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://tedn.life/categories/software-craftmanship/</guid>
       <description></description>
     </item>
     <item>
