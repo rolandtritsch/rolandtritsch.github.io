@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Eta on tedn.life</title>
-    <link>http://tedn.life/tags/eta/</link>
-    <description>Recent content in Eta on tedn.life</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
-    <atom:link href="http://tedn.life/tags/eta/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Advent of Code ... Final cut (... and First cut :))</title>
-      <link>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</link>
-      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</guid>
-      <description>&lt;p&gt;Today &lt;a href=&#34;https://adventofcode.com&#34;&gt;Advent of Code 2018&lt;/a&gt; started &lt;a href=&#34;https://github.com/rolandtritsch/haskell-aoc-2018&#34;&gt;again&lt;/a&gt; (at 05:00am (GMT))!!!&lt;/p&gt;&#xA;&lt;p&gt;And &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; just in time &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; today I am also wrapping up &lt;a href=&#34;https://adventofcode.com/2017&#34;&gt;Advent of Code 2017&lt;/a&gt;!!!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://tedn.life/images/2018-11-30-aoc-final/tree.png&#34; alt=&#34;Tree&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My first implementation was (obviously) in &lt;a href=&#34;https://github.com/rolandtritsch/scala-aoc-2017&#34;&gt;Scala&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And that one alone was interesting, because I also used &lt;a href=&#34;https://www.scalacheck.org&#34;&gt;ScalaCheck&lt;/a&gt; for property-based testing and &lt;a href=&#34;https://scalameter.github.io&#34;&gt;ScalaMeter&lt;/a&gt; to implement performance tests for all solutions.&lt;/p&gt;&#xA;&lt;p&gt;I then made the Scala code &lt;a href=&#34;https://github.com/portable-scala/sbt-crossproject&#34;&gt;cross-compile&lt;/a&gt; with &lt;a href=&#34;http://www.scala-native.org/en/v0.3.8&#34;&gt;ScalaNative&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At the time I was also learning &lt;a href=&#34;https://kotlinlang.org&#34;&gt;Kotlin&lt;/a&gt; and spend some cycles to port the code to &lt;a href=&#34;https://github.com/rolandtritsch/kotlin-aoc-2018&#34;&gt;Kotlin&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Eta on tedn.life</title>
+		<link>http://tedn.life/tags/eta/</link>
+		<description>Recent content in Eta on tedn.life</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
+		
+			<atom:link href="http://tedn.life/tags/eta/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Advent of Code ... Final cut (... and First cut :))</title>
+				<link>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</link>
+				<pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
+				<guid>http://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut/</guid>
+				<description>&lt;p&gt;Today &lt;a href=&#34;https://adventofcode.com&#34;&gt;Advent of Code 2018&lt;/a&gt; started &lt;a href=&#34;https://github.com/rolandtritsch/haskell-aoc-2018&#34;&gt;again&lt;/a&gt; (at 05:00am (GMT))!!!&lt;/p&gt;&#xA;&lt;p&gt;And &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; just in time &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; today I am also wrapping up &lt;a href=&#34;https://adventofcode.com/2017&#34;&gt;Advent of Code 2017&lt;/a&gt;!!!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://tedn.life/images/2018-11-30-aoc-final/tree.png&#34; alt=&#34;Tree&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My first implementation was (obviously) in &lt;a href=&#34;https://github.com/rolandtritsch/scala-aoc-2017&#34;&gt;Scala&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And that one alone was interesting, because I also used &lt;a href=&#34;https://www.scalacheck.org&#34;&gt;ScalaCheck&lt;/a&gt; for property-based testing and &lt;a href=&#34;https://scalameter.github.io&#34;&gt;ScalaMeter&lt;/a&gt; to implement performance tests for all solutions.&lt;/p&gt;&#xA;&lt;p&gt;I then made the Scala code &lt;a href=&#34;https://github.com/portable-scala/sbt-crossproject&#34;&gt;cross-compile&lt;/a&gt; with &lt;a href=&#34;http://www.scala-native.org/en/v0.3.8&#34;&gt;ScalaNative&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At the time I was also learning &lt;a href=&#34;https://kotlinlang.org&#34;&gt;Kotlin&lt;/a&gt; and spend some cycles to port the code to &lt;a href=&#34;https://github.com/rolandtritsch/kotlin-aoc-2018&#34;&gt;Kotlin&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

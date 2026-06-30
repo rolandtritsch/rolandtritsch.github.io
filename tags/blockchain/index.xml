@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blockchain on tedn.life</title>
-    <link>http://tedn.life/tags/blockchain/</link>
-    <description>Recent content in Blockchain on tedn.life</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
-    <atom:link href="http://tedn.life/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Penny ... everything is better with ... blockchain :)</title>
-      <link>http://tedn.life/2016/10/17/penny-...-everything-is-better-with-...-blockchain/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>http://tedn.life/2016/10/17/penny-...-everything-is-better-with-...-blockchain/</guid>
-      <description>&lt;p&gt;In terms of technologies right now I am very much focused on Functional Programming and Machine Learning and Software Engineering for Mobile Devices and &amp;hellip; a couple of other things (Rust, Go, &amp;hellip;), but wanted to dedicate a blog post to a technology that will (IMHO) have a significant impact on our future: Blockchains (or more specfically the &lt;a href=&#34;https://www.ethereum.org/&#34;&gt;Ethereum&lt;/a&gt; project).&lt;/p&gt;&#xA;&lt;p&gt;Why are we talking about this &amp;hellip;&lt;/p&gt;&#xA;&lt;center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/H_lf8_pxg2Q&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&#xA;&lt;p&gt;&amp;hellip; because everything is better with blockchain :).&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Blockchain on tedn.life</title>
+		<link>http://tedn.life/tags/blockchain/</link>
+		<description>Recent content in Blockchain on tedn.life</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 16 Aug 2020 16:11:59 +0100</lastBuildDate>
+		
+			<atom:link href="http://tedn.life/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Penny ... everything is better with ... blockchain :)</title>
+				<link>http://tedn.life/2016/10/17/penny-...-everything-is-better-with-...-blockchain/</link>
+				<pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+				<guid>http://tedn.life/2016/10/17/penny-...-everything-is-better-with-...-blockchain/</guid>
+				<description>&lt;p&gt;In terms of technologies right now I am very much focused on Functional Programming and Machine Learning and Software Engineering for Mobile Devices and &amp;hellip; a couple of other things (Rust, Go, &amp;hellip;), but wanted to dedicate a blog post to a technology that will (IMHO) have a significant impact on our future: Blockchains (or more specfically the &lt;a href=&#34;https://www.ethereum.org/&#34;&gt;Ethereum&lt;/a&gt; project).&lt;/p&gt;&#xA;&lt;p&gt;Why are we talking about this &amp;hellip;&lt;/p&gt;&#xA;&lt;center&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/H_lf8_pxg2Q&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;&#xA;&lt;p&gt;&amp;hellip; because everything is better with blockchain :).&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
