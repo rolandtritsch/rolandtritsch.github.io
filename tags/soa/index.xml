@@ -29,9 +29,9 @@
 			</item>
 			<item>
 				<title>FUSEforge Lightsaber/Lightsabre - Research on Asynchronous Distributed OSGi (for Jedi&#39;s :))</title>
-				<link>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</link>
+				<link>http://tedn.life/2009/06/09/fuseforge-lightsaber-lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</link>
 				<pubDate>Tue, 09 Jun 2009 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</guid>
+				<guid>http://tedn.life/2009/06/09/fuseforge-lightsaber-lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</guid>
 				<description>The &lt;a href=&#34;http://cxf.apache.org/distributed-osgi.html&#34;&gt;Distributed OSGi spec (RFC 119)&lt;/a&gt; is coming along nicely, means now might be a good time to raise the head and start to think about what might come next. A couple of month ago &lt;a href=&#34;http://coderthoughts.blogspot.com/&#34;&gt;David&lt;/a&gt;, &lt;a href=&#34;http://romanroe.blogspot.com&#34;&gt;Roman&lt;/a&gt; and &lt;a href=&#34;http://www.tritsch.org/&#34;&gt;myself&lt;/a&gt; got together and concluded to set up a research project on the alternatives available to potentially extend the Distributed OSGi spec with some asynchronous messaging concepts/capabilities.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The research is still ongoing, but the intermediate results (including a first demo!!!) are now available on &lt;a href=&#34;http://fusesource.com/forge/&#34;&gt;FUSEforge&lt;/a&gt; (Project &lt;a href=&#34;http://fusesource.com/forge/projects/LIGHTSABRE&#34;&gt;Lightsabre&lt;/a&gt;). &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The demo will also be presented at &lt;a href=&#34;http://www.osgi.org/DevConEurope2009/HomePage&#34;&gt;OSGi DevCon Europe&lt;/a&gt;. Maybe (another) reason to attend. Enjoy and stay tuned.&lt;/div&gt;</description>
 			</item>
 			<item>

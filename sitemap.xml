@@ -2,38 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tedn.life/categories/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
+    <loc>http://tedn.life/tags/advent-of-code/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2026/07/14/dolomiten-treffen-best-ride-ever/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
+    <loc>http://tedn.life/2026/10/17/aoc-2025-dark-factories-for-the-win/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/functional-programming/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/nerdy/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/categories/personal/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/posts/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/scala/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/software-craftmanship/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/</loc>
-    <lastmod>2026-07-15T08:08:15+01:00</lastmod>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/tags/thoughts/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/2026/07/14/dolomiten-treffen-best-ride-ever/</loc>
+    <lastmod>2026-07-15T09:22:35+01:00</lastmod>
+  </url><url>
+    <loc>http://tedn.life/categories/personal/</loc>
+    <lastmod>2026-07-15T09:22:35+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2026/06/30/fixing-wifionice-on-ubuntu/</loc>
     <lastmod>2026-06-30T07:45:21+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/categories/software-craftmanship/</loc>
-    <lastmod>2026-06-30T07:45:21+01:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/tags/tips--tricks/</loc>
     <lastmod>2026-06-30T07:45:21+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/augmented-by-ai/</loc>
-    <lastmod>2026-05-04T07:32:25+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2026/05/03/dark-factories-squared-solving-the-mvf-problem/</loc>
     <lastmod>2026-05-04T07:32:25+01:00</lastmod>
@@ -42,9 +57,6 @@
     <lastmod>2026-05-04T07:32:25+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/categories/management/</loc>
-    <lastmod>2026-05-04T07:32:25+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/thoughts/</loc>
     <lastmod>2026-05-04T07:32:25+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2026/04/15/the-aseo-the-new-process/</loc>
@@ -83,15 +95,6 @@
     <loc>http://tedn.life/2025/04/23/track-pad-behaving-erratic-tedn-problem-from-hell/</loc>
     <lastmod>2025-04-23T12:02:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/tags/advent-of-code/</loc>
-    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/functional-programming/</loc>
-    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
-  </url><url>
-    <loc>http://tedn.life/tags/scala/</loc>
-    <lastmod>2025-04-09T13:35:42+01:00</lastmod>
-  </url><url>
     <loc>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</loc>
     <lastmod>2025-04-09T13:35:42+01:00</lastmod>
   </url><url>
@@ -101,7 +104,7 @@
     <loc>http://tedn.life/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/</loc>
     <lastmod>2024-12-22T07:15:33+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</loc>
+    <loc>http://tedn.life/2024/11/19/huffman-trees-codes-why-are-they-different/</loc>
     <lastmod>2024-11-21T12:10:40+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/machine-learning/</loc>
@@ -164,7 +167,7 @@
     <loc>http://tedn.life/tags/community/</loc>
     <lastmod>2022-10-18T08:00:12+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</loc>
+    <loc>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2-2022/</loc>
     <lastmod>2022-10-18T08:00:12+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/lisp/</loc>
@@ -221,7 +224,7 @@
     <loc>http://tedn.life/2021/02/21/scala-3-is-...-gluten-free/</loc>
     <lastmod>2021-02-21T11:27:39+00:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</loc>
+    <loc>http://tedn.life/2021/02/12/the-first-summit-hack-a-thon-@-community/</loc>
     <lastmod>2021-02-18T10:16:53+00:00</lastmod>
   </url><url>
     <loc>http://tedn.life/tags/haskell/</loc>
@@ -479,7 +482,7 @@
     <loc>http://tedn.life/tags/osgi/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a/the-apache-mahout-tutorial/</loc>
+    <loc>http://tedn.life/2011/12/11/machine-learning-at-gilt-maven-izing-a-the-apache-mahout-tutorial/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2011/11/24/dublin-innovation-festival-talking-about-innovation-gilt-and-ireland-...-and-evolution-and-darwinism/</loc>
@@ -497,7 +500,7 @@
     <loc>http://tedn.life/2011/04/19/adventure-2.0-building-the-gilt-software-development-center-in-dublin/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2010/12/19/maven-flex/air-and-android-trinity-or-bermuda-triangle/</loc>
+    <loc>http://tedn.life/2010/12/19/maven-flex-air-and-android-trinity-or-bermuda-triangle/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2010/11/24/aquaemacs-and-jdee-and-method-completion-cannot-find-jdks-tools-jar-file-or-equivalent/</loc>
@@ -566,7 +569,7 @@
     <loc>http://tedn.life/2009/06/18/tedx-dublin-reviewing-a-very-nice-friday-evening/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2009/06/09/fuseforge-lightsaber/lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</loc>
+    <loc>http://tedn.life/2009/06/09/fuseforge-lightsaber-lightsabre-research-on-asynchronous-distributed-osgi-for-jedis/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2009/06/07/skills-innovation-and-the-future-of-ireland-bermuda-triangle-or-trinity/</loc>
@@ -599,7 +602,7 @@
     <loc>http://tedn.life/2009/01/04/conference-update-apache-con-java-days-and-accu/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</loc>
+    <loc>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and-or-iworks08/</loc>
     <lastmod>2020-04-10T11:18:58+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2008/12/28/link-of-the-month-twitterfeed/</loc>
@@ -707,7 +710,7 @@
     <loc>http://tedn.life/2008/05/21/mobile-monday-in-belfast-webservices-to-foster-innovation/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
-    <loc>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone/chumby-integration/</loc>
+    <loc>http://tedn.life/2008/05/21/the-sensoric-revolution-iphone-chumby-integration/</loc>
     <lastmod>2020-08-16T16:11:59+01:00</lastmod>
   </url><url>
     <loc>http://tedn.life/2008/05/20/complexity-explained-simple-ciaran-mchale-talks-about-security/</loc>

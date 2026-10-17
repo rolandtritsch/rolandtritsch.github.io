@@ -10,21 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Wed, 15 Jul 2026 08:08:15 +0100</lastBuildDate>
+			<lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Software-Craftmanship</title>
+				<link>http://tedn.life/categories/software-craftmanship/</link>
+				<pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://tedn.life/categories/software-craftmanship/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Personal</title>
 				<link>http://tedn.life/categories/personal/</link>
 				<pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/categories/personal/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Software-Craftmanship</title>
-				<link>http://tedn.life/categories/software-craftmanship/</link>
-				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/categories/software-craftmanship/</guid>
 				<description></description>
 			</item>
 			<item>

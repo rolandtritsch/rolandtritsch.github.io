@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 09 Apr 2025 13:35:42 +0100</lastBuildDate>
+			<lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/tags/advent-of-code/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AOC 2025 - Dark Factories for the win</title>
+				<link>http://tedn.life/2026/10/17/aoc-2025-dark-factories-for-the-win/</link>
+				<pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://tedn.life/2026/10/17/aoc-2025-dark-factories-for-the-win/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; AI helped turn my Scala meetup presentation, experiment&#xA;reports, and notes into this post. The experiment and the argument are mine.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;A funny thing happened while preparing my &lt;a href=&#34;https://github.com/rolandtritsch/reveal-scala3-meetup&#34;&gt;Scala meetup presentation&lt;/a&gt;.&#xA;I set out to challenge a familiar claim: AI is good at Python because there is&#xA;so much Python out there, but surely it struggles with a niche language like&#xA;Scala.&lt;/p&gt;&#xA;&lt;p&gt;First &amp;hellip; a little disclosure &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;I am quite far along the &amp;ldquo;let the AI cook&amp;rdquo; end of this spectrum. The red circle&#xA;is me.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>The AOC 2024 Retro - Finally!!!</title>
 				<link>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</link>

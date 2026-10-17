@@ -15,9 +15,9 @@
 			<atom:link href="http://tedn.life/tags/community/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
-				<link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
+				<link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2-2022/</link>
 				<pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
+				<guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2-2022/</guid>
 				<description>&lt;p&gt;We (at Community) just had another &lt;a href=&#34;https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/&#34;&gt;Innovation-Week&lt;/a&gt;. I was actually working on generating &lt;a href=&#34;https://pactflow.io&#34;&gt;pact-files&lt;/a&gt; from frontend code and then generating &lt;a href=&#34;https://github.com/open-api-spex/open_api_spex&#34;&gt;openapi spec files from elxir backend code&lt;/a&gt; and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&lt;/p&gt;&#xA;&lt;p&gt;But this is not what this blog post is all about :).&lt;/p&gt;&#xA;&lt;p&gt;While working on this &lt;a href=&#34;https://www.linkedin.com/in/geoff-smith-46739188&#34;&gt;Geoff&lt;/a&gt; and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.&lt;/p&gt;</description>
 			</item>
 			<item>
@@ -29,9 +29,9 @@
 			</item>
 			<item>
 				<title>The first Summit/Hack-a-thon @ Community</title>
-				<link>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</link>
+				<link>http://tedn.life/2021/02/12/the-first-summit-hack-a-thon-@-community/</link>
 				<pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/2021/02/12/the-first-summit/hack-a-thon-@-community/</guid>
+				<guid>http://tedn.life/2021/02/12/the-first-summit-hack-a-thon-@-community/</guid>
 				<description>&lt;p&gt;As people know &amp;hellip; I am big fan of building and maintain this&#xA;balance between Product and Engineering where &amp;hellip;&lt;/p&gt;&#xA;&lt;p style=&#34;text-align:center; font-weight:bold; border:2px solid;&#xA;border-radius: 10px; padding:10px; margin-left:80px; margin-right:80px;&#xA;background-color:gainsboro&#34;&gt;&#xA;Product makes sure we build the right thing &lt;br&gt;&#xA;and &lt;br&gt;&#xA;Engineering makes sure we built it right &lt;br&gt;&lt;br&gt;&#xA;(and we help each other to do so :))&#xA;&lt;/p&gt;&#xA;&lt;p&gt;But that is only the start. The real magic happens when we get to a&#xA;point where we are not &lt;a href=&#34;https://tedn.life/2017/06/12/productive-friction-and-diversity-...-the-pillars-of-innovation-...-or-how-to-not-build-faster-horses/&#34;&gt;building faster horses&lt;/a&gt;. If the&#xA;conversation goes &lt;strong&gt;wrong&lt;/strong&gt; it goes like this &amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>

@@ -1,0 +1,529 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>tedn.life - AOC 2025 - Dark Factories for the win </title>
+
+    
+    
+    <meta content="Augmented-by-AI, Advent-of-Code, Functional-Programming, Nerdy, Scala, Thoughts, Software-Craftmanship" name="keywords">
+    
+    <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="/mathjax-3.0.0/tex-mml-chtml.js">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+
+    <a class="nav-self-logo" href="/">
+        tedn.life
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/social/">Social</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/categories/">Categories</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/tags/">Tags</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                    
+                        <dd><a href="/about/">About</a></dd>
+                    
+                        <dd><a href="/social/">Social</a></dd>
+                    
+                        <dd><a href="/categories/">Categories</a></dd>
+                    
+                        <dd><a href="/tags/">Tags</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote  markdown-body single-title" >
+                    <h1>AOC 2025 - Dark Factories for the win</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2026-10-17</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/thoughts">
+            <span class="layui-badge" style="vertical-align: 2px;">Thoughts</span>
+        </a>
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <blockquote>
+<p><strong>AI Disclosure:</strong> AI helped turn my Scala meetup presentation, experiment
+reports, and notes into this post. The experiment and the argument are mine.</p>
+</blockquote>
+<p>A funny thing happened while preparing my <a href="https://github.com/rolandtritsch/reveal-scala3-meetup">Scala meetup presentation</a>.
+I set out to challenge a familiar claim: AI is good at Python because there is
+so much Python out there, but surely it struggles with a niche language like
+Scala.</p>
+<p>First &hellip; a little disclosure &hellip;</p>
+<p>I am quite far along the &ldquo;let the AI cook&rdquo; end of this spectrum. The red circle
+is me.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/z-l-continuum_roland.png" alt="The Z/L continuum, with my position marked near the autonomous end"></p>
+<p><em>Image: Adapted from <a href="https://sub.thursdai.news/p/the-lopopolo-zechner-spectrum">the Lopopolo–Zechner spectrum</a>.</em></p>
+<p>So I built a dark factory. Actually &hellip; two. One for <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-scala">Scala</a> and
+one for <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python">Python</a>. Then I gave them the same <a href="https://adventofcode.com/2025">Advent of Code
+2025</a> problems.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-tree.png" alt="The Advent of Code 2025 tree and completed calendar"></p>
+<p>Advent of Code supplies programming puzzles with concrete inputs and checkable
+answers. This comparison covers <strong>Days 1–9: two parts per day, or 18 parts per
+language</strong>. The picture shows the full 2025 calendar; the measurements below
+cover those first nine days.</p>
+<p>The language comparison was interesting. But the economics were what got my
+attention: <strong>101–109 minutes of solver work for 18 parts</strong>, with <strong>verified
+solver token spending of less than $10 per language</strong> for this workload.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/tokens-cost.png" alt="Token spending for the Scala and Python factories, split by model"></p>
+<p>The first block is Scala; the later blocks are Python. Blue is DeepSeek V4 Pro,
+doing the solving. Green is DeepSeek V4 Flash, doing the supporting work such as
+gathering, submitting, and reviewing. The <strong>under-$10 figure covers the Pro
+solver in each language</strong>; the green portion is additional spending by the
+Flash agents.</p>
+<p>Now assume a senior engineer needs an hour to solve and test each part:
+<strong>18 hours, or two nine-hour days</strong>. At an assumed fully loaded cost of
+<strong>$800 a day</strong>, that is <strong>$1,600</strong>, compared with less than $10 in solver
+tokens. Under those assumptions, the solver does the implementation work
+roughly ten times faster, with a much smaller marginal token bill.</p>
+<p>This compares solver time and token spending with assumed human labor. Factory
+setup, infrastructure, supervision, and the supporting agents&rsquo; work are outside
+the comparison. It is not an all-in cost or end-to-end delivery benchmark.</p>
+<p>Think of each puzzle as a very well-defined bug-fix ticket with a clear test
+case to verify the result. That is the opportunity! <strong>A dark factory can free up
+a significant amount of time and money to build more product and features!</strong></p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/robot.webp" alt="The robot from the Scala meetup presentation"></p>
+<p>This is semi-scientific. Feel free to disagree with the assumptions and the
+interpretation. But there is code, there are tests, and there are measurements.</p>
+<p>The resulting code lives in <a href="https://github.com/rolandtritsch/scala3-aoc-2025">scala3-aoc-2025</a> and
+<a href="https://github.com/rolandtritsch/python-aoc-2025">python-aoc-2025</a>.</p>
+<p>The underlying <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-scala/blob/trunk/reports/2026-10-11-part-performance.md">Scala timing report</a>, <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python/blob/trunk/reports/2026-10-15-part-performance-days01-09.csv">Python per-part
+measurements</a>, and <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python/blob/trunk/reports/2026-10-15-code-quality-days01-09.md">quality assessment</a> document
+the snapshots behind the charts. Both the reports and the company packages
+are publicly available.</p>
+<p>Here is the picture that explains the setup best.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/ai-systems-evolution.jpeg" alt="From model calls to governed agentic systems"></p>
+<p><em>Image: Diagram by Brij Kishore Pandey, as credited in the image.</em></p>
+<p>My shorthand for it: <strong>Buy the blue, build the red</strong>.</p>
+<p>The blue boxes show the general machinery: model calls, tool loops, frameworks,
+long-running execution, and a control plane. <a href="https://paperclip.ing">Paperclip</a> is the foundation I
+used to organize that machinery into a company: agents with roles, assigned
+tasks, scheduled wake-ups, handoffs, and a visible history of the work. It
+coordinates coding agents; those agents still need a runtime and tools.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-dashboard.png" alt="The AoC Solver 2025 company dashboard in Paperclip"></p>
+<p><em>Image: Paperclip AOC Solver 2025 Dashboard.</em></p>
+<p>The red box is the harness: the instructions, context, skills, scripts, and
+stopping rules that make this particular factory useful. Paperclip cannot
+guess what &ldquo;done&rdquo; means for my Scala repository. I have to encode that.</p>
+<p>The company packages live in <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-scala">pcc-aoc-solver-2025-scala</a> and
+<a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python">pcc-aoc-solver-2025-python</a>. They contain the agent definitions
+and operating skills; the solution repositories contain the code and reusable
+project helpers.</p>
+<p>For Scala, the harness knows about sbt, formatting, tests, and publishing a
+verified solution. For Python, it knows about Ruff, pytest, coverage, and the
+equivalent publication checks. Before a handoff, the solver has to commit,
+push, and verify that the intended code really is on the remote branch.</p>
+<p>That is engineering work. It is also work I can reuse for the next puzzle.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-agents.png" alt="The seven agents and their responsibilities"></p>
+<p><em>Image: Paperclip AOC Solver 2025 Agent Org Chart.</em></p>
+<p>The CTO coordinates the work. The Problem Gatherer gets the problem and input.
+The Problem Solver implements and tests the solution. The Problem Submitter
+checks the published handoff and obtains the site&rsquo;s verdict. The Solution
+Reviewer reviews the evidence and captures reusable improvements.</p>
+<p>The WatchDog observes health and progress. The Model Tester handles separate
+model and routing probes.</p>
+<p>The intended workflow is:</p>
+<p><strong>CTO → gather → solve → submit → review → wait.</strong></p>
+<p>One CTO wake-up authorizes one part. The next part waits for a later wake-up
+and a completed review. A rejected answer goes through review before a repair
+is authorized. Some early runs exposed gaps in these rules; the harness gained
+explicit gates as a result.</p>
+<p>The solver uses DeepSeek V4 Pro; the six supporting roles use DeepSeek V4
+Flash, all through OpenRouter. The Python company inherited the Scala
+company&rsquo;s model choices.</p>
+<p>There are loops inside loops here. The solver develops and tests until it has
+a result. The workflow handles a rejected result and repair. The outer loop
+advances through the puzzle parts.</p>
+<p>Means: I am spending my engineering effort on the factory&rsquo;s behavior and its
+definition of done. The agents do the repeated implementation work.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-solver-minutes-days01-09-scala-vs-python.png" alt="Solver elapsed time per part for Scala and Python"></p>
+<p>The median solver time was <strong>5 minutes 21 seconds for Scala</strong> and <strong>5 minutes
+3 seconds for Python</strong>. Python was faster on ten parts; Scala on eight.</p>
+<p>Adding the measured runs gives <strong>109 minutes for Scala and 101 minutes for
+Python</strong>. That is less than two hours of solver work for each language.</p>
+<p>These clocks include reading, implementation, compilation, tests, Git, and
+handoff administration. Scala&rsquo;s numbers even include some sbt and SemanticDB
+recovery work. This is more than the time it took the model to type an answer.</p>
+<p>The charts use the selected successful solver run for each part, excluding
+superseded attempts. They also exclude gathering, submission, review, queues,
+and waiting between parts. An overnight service interruption alone made one
+Scala part&rsquo;s end-to-end clock exceed ten hours.</p>
+<p>That distinction matters. So does the amount of useful implementation work
+the solver got through in those minutes.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-tokens-fresh-output-days01-09-scala-vs-python.png" alt="Fresh input plus output tokens per solver run"></p>
+<p>Across the 18 parts, fresh input plus output totaled about <strong>2.49 million
+tokens for Scala and 2.34 million for Python</strong>. The two large spikes have
+specific explanations in the reports: Python&rsquo;s Day03 part2 generated a lot
+of verification context; Scala&rsquo;s Day09 part2 combined geometry work and
+extensive checks with an overlapping solver session.</p>
+<p>Those are things to investigate in the harness and workflow. A tall bar does
+not automatically mean that the programming language is intrinsically harder
+for the model.</p>
+<p>The chart excludes cached input, which adds another 37.7 million recorded
+tokens for Scala and 18.2 million for Python. Fresh input, cached input, and
+output have different prices, so the chart alone cannot tell us the bill.</p>
+<p>The spending chart near the top shows the dollar costs. I verified <strong>less than
+$10 in solver tokens per language</strong> for this workload, excluding the supporting
+agents. The checked-in reports document token usage; the dollar figure comes
+from my spending verification.</p>
+<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-quality-days01-09.png" alt="Code quality scores across five dimensions"></p>
+<p>Both languages produced working solutions for all 18 parts. The quality
+assessment went further: correctness robustness, readability, idiomatic use,
+test depth, and simplicity/efficiency, each weighted equally.</p>
+<p>Python averaged <strong>4.67 out of 5</strong>. Scala averaged <strong>4.04</strong>. Python was ahead on
+16 parts, with two ties. Its advantages included algorithm choices and deeper
+tests. I cannot honestly turn that chart into a claim that the code was equally
+good.</p>
+<p>These were single-pass ratings by Muse Spark, supported by source inspection
+and automated evidence. They are useful feedback, with the limitations of a
+single AI judge. There was no human-versus-factory quality assessment.</p>
+<p>There were other limitations, too. The Scala solver read an old solution for
+Day01 part1, and the runs were not repeated blind trials. I would isolate
+history and repeat the experiment before making stronger benchmark claims.</p>
+<p>For me, the useful result is that both factories produced working, tested code,
+and the review identified concrete ways to improve it. The next version of the
+harness can use that feedback.</p>
+<p>I started with Scala versus Python. I came away thinking about the cost of
+turning a well-defined problem into tested, working code.</p>
+<p>Under the assumptions above, the factory was faster and dramatically cheaper
+at that implementation work than allocating a senior engineer to do it by
+hand. That is a concrete reason to build and improve these systems.</p>
+<p>The engineer still has a job: choose the problems, specify the result, build
+the checks, investigate failures, and improve the factory. The quality gap and
+the operational problems give us plenty to work on.</p>
+<p>Next step: give the factory another useful job.</p>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2025/04/09/the-aoc-2024-retro-finally/">
+                                <h3 class="">The AOC 2024 Retro - Finally!!!</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2025-04-09</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/12/22/about-aoc-vscode-scala-mill-and-no_color/">
+                                <h3 class="">About AOC, VSCode, Scala, Mill and NO_COLOR</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-12-22</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+        <a href="/tags/tips-tricks">
+            <span class="layui-badge" style="vertical-align: 2px;">Tips &amp; Tricks</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2024/11/19/huffman-trees-codes-why-are-they-different/">
+                                <h3 class="">Huffman Trees/Codes - Why are they different?</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2024-11-19</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/augmented-by-ai">
+            <span class="layui-badge" style="vertical-align: 2px;">Augmented-by-AI</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/05/15/some-more-fun-with-scala3/">
+                                <h3 class="">Some more fun with Scala3</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-05-15</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote " style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/2021/05/01/more-fun-with-scala3/">
+                                <h3 class="">More fun with Scala3</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px">
+    <i class="layui-icon layui-icon-date" style="font-size: 24px; vertical-align: -2px;"></i>
+    <span>2021-05-01</span>
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
+    
+        <a href="/categories/software-craftmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        </a>
+    
+    
+        <a href="/tags/advent-of-code">
+            <span class="layui-badge" style="vertical-align: 2px;">Advent-of-Code</span>
+        </a>
+    
+        <a href="/tags/functional-programming">
+            <span class="layui-badge" style="vertical-align: 2px;">Functional-Programming</span>
+        </a>
+    
+        <a href="/tags/nerdy">
+            <span class="layui-badge" style="vertical-align: 2px;">Nerdy</span>
+        </a>
+    
+        <a href="/tags/scala">
+            <span class="layui-badge" style="vertical-align: 2px;">Scala</span>
+        </a>
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+
+    <div class="layui-container">
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on </p>
+    </div>
+</footer>
+
+</body>
+</html>

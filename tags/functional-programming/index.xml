@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 09 Apr 2025 13:35:42 +0100</lastBuildDate>
+			<lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AOC 2025 - Dark Factories for the win</title>
+				<link>http://tedn.life/2026/10/17/aoc-2025-dark-factories-for-the-win/</link>
+				<pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://tedn.life/2026/10/17/aoc-2025-dark-factories-for-the-win/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;AI Disclosure:&lt;/strong&gt; AI helped turn my Scala meetup presentation, experiment&#xA;reports, and notes into this post. The experiment and the argument are mine.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;A funny thing happened while preparing my &lt;a href=&#34;https://github.com/rolandtritsch/reveal-scala3-meetup&#34;&gt;Scala meetup presentation&lt;/a&gt;.&#xA;I set out to challenge a familiar claim: AI is good at Python because there is&#xA;so much Python out there, but surely it struggles with a niche language like&#xA;Scala.&lt;/p&gt;&#xA;&lt;p&gt;First &amp;hellip; a little disclosure &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;I am quite far along the &amp;ldquo;let the AI cook&amp;rdquo; end of this spectrum. The red circle&#xA;is me.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>The AOC 2024 Retro - Finally!!!</title>
 				<link>http://tedn.life/2025/04/09/the-aoc-2024-retro-finally/</link>
@@ -22,9 +29,9 @@
 			</item>
 			<item>
 				<title>Huffman Trees/Codes - Why are they different?</title>
-				<link>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</link>
+				<link>http://tedn.life/2024/11/19/huffman-trees-codes-why-are-they-different/</link>
 				<pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/2024/11/19/huffman-trees/codes-why-are-they-different/</guid>
+				<guid>http://tedn.life/2024/11/19/huffman-trees-codes-why-are-they-different/</guid>
 				<description>&lt;p&gt;Right now I am solving the &lt;a href=&#34;https://aperiodic.net/pip/scala/s-99&#34;&gt;99-scala-problems&lt;/a&gt;. Again!!!&lt;/p&gt;&#xA;&lt;p&gt;This time around I am using them to learn more about what it means to&#xA;be an Augmented Software Engineer (&lt;a href=&#34;https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it&#34;&gt;ASE&lt;/a&gt;). Just subscribe to the&#xA;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_&#34;&gt;podcast&lt;/a&gt; to follow along.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aperiodic.net/pip/scala/s-99/#p50&#34;&gt;P50&lt;/a&gt; is to build a &lt;a href=&#34;https://en.wikipedia.org/wiki/Huffman_coding&#34;&gt;Huffman tree&lt;/a&gt; and to return the set of&#xA;Huffman codes for the given string.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://media.geeksforgeeks.org/wp-content/uploads/20220906180456/6.png&#34; &#xA;style=&#34;display:block;margin:auto&#34; width=&#34;80%&#34; hspace=&#34;5%&#34; vspace=&#34;1%&#34;/&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://codeium.com&#34;&gt;codeium&lt;/a&gt; found a good implementation, but struggled to find tests&#xA;that worked.&lt;/p&gt;&#xA;&lt;p&gt;I then tried various websites ([&lt;a href=&#34;https://planetcalc.com/2481&#34;&gt;1&lt;/a&gt;], [&lt;a href=&#34;https://www.csfieldguide.org.nz/en/interactives/huffman-tree&#34;&gt;2&lt;/a&gt;], [&lt;a href=&#34;https://suhaan-bhandary.github.io/Huffman-Coding&#34;&gt;3&lt;/a&gt;],&#xA;[&lt;a href=&#34;https://huffman.ooz.ie&#34;&gt;4&lt;/a&gt;]) to test various strings and noticed that the trees and&#xA;the resulting set of codes are different between the implementations.&#xA;Even more interesting for the same implementation the set is different&#xA;when you reverse the string.&lt;/p&gt;</description>
 			</item>
 			<item>

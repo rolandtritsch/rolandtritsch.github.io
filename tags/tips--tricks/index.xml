@@ -78,9 +78,9 @@
 			</item>
 			<item>
 				<title>Emacs Pair Programming - Innovation-Week Q2/2022</title>
-				<link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</link>
+				<link>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2-2022/</link>
 				<pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2/2022/</guid>
+				<guid>http://tedn.life/2022/05/01/emacs-pair-programming-innovation-week-q2-2022/</guid>
 				<description>&lt;p&gt;We (at Community) just had another &lt;a href=&#34;https://tedn.life/2021/02/12/the-first-summit/hack-a-thon-community/&#34;&gt;Innovation-Week&lt;/a&gt;. I was actually working on generating &lt;a href=&#34;https://pactflow.io&#34;&gt;pact-files&lt;/a&gt; from frontend code and then generating &lt;a href=&#34;https://github.com/open-api-spex/open_api_spex&#34;&gt;openapi spec files from elxir backend code&lt;/a&gt; and then automatically check that the frontend pact is compatible with the backend openapi spec while running the build pipeline for the frontend(s)/backend.&lt;/p&gt;&#xA;&lt;p&gt;But this is not what this blog post is all about :).&lt;/p&gt;&#xA;&lt;p&gt;While working on this &lt;a href=&#34;https://www.linkedin.com/in/geoff-smith-46739188&#34;&gt;Geoff&lt;/a&gt; and myself also decided that it is a good opportunity to sharpen the tools and take remote-first pair-programming to the next level.&lt;/p&gt;</description>
 			</item>
 			<item>
@@ -95,7 +95,7 @@
 				<link>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</link>
 				<pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2021/07/25/good-wifi-more-tedn-dark-arts/</guid>
-				<description>&lt;p&gt;&lt;em&gt;Updated (2021-08-14): Added some test data (at the end; see below)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I said &lt;a href=&#34;https://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading&#34;&gt;before&lt;/a&gt; &amp;hellip;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When you work from &lt;strong&gt;anywhere&lt;/strong&gt; (or even from home) it is &lt;strong&gt;YOUR&lt;/strong&gt;(!!!) responsibility to ensure that you are connected!!!&lt;/p&gt;&#xA;&lt;p&gt;Statements like &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&amp;hellip; are &lt;strong&gt;just&lt;/strong&gt; not good enough!!!&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;em&gt;Updated (2021-08-14): Added some test data (at the end; see below)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;As I said &lt;a href=&#34;https://tedn.life/2020/04/10/assessing-the-wlan-...-the-dark-arts-of-extreme-digital-nomading&#34;&gt;before&lt;/a&gt; &amp;hellip;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When you work from &lt;strong&gt;anywhere&lt;/strong&gt; (or even from home) it is &lt;strong&gt;YOUR&lt;/strong&gt;(!!!) responsibility to ensure that you are connected!!!&lt;/p&gt;&#xA;&lt;p&gt;Statements like &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;Sorry &amp;hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;Can you hear me? Sorry &amp;hellip; I am on a shitty/weak WLAN.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;Sorry &amp;hellip; can we switch off the video. There is too much lag.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&amp;hellip; are &lt;strong&gt;just&lt;/strong&gt; not good enough!!!&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
 			</item>
 			<item>
 				<title>Internet connections ... the life blood of The Extreme Digital Nomad</title>
@@ -197,9 +197,9 @@
 			</item>
 			<item>
 				<title>Effective Mac - Using OpenOffice, NeoOffice and/or iWorks08</title>
-				<link>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</link>
+				<link>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and-or-iworks08/</link>
 				<pubDate>Sun, 04 Jan 2009 00:00:00 +0000</pubDate>
-				<guid>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and/or-iworks08/</guid>
+				<guid>http://tedn.life/2009/01/04/effective-mac-using-openoffice-neooffice-and-or-iworks08/</guid>
 				<description>Finally! OpenOffice is now available for the Mac. In the last two month I used OpenOffice 3.0, NeoOffice 2.2.5 and iWorks08 in parallel (with a special focus on the presentation functionality).&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The result is surprising (and maybe not :)). If you use the &#34;native&#34; formats (e.g. ODF, .key/.page) everything works fine. Obviously things get more interesting, if you want to use these tools to read and write MS-Office files (.ppt/.doc/.xls) or even MS-Office 2007 files (.pptx, etc.).&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;In this case it is my experience that you (still) have to limit yourself to a (non-obvious) subset of the functionality to make sure you can import/export your files to/from MS-Office. Especially for Powerpoint 2007 files I currently have to use all three tools and see, which tool will give me the best result, when I import .pptx files. In some cases entire slides show up blank. In other cases they are &#34;reformated&#34; in a way that makes them unreadable.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Buttom line: It seems that for the time being, neither OpenOffice nor NeoOffice is a solution on its own, when it comes to importing/exporting to/from MS-Office. But that may change in the future.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</description>
 			</item>
 			<item>
