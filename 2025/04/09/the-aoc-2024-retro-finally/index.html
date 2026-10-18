@@ -133,66 +133,150 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>I am calling it! I declare <a href="https://github.com/rolandtritsch/scala3-aoc-2024">my</a> Advent of Code (<a href="https://adventofcode.com">AOC</a>) for 2024 done! Finally!</p>
-<p>Clarification: This does not mean that I did all of it, but I did what I wanted to do and was able to do to make the tree look like this &hellip;</p>
-<p><img src="/images/2025-04-09-aoc/aoc-tree.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
+                    <p>I am calling it! I declare <a href="https://github.com/rolandtritsch/scala3-aoc-2024">my</a> Advent of Code (<a href="https://adventofcode.com">AOC</a>) for 2024 done!
+Finally!</p>
+<p>Clarification: This does not mean that I did all of it, but I did what I wanted
+to do and was able to do to make the tree look like this &hellip;</p>
+<figure style="float:left; max-width:30%; margin:0.5em 1.5em 0.5em 0;">
+<img src="/images/2025-04-09-aoc/aoc-tree.png" alt="Advent of Code 2024 ASCII calendar showing stars earned across all 25 days" style="display:block;width:auto;height:auto;max-width:100%;max-height:280px;"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.8em;color:#666;text-align:center;margin-top:0.3em;">Advent of Code 2024 ASCII calendar showing stars earned across all 25 days — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>The last star that was missing was part1 of Day21 (more on this later).</p>
-<p>This year my main focus was on refreshing my scala3 skills and to learn a lot about how AI-enabled IDEs can support a scala-engineer to write better code and to solve problems faster. And (ooohhh boy) &hellip; it was a wild ride.</p>
+<p>This year my main focus was on refreshing my scala3 skills and to learn a lot
+about how AI-enabled IDEs can support a scala-engineer to write better code and
+to solve problems faster. And (ooohhh boy) &hellip; it was a wild ride.</p>
 <p>On the <code>Scala3</code> side I &hellip;</p>
 <ul>
 <li>&hellip; used <a href="https://mill-build.org">mill</a> (instead of <code>sbt</code>)</li>
 <li>&hellip; used <code>extensions</code>, <code>given</code> and <code>using</code> (extensively)</li>
-<li>&hellip; experimented with curly-brackets vs. indentation (the verdict is out on that one)</li>
+<li>&hellip; experimented with curly-brackets vs. indentation (the verdict is out on
+that one)</li>
 <li>&hellip; used <a href="https://scalameta.org/scalafmt">scalafmt</a> and <a href="https://scalacenter.github.io/scalafix">scalafix</a> (extensively)</li>
-<li>&hellip; used <a href="https://github.com/scalanlp/breeze">breeze</a> (to solve linear equation systems and <a href="https://scala-graph.org">scala-graph</a> (to find the shortest path in a graph (or 2-dim grid)) and <a href="https://github.com/rolandtritsch/scala-corner">scala-corner</a> (to count the number of corners of regions in a 2-dim grid)</li>
+<li>&hellip; used <a href="https://github.com/scalanlp/breeze">breeze</a> (to solve linear equation systems and <a href="https://scala-graph.org">scala-graph</a> (to
+find the shortest path in a graph (or 2-dim grid)) and <a href="https://github.com/rolandtritsch/scala-corner">scala-corner</a> (to
+count the number of corners of regions in a 2-dim grid)</li>
 </ul>
 <p>&hellip; and &hellip;</p>
 <ul>
 <li>&hellip; (last, but not least) used <code>VsCode/Copilot</code> and <a href="https://windsurf.com">Windsurf</a> to write code</li>
 </ul>
-<p>Using AI to help me solve the problems was an <code>interesting</code> experience. Here are my main take-aways &hellip;</p>
+<p>Using AI to help me solve the problems was an <code>interesting</code> experience. Here are
+my main take-aways &hellip;</p>
 <ul>
-<li>Sometimes the help I got was very effective and efficient. The approach was good and the code was good (and idomatic)</li>
-<li>But also (sometimes) less so. Which (sometimes) created problems when I tried to solve part2, because I either did not fully understand the code that was generated for part1 and was therefore not able to make good suggestions how to change the code to make part2 work or there was a small subtle bug in part1 that I did not see/find until I started to put some serious time into debugging part1</li>
-<li>I think for me to become more effective and efficient with using AI will require that I get much better at writing better prompts and providing better context(s) for the prompts (e.g. get better at tunning the <a href="https://windsurf.com/editor/directory">windsurfrules</a> file) and (first of all) develop a better feeling for when not to use AI or when to stop using it when it gets stuck in a loop or goes down a rabbit-hole (rule number one, when you are in a hole: Stop digging!)</li>
-<li>The new/next generation of AI-enabled IDEs (like <a href="https://windsurf.com">Windsurf</a>) are a quantum-leap forward. Mainly because they not only support chat, but also tools that allow you to run tools locally (e.g. run your tests and make changes to the code until all tests pass</li>
-<li>I tried and tested a lot of different IDEs, extensions and stand-alone tools. The one that worked/works best for me (right now) is <a href="https://windsurf.com">Windsurf</a>. It also features (now; since February 2025) a capability to configure and use MCP-servers (e.g. you can use the GitHub MCP-server to enable prompts that will manage your GitHub repo for you (creating issues, merging PRs, &hellip;))</li>
-<li>Also experimented with <a href="https://www.warp.dev">Warp</a>. <a href="https://www.warp.dev">Warp</a> is an AI-enabled terminal that make solving problems much more effective. Means my workflow is to use the IDE to develop code, but when it comes to all the other tasks (creatig tickets, building and deploying (docker) services, writing bash/python command-line tools, &hellip;) I am using <a href="https://www.warp.dev">Warp</a> (which is much better than using the terminal in the IDE)</li>
+<li>Sometimes the help I got was very effective and efficient. The approach was
+good and the code was good (and idomatic)</li>
+<li>But also (sometimes) less so. Which (sometimes) created problems when I tried
+to solve part2, because I either did not fully understand the code that was
+generated for part1 and was therefore not able to make good suggestions how to
+change the code to make part2 work or there was a small subtle bug in part1
+that I did not see/find until I started to put some serious time into
+debugging part1</li>
+<li>I think for me to become more effective and efficient with using AI will
+require that I get much better at writing better prompts and providing better
+context(s) for the prompts (e.g. get better at tunning the <a href="https://windsurf.com/editor/directory">windsurfrules</a>
+file) and (first of all) develop a better feeling for when not to use AI or
+when to stop using it when it gets stuck in a loop or goes down a rabbit-hole
+(rule number one, when you are in a hole: Stop digging!)</li>
+<li>The new/next generation of AI-enabled IDEs (like <a href="https://windsurf.com">Windsurf</a>) are a
+quantum-leap forward. Mainly because they not only support chat, but also
+tools that allow you to run tools locally (e.g. run your tests and make
+changes to the code until all tests pass</li>
+<li>I tried and tested a lot of different IDEs, extensions and stand-alone tools.
+The one that worked/works best for me (right now) is <a href="https://windsurf.com">Windsurf</a>. It also
+features (now; since February 2025) a capability to configure and use
+MCP-servers (e.g. you can use the GitHub MCP-server to enable prompts that
+will manage your GitHub repo for you (creating issues, merging PRs, &hellip;))</li>
+<li>Also experimented with <a href="https://www.warp.dev">Warp</a>. <a href="https://www.warp.dev">Warp</a> is an AI-enabled terminal that make
+solving problems much more effective. Means my workflow is to use the IDE to
+develop code, but when it comes to all the other tasks (creatig tickets,
+building and deploying (docker) services, writing bash/python command-line
+tools, &hellip;) I am using <a href="https://www.warp.dev">Warp</a> (which is much better than using the terminal
+in the IDE)</li>
 </ul>
-<p>The work on AOC 2024 also inspired my to create a <a href="https://youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">pod-cast</a> series and a <a href="https://www.meetup.com/the-augmented-software-engineer">meetup</a> about <code>Augmented Software Engineering</code>. Feel free to <a href="https://youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">subscribe</a>. Feel free to <a href="https://www.meetup.com/the-augmented-software-engineer">join</a>.</p>
-<p>With all of this I was able to do solve part1 and part2 until we hit half-time (Day 13). Then I had to scale back to just solving part1. Hence the shape/look of the tree &hellip;</p>
-<p><img src="/images/2025-04-09-aoc/aoc-tree.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
-<p>And even to get to this point took me a while (because of Day 21 (that I only/finally cracked over the weekend); see below).</p>
+<p>The work on AOC 2024 also inspired my to create a <a href="https://youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">pod-cast</a> series and a
+<a href="https://www.meetup.com/the-augmented-software-engineer">meetup</a> about <code>Augmented Software Engineering</code>. Feel free to
+<a href="https://youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">subscribe</a>. Feel free to <a href="https://www.meetup.com/the-augmented-software-engineer">join</a>.</p>
+<p>With all of this I was able to do solve part1 and part2 until we hit half-time
+(Day 13). Then I had to scale back to just solving part1. Hence the shape/look
+of the tree &hellip;</p>
+<figure style="float:right; max-width:30%; margin:0.5em 0 0.5em 1.5em;">
+<img src="/images/2025-04-09-aoc/aoc-tree.png" alt="Advent of Code 2024 ASCII calendar showing stars earned across all 25 days" style="display:block;width:auto;height:auto;max-width:100%;max-height:280px;"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.8em;color:#666;text-align:center;margin-top:0.3em;">Advent of Code 2024 ASCII calendar showing stars earned across all 25 days — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>And even to get to this point took me a while (because of Day 21 (that I
+only/finally cracked over the weekend); see below).</p>
 <p>So here are some of the high-lights from this years implementation &hellip;</p>
 <ul>
 <li><strong>Day01</strong> - Warmup and setup. Configure <code>scalafmt</code></li>
-<li><strong>Day02</strong> - Using <code>extensions</code> on standard types. Improves the readability of the code</li>
+<li><strong>Day02</strong> - Using <code>extensions</code> on standard types. Improves the readability of
+the code</li>
 <li><strong>Day03</strong> - Using AI to do some good <code>regex</code>-ing to parse the input file</li>
 <li><strong>Day04</strong> - Using <code>extensions</code> again/more</li>
 <li><strong>Day05</strong> - Using <code>extensions</code> again/more</li>
 <li><strong>Day06</strong> - Using <code>classes/methods</code> instead of <code>types/functions</code></li>
-<li><strong>Day07</strong> - Sucessfully avoid the premature optimization trap. Found a minimal implementation for part1. And part2 was just a small change from there. Happy with that one.</li>
+<li><strong>Day07</strong> - Sucessfully avoid the premature optimization trap. Found a minimal
+implementation for part1. And part2 was just a small change from there. Happy
+with that one.</li>
 <li><strong>Day08</strong> - More of the same. Nothing special about this one</li>
-<li><strong>Day09</strong> - The opposite experience of Day07. Found a solution for part1, but had to completely refactor/rewrite it for part2</li>
-<li><strong>Day10</strong> - The opposite experience of Day09. Guessed part2 right. Using an <code>array-of-array</code> instead of a set-of-positions</li>
-<li><strong>Day11</strong> - Going back to using a <code>set-of-positions</code> for modeling the grid. And start using a <code>cache</code> to make part2 work (duh!)</li>
-<li><strong>Day12</strong> - Used the <a href="https://github.com/rolandtritsch/scala-corner">scala-corner</a> library to solve the problems. With the lib it was easy. Oh wait &hellip; ;)</li>
-<li><strong>Day13</strong> - LOL. Good one. Did part1 (the hard way). Overlooked that it is a system of linear equations. Changed gears for part2. And then I found <a href="https://github.com/scalanlp/breeze">breeze</a>. Definetely one of these cases, where 20 mins of reading, thinking and searching (for the right library) can save you 2 hours of work (going into the wrong direction).</li>
-<li><strong>Day14</strong> - From now on I am just focusing on solving part1. Running a simulation on a grid (again; going with my trusted set-of-positions/-robots approach)</li>
-<li><strong>Day15</strong> - Another grid. Using sets-of-positions to model walls and also free-spaces (for elegance and speed). Having a wall around the grid also helps with the boundary-checking (you need none)</li>
-<li><strong>Day16</strong> - There must be a better way to solve grid-walking/shortest-path problems, right? And yes, there is: Let&rsquo;s use <a href="https://scala-graph.org">scala-graph</a>. The lesson learned is (big surprise): After really understanding the problem and after learning the library, the actual solution is short and elegant</li>
-<li><strong>Day17</strong> - A little bit of a breather. (Simple enough) State-Machine running instructions simulation problem. Good usage of <code>case classes</code></li>
-<li><strong>Day18</strong> - Another dfs-/bfs-grid-traversal problem. My ambition got the better of me. I first implememented a solution myself (worked, but slow and ugly). Then I refactored/reimplemented the entire thing. Switched to using <a href="https://scala-graph.org">scala-graph</a>. Now it is fast and elegant</li>
-<li><strong>Day19</strong> - Nice. Read the problem description. Realize that you can solve it with <code>regex</code> pattern-mattching. This is the solution <code>raw&quot;(${towels.mkString(&quot;|&quot;)})+&quot;.r</code></li>
-<li><strong>Day20</strong> - Another grid-traversal. Another usage of <a href="https://scala-graph.org">scala-graph</a>. Decided to wrap <a href="https://scala-graph.org">scala-graph</a> in my own wrapper (<code>util.GridGraph</code>) and (re)use it multiple times (Day16, Day18, Day20)</li>
-<li><strong>Day21</strong> - Ooohhh boy. That one was my waterloo (or sea-monster, if you get my drift). Took me 3 month to crack it. First I (rightfully) wanted to use <a href="https://scala-graph.org">scala-graph</a> again to find the shortest-path on the numeric keypad. Then I realized that I can build the following key-sequences on the directional keypads just by (string-)replacing the key-strokes (that works well). But then I failed to realize that my cost function for finding the shortest-path on the numeric key-pad was wrong. The fix was to calculate the cost dynamically and make the cost of paths that are straigt (e.g. &raquo;&gt;) cheap</li>
+<li><strong>Day09</strong> - The opposite experience of Day07. Found a solution for part1, but
+had to completely refactor/rewrite it for part2</li>
+<li><strong>Day10</strong> - The opposite experience of Day09. Guessed part2 right. Using an
+<code>array-of-array</code> instead of a set-of-positions</li>
+<li><strong>Day11</strong> - Going back to using a <code>set-of-positions</code> for modeling the grid.
+And start using a <code>cache</code> to make part2 work (duh!)</li>
+<li><strong>Day12</strong> - Used the <a href="https://github.com/rolandtritsch/scala-corner">scala-corner</a> library to solve the problems. With the
+lib it was easy. Oh wait &hellip; ;)</li>
+<li><strong>Day13</strong> - LOL. Good one. Did part1 (the hard way). Overlooked that it is a
+system of linear equations. Changed gears for part2. And then I found
+<a href="https://github.com/scalanlp/breeze">breeze</a>. Definetely one of these cases, where 20 mins of reading, thinking
+and searching (for the right library) can save you 2 hours of work (going into
+the wrong direction).</li>
+<li><strong>Day14</strong> - From now on I am just focusing on solving part1. Running a
+simulation on a grid (again; going with my trusted set-of-positions/-robots
+approach)</li>
+<li><strong>Day15</strong> - Another grid. Using sets-of-positions to model walls and also
+free-spaces (for elegance and speed). Having a wall around the grid also helps
+with the boundary-checking (you need none)</li>
+<li><strong>Day16</strong> - There must be a better way to solve grid-walking/shortest-path
+problems, right? And yes, there is: Let&rsquo;s use <a href="https://scala-graph.org">scala-graph</a>. The lesson
+learned is (big surprise): After really understanding the problem and after
+learning the library, the actual solution is short and elegant</li>
+<li><strong>Day17</strong> - A little bit of a breather. (Simple enough) State-Machine running
+instructions simulation problem. Good usage of <code>case classes</code></li>
+<li><strong>Day18</strong> - Another dfs-/bfs-grid-traversal problem. My ambition got the
+better of me. I first implememented a solution myself (worked, but slow and
+ugly). Then I refactored/reimplemented the entire thing. Switched to using
+<a href="https://scala-graph.org">scala-graph</a>. Now it is fast and elegant</li>
+<li><strong>Day19</strong> - Nice. Read the problem description. Realize that you can solve it
+with <code>regex</code> pattern-mattching. This is the solution
+<code>raw&quot;(${towels.mkString(&quot;|&quot;)})+&quot;.r</code></li>
+<li><strong>Day20</strong> - Another grid-traversal. Another usage of <a href="https://scala-graph.org">scala-graph</a>. Decided
+to wrap <a href="https://scala-graph.org">scala-graph</a> in my own wrapper (<code>util.GridGraph</code>) and (re)use it
+multiple times (Day16, Day18, Day20)</li>
+<li><strong>Day21</strong> - Ooohhh boy. That one was my waterloo (or sea-monster, if you get
+my drift). Took me 3 month to crack it. First I (rightfully) wanted to use
+<a href="https://scala-graph.org">scala-graph</a> again to find the shortest-path on the numeric keypad. Then I
+realized that I can build the following key-sequences on the directional
+keypads just by (string-)replacing the key-strokes (that works well). But then
+I failed to realize that my cost function for finding the shortest-path on the
+numeric key-pad was wrong. The fix was to calculate the cost dynamically and
+make the cost of paths that are straigt (e.g. &raquo;&gt;) cheap</li>
 <li><strong>Day22</strong> - <code>LazyList</code> to the rescue. That one took less than 30 mins</li>
-<li><strong>Day23</strong> - Used that one to experiment with a lot of different language models. The best solution was generated by <code>claude-3.5-sonnet</code></li>
-<li><strong>Day24</strong> - Almost done. Loved this one. It&rsquo;s a boolean expression evaluator. Do we have one? Sure we do! It is called Scala!!! Means we just need to generate the right scala code (on the fly) and feed it to the <a href="https://www.scala-lang.org/api/2.13.7/scala-compiler/scala/tools/reflect/ToolBox.html">toolbox</a> <code>evaluate()</code> function. Done!</li>
+<li><strong>Day23</strong> - Used that one to experiment with a lot of different language
+models. The best solution was generated by <code>claude-3.5-sonnet</code></li>
+<li><strong>Day24</strong> - Almost done. Loved this one. It&rsquo;s a boolean expression evaluator.
+Do we have one? Sure we do! It is called Scala!!! Means we just need to
+generate the right scala code (on the fly) and feed it to the <a href="https://www.scala-lang.org/api/2.13.7/scala-compiler/scala/tools/reflect/ToolBox.html">toolbox</a>
+<code>evaluate()</code> function. Done!</li>
 <li><strong>Day25</strong> - Just the intersection of two sets (set-of-keys and set-of-locks)</li>
 </ul>
-<p>That&rsquo;s it. That&rsquo;s a wrap. Really enjoyed it (again; maybe Day21 not so much ;)). Learned a ton. About Scala3 (again). And about using AI and <a href="https://windsurf.com">Windsurf</a> (specifically). And about using <a href="https://scala-graph.org">scala-graph</a>. And about reading problem statements carefully. And about building stuff with some flexibility in mind, but not too much.</p>
+<p>That&rsquo;s it. That&rsquo;s a wrap. Really enjoyed it (again; maybe Day21 not so much ;)).
+Learned a ton. About Scala3 (again). And about using AI and <a href="https://windsurf.com">Windsurf</a>
+(specifically). And about using <a href="https://scala-graph.org">scala-graph</a>. And about reading problem
+statements carefully. And about building stuff with some flexibility in mind,
+but not too much.</p>
 <p>See you in December for AOC 2025.</p>
+<div style="clear:both;"></div>
 </div>
             </div>
         </div>
@@ -418,7 +502,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2025-04-09 13:35:42 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

@@ -129,30 +129,69 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>At community (as everywhere these days) we are not using one programming language, we are using a set of programming languages, means for one week I find myself writing a lot of <strong>elixir</strong>, the next week I write <strong>go</strong>, the week afterwards I need to fix some of our <strong>terraform</strong> configurations and on the weekend I am fixing a bug in a <a href="https://github.com/Nitro/nmesos"><strong>scala</strong></a> project.</p>
-<p>What you need to survive (and stay sane) in such polyglot software engineering environment is a an IDE that is highly configurable and highly extensible (so that you get all the good stuff (auto-complete, code-navigation, on-the-fly syntax checking, &hellip;).</p>
+                    <p>At community (as everywhere these days) we are not using one programming
+language, we are using a set of programming languages, means for one week I find
+myself writing a lot of <strong>elixir</strong>, the next week I write <strong>go</strong>, the week
+afterwards I need to fix some of our <strong>terraform</strong> configurations and on the
+weekend I am fixing a bug in a <a href="https://github.com/Nitro/nmesos"><strong>scala</strong></a>
+project.</p>
+<p>What you need to survive (and stay sane) in such polyglot software engineering
+environment is a an IDE that is highly configurable and highly extensible (so
+that you get all the good stuff (auto-complete, code-navigation, on-the-fly
+syntax checking, &hellip;).</p>
 <p>For me that IDE is (obviously :)) Emacs (Emacs makes all computers special!!!).</p>
-<p align="center">
-<img src="https://miro.medium.com/max/1202/1*AUV9ra-aa1N5XvAh1-r34g.png"/>
-</p>
-<p>There are lots of good frameworks and solutions that turn Emacs into an IDE for the programming language of your choice (e.g. intero (for haskell), alchemist (for elixir), ensime (for scala), &hellip;), but lately I have ditched these for <a href="https://github.com/emacs-lsp/lsp-mode">Language Server Based</a> (LSP) based <a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/33-lsp.org">configurations</a>.</p>
-<p>Now I only need to memorize <a href="https://github.com/emacs-lsp/lsp-mode#commands">one set of key-strokes</a>.</p>
-<p>But the real killer is (as always) that even if something is not really working (yet) there is a good chance you can make work (with a couple of lines of elisp code).</p>
-<p>In that context I invested the Easter weekend to refresh my elisp skills and my elisp <a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/40-elisp.org">configuration</a>.</p>
-<p>I reviewed all available tutorials and have to say that the original <a href="https://www.gnu.org/software/emacs/manual/html_mono/elisp.html">GNU/Emacs elisp documentation</a> is still very good. Working through it will give you a good start into what you need to know to get the job done.</p>
-<p>Now the only other thing you need is a working IDE to write emacs-elisp code. Fortunately Emacs comes with good support out of the box. On top of it I suggest &hellip;</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://miro.medium.com/max/1202/1*AUV9ra-aa1N5XvAh1-r34g.png" alt="Emacs-themed illustration" style="display:block;margin:auto;max-width:100%;max-width:601px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Emacs-themed illustration — Source: miro.medium.com</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>There are lots of good frameworks and solutions that turn Emacs into an IDE for
+the programming language of your choice (e.g. intero (for haskell), alchemist
+(for elixir), ensime (for scala), &hellip;), but lately I have ditched these for
+<a href="https://github.com/emacs-lsp/lsp-mode">Language Server Based</a> (LSP) based
+<a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/33-lsp.org">configurations</a>.</p>
+<p>Now I only need to memorize
+<a href="https://github.com/emacs-lsp/lsp-mode#commands">one set of key-strokes</a>.</p>
+<p>But the real killer is (as always) that even if something is not really working
+(yet) there is a good chance you can make work (with a couple of lines of elisp
+code).</p>
+<p>In that context I invested the Easter weekend to refresh my elisp skills and my
+elisp
+<a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/40-elisp.org">configuration</a>.</p>
+<p>I reviewed all available tutorials and have to say that the original
+<a href="https://www.gnu.org/software/emacs/manual/html_mono/elisp.html">GNU/Emacs elisp documentation</a>
+is still very good. Working through it will give you a good start into what you
+need to know to get the job done.</p>
+<p>Now the only other thing you need is a working IDE to write emacs-elisp code.
+Fortunately Emacs comes with good support out of the box. On top of it I suggest
+&hellip;</p>
 <ul>
-<li>to install the emacs lisp source code (run <code>sudo apt install emacs26-el</code>). With that you can use the normal code navigation <code>M-./M-,</code> to jump around in your code and also into the implementation of the elisp functions</li>
-<li>to use <a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/30-general-coding.org"><code>company-mode</code></a> to auto-complete symbols</li>
-<li>to use <a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/30-general-coding.org"><code>flycheck</code></a> to do on the fly code checking (but disable the checking the doc to get rid of the warning about the missing headers/footers)</li>
-<li>to use <a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/30-general-coding.org"><code>yasnippet</code></a> to get <a href="https://github.com/AndreaCrotti/yasnippet-snippets">a couple of good snippets</a> to save you some typing</li>
-<li>to use <a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/40-lisp.org"><code>elisp-format</code></a> to format the code before saving it</li>
-<li>and last but not least: use <code>C-x C-e</code> to evaluate expression, while you build the code in an elisp file or use <code>M-x ielm</code> to develop the code with an interpreter.</li>
+<li>to install the emacs lisp source code (run <code>sudo apt install emacs26-el</code>).
+With that you can use the normal code navigation <code>M-./M-,</code> to jump around in
+your code and also into the implementation of the elisp functions</li>
+<li>to use
+<a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/30-general-coding.org"><code>company-mode</code></a>
+to auto-complete symbols</li>
+<li>to use
+<a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/30-general-coding.org"><code>flycheck</code></a>
+to do on the fly code checking (but disable the checking the doc to get rid of
+the warning about the missing headers/footers)</li>
+<li>to use
+<a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/30-general-coding.org"><code>yasnippet</code></a>
+to get
+<a href="https://github.com/AndreaCrotti/yasnippet-snippets">a couple of good snippets</a>
+to save you some typing</li>
+<li>to use
+<a href="https://github.com/rolandtritsch/emacs.d/blob/master/emacs.d/roland/40-lisp.org"><code>elisp-format</code></a>
+to format the code before saving it</li>
+<li>and last but not least: use <code>C-x C-e</code> to evaluate expression, while you build
+the code in an elisp file or use <code>M-x ielm</code> to develop the code with an
+interpreter.</li>
 </ul>
 <p>Have fun and <code>lisp long and prosper</code> &hellip;</p>
-<p align="center">
-<img src="https://i.warosu.org/data/g/img/0617/50/1501974491892.png"/>
-</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://i.warosu.org/data/g/img/0617/50/1501974491892.png" alt="Spock-themed meme for 'lisp long and prosper'" style="display:block;margin:auto;max-width:100%;max-height:400px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Spock-themed meme for 'lisp long and prosper' — Source: warosu.org (4chan archive)</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 </div>
             </div>
         </div>
@@ -338,7 +377,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2020-08-16 16:11:59 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

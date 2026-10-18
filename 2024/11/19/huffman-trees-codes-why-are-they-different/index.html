@@ -130,23 +130,24 @@ layui.use('element', function(){
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <p>Right now I am solving the <a href="https://aperiodic.net/pip/scala/s-99">99-scala-problems</a>. Again!!!</p>
-<p>This time around I am using them to learn more about what it means to
-be an Augmented Software Engineer (<a href="https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it">ASE</a>). Just subscribe to the
-<a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">podcast</a> to follow along.</p>
-<p><a href="https://aperiodic.net/pip/scala/s-99/#p50">P50</a> is to build a <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman tree</a> and to return the set of
-Huffman codes for the given string.</p>
-<p><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220906180456/6.png" 
-style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></p>
-<p><a href="https://codeium.com">codeium</a> found a good implementation, but struggled to find tests
-that worked.</p>
+<p>This time around I am using them to learn more about what it means to be an
+Augmented Software Engineer (<a href="https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it">ASE</a>). Just subscribe to the <a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">podcast</a> to
+follow along.</p>
+<p><a href="https://aperiodic.net/pip/scala/s-99/#p50">P50</a> is to build a <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman tree</a> and to return the set of Huffman codes
+for the given string.</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220906180456/6.png" alt="Diagram illustrating how a Huffman tree is built" style="display:block;margin:auto;max-width:100%;max-width:1000px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Diagram illustrating how a Huffman tree is built — Source: media.geeksforgeeks.org</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p><a href="https://codeium.com">codeium</a> found a good implementation, but struggled to find tests that
+worked.</p>
 <p>I then tried various websites ([<a href="https://planetcalc.com/2481">1</a>], [<a href="https://www.csfieldguide.org.nz/en/interactives/huffman-tree">2</a>], [<a href="https://suhaan-bhandary.github.io/Huffman-Coding">3</a>],
-[<a href="https://huffman.ooz.ie">4</a>]) to test various strings and noticed that the trees and
-the resulting set of codes are different between the implementations.
-Even more interesting for the same implementation the set is different
-when you reverse the string.</p>
-<p>That felt strange to me. My expectation was that the same set of
-(character, frequency) tuples will always create the same set of
-Huffman codes.</p>
+[<a href="https://huffman.ooz.ie">4</a>]) to test various strings and noticed that the trees and the
+resulting set of codes are different between the implementations. Even more
+interesting for the same implementation the set is different when you reverse
+the string.</p>
+<p>That felt strange to me. My expectation was that the same set of (character,
+frequency) tuples will always create the same set of Huffman codes.</p>
 <p>So I started digging. Here is what <a href="https://chatgpt.com/share/673c3869-4a38-8013-83de-644ce2582981">chatGPT</a> had to say about it &hellip;</p>
 <pre tabindex="0"><code>You&#39;re absolutely correct to ask this question. When there are multiple
 nodes with the same weight in the priority queue, the behavior can indeed
@@ -156,48 +157,48 @@ all such codes would still represent valid Huffman encodings (i.e., they
 would satisfy the prefix-free property and correspond to the correct
 frequencies).
 </code></pre><p>So it seems that Huffman codes can be different for the same set of
-<code>(character, frequency)</code> pairs, because there is an edge case where you
-need to dequeue the top two nodes from the priority queue with the
-lowest weight. If there are three or more nodes that have the same
-lowest weight it depends on the order the nodes where put into the
-queue and the internal implementation of the queue, which two of the
-three or more nodes are the top nodes that get dequeued.</p>
-<p>To address this and to make the set of generated Huffman codes
-deterministic I changed the implementation to keep track of the largest
-character in the sub-tree and sort the queue by <code>weight(descending) and maxChar(ascending)</code> and use the guaranteed-to-be-unique <code>maxChar</code> as a
-tie-breaker for the sorting of the priority queue. This will ensure
-that we always dequeue the same two nodes, regardless of the order the
-nodes were put into the queue and regardless of the internal
-implementation of the queue.</p>
-<p>Note: This would (obviously) also work with <code>minChar</code> as a
-tie-breaker. Your call.</p>
-<p>With that we get two very nice benefits: First, we can change the
-signature of <code>huffman()</code> from <code>huffman(List of (character, frequency) pairs): returning List of (character, huffman-code) pairs</code> to
-<code>huffman(Set of (character, frequency) pairs): returning Set of (character, huffman-code) pairs</code>, which feels much more natural and
-correct, because the huffman codes you get should not depend on the
-order of the <code>(character, frequency)</code> pairs.</p>
-<p>And second, we can now change the implementation of the priority
-queue without (potentially) breaking our tests (because without
-the tie-breaker the implementation of the priority queue decides
-which two nodes are top of the queue).</p>
-<p>That also means that we will always get the same set of Huffman codes
-for the same set of frequencies (means <code>huffman(text) == huffman(text.reverse)</code>, which is not true for most of the
-implementations out there.</p>
+<code>(character, frequency)</code> pairs, because there is an edge case where you need to
+dequeue the top two nodes from the priority queue with the lowest weight. If
+there are three or more nodes that have the same lowest weight it depends on the
+order the nodes where put into the queue and the internal implementation of the
+queue, which two of the three or more nodes are the top nodes that get dequeued.</p>
+<p>To address this and to make the set of generated Huffman codes deterministic I
+changed the implementation to keep track of the largest character in the
+sub-tree and sort the queue by <code>weight(descending) and maxChar(ascending)</code> and
+use the guaranteed-to-be-unique <code>maxChar</code> as a tie-breaker for the sorting of
+the priority queue. This will ensure that we always dequeue the same two nodes,
+regardless of the order the nodes were put into the queue and regardless of the
+internal implementation of the queue.</p>
+<p>Note: This would (obviously) also work with <code>minChar</code> as a tie-breaker. Your
+call.</p>
+<p>With that we get two very nice benefits: First, we can change the signature of
+<code>huffman()</code> from
+<code>huffman(List of (character, frequency) pairs): returning List of (character, huffman-code) pairs</code> <!-- markdownlint-disable-line MD013 -->
+to
+<code>huffman(Set of (character, frequency) pairs): returning Set of (character, huffman-code) pairs</code>, <!-- markdownlint-disable-line MD013 -->
+which feels much more natural and correct, because the huffman codes you get
+should not depend on the order of the <code>(character, frequency)</code> pairs.</p>
+<p>And second, we can now change the implementation of the priority queue without
+(potentially) breaking our tests (because without the tie-breaker the
+implementation of the priority queue decides which two nodes are top of the
+queue).</p>
+<p>That also means that we will always get the same set of Huffman codes for the
+same set of frequencies (means <code>huffman(text) == huffman(text.reverse)</code>, which
+is not true for most of the implementations out there.</p>
 <p>That was an interesting one.</p>
-<p>And it drives home one of the main/major points that you need to
-consider as an Augmented Software Engineer: <strong>The code you get is a
-suggestion. A starting point. You are well-advised to reason about it
-and dig into it, if/when you do not understand something.</strong></p>
-<p>I was very close to moving on to the next problem, because getting
-the first/initial implementation and the first/initial tests work
-was a very fast and smooth experience (with the help of <a href="https://codeium.com">codeium</a>).</p>
-<p>It was only when I started to question the implementation and the
-test against my own understanding, that I realized that something
-is not quite right.</p>
-<p>With that additional step/work we are now in a good place: We
-saved some time to get the initial implementation done, but I
-also have a much deeper understanding how Huffman trees work
-and how to implement them so that they are more deterministic.</p>
+<p>And it drives home one of the main/major points that you need to consider as an
+Augmented Software Engineer: <strong>The code you get is a suggestion. A starting
+point. You are well-advised to reason about it and dig into it, if/when you do
+not understand something.</strong></p>
+<p>I was very close to moving on to the next problem, because getting the
+first/initial implementation and the first/initial tests work was a very fast
+and smooth experience (with the help of <a href="https://codeium.com">codeium</a>).</p>
+<p>It was only when I started to question the implementation and the test against
+my own understanding, that I realized that something is not quite right.</p>
+<p>With that additional step/work we are now in a good place: We saved some time to
+get the initial implementation done, but I also have a much deeper understanding
+how Huffman trees work and how to implement them so that they are more
+deterministic.</p>
 <p>Feel free to check out the <a href="https://github.com/rolandtritsch/99-scala3-problems">code</a>.</p>
 </div>
             </div>
@@ -436,7 +437,7 @@ and how to implement them so that they are more deterministic.</p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2024-11-21 12:10:40 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

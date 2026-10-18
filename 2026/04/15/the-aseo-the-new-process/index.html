@@ -122,57 +122,160 @@ layui.use('element', function(){
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <blockquote>
-<p><strong>AI Disclosure:</strong> This blog post was generated through a conversation with <a href="https://claude.ai/code">Claude Code</a>. The research was AI-assisted. Here is the prompt that drove it:</p>
-<p><em>&ldquo;Research the top 3 AI-enabled software-development processes that are currently (last 3 months) discussed and suggested. Identify the top 3 AI-enabled full SDLC methodologies (end-to-end delivery frameworks, not just tools or single-step patterns) that are being actively discussed, proposed, or adopted in the software engineering community. For each: core idea, key proponents, adoption status, a &lsquo;watch out&rsquo;, and sources.&rdquo;</em></p>
+<p><strong>AI Disclosure:</strong> This blog post was generated through a conversation with
+<a href="https://claude.ai/code">Claude Code</a>. The research was AI-assisted. Here is the prompt
+that drove it:</p>
+<p><em>&ldquo;Research the top 3 AI-enabled software-development processes that are
+currently (last 3 months) discussed and suggested. Identify the top 3
+AI-enabled full SDLC methodologies (end-to-end delivery frameworks, not just
+tools or single-step patterns) that are being actively discussed, proposed, or
+adopted in the software engineering community. For each: core idea, key
+proponents, adoption status, a &lsquo;watch out&rsquo;, and sources.&rdquo;</em></p>
 </blockquote>
 <hr>
 <p>The discourse has caught up to the diagnosis.</p>
-<p>If you have been following the conversation about the <strong>Augmented Software-Engineering Organization (ASEO)</strong> — the idea that AI is not an evolution but a revolution requiring a fundamental redesign of how engineering organizations deliver software — the question that naturally follows is: <em>what does the new process actually look like?</em></p>
-<p>The answer, as of April 2026, is that three distinct methodologies have emerged from the noise. None of them is finished. None of them has a definitive playbook. But all three are concrete enough to evaluate, and one of them is mature enough to bet on.</p>
+<p>If you have been following the conversation about the <strong>Augmented
+Software-Engineering Organization (ASEO)</strong> — the idea that AI is not an
+evolution but a revolution requiring a fundamental redesign of how engineering
+organizations deliver software — the question that naturally follows is: <em>what
+does the new process actually look like?</em></p>
+<p>The answer, as of April 2026, is that three distinct methodologies have emerged
+from the noise. None of them is finished. None of them has a definitive
+playbook. But all three are concrete enough to evaluate, and one of them is
+mature enough to bet on.</p>
 <p>Here they are.</p>
 <hr>
 <h2 id="1-spec-driven-development-sdd">1. Spec-Driven Development (SDD)</h2>
-<p><img src="/images/2026-04-15-aso-the-new-process/image1-sdd.png"
-style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
-<p>The most structurally radical of the three. Spec-Driven Development inverts the traditional SDLC by making the <strong>specification — not the code — the primary maintained artifact</strong>. Engineers write structured functional specs (using formats like EARS notation or OpenAPI contracts). AI agents then generate, regenerate, and validate code against those specs continuously. The code is explicitly <em>disposable</em> — never manually edited, always regenerable from an upstream spec.</p>
-<p>The five-layer pipeline proposed by Griffin and Carroll (InfoQ, January 2026) runs from Specification → Generation → Artifact → Validation → Runtime, with the key principle that drift between spec and runtime is detected and flagged automatically. AWS&rsquo;s Kiro IDE tool operationalizes this as: natural language → structured requirements → architecture doc → task list → agent-driven implementation. Tessl&rsquo;s version is the most provocative: the spec <em>replaces</em> the codebase as the thing your team actually maintains.</p>
-<p>The fundamental shift for engineering managers: <strong>your engineers stop being code authors and become contract authors.</strong> Architecture reviews become spec reviews. PRs become spec diffs.</p>
-<p><strong>Adoption status:</strong> Early and experimental. Kiro and GitHub&rsquo;s spec-kit have active early adopters. The Thoughtworks Technology Radar Vol. 34 (April 2026) rates it &ldquo;Assess&rdquo; — worth piloting, not yet ready for broad production use.</p>
-<p><strong>Watch out:</strong> Thoughtworks delivers the sharpest critique directly: <em>&ldquo;teams may be relearning a bitter lesson — that handcrafting detailed rules for AI ultimately doesn&rsquo;t scale.&rdquo;</em> Specs can become the new legacy: large, opaque, and owned by no one. The cognitive shift to contract-first reasoning is non-trivial, and proving that generated code is <em>correct</em> — not just specification-conformant — remains an open problem.</p>
-<p><em>Sources: Leigh Griffin and Ray Carroll, &ldquo;Spec Driven Development: When Architecture Becomes Executable,&rdquo; InfoQ, January 12, 2026; Thoughtworks Technology Radar Vol. 34, April 2026; Markus Eisele, O&rsquo;Reilly Radar, April 8, 2026</em></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-04-15-aso-the-new-process/image1-sdd.png" alt="Diagram of Spec-Driven Development pipeline from human specification through OpenAPI contracts and AI generation agents to deployed systems" style="display:block;margin:auto;max-width:100%;max-width:1408px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Diagram of Spec-Driven Development pipeline from human specification through OpenAPI contracts and AI generation agents to deployed systems — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>The most structurally radical of the three. Spec-Driven Development inverts the
+traditional SDLC by making the <strong>specification — not the code — the primary
+maintained artifact</strong>. Engineers write structured functional specs (using
+formats like EARS notation or OpenAPI contracts). AI agents then generate,
+regenerate, and validate code against those specs continuously. The code is
+explicitly <em>disposable</em> — never manually edited, always regenerable from an
+upstream spec.</p>
+<p>The five-layer pipeline proposed by Griffin and Carroll (InfoQ, January 2026)
+runs from Specification → Generation → Artifact → Validation → Runtime, with the
+key principle that drift between spec and runtime is detected and flagged
+automatically. AWS&rsquo;s Kiro IDE tool operationalizes this as: natural language →
+structured requirements → architecture doc → task list → agent-driven
+implementation. Tessl&rsquo;s version is the most provocative: the spec <em>replaces</em> the
+codebase as the thing your team actually maintains.</p>
+<p>The fundamental shift for engineering managers: <strong>your engineers stop being code
+authors and become contract authors.</strong> Architecture reviews become spec reviews.
+PRs become spec diffs.</p>
+<p><strong>Adoption status:</strong> Early and experimental. Kiro and GitHub&rsquo;s spec-kit have
+active early adopters. The Thoughtworks Technology Radar Vol. 34 (April 2026)
+rates it &ldquo;Assess&rdquo; — worth piloting, not yet ready for broad production use.</p>
+<p><strong>Watch out:</strong> Thoughtworks delivers the sharpest critique directly: <em>&ldquo;teams may
+be relearning a bitter lesson — that handcrafting detailed rules for AI
+ultimately doesn&rsquo;t scale.&rdquo;</em> Specs can become the new legacy: large, opaque, and
+owned by no one. The cognitive shift to contract-first reasoning is non-trivial,
+and proving that generated code is <em>correct</em> — not just specification-conformant
+— remains an open problem.</p>
+<p><em>Sources: Leigh Griffin and Ray Carroll, &ldquo;Spec Driven Development: When
+Architecture Becomes Executable,&rdquo; InfoQ, January 12, 2026; Thoughtworks
+Technology Radar Vol. 34, April 2026; Markus Eisele, O&rsquo;Reilly Radar, April 8,
+2026</em></p>
 <hr>
 <h2 id="2-harness-engineering">2. Harness Engineering</h2>
-<p><img src="/images/2026-04-15-aso-the-new-process/image2-harness.png"
-style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
-<p>The most mature and most precisely specified of the three. Coined by Birgitta Böckeler at Thoughtworks (February 2026, published April 2026), Harness Engineering proposes that the central engineering discipline for AI-assisted teams is no longer writing code — it is <strong>designing the control system around the coding agent</strong>.</p>
-<p>The harness is everything around the model itself: feedforward controls (guides that steer the agent before it acts) and feedback controls (sensors that detect problems after the agent acts and trigger self-correction). These operate across two axes:</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-04-15-aso-the-new-process/image2-harness.png" alt="Illustration of an autonomous AI coding agent wired to feedback sensors like linters, syntax checkers, and test runners" style="display:block;margin:auto;max-width:100%;max-width:1408px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Illustration of an autonomous AI coding agent wired to feedback sensors like linters, syntax checkers, and test runners — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>The most mature and most precisely specified of the three. Coined by Birgitta
+Böckeler at Thoughtworks (February 2026, published April 2026), Harness
+Engineering proposes that the central engineering discipline for AI-assisted
+teams is no longer writing code — it is <strong>designing the control system around
+the coding agent</strong>.</p>
+<p>The harness is everything around the model itself: feedforward controls (guides
+that steer the agent before it acts) and feedback controls (sensors that detect
+problems after the agent acts and trigger self-correction). These operate across
+two axes:</p>
 <ul>
 <li><strong>Timing:</strong> Feedforward (anticipatory) vs. Feedback (reactive)</li>
-<li><strong>Execution:</strong> Computational (deterministic: linters, type checkers, test runners — fast and cheap) vs. Inferential (semantic: AI-powered reviewers — slower, capable of detecting meaning-level problems)</li>
+<li><strong>Execution:</strong> Computational (deterministic: linters, type checkers, test
+runners — fast and cheap) vs. Inferential (semantic: AI-powered reviewers —
+slower, capable of detecting meaning-level problems)</li>
 </ul>
-<p>Three harness layers cover the full lifecycle: a <strong>Maintainability Harness</strong> (internal code quality), an <strong>Architecture Fitness Harness</strong> (structural conformance), and a <strong>Behaviour Harness</strong> (functional correctness). The timing model — keep quality left — maps directly to a delivery pipeline: fast computational sensors pre-commit, comprehensive AI reviews post-integration, SLO drift monitoring at runtime.</p>
-<p>The fundamental shift for engineering managers: <strong>quality assurance stops being a gate and becomes a continuously active control system.</strong> The senior engineer&rsquo;s job is to design, tune, and evaluate the harness — not to review 500-line diffs.</p>
-<p><strong>Adoption status:</strong> The most production-ready of the three. Thoughtworks rates &ldquo;Feedback Sensors for Coding Agents&rdquo; at Trial and &ldquo;Curated Shared Instructions for Software Teams&rdquo; at Adopt. Internal Thoughtworks client engagements have deployed this framework. It is the closest thing to a named, deployable methodology that currently exists.</p>
-<p><strong>Watch out:</strong> Böckeler names the gap directly: the Behaviour Harness — proving functional correctness — is largely unsolved. Computational sensors catch structural problems; neither computational nor inferential sensors reliably catch misdiagnosed requirements or over-engineered solutions. There is also a diagnostic paradox: if sensors never fire, is that evidence of quality or of inadequate detection? As harnesses grow, instruction coherence becomes a serious maintenance burden — what the Thoughtworks Radar separately labels &ldquo;Agent Instruction Bloat&rdquo; (Hold).</p>
-<p><em>Sources: Birgitta Böckeler, &ldquo;Harness Engineering for Coding Agent Users,&rdquo; martinfowler.com, April 2, 2026; Rahul Garg, &ldquo;Feedback Flywheel&rdquo; and &ldquo;Context Anchoring,&rdquo; martinfowler.com, March–April 2026; Thoughtworks Technology Radar Vol. 34, April 2026</em></p>
+<p>Three harness layers cover the full lifecycle: a <strong>Maintainability Harness</strong>
+(internal code quality), an <strong>Architecture Fitness Harness</strong> (structural
+conformance), and a <strong>Behaviour Harness</strong> (functional correctness). The timing
+model — keep quality left — maps directly to a delivery pipeline: fast
+computational sensors pre-commit, comprehensive AI reviews post-integration, SLO
+drift monitoring at runtime.</p>
+<p>The fundamental shift for engineering managers: <strong>quality assurance stops being
+a gate and becomes a continuously active control system.</strong> The senior engineer&rsquo;s
+job is to design, tune, and evaluate the harness — not to review 500-line diffs.</p>
+<p><strong>Adoption status:</strong> The most production-ready of the three. Thoughtworks rates
+&ldquo;Feedback Sensors for Coding Agents&rdquo; at Trial and &ldquo;Curated Shared Instructions
+for Software Teams&rdquo; at Adopt. Internal Thoughtworks client engagements have
+deployed this framework. It is the closest thing to a named, deployable
+methodology that currently exists.</p>
+<p><strong>Watch out:</strong> Böckeler names the gap directly: the Behaviour Harness — proving
+functional correctness — is largely unsolved. Computational sensors catch
+structural problems; neither computational nor inferential sensors reliably
+catch misdiagnosed requirements or over-engineered solutions. There is also a
+diagnostic paradox: if sensors never fire, is that evidence of quality or of
+inadequate detection? As harnesses grow, instruction coherence becomes a serious
+maintenance burden — what the Thoughtworks Radar separately labels &ldquo;Agent
+Instruction Bloat&rdquo; (Hold).</p>
+<p><em>Sources: Birgitta Böckeler, &ldquo;Harness Engineering for Coding Agent Users,&rdquo;
+martinfowler.com, April 2, 2026; Rahul Garg, &ldquo;Feedback Flywheel&rdquo; and &ldquo;Context
+Anchoring,&rdquo; martinfowler.com, March–April 2026; Thoughtworks Technology Radar
+Vol. 34, April 2026</em></p>
 <hr>
 <h2 id="3-agent-driven-development-add">3. Agent-Driven Development (ADD)</h2>
-<p><img src="/images/2026-04-15-aso-the-new-process/image3-add.png"
-style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
-<p>The most widely practiced but least governed of the three. Agent-Driven Development designates AI coding agents as the <strong>primary contributors</strong> to software, with human engineers shifting roles from implementers to strategic planners, architects, and final reviewers.</p>
-<p>The canonical ADD workflow (Tyler McGoffin, GitHub Copilot Applied Science, March 2026):</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-04-15-aso-the-new-process/image3-add.png" alt="An engineer in a command center monitoring and directing multiple AI coding agents across large screens" style="display:block;margin:auto;max-width:100%;max-width:1408px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">An engineer in a command center monitoring and directing multiple AI coding agents across large screens — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>The most widely practiced but least governed of the three. Agent-Driven
+Development designates AI coding agents as the <strong>primary contributors</strong> to
+software, with human engineers shifting roles from implementers to strategic
+planners, architects, and final reviewers.</p>
+<p>The canonical ADD workflow (Tyler McGoffin, GitHub Copilot Applied Science,
+March 2026):</p>
 <ol>
-<li><strong>Plan</strong> — conversational, verbose scoping with the agent in planning mode (human-led)</li>
+<li><strong>Plan</strong> — conversational, verbose scoping with the agent in planning mode
+(human-led)</li>
 <li><strong>Implement</strong> — agent executes autonomously; human observes</li>
-<li><strong>Agent Review</strong> — a dedicated review agent inspects output against quality criteria</li>
-<li><strong>Human Oversight</strong> — final human review enforcing architectural patterns and business intent</li>
-<li><strong>Maintenance Loop</strong> — periodic automated reviews for duplication, coverage, and documentation gaps</li>
+<li><strong>Agent Review</strong> — a dedicated review agent inspects output against quality
+criteria</li>
+<li><strong>Human Oversight</strong> — final human review enforcing architectural patterns and
+business intent</li>
+<li><strong>Maintenance Loop</strong> — periodic automated reviews for duplication, coverage,
+and documentation gaps</li>
 </ol>
-<p>DHH at 37signals runs two models simultaneously (a fast model for iteration, a powerful model for complex reasoning) and applies the same quality bar as pre-AI work — the point is not to lower standards but to reach them faster. Amazon enforces a governance layer: junior engineers may not merge agent-generated code without senior sign-off.</p>
-<p>The fundamental shift for engineering managers: <strong>code authorship is no longer the bottleneck.</strong> Clean architecture, comprehensive tests, and thorough documentation become <em>prerequisites for agent effectiveness</em> rather than nice-to-haves that get cut under deadline pressure. This inverts traditional prioritization entirely.</p>
-<p><strong>Adoption status:</strong> Actively practiced at scale. 37signals, Amazon, Meta, Uber, Sentry, and Stripe (reportedly thousands of agent-generated PRs per week) are all cited in The Pragmatic Engineer&rsquo;s March and April 2026 coverage. Adoption is ahead of methodology — teams are doing it before any standard playbook exists.</p>
-<p><strong>Watch out:</strong> The Pragmatic Engineer&rsquo;s March 2026 investigation (&ldquo;Are AI Agents Actually Slowing Us Down?&rdquo;) provides the counter-evidence: more pull requests do not correlate with business impact. Amazon&rsquo;s 13-hour AWS outage was traced in part to AI-assisted changes. The core failure mode is what Thoughtworks labels &ldquo;Codebase Cognitive Debt&rdquo; (Hold): speed metrics look good while human understanding of the system quietly degrades. ADD assumes human review can scale with agent output. The evidence so far suggests it cannot — without structural changes, the review bottleneck becomes the new constraint.</p>
-<p><em>Sources: Tyler McGoffin, &ldquo;Agent-Driven Development in Copilot Applied Science,&rdquo; GitHub Blog, March 31, 2026; Gergely Orosz, &ldquo;Are AI Agents Actually Slowing Us Down?&rdquo; and &ldquo;DHH&rsquo;s New Way of Writing Code,&rdquo; The Pragmatic Engineer, March–April 2026; Thoughtworks Technology Radar Vol. 34, April 2026</em></p>
+<p>DHH at 37signals runs two models simultaneously (a fast model for iteration, a
+powerful model for complex reasoning) and applies the same quality bar as pre-AI
+work — the point is not to lower standards but to reach them faster. Amazon
+enforces a governance layer: junior engineers may not merge agent-generated code
+without senior sign-off.</p>
+<p>The fundamental shift for engineering managers: <strong>code authorship is no longer
+the bottleneck.</strong> Clean architecture, comprehensive tests, and thorough
+documentation become <em>prerequisites for agent effectiveness</em> rather than
+nice-to-haves that get cut under deadline pressure. This inverts traditional
+prioritization entirely.</p>
+<p><strong>Adoption status:</strong> Actively practiced at scale. 37signals, Amazon, Meta, Uber,
+Sentry, and Stripe (reportedly thousands of agent-generated PRs per week) are
+all cited in The Pragmatic Engineer&rsquo;s March and April 2026 coverage. Adoption is
+ahead of methodology — teams are doing it before any standard playbook exists.</p>
+<p><strong>Watch out:</strong> The Pragmatic Engineer&rsquo;s March 2026 investigation (&ldquo;Are AI Agents
+Actually Slowing Us Down?&rdquo;) provides the counter-evidence: more pull requests do
+not correlate with business impact. Amazon&rsquo;s 13-hour AWS outage was traced in
+part to AI-assisted changes. The core failure mode is what Thoughtworks labels
+&ldquo;Codebase Cognitive Debt&rdquo; (Hold): speed metrics look good while human
+understanding of the system quietly degrades. ADD assumes human review can scale
+with agent output. The evidence so far suggests it cannot — without structural
+changes, the review bottleneck becomes the new constraint.</p>
+<p><em>Sources: Tyler McGoffin, &ldquo;Agent-Driven Development in Copilot Applied Science,&rdquo;
+GitHub Blog, March 31, 2026; Gergely Orosz, &ldquo;Are AI Agents Actually Slowing Us
+Down?&rdquo; and &ldquo;DHH&rsquo;s New Way of Writing Code,&rdquo; The Pragmatic Engineer, March–April
+2026; Thoughtworks Technology Radar Vol. 34, April 2026</em></p>
 <hr>
 <h2 id="side-by-side">Side by Side</h2>
 <table>
@@ -225,12 +328,28 @@ style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
 </table>
 <hr>
 <h2 id="the-pattern-underneath">The Pattern Underneath</h2>
-<p>All three methodologies are solving the same problem from different angles: <strong>agent output is outpacing human judgment.</strong></p>
-<p>SDD moves judgment left — to the specification. Harness Engineering moves judgment into the control plane — to sensor and guide design. ADD moves judgment to the right — to the review and oversight layer. The failure mode is identical across all three: the methodology breaks when the human judgment layer is underpowered relative to the volume of agent output passing through it.</p>
-<p>This is not a tool problem. It is an organizational design problem. The question for engineering managers in 2026 is not &ldquo;which AI tools should we adopt?&rdquo; It is: &ldquo;where in our delivery pipeline do we have enough judgment capacity to actually govern what the agents produce?&rdquo;</p>
+<p>All three methodologies are solving the same problem from different angles:
+<strong>agent output is outpacing human judgment.</strong></p>
+<p>SDD moves judgment left — to the specification. Harness Engineering moves
+judgment into the control plane — to sensor and guide design. ADD moves judgment
+to the right — to the review and oversight layer. The failure mode is identical
+across all three: the methodology breaks when the human judgment layer is
+underpowered relative to the volume of agent output passing through it.</p>
+<p>This is not a tool problem. It is an organizational design problem. The question
+for engineering managers in 2026 is not &ldquo;which AI tools should we adopt?&rdquo; It is:
+&ldquo;where in our delivery pipeline do we have enough judgment capacity to actually
+govern what the agents produce?&rdquo;</p>
 <h2 id="where-to-start">Where to Start</h2>
-<p>If your organization has strong CI/CD discipline and an existing investment in automated quality gates, <strong>Harness Engineering is the most actionable starting point</strong>. It builds on what you already have, introduces control incrementally, and has the most production evidence behind it. It is also the only one of the three with a named, published framework you can hand to a team lead on Monday morning.</p>
-<p>SDD is the most transformative long-term bet — but it requires a level of specification discipline most organizations do not yet have. ADD is already happening whether you planned it or not; the question is whether you govern it before the cognitive debt compounds.</p>
+<p>If your organization has strong CI/CD discipline and an existing investment in
+automated quality gates, <strong>Harness Engineering is the most actionable starting
+point</strong>. It builds on what you already have, introduces control incrementally,
+and has the most production evidence behind it. It is also the only one of the
+three with a named, published framework you can hand to a team lead on Monday
+morning.</p>
+<p>SDD is the most transformative long-term bet — but it requires a level of
+specification discipline most organizations do not yet have. ADD is already
+happening whether you planned it or not; the question is whether you govern it
+before the cognitive debt compounds.</p>
 <p>The race is still on. But now we have frameworks to run it with.</p>
 <hr>
 </div>
@@ -446,7 +565,7 @@ style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-04-16 05:55:55 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

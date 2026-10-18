@@ -140,33 +140,67 @@ layui.use('element', function(){
                     <p>Hamler Blog Post Series &hellip;</p>
 <ul>
 <li>Hamler (I) - First week (this post)</li>
-<li>Hamler (<a href="https://tedn.life/2021/01/18/haskell-beam-hamler-ii/">II</a>) - All solutions for part 1 (in Hamler and Haskell)</li>
-<li>Hamler (<a href="https://tedn.life/2021/02/01/haskell-beam-hamler-iii/">III</a>) - Making Day21 10 times faster</li>
+<li>Hamler (<a href="https://tedn.life/2021/01/18/haskell-beam-hamler-ii/">II</a>) - All
+solutions for part 1 (in Hamler and Haskell)</li>
+<li>Hamler (<a href="https://tedn.life/2021/02/01/haskell-beam-hamler-iii/">III</a>) - Making
+Day21 10 times faster</li>
 </ul>
 <hr>
-<p>What&rsquo;s at the intersection of <a href="https://www.haskell.org/">Haskell</a>, the Erlang <a href="https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)">Beam</a>/<a href="http://erlang.org/doc/system_architecture_intro/sys_arch_intro.html">OTP</a> and the <a href="https://adventofcode.com">Advent-of-Code</a>?</p>
+<p>What&rsquo;s at the intersection of <a href="https://www.haskell.org/">Haskell</a>, the Erlang
+<a href="https://en.wikipedia.org/wiki/BEAM_(Erlang_virtual_machine)">Beam</a>/<a href="http://erlang.org/doc/system_architecture_intro/sys_arch_intro.html">OTP</a>
+and the <a href="https://adventofcode.com">Advent-of-Code</a>?</p>
 <p>Yes, right: <a href="https://www.hamler-lang.org">Hamler</a>!</p>
 <p>Hamler is a Haskell-like language that runs on the Erlang Beam/OTP.</p>
-<p>At Community we are big Beam/OTP fans (because we like highly-scalable and highly-available shared nothing micro-services systems). Our entire backend runs on the Beam (written in Elixir).</p>
-<p>And <a href="https://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut">I am a big fan</a> of Haskell and Functional Programming and the Advent-of-Code (I guess you can see, where this is going :)).</p>
-<p>So &hellip; I figured, this year I do <a href="https://github.com/rolandtritsch/hamler-aoc-2020">the Advent-of-Code in Hamler</a> (and as far as I can see it, I am the only one to do it Hamler).</p>
+<p>At Community we are big Beam/OTP fans (because we like highly-scalable and
+highly-available shared nothing micro-services systems). Our entire backend runs
+on the Beam (written in Elixir).</p>
+<p>And
+<a href="https://tedn.life/2018/11/30/advent-of-code-...-final-cut-...-and-first-cut">I am a big fan</a>
+of Haskell and Functional Programming and the Advent-of-Code (I guess you can
+see, where this is going :)).</p>
+<p>So &hellip; I figured, this year I do
+<a href="https://github.com/rolandtritsch/hamler-aoc-2020">the Advent-of-Code in Hamler</a>
+(and as far as I can see it, I am the only one to do it Hamler).</p>
 <p>There are a couple of questions I want to answer &hellip;</p>
 <ol>
-<li>How stable is Hamler? Does it work? Does it crash? A lot? When compiling code? When running code?</li>
-<li>How close is it to Haskell? Do you have to learn a new language or can you (more or less) write Haskell code and &ldquo;it will just work&rdquo; (tm)?</li>
-<li>How complete is it? Is all of Haskell supported? Or just parts of it? Which parts?</li>
-<li>How about the eco-system? Are there (already) any libraries? Is there a Hamler version of Hackage?</li>
-<li>How about the development environment? Can you use existing IDE&rsquo;s to develop Hamler code?</li>
+<li>How stable is Hamler? Does it work? Does it crash? A lot? When compiling
+code? When running code?</li>
+<li>How close is it to Haskell? Do you have to learn a new language or can you
+(more or less) write Haskell code and &ldquo;it will just work&rdquo; (tm)?</li>
+<li>How complete is it? Is all of Haskell supported? Or just parts of it? Which
+parts?</li>
+<li>How about the eco-system? Are there (already) any libraries? Is there a
+Hamler version of Hackage?</li>
+<li>How about the development environment? Can you use existing IDE&rsquo;s to develop
+Hamler code?</li>
 <li>How about the performance? Is it as fast as Haskell? As fast as Erlang?</li>
-<li>How about the exisiting Haskell eco-system? Can you use/reuse existing Haskell code in Hamler?</li>
-<li>How about the existing Erlang eco-system? Can you use/resuse existing Erlang code (or maybe even Elixir code) in Hamler?</li>
+<li>How about the exisiting Haskell eco-system? Can you use/reuse existing
+Haskell code in Hamler?</li>
+<li>How about the existing Erlang eco-system? Can you use/resuse existing Erlang
+code (or maybe even Elixir code) in Hamler?</li>
 <li>How about the Beam/OTP? How can you use GenServers and Supervisors?</li>
 </ol>
-<p>First (to set the scene/stage): Hamler was/is developed/sponsored by EMQ. EMQ is an open source software company providing highly-scalable, real-time messaging and streaming engine for IoT platform &amp; applications in 5G Era. It is implemented in Erlang. But (it seems) that the guys at EMQ also felt that there are a couple of things that are missing, when you use Erlang as the means to get to the goodness of OTP and the Beam (not to dissimilar to Jose&rsquo;s motivation when he started Elixir).</p>
-<img src="/images/2020-12-15-hamler-aoc-I/aoc-week1.png" style="display:block; margin-left: auto; margin-right: auto;" width="80%" hspace="10" vspace="10"/>
-<p>The first impression (week 1) is good. Hamler is much more stable than I thought. The compiler works and is giving meaningful error messages. The runtime works and is only crashing when I am doing something wrong.</p>
-<p>The (not so unexpected) gaps are the lack of tooling (but &hellip; there is a repl and I was able to get good millage out of the emacs haskell-mode (without using a/the lsp-mode/-server (obvisoulsy)) and the small number libraries and packages that are available (when you do the AoC, something like MegaParsec is obviously very useful to read/parse the input files).</p>
-<p>After I am done, I will followup with a couple of blog-posts to answer the questions above. Stay tuned &hellip;</p>
+<p>First (to set the scene/stage): Hamler was/is developed/sponsored by EMQ. EMQ is
+an open source software company providing highly-scalable, real-time messaging
+and streaming engine for IoT platform &amp; applications in 5G Era. It is
+implemented in Erlang. But (it seems) that the guys at EMQ also felt that there
+are a couple of things that are missing, when you use Erlang as the means to get
+to the goodness of OTP and the Beam (not to dissimilar to Jose&rsquo;s motivation when
+he started Elixir).</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2020-12-15-hamler-aoc-I/aoc-week1.png" alt="Advent of Code 2020 calendar showing stars earned for week 1" style="display:block;margin:auto;max-width:100%;max-width:1934px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Advent of Code 2020 calendar showing stars earned for week 1 — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>The first impression (week 1) is good. Hamler is much more stable than I
+thought. The compiler works and is giving meaningful error messages. The runtime
+works and is only crashing when I am doing something wrong.</p>
+<p>The (not so unexpected) gaps are the lack of tooling (but &hellip; there is a repl
+and I was able to get good millage out of the emacs haskell-mode (without using
+a/the lsp-mode/-server (obvisoulsy)) and the small number libraries and packages
+that are available (when you do the AoC, something like MegaParsec is obviously
+very useful to read/parse the input files).</p>
+<p>After I am done, I will followup with a couple of blog-posts to answer the
+questions above. Stay tuned &hellip;</p>
 </div>
             </div>
         </div>
@@ -400,7 +434,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2021-02-01 09:57:43 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

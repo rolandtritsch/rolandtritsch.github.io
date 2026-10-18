@@ -146,115 +146,115 @@ layui.use('element', function(){
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <p>Updated (2022-01-01): Added <code>stage</code>.</p>
-<p>At Community we are building a platform that will allow you to have
-meaningful conversations with large audiences &hellip; at scale!!!</p>
-<p>The architectural backbone is a shared-nothing micro-services
-architecture, that uses an event-bus for state propagation.</p>
-<p>To avoid any kind of 2-phase-commit shenanigans we are publishing
-events at-least-once (not exactly-once). That means our services need
-to be able to and are able to deal with dublicated events gracefully
-(by ignoring them).</p>
-<p>It also means, that we have to retry publishing an event on the
-event-bus, if the publish fails. One reason the publish can fail
-(especially when you run long event replay jobs) is that the AMQP
-infrastructure (connections, channel, &hellip;) dies.</p>
+<p>At Community we are building a platform that will allow you to have meaningful
+conversations with large audiences &hellip; at scale!!!</p>
+<p>The architectural backbone is a shared-nothing micro-services architecture, that
+uses an event-bus for state propagation.</p>
+<p>To avoid any kind of 2-phase-commit shenanigans we are publishing events
+at-least-once (not exactly-once). That means our services need to be able to and
+are able to deal with dublicated events gracefully (by ignoring them).</p>
+<p>It also means, that we have to retry publishing an event on the event-bus, if
+the publish fails. One reason the publish can fail (especially when you run long
+event replay jobs) is that the AMQP infrastructure (connections, channel, &hellip;)
+dies.</p>
 <p>The tech-stack is: Elixir, AMQP and RabbitMQ.</p>
-<p>The interesting thing is that, if you use AMQP out of the box and
-create a connection and a channel and start publishing events
-(e.g. from a gen-server), you will not get notified when the
-infrastructure has a problem (e.g. dies).</p>
-<p>Instead you will get a <code>Cannot find process</code> error/exception next
-time you try to use the infrastructure (e.g. publish an event).</p>
+<p>The interesting thing is that, if you use AMQP out of the box and create a
+connection and a channel and start publishing events (e.g. from a gen-server),
+you will not get notified when the infrastructure has a problem (e.g. dies).</p>
+<p>Instead you will get a <code>Cannot find process</code> error/exception next time you try
+to use the infrastructure (e.g. publish an event).</p>
 <p>So &hellip; what is going on here?</p>
-<p>After investigating and understanding it the answer is simple: the
-Elixir/Erlang AMQP implementation creates an Erlang process for the
-connection and a process for the channel on that connection and when
-there is a problem these two processes die.</p>
+<p>After investigating and understanding it the answer is simple: the Elixir/Erlang
+AMQP implementation creates an Erlang process for the connection and a process
+for the channel on that connection and when there is a problem these two
+processes die.</p>
 <p>So far so good &hellip;</p>
-<p>The problem is that out-of-the-box these processes are not linked to
-the processes that created them, which makes detecting that something
-went wrong (and retrying what ever failed) kind-a interesting.</p>
+<p>The problem is that out-of-the-box these processes are not linked to the
+processes that created them, which makes detecting that something went wrong
+(and retrying what ever failed) kind-a interesting.</p>
 <p>At the end we came up with the following approaches to deal with this &hellip;</p>
 <ol>
-<li>Use <code>try/catch</code> around every statement that uses a connection or
-a channel (catching the <code>exit</code>)</li>
-<li>Use <code>Process.flag(:trap_exit, true)</code> AND link the connection
-process to the process that created the connection and handle the
-<code>exit</code> message</li>
-<li>Take a step back and use a <code>supervisor</code> to restart the connection
-AND retry whatever needs retrying</li>
+<li>Use <code>try/catch</code> around every statement that uses a connection or a channel
+(catching the <code>exit</code>)</li>
+<li>Use <code>Process.flag(:trap_exit, true)</code> AND link the connection process to the
+process that created the connection and handle the <code>exit</code> message</li>
+<li>Take a step back and use a <code>supervisor</code> to restart the connection AND retry
+whatever needs retrying</li>
 <li>Take it one step further and use <code>gen_stages</code> with a <code>supervisor</code></li>
 </ol>
 <p>The good news is there is a
-<a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">repo</a> that
-has all of the code in it that shows how this works (the implementations
-for all the different approaches are on different branches)!!!</p>
+<a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">repo</a> that has all of
+the code in it that shows how this works (the implementations for all the
+different approaches are on different branches)!!!</p>
 <p>Let&rsquo;s talk about these approaches &hellip;</p>
 <h2 id="using-trycatch">Using try/catch</h2>
-<p>Obviously easy to implement and easy to understand. Retrying whatever
-you did is also easy, because you know what operation you tried/failed.</p>
+<p>Obviously easy to implement and easy to understand. Retrying whatever you did is
+also easy, because you know what operation you tried/failed.</p>
 <p>But &hellip; you need to wrap every AMQP call in a try/catch. Not so nice.</p>
 <h2 id="using-trap_exit-and-processlink">Using trap_exit (and Process.link())</h2>
-<p>With this you can (just) listen for the <code>exit</code> message to arrive in
-your inbox and handle it with <code>handle_info</code>. On one hand this is much
-nicer, but &hellip; retrying whatever failed becomes harder (you probably
-need to put some info into the state, so that you know what to retry,
-when you get/handle the <code>exit</code>).</p>
-<p>We also realized that just pattern matching on <code>:exit/:infrastructure_died</code>
-is not good enough, because there is small race condition, where the next
-publish happens before you can trap the exit from the connection/channel
-gen_server and in that case you get the treaded <code>:exit/:noproc</code> again (and
-need to handle that too).</p>
+<p>With this you can (just) listen for the <code>exit</code> message to arrive in your inbox
+and handle it with <code>handle_info</code>. On one hand this is much nicer, but &hellip;
+retrying whatever failed becomes harder (you probably need to put some info into
+the state, so that you know what to retry, when you get/handle the <code>exit</code>).</p>
+<p>We also realized that just pattern matching on <code>:exit/:infrastructure_died</code> is
+not good enough, because there is small race condition, where the next publish
+happens before you can trap the exit from the connection/channel gen_server and
+in that case you get the treaded <code>:exit/:noproc</code> again (and need to handle that
+too).</p>
 <h2 id="using-a-supervisor">Using a supervisor</h2>
-<p><img src="/images/2021-10-26-amqp-reconnect/processes.jpg"
-style="float:right" width="30%" hspace="5%" vspace="1%"/></p>
-<p>That&rsquo;s obviously a nice solution. For that you create a supervisor
-and a worker and give the work to-do (e.g. publish this batch of
-events) to the worker. The supervisor supervises the worker and if the
-worker has any kind of problem getting the work done the supervisor
-will restart the worker and retry the work (the batch).</p>
-<p>This will also cater for the case that we descibed above, where the
-publisher can exit with at least two abnormal reasons (<code>:infrastructure_died</code>
-and <code>:noproc</code>).</p>
+<figure style="float:right; max-width:30%; margin:0.5em 0 0.5em 1.5em;">
+<img src="/images/2021-10-26-amqp-reconnect/processes.jpg" alt="Whiteboard sketch of the Batcher, Supervisor, Publisher, and Consumer process flow" style="display:block;width:auto;height:auto;max-width:100%;max-height:280px;"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.8em;color:#666;text-align:center;margin-top:0.3em;">Whiteboard sketch of the Batcher, Supervisor, Publisher, and Consumer process flow — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>That&rsquo;s obviously a nice solution. For that you create a supervisor and a worker
+and give the work to-do (e.g. publish this batch of events) to the worker. The
+supervisor supervises the worker and if the worker has any kind of problem
+getting the work done the supervisor will restart the worker and retry the work
+(the batch).</p>
+<p>This will also cater for the case that we descibed above, where the publisher
+can exit with at least two abnormal reasons (<code>:infrastructure_died</code> and
+<code>:noproc</code>).</p>
+<div style="clear:both;"></div>
 <h2 id="using-gen_stages-with-a-supervisor">Using gen_stages (with a supervisor)</h2>
-<p>A couple of weeks ago I had a chance to review this work with some
-of my colleagues at Community and the conclusion was that this can
-be improved by using gen_stages.</p>
+<p>A couple of weeks ago I had a chance to review this work with some of my
+colleagues at Community and the conclusion was that this can be improved by
+using gen_stages.</p>
 <p>The implementation is elegant and can recover from various infrastructure
 problems with connections and channels.</p>
 <p>But there is one thing that you need to think about. One reason why the
-supervisor approach above works well is that we start a worker per batch
-(in sequence, one after the other), means when the worker dies and gets
-restarted the batch to process gets passed to it again (automatically).</p>
+supervisor approach above works well is that we start a worker per batch (in
+sequence, one after the other), means when the worker dies and gets restarted
+the batch to process gets passed to it again (automatically).</p>
 <p>Which gives us the at-least-once semantic we want and need.</p>
-<p>gen_stage pipelines work differently. The publisher is started once
-and will keep on asking for batches until it is stopped or it dies.</p>
-<p>When the publisher is restarted (after it died) it will ask for the
-<code>next</code> batch. It does not know, that it failed to process a batch
-and/or what that batch was/is.</p>
-<p>The solution can be simple: Just use the head of the pipeline (in our
-case the batcher) to hold on to a copy of the current batch until the
-tail of the pipeline (in our case the publisher) has confirmed that
-it has processed the batch. If that ack has not happened and the
-pipeline asks the batcher for the next batch, the batcher can resend
-the batch that was (apparently) not correctly/entirely processed.</p>
-<p><img src="https://media.giphy.com/media/VFvjxRZd5cR7WDeDPj/giphy.gif"
-style="display:block; margin-right:auto; margin-left:auto" width="80%"
-hspace="5%" vspace="5%"/></p>
-<p>Initial implementations of this had very elaborate trapping and linking
-and message passing. The main lesson learned was: Do not try to do the
-work for the OTP. Let the OTP do the work for you. In our case that
-means/meant: Let the worker fail! Let the supervisor restart it. And
-do not use any of the &ldquo;internal&rdquo; messages (e.g. :exit/:normal) to tell
-the batcher to send the next batch. Instead use a custom message (e.g.
-:next). Even more, even further: Use the eco-system! This problem is
-not new and can be solved using existing capabilities (e.g. <code>gen_stages</code>).</p>
-<p>Again: If you want to find out about the details how this works,
-please take a look at the
-<a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">repo</a>.</p>
-<p><img src="/images/2021-10-26-amqp-reconnect/repo.png" style=
-"display:block; margin-right:auto; margin-left:auto" width="80%"
-hspace="5%" vspace="5%"/></p>
+<p>gen_stage pipelines work differently. The publisher is started once and will
+keep on asking for batches until it is stopped or it dies.</p>
+<p>When the publisher is restarted (after it died) it will ask for the <code>next</code>
+batch. It does not know, that it failed to process a batch and/or what that
+batch was/is.</p>
+<p>The solution can be simple: Just use the head of the pipeline (in our case the
+batcher) to hold on to a copy of the current batch until the tail of the
+pipeline (in our case the publisher) has confirmed that it has processed the
+batch. If that ack has not happened and the pipeline asks the batcher for the
+next batch, the batcher can resend the batch that was (apparently) not
+correctly/entirely processed.</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://media.giphy.com/media/VFvjxRZd5cR7WDeDPj/giphy.gif" alt="Animated reaction gif" style="display:block;margin:auto;max-width:100%;max-width:480px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Animated reaction gif — Source: Giphy</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>Initial implementations of this had very elaborate trapping and linking and
+message passing. The main lesson learned was: Do not try to do the work for the
+OTP. Let the OTP do the work for you. In our case that means/meant: Let the
+worker fail! Let the supervisor restart it. And do not use any of the &ldquo;internal&rdquo;
+messages (e.g. :exit/:normal) to tell the batcher to send the next batch.
+Instead use a custom message (e.g. :next). Even more, even further: Use the
+eco-system! This problem is not new and can be solved using existing
+capabilities (e.g. <code>gen_stages</code>).</p>
+<p>Again: If you want to find out about the details how this works, please take a
+look at the <a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">repo</a>.</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2021-10-26-amqp-reconnect/repo.png" alt="GitHub repository page for the elixir-amqp-reconnect project" style="display:block;margin:auto;max-width:100%;max-width:912px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">GitHub repository page for the elixir-amqp-reconnect project — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>Happy reliable, at-least-once eventing &hellip;</p>
 </div>
             </div>
@@ -509,7 +509,7 @@ hspace="5%" vspace="5%"/></p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2022-01-11 07:28:36 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

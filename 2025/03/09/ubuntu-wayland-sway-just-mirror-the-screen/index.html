@@ -122,17 +122,41 @@ layui.use('element', function(){
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <p>This is a good one. Let me go back to the beginning &hellip;</p>
-<p>Once upon a time there was a pandemic and during this pandemic we forgot how to do meetups.</p>
-<p>We also (after the pandemic) updated and upgraded ourselves from Ubuntu/X11/i3 to Ubuntu/Wayland/Sway.</p>
+<p>Once upon a time there was a pandemic and during this pandemic we forgot how to
+do meetups.</p>
+<p>We also (after the pandemic) updated and upgraded ourselves from Ubuntu/X11/i3
+to Ubuntu/Wayland/Sway.</p>
 <p>And the world was good. Until &hellip;</p>
-<p>&hellip; I tried to do a live demo at the latest Augmented Software Engineering <a href="https://www.meetup.com/the-augmented-software-engineer">Meetup</a>.</p>
-<p>Imaging my surprise when I found out that with Ubuntu/Wayland/Sway there is no good/easy way to mirror your screen to a projector.</p>
-<p>Sounds pretty straight forward to me. Turns out it <a href="https://github.com/swaywm/sway/issues/1666">isn&rsquo;t</a>. And even worse, when you ask <a href="https://chatgpt.com/share/67cdefc3-0500-8013-85da-18088d1925e7">chatGPT</a> you will probably get an answer which will suggest to move the position of the two displays to 0,0 &hellip; which will make both displays share the mouse pointer, but not the screen itself.</p>
-<p>After some manual googling and some more research and reading you might stumble over <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a>.</p>
-<p><img src="https://user-images.githubusercontent.com/4077106/141605347-37ba690c-f885-422a-93a6-81d5a48bee13.png" style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></br></p>
-<p>Just to save you some time: This is it! I was not able to find anything else or make anything else work. As far as I can tell, (as at the time of writing) <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> is the best (or maybe your only) option to mirror your screen (with Ubuntu/Wayland/Sway).</p>
-<p>Note: This is not to be confused with using a second screen/display (e.g. the projector) to show your presentation. That always worked and works fine. The problem materializes itself when you want to do a live-demo and need to look at your screen and people need to see what you are doing (also known as mirroring your screen to the projector).</p>
-<p>Note: <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> works in a weird/interesting way. It is not that you mirror your screen/display to the projector/display. It works the other way around: You move the workspace you want to use for the live-demo to the projector/display and then you tell <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> to mirror that workspace back to your screen/display (so that you can see what happens on the projector/display when/while you are typing). (Initially) That confused me (a little bit). Otherwise <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> is awesome!</p>
+<p>&hellip; I tried to do a live demo at the latest Augmented Software Engineering
+<a href="https://www.meetup.com/the-augmented-software-engineer">Meetup</a>.</p>
+<p>Imaging my surprise when I found out that with Ubuntu/Wayland/Sway there is no
+good/easy way to mirror your screen to a projector.</p>
+<p>Sounds pretty straight forward to me. Turns out it <a href="https://github.com/swaywm/sway/issues/1666">isn&rsquo;t</a>. And even worse,
+when you ask <a href="https://chatgpt.com/share/67cdefc3-0500-8013-85da-18088d1925e7">chatGPT</a> you will probably get an answer which will suggest to
+move the position of the two displays to 0,0 &hellip; which will make both displays
+share the mouse pointer, but not the screen itself.</p>
+<p>After some manual googling and some more research and reading you might stumble
+over <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a>.</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://user-images.githubusercontent.com/4077106/141605347-37ba690c-f885-422a-93a6-81d5a48bee13.png" alt="Screenshot of wl-mirror mirroring a Wayland display" style="display:block;margin:auto;max-width:100%;max-width:1920px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Screenshot of wl-mirror mirroring a Wayland display — Source: GitHub</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>Just to save you some time: This is it! I was not able to find anything else or
+make anything else work. As far as I can tell, (as at the time of writing)
+<a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> is the best (or maybe your only) option to mirror your screen
+(with Ubuntu/Wayland/Sway).</p>
+<p>Note: This is not to be confused with using a second screen/display (e.g. the
+projector) to show your presentation. That always worked and works fine. The
+problem materializes itself when you want to do a live-demo and need to look at
+your screen and people need to see what you are doing (also known as mirroring
+your screen to the projector).</p>
+<p>Note: <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> works in a weird/interesting way. It is not that you mirror
+your screen/display to the projector/display. It works the other way around: You
+move the workspace you want to use for the live-demo to the projector/display
+and then you tell <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> to mirror that workspace back to your
+screen/display (so that you can see what happens on the projector/display
+when/while you are typing). (Initially) That confused me (a little bit).
+Otherwise <a href="https://github.com/Ferdi265/wl-mirror">wl-mirror</a> is awesome!</p>
 <p>Enjoy. Hope to see you soon at a meetup!</p>
 </div>
             </div>
@@ -387,7 +411,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2025-03-09 19:57:04 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

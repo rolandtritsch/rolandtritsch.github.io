@@ -133,24 +133,37 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>Here comes part III of the <a href="https://tedn.life/2020/12/15/haskell-beam-hamler-i/">Hamler blog post series</a> &hellip;</p>
-<p>One of the observations was that for/on Day21 hamler ~6000 times slower than haskell, where in general we where able to see that it was 5-20 times slower.</p>
-<p>Just looked into this a little bit and there is good news and bad news. The good news is I found something.</p>
-<p>I can make the hamer solution run 10 times faster by changing the implementation of part1 from &hellip;</p>
+                    <p>Here comes part III of the
+<a href="https://tedn.life/2020/12/15/haskell-beam-hamler-i/">Hamler blog post series</a>
+&hellip;</p>
+<p>One of the observations was that for/on Day21 hamler ~6000 times slower than
+haskell, where in general we where able to see that it was 5-20 times slower.</p>
+<p>Just looked into this a little bit and there is good news and bad news. The good
+news is I found something.</p>
+<p>I can make the hamer solution run 10 times faster by changing the implementation
+of part1 from &hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span>    foodsFreeOfAllergens <span style="color:#f92672">=</span> go foods false <span style="color:#66d9ef">where</span>
 </span></span><span style="display:flex;"><span>        go foods&#39; true <span style="color:#f92672">=</span> foods&#39;
 </span></span><span style="display:flex;"><span>        go foods&#39; false <span style="color:#f92672">=</span> go foods&#39;&#39; (foods&#39; <span style="color:#f92672">==</span> foods&#39;&#39;) <span style="color:#66d9ef">where</span>
-</span></span><span style="display:flex;"><span>            foods&#39;&#39; <span style="color:#f92672">=</span> removeIngredientsBySingleton <span style="color:#f92672">$</span> removeIngredientsByIntersection foods&#39; 
+</span></span><span style="display:flex;"><span>            foods&#39;&#39; <span style="color:#f92672">=</span> removeIngredientsBySingleton <span style="color:#f92672">$</span> removeIngredientsByIntersection foods&#39;
 </span></span></code></pre></div><p>&hellip; to &hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span>    (foodsFreeOfAllergens, <span style="color:#66d9ef">_</span>) <span style="color:#f92672">=</span> go foods false <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">where</span>
 </span></span><span style="display:flex;"><span>        go foods&#39; true c <span style="color:#f92672">=</span> (foods&#39;, c)
 </span></span><span style="display:flex;"><span>        go foods&#39; false c <span style="color:#f92672">=</span> go foods&#39;&#39; (foods&#39; <span style="color:#f92672">==</span> foods&#39;&#39;) (c <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#66d9ef">where</span>
-</span></span><span style="display:flex;"><span>            foods&#39;&#39; <span style="color:#f92672">=</span> removeIngredientsBySingleton <span style="color:#f92672">$</span> removeIngredientsByIntersection foods&#39; 
-</span></span></code></pre></div><p>Can you see it? I am passing an extra parameter/counter into the recursion (and ignore it).</p>
-<p>My best guess is that the first implementation should be tail recursive, but the compiler fails to pick up that it is and the second implementation forces it to be tail recursive (somehow).</p>
+</span></span><span style="display:flex;"><span>            foods&#39;&#39; <span style="color:#f92672">=</span> removeIngredientsBySingleton <span style="color:#f92672">$</span> removeIngredientsByIntersection foods&#39;
+</span></span></code></pre></div><p>Can you see it? I am passing an extra parameter/counter into the recursion (and
+ignore it).</p>
+<p>My best guess is that the first implementation should be tail recursive, but the
+compiler fails to pick up that it is and the second implementation forces it to
+be tail recursive (somehow).</p>
 <p>Now Day21 is in the ballpark with the other solutions.</p>
-<img src="/images/2021-02-01-hamler-aoc-III/day21-faster.png" style="display:block; margin-right:auto; margin-left:auto" width="80%" hspace="1%" vspace="1%"/>
-<p>The bad news is: I have no idea what is going on here. And Day11, Day16 and Day21 are still 200-600 times slower than haskell for a reason that I still need to discover/understand. Stay tuned &hellip;</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2021-02-01-hamler-aoc-III/day21-faster.png" alt="Line chart of per-day runtime differences after making Day 21 tail-recursive" style="display:block;margin:auto;max-width:100%;max-width:986px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Line chart of per-day runtime differences after making Day 21 tail-recursive — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>The bad news is: I have no idea what is going on here. And Day11, Day16 and
+Day21 are still 200-600 times slower than haskell for a reason that I still need
+to discover/understand. Stay tuned &hellip;</p>
 </div>
             </div>
         </div>
@@ -404,7 +417,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2021-06-02 07:15:02 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

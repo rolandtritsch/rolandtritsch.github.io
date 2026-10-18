@@ -146,112 +146,108 @@ layui.use('element', function(){
 <hr>
 <p>I can hear you loud and clear &hellip;</p>
 <p><strong>Ooohhh my god: Not another blog post about AI!!!</strong></p>
-<p>Bear with me. I will try to make reading it (or watching it) worth
-while your time. I promise.</p>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Kv_MwUVFn8A?si=z-4uzFDJEsrboMsq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center><br>
+<p>Bear with me. I will try to make reading it (or watching it) worth while your
+time. I promise.</p>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Kv_MwUVFn8A?si=z-4uzFDJEsrboMsq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center><br> <!-- markdownlint-disable-line MD013 -->
 <p>Let&rsquo;s set the stage. My opinion is &hellip;</p>
-<p>The planet has problems (over-population, climate-change, poverty and
-economic inequality, cancer and alzheimer, &hellip;). AI is coming. And I
-believe AI can help us to solve some of these problems or make them
-more managable (e.g. <a href="https://en.wikipedia.org/wiki/AlphaFold">AlphaFold</a>).</p>
-<p>But there are also a lot of emotions. In my case it is excitment.
-Other people feel fear and uncertainty. Mainly because they are afraid
-that AI will kill their jobs and/or will take over the planet (a la
-<a href="https://en.wikipedia.org/wiki/The_Terminator">Terminator</a> or <a href="https://en.wikipedia.org/wiki/The_Matrix">Matrix</a> or <a href="https://en.wikipedia.org/wiki/Transcendence_(2014_film)">Transcendence</a>; the latter one
-being less well-known compared to the other two, but in my opinion the
-best of all three).</p>
-<p><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZngyZnc3YWk4ZXRqazN5YzJjN2wzbzdpNjdydTEwMHo5ZjAxY3JlciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YjfAfZyzEoOZi/giphy.gif"
-style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></p>
-<p>With every innovation comes a risk. Right now we are learning how to
-forge metal. In the worst case we will build weapons that have the
-potential to destroy us. In the best case we will build scalpels and
-put them into the hands of skilled surgons.</p>
-<p>We obviously want the latter. And guess what: This blog post is NOT
-about how to get there! Feel free to read all of the
-<a href="https://darioamodei.com/machines-of-loving-grace">other</a> blog posts that talk about the journey and
-what we need to do to mitigate the risks to ensure a good outcome.</p>
-<p>I like to think of myself as a realistic optimist. I think we can get
-this right.</p>
-<p>Now let&rsquo;s narrow it down a bit, shall we. Let&rsquo;s just talk about LLMs
-(as a subset of AI technologies) and what the impact is going to be on
-how we build and own software systems in the next 5 years or so.</p>
-<p>Clearly there is a fear out there that LLMs will be(come) super (10x)
-software engineers and will start to build software systems on their
-own and will write all the code to implement them and that all
-software engineers will loose their jobs.</p>
-<p>Then there is a kohort of people who believe that LLMs are basically
-useless for software engineering because all productivity gains will
-be eliminated by the increased cost of reasoning about what the LLM
-just did and/or the increased cost of maintaining a system that you
-do not understand anymore.</p>
-<p>As always I think the truth is in the middle. Not only for software
-engineering, but for most applications of AI.</p>
-<p>I think using AI does not mean that AI will replace humans (at least
-not any time soon). Instead I think that over the next 10 years we
-will see that in a majority of cases AI will complement and augment
-humans and will give them super-powers (like the scalpel in the
-hands of the skilled surgon).</p>
-<p><img src="/images/2024-10-24-augmented-software-engineer/augmented.png"
-style="display:block;margin:auto" width="80%" hspace="5%" vspace="1%"/></p>
+<p>The planet has problems (over-population, climate-change, poverty and economic
+inequality, cancer and alzheimer, &hellip;). AI is coming. And I believe AI can help
+us to solve some of these problems or make them more managable (e.g.
+<a href="https://en.wikipedia.org/wiki/AlphaFold">AlphaFold</a>).</p>
+<p>But there are also a lot of emotions. In my case it is excitment. Other people
+feel fear and uncertainty. Mainly because they are afraid that AI will kill
+their jobs and/or will take over the planet (a la <a href="https://en.wikipedia.org/wiki/The_Terminator">Terminator</a> or <a href="https://en.wikipedia.org/wiki/The_Matrix">Matrix</a>
+or <a href="https://en.wikipedia.org/wiki/Transcendence_(2014_film)">Transcendence</a>; the latter one being less well-known compared to the other
+two, but in my opinion the best of all three).</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZngyZnc3YWk4ZXRqazN5YzJjN2wzbzdpNjdydTEwMHo5ZjAxY3JlciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YjfAfZyzEoOZi/giphy.gif" alt="Animated reaction gif" style="display:block;margin:auto;max-width:100%;max-width:360px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Animated reaction gif — Source: Giphy</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>With every innovation comes a risk. Right now we are learning how to forge
+metal. In the worst case we will build weapons that have the potential to
+destroy us. In the best case we will build scalpels and put them into the hands
+of skilled surgons.</p>
+<p>We obviously want the latter. And guess what: This blog post is NOT about how to
+get there! Feel free to read all of the <a href="https://darioamodei.com/machines-of-loving-grace">other</a> blog posts
+that talk about the journey and what we need to do to mitigate the risks to
+ensure a good outcome.</p>
+<p>I like to think of myself as a realistic optimist. I think we can get this
+right.</p>
+<p>Now let&rsquo;s narrow it down a bit, shall we. Let&rsquo;s just talk about LLMs (as a
+subset of AI technologies) and what the impact is going to be on how we build
+and own software systems in the next 5 years or so.</p>
+<p>Clearly there is a fear out there that LLMs will be(come) super (10x) software
+engineers and will start to build software systems on their own and will write
+all the code to implement them and that all software engineers will loose their
+jobs.</p>
+<p>Then there is a kohort of people who believe that LLMs are basically useless for
+software engineering because all productivity gains will be eliminated by the
+increased cost of reasoning about what the LLM just did and/or the increased
+cost of maintaining a system that you do not understand anymore.</p>
+<p>As always I think the truth is in the middle. Not only for software engineering,
+but for most applications of AI.</p>
+<p>I think using AI does not mean that AI will replace humans (at least not any
+time soon). Instead I think that over the next 10 years we will see that in a
+majority of cases AI will complement and augment humans and will give them
+super-powers (like the scalpel in the hands of the skilled surgon).</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2024-10-24-augmented-software-engineer/augmented.png" alt="A person in a powered exoskeleton suit pushing a heavily weighted sled" style="display:block;margin:auto;max-width:100%;max-width:791px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">A person in a powered exoskeleton suit pushing a heavily weighted sled — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>Means I predict that in the next 5 years we will see the rise of the
-<code>Augmented Software Engineer (ASE)</code>. The ASE knows how to use AI to
-develop better software faster and run/own/maintain bigger systems at
-a lower cost and with higher uptime.</p>
-<p>How big the productivity gains or cost savings will be, I don&rsquo;t
-know. But I am pretty sure they will be bigger than 0%. Means I am
-also pretty sure that engineers or engineering organisations that do
-not know how to use AI to build better systems faster, will end up
-with a competitive disadvantage.</p>
+<code>Augmented Software Engineer (ASE)</code>. The ASE knows how to use AI to develop
+better software faster and run/own/maintain bigger systems at a lower cost and
+with higher uptime.</p>
+<p>How big the productivity gains or cost savings will be, I don&rsquo;t know. But I am
+pretty sure they will be bigger than 0%. Means I am also pretty sure that
+engineers or engineering organisations that do not know how to use AI to build
+better systems faster, will end up with a competitive disadvantage.</p>
 <p>Sssooo &hellip;</p>
 <p>Over the next couple of month I want to do and publish a couple of
-<a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">screencasts</a> to explore what is working already and also
-what is maybe not working yet. How should a software engineer use AI
-today to start the journey to become an ASE over the next 5 years?</p>
-<p><a href="https://www.software.com/reports/code-time-report">Spoiler</a> alert: Good software engineers write code
-for less than 2 hours/day. For the rest of the day they work with
-others to make sure they build the right thing and build it right.</p>
-<p>Means to just talk about how LLMs can write code is the wrong
-conversation. We need to think and talk about how AI can help
-us to make the entire day more effective and efficient.</p>
-<p>For instance let&rsquo;s forget about writing code. For every line of code
-that we write, we need to read 100 lines of <a href="https://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is">code</a>. Let&rsquo;s
-figure out how AI can help us to read more code faster.</p>
-<p>One interesting question to ask is, if the value of the LLMs goes
-beyond the number of saved keystrokes. Maybe the a bigger value is
-that some of the cognetive load for the easier more mundane tasks gets
-reduced and you end up with more energy and brain power for the tasks
-that need it.</p>
-<p>Let&rsquo;s also figure out how AI can help us with the architecture and
-design of the system and the maintenance of the system.</p>
-<p>There is also <a href="https://www.mdpi.com/2076-3417/14/10/4115">research</a> that shows that AI can help
-you to be(come) more effective and efficient with the more mundane
-(well-understood) parts of the job, but &hellip; that it might be dangerous
-to rely on AI to jump over the learning phase, because you loose
-control over the system you build. One idea could be that you first
-have to learn about the problem and the tools and the technologies on
-your own and only after you understand what you are doing and why and
-what are the options and alternatives and the drawbacks and after the
-first implementation, you will start to use AI to refine the and
-iterate on the first implementation.</p>
-<p>Even more, even earlier there is a risk for younger engineers that
-they will never learn enough problem-solving and critical-thinking
-skills to make good decisions and develop good judgement.</p>
-<p>Last but not least, AI will also change the way we as software
-engineers work together in (maybe) unexpected ways. Communication is
-obviously a big part of our job. We write a lot. We read a lot. Not
-only code. But also documents and presentations and slack messages.
-We need to share information. We need to align on how good and right
-looks like. Good engineers do not only write things down. They also
-prepare presentations and then deliver them and record them. Or
-prepare a screencast in the first place that can be consumed whenever
-it makes sense. For some people this is easier than for others. Some
-people like writing better than presenting or recording a screencast.
-For these engineers AI can become an enablement tool and a
-communication improvement tool, because they can use an avatar to
-deliver the content and their message.</p>
+<a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">screencasts</a> to explore what is working already and also what is
+maybe not working yet. How should a software engineer use AI today to start the
+journey to become an ASE over the next 5 years?</p>
+<p><a href="https://www.software.com/reports/code-time-report">Spoiler</a> alert: Good software engineers write code for less
+than 2 hours/day. For the rest of the day they work with others to make sure
+they build the right thing and build it right.</p>
+<p>Means to just talk about how LLMs can write code is the wrong conversation. We
+need to think and talk about how AI can help us to make the entire day more
+effective and efficient.</p>
+<p>For instance let&rsquo;s forget about writing code. For every line of code that we
+write, we need to read 100 lines of <a href="https://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is">code</a>. Let&rsquo;s figure out how AI
+can help us to read more code faster.</p>
+<p>One interesting question to ask is, if the value of the LLMs goes beyond the
+number of saved keystrokes. Maybe the a bigger value is that some of the
+cognetive load for the easier more mundane tasks gets reduced and you end up
+with more energy and brain power for the tasks that need it.</p>
+<p>Let&rsquo;s also figure out how AI can help us with the architecture and design of the
+system and the maintenance of the system.</p>
+<p>There is also <a href="https://www.mdpi.com/2076-3417/14/10/4115">research</a> that shows that AI can help you to
+be(come) more effective and efficient with the more mundane (well-understood)
+parts of the job, but &hellip; that it might be dangerous to rely on AI to jump over
+the learning phase, because you loose control over the system you build. One
+idea could be that you first have to learn about the problem and the tools and
+the technologies on your own and only after you understand what you are doing
+and why and what are the options and alternatives and the drawbacks and after
+the first implementation, you will start to use AI to refine the and iterate on
+the first implementation.</p>
+<p>Even more, even earlier there is a risk for younger engineers that they will
+never learn enough problem-solving and critical-thinking skills to make good
+decisions and develop good judgement.</p>
+<p>Last but not least, AI will also change the way we as software engineers work
+together in (maybe) unexpected ways. Communication is obviously a big part of
+our job. We write a lot. We read a lot. Not only code. But also documents and
+presentations and slack messages. We need to share information. We need to align
+on how good and right looks like. Good engineers do not only write things down.
+They also prepare presentations and then deliver them and record them. Or
+prepare a screencast in the first place that can be consumed whenever it makes
+sense. For some people this is easier than for others. Some people like writing
+better than presenting or recording a screencast. For these engineers AI can
+become an enablement tool and a communication improvement tool, because they can
+use an avatar to deliver the content and their message.</p>
 <p>And yes, the video above was generated with <a href="https://heygen.com">heyGen</a>.</p>
-<p>I hope that by now we can all agree that there is a lot to think
-about, talk about and explore.</p>
+<p>I hope that by now we can all agree that there is a lot to think about, talk
+about and explore.</p>
 <p>For the <a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">screencast</a> series I envison the following &ldquo;seasons&rdquo; &hellip;</p>
 <ul>
 <li>
@@ -261,8 +257,8 @@ about, talk about and explore.</p>
 <li>Using <a href="https://aperiodic.net/pip/scala/s-99/">99-scala-problems</a> as a driver</li>
 <li>LLMs that I intend to use and evaluate &hellip;
 <ul>
-<li>GitHub CoPilot, chatGPT 4o-with canvas, Antropic Claude,
-cursor.ai, codeium, super-maven, &hellip;</li>
+<li>GitHub CoPilot, chatGPT 4o-with canvas, Antropic Claude, cursor.ai,
+codeium, super-maven, &hellip;</li>
 </ul>
 </li>
 <li>Writing code and reading code</li>
@@ -281,23 +277,22 @@ cursor.ai, codeium, super-maven, &hellip;</li>
 <p>Season 3: Today, tomorrow, next year, &hellip;</p>
 </li>
 </ul>
-<p>Every season will probably have ~10 episodes. Every episode will be ~5
-mins. I am looking to publish one episode per week. Please <a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">like and
+<p>Every season will probably have ~10 episodes. Every episode will be ~5 mins. I
+am looking to publish one episode per week. Please <a href="https://www.youtube.com/playlist?list=PLkyoRW3IlOGDde_bGbLu3T7WrZQe6mt1_">like and
 subscribe</a>. Feedback is welcome.</p>
 <p>Let&rsquo;s go &hellip;</p>
 <hr>
 <p>Published episodes &hellip;</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=Kv_MwUVFn8A">Ep. -1</a> (<a href="https://youtubetranscript.com/?v=Kv_MwUVFn8A">transscript</a>): What is the Augmented
-Software Engineer (my first <a href="https://heygen.com">heyGen</a> video; and you can see it :))</li>
-<li><a href="https://www.youtube.com/watch?v=CPOGjrBdb90">Ep. 0</a> (<a href="https://youtubetranscript.com/?v=CPOGjrBdb90">transscript</a>): What will we do? How will we
-do it? Introducing the 99 Scala Problems</li>
-<li><a href="https://www.youtube.com/watch?v=5f675oeIV3E">Ep. 1</a> (<a href="https://youtubetranscript.com/?v=5f675oeIV3E">transscript</a>): Install GitHub CoPilot in
-VsCode. Fixing compile-time problems</li>
-<li><a href="https://www.youtube.com/watch?v=8wVg0HP_Cqk">Ep. 2</a> (<a href="https://youtubetranscript.com/?v=8wVg0HP_Cqk">transscript</a>): Fixing failing tests. Adding
-more tests</li>
-<li><a href="https://www.youtube.com/watch?v=8WRlDGSkZAw">Ep. 3</a> (<a href="https://www.youtubetranscript.com/watch?v=8WRlDGSkZAw">transscript</a>): Functions and features. What
-do we need/want?</li>
+<li><a href="https://www.youtube.com/watch?v=Kv_MwUVFn8A">Ep. -1</a> (<a href="https://youtubetranscript.com/?v=Kv_MwUVFn8A">transscript</a>): What is the Augmented Software
+Engineer (my first <a href="https://heygen.com">heyGen</a> video; and you can see it :))</li>
+<li><a href="https://www.youtube.com/watch?v=CPOGjrBdb90">Ep. 0</a> (<a href="https://youtubetranscript.com/?v=CPOGjrBdb90">transscript</a>): What will we do? How will we do it?
+Introducing the 99 Scala Problems</li>
+<li><a href="https://www.youtube.com/watch?v=5f675oeIV3E">Ep. 1</a> (<a href="https://youtubetranscript.com/?v=5f675oeIV3E">transscript</a>): Install GitHub CoPilot in VsCode. Fixing
+compile-time problems</li>
+<li><a href="https://www.youtube.com/watch?v=8wVg0HP_Cqk">Ep. 2</a> (<a href="https://youtubetranscript.com/?v=8wVg0HP_Cqk">transscript</a>): Fixing failing tests. Adding more tests</li>
+<li><a href="https://www.youtube.com/watch?v=8WRlDGSkZAw">Ep. 3</a> (<a href="https://www.youtubetranscript.com/watch?v=8WRlDGSkZAw">transscript</a>): Functions and features. What do we
+need/want?</li>
 <li><a href="https://www.youtube.com/watch?v=dGUH8aHkcSE">Ep. 4</a> (<a href="https://www.youtubetranscript.com/watch?v=dGUH8aHkcSE">transscript</a>): Context is king</li>
 <li><a href="https://www.youtube.com/watch?v=OlChQlspdAc">Ep. 5</a> (<a href="https://www.youtubetranscript.com/watch?v=OlChQlspdAc">transscript</a>): Stacks - What are our options?</li>
 <li><a href="https://www.youtube.com/watch?v=Jj_K8AdKCZ8">Ep. 6</a> (<a href="https://www.youtubetranscript.com/watch?v=Jj_K8AdKCZ8">transscript</a>): P50 - Kickoff</li>
@@ -323,24 +318,24 @@ do we need/want?</li>
 <li>Best-Practise: Build the test first. And be very thorough with the development
 of the test. Do not JUST generate it. Use the development of the test to learn
 about the problem and possible solutions. You can then be more aggressive with
-the assistance you are taking when implementing the solution. Resist the temptation</li>
+the assistance you are taking when implementing the solution. Resist the
+temptation</li>
 <li>Know-How: How to use LLMs on a plane (without an internet connection)</li>
-<li>Best-Practise: Ask Copilot to explain problem 6 to us. And then add a precondition
-to make sure we are only testing words, means the string cannot have a space
-in it. That probably means that we also need to adjust the test(s)</li>
-<li>How-To: Do assisted reviews (pre-screen, pre-nitpick, sanity-checks
-against coding standards) for pull-requests (PR). Checking the PR
-against the original (feature) ticket. Identifying the best engineer
-to close a PR faster</li>
-<li>Best-Practise: When to use AI (for the toil and for research) and
-when not to use it (to solve a problem that you have never solved
-before; to generate tests AND implementations)</li>
-<li>Best-Practise: Who should use AI (junior vs. senior engineers) and
-how should they use it?</li>
-<li>Thoughts: Augmented Software Engineering is assisted Software
-Engineering. Not delegated Software Engineering. The AI is a Junior
-Software Engineer that you need to review. Not a Principal that
-knows better than you.</li>
+<li>Best-Practise: Ask Copilot to explain problem 6 to us. And then add a
+precondition to make sure we are only testing words, means the string cannot
+have a space in it. That probably means that we also need to adjust the
+test(s)</li>
+<li>How-To: Do assisted reviews (pre-screen, pre-nitpick, sanity-checks against
+coding standards) for pull-requests (PR). Checking the PR against the original
+(feature) ticket. Identifying the best engineer to close a PR faster</li>
+<li>Best-Practise: When to use AI (for the toil and for research) and when not to
+use it (to solve a problem that you have never solved before; to generate
+tests AND implementations)</li>
+<li>Best-Practise: Who should use AI (junior vs. senior engineers) and how should
+they use it?</li>
+<li>Thoughts: Augmented Software Engineering is assisted Software Engineering. Not
+delegated Software Engineering. The AI is a Junior Software Engineer that you
+need to review. Not a Principal that knows better than you.</li>
 <li>???</li>
 <li>???</li>
 <li>???</li>
@@ -562,7 +557,7 @@ knows better than you.</li>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2025-02-27 04:25:21 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

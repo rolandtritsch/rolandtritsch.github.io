@@ -125,22 +125,51 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>A couple of month ago I started to have stomach cramps. First it was only once week, but then it was more or less constant.</p>
-<p>Funny enough I had to find out that (even) late(r) in life you <a href="https://www.everydayhealth.com/news/developing-celiac-later-life-can-you-become-gluten-intolerant/">can &ldquo;become&rdquo; gluten-sensitive/-intolerant</a>. Means &hellip; a couple of weeks ago I got myself tested and changed my diet (to (mostly) gluten-free) and (big surprise !!!) &hellip; after 3 days I was pain free!</p>
-<p>But &hellip; I am still learning what I can eat and what I can&rsquo;t eat. Last week I had some bad food (I think a not-excactly-gluten-free meatball sauce) &hellip; and paid for it with a day of stomach cramps.</p>
-<img src="/images/2021-02-21-scala3-gluten-free/scala3.png" style="float:right" width="18%" hspace="5%" vspace="1%"/>
-<p>While I was recovering I was looking for something to sooth my stomach. Some people use Coca-Cola and bretzle-sticks. That&rsquo;s not really my thing.</p>
-<p>Instead I figured (given that it will be released this <a href="http://dotty.epfl.ch/blog/2021/02/17/scala3-rc1.html">year</a>) I try writing some Scala 3 code to see how that feels. And I am happy to report that writing Scala 3 code is very soothing (at least for me) and I can confirm that Scala 3 is 100% gluten-free (it does not cause any stomach cramps :)).</p>
-<p>First I was interested what I need to do to get my (<a href="https://github.com/rolandtritsch/emacs.d">emacs</a>) development environment updated/up-and-running. Short answer: Not a lot &hellip;</p>
+                    <p>A couple of month ago I started to have stomach cramps. First it was only once
+week, but then it was more or less constant.</p>
+<p>Funny enough I had to find out that (even) late(r) in life you
+<a href="https://www.everydayhealth.com/news/developing-celiac-later-life-can-you-become-gluten-intolerant/">can &ldquo;become&rdquo; gluten-sensitive/-intolerant</a>.
+Means &hellip; a couple of weeks ago I got myself tested and changed my diet (to
+(mostly) gluten-free) and (big surprise !!!) &hellip; after 3 days I was pain free!</p>
+<p>But &hellip; I am still learning what I can eat and what I can&rsquo;t eat. Last week I had
+some bad food (I think a not-excactly-gluten-free meatball sauce) &hellip; and paid
+for it with a day of stomach cramps.</p>
+<figure style="float:right; max-width:30%; margin:0.5em 0 0.5em 1.5em;">
+<img src="/images/2021-02-21-scala3-gluten-free/scala3.png" alt="Scala 3 logo" style="display:block;width:auto;height:auto;max-width:100%;max-height:280px;"/>
+<figcaption style="font-size:0.8em;color:#666;text-align:center;margin-top:0.3em;">Scala 3 logo — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>While I was recovering I was looking for something to sooth my stomach. Some
+people use Coca-Cola and bretzle-sticks. That&rsquo;s not really my thing.</p>
+<p>Instead I figured (given that it will be released this
+<a href="http://dotty.epfl.ch/blog/2021/02/17/scala3-rc1.html">year</a>) I try writing some
+Scala 3 code to see how that feels. And I am happy to report that writing Scala
+3 code is very soothing (at least for me) and I can confirm that Scala 3 is 100%
+gluten-free (it does not cause any stomach cramps :)).</p>
+<p>First I was interested what I need to do to get my
+(<a href="https://github.com/rolandtritsch/emacs.d">emacs</a>) development environment
+updated/up-and-running. Short answer: Not a lot &hellip;</p>
 <ul>
 <li>I installed openjdk-16 and</li>
 <li>sbt 1.4.7 and</li>
-<li>forked the <a href="https://github.com/rolandtritsch/scala3-example-project">scala3-example-project</a> and</li>
+<li>forked the
+<a href="https://github.com/rolandtritsch/scala3-example-project">scala3-example-project</a>
+and</li>
 <li>was able to run it (<code>sbt run</code>)</li>
 </ul>
-<p>But when I started to edit the sources metals complained that it only supports <code>3.0.0-M3</code> (and not <code>3.0.0-RC1</code> (yet)). Got that fixed (by downgrading to <code>3.0.0-M3</code>) and then moved on to add some tests.</p>
-<p>There are already a couple of good options available how to write tests. You can obviously use <a href="https://alvinalexander.com/scala/how-to-use-junit-testing-with-scala/">junit</a> and <a href="https://github.com/scalatest/scalatest/issues/1138">scalatest</a>. One other mean-and-lean option to write tests for Scala 3 code is to use <a href="https://github.com/monix/minitest">minittest</a>. It even supports an integration with <a href="https://www.scalacheck.org">scalacheck</a> to do some property-based testing.</p>
-<p>I used minitest to add tests to the <a href="https://github.com/rolandtritsch/scala3-example-project">examples project</a>. Enjoy &hellip;</p>
+<p>But when I started to edit the sources metals complained that it only supports
+<code>3.0.0-M3</code> (and not <code>3.0.0-RC1</code> (yet)). Got that fixed (by downgrading to
+<code>3.0.0-M3</code>) and then moved on to add some tests.</p>
+<p>There are already a couple of good options available how to write tests. You can
+obviously use
+<a href="https://alvinalexander.com/scala/how-to-use-junit-testing-with-scala/">junit</a>
+and <a href="https://github.com/scalatest/scalatest/issues/1138">scalatest</a>. One other
+mean-and-lean option to write tests for Scala 3 code is to use
+<a href="https://github.com/monix/minitest">minittest</a>. It even supports an integration
+with <a href="https://www.scalacheck.org">scalacheck</a> to do some property-based testing.</p>
+<p>I used minitest to add tests to the
+<a href="https://github.com/rolandtritsch/scala3-example-project">examples project</a>.
+Enjoy &hellip;</p>
+<div style="clear:both;"></div>
 </div>
             </div>
         </div>
@@ -394,7 +423,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2021-02-21 11:27:39 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

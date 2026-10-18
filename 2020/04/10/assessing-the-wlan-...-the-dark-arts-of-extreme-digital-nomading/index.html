@@ -125,51 +125,94 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>When you work from <strong>anywhere</strong> (or even from home) it is <strong>YOUR</strong>(!!!) responsibility to ensure that you are connected!!!</p>
+                    <p>When you work from <strong>anywhere</strong> (or even from home) it is <strong>YOUR</strong>(!!!)
+responsibility to ensure that you are connected!!!</p>
 <p>Statements like &hellip;</p>
 <ul>
-<li>&ldquo;Sorry &hellip; I cannot join the standup, because I was not able to find a WLAN hotspot.&rdquo;</li>
+<li>&ldquo;Sorry &hellip; I cannot join the standup, because I was not able to find a WLAN
+hotspot.&rdquo;</li>
 <li>&ldquo;Can you hear me? Sorry &hellip; I am on a shitty/weak WLAN.&rdquo;</li>
 <li>&ldquo;Sorry &hellip; can we switch off the video. There is too much lag.&rdquo;</li>
 </ul>
 <p>&hellip; are <strong>just</strong> not good enough.</p>
-<p align="center">
-<img src="https://www.speedtest.net/result/9264515190.png"/>
-</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="https://www.speedtest.net/result/9264515190.png" alt="Speedtest.net result showing weak WLAN connection speeds" style="display:block;margin:auto;max-width:100%;max-height:400px;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Speedtest.net result showing weak WLAN connection speeds — Source: Speedtest.net</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>So here is what you need to do &hellip;</p>
 <ul>
-<li>Use a <a href="https://www.wifimap.io/">WifiFinder</a> to get to a place you want to work from (and get there an hour early to test/measure the internet connection)</li>
-<li>Connect to the given WLAN and run an internet speed test (<a href="https://fast.com">fast.com</a>, <a href="https://www.speedtest.net">speedtest.net</a>, &hellip;)
+<li>Use a <a href="https://www.wifimap.io/">WifiFinder</a> to get to a place you want to work
+from (and get there an hour early to test/measure the internet connection)</li>
+<li>Connect to the given WLAN and run an internet speed test
+(<a href="https://fast.com">fast.com</a>, <a href="https://www.speedtest.net">speedtest.net</a>,
+&hellip;)
 <ul>
 <li>Your are looking for 10 Mbps download/5 Mbps upload</li>
 <li>And you are looking for latency of less than 50 - 100 msecs</li>
-<li>You can run these tests from your laptop or from your mobile phone (before you order the coffee/sit down)</li>
+<li>You can run these tests from your laptop or from your mobile phone (before
+you order the coffee/sit down)</li>
 </ul>
 </li>
-<li>But that latency number is only a leading indicator because it only measures the latency between the coffee shop and the internet provider (the first 2-3 hops)</li>
-<li>What you really need to do is to run <code>traceroute</code> from your laptop to the connection (e.g. zoom server) you want/need to make (end-to-end)
+<li>But that latency number is only a leading indicator because it only measures
+the latency between the coffee shop and the internet provider (the first 2-3
+hops)</li>
+<li>What you really need to do is to run <code>traceroute</code> from your laptop to the
+connection (e.g. zoom server) you want/need to make (end-to-end)
 <ul>
-<li>You are looking for 10 - 20 (max) hops and on the last hop for a latency of 50 - 100 msecs (which is the latency between your laptop and that last hop (which should be your destination))</li>
+<li>You are looking for 10 - 20 (max) hops and on the last hop for a latency of
+50 - 100 msecs (which is the latency between your laptop and that last hop
+(which should be your destination))</li>
 </ul>
 </li>
-<li>An even better way to ensure that you are on a good connection (for video conferencing; and my experience is, if video conferencing works everything else works too) is to make a test call with somebody and look at the <a href="https://support.zoom.us/hc/en-us/articles/202920719-Meeting-and-phone-statistics">metrics</a> that the video conferencing platform is giving you (again everything under 100 msecs is (probably) good enough)</li>
-<li>And last but not least you do not only need to ensure that the internet connection is high enough bandwidth and low enough latency, but also high enough uptime/availability. You can test this by running a <a href="http://startrinity.com/InternetQuality/InternetConnectionMonitor.aspx">ping test</a> for 5 mins (and you want/need this to be 99%; everything less might create an experience where you are dropping off the call for no good reason)</li>
-<li>Last but not least you might want to check the tools you need (e.g. zoom, gmail, slack, github, &hellip;) because some WLANs block connections to some ports you might need (e.g. port 22 (for ssh connections))</li>
-<li>If you find out that the internet connection sucks you can try to use your mobile phone</li>
-<li>I recommend a SIM unlocked, dual SIM phone with one SIM card on your home network and one pay-as-you-go (1GBytes/week is probably enough) SIM card on the provider with the best 4G data coverage in the country you are in
+<li>An even better way to ensure that you are on a good connection (for video
+conferencing; and my experience is, if video conferencing works everything
+else works too) is to make a test call with somebody and look at the
+<a href="https://support.zoom.us/hc/en-us/articles/202920719-Meeting-and-phone-statistics">metrics</a>
+that the video conferencing platform is giving you (again everything under 100
+msecs is (probably) good enough)</li>
+<li>And last but not least you do not only need to ensure that the internet
+connection is high enough bandwidth and low enough latency, but also high
+enough uptime/availability. You can test this by running a
+<a href="http://startrinity.com/InternetQuality/InternetConnectionMonitor.aspx">ping test</a>
+for 5 mins (and you want/need this to be 99%; everything less might create an
+experience where you are dropping off the call for no good reason)</li>
+<li>Last but not least you might want to check the tools you need (e.g. zoom,
+gmail, slack, github, &hellip;) because some WLANs block connections to some ports
+you might need (e.g. port 22 (for ssh connections))</li>
+<li>If you find out that the internet connection sucks you can try to use your
+mobile phone</li>
+<li>I recommend a SIM unlocked, dual SIM phone with one SIM card on your home
+network and one pay-as-you-go (1GBytes/week is probably enough) SIM card on
+the provider with the best 4G data coverage in the country you are in
 <ul>
-<li>It might make sense to make sure that you have <a href="https://www.nperf.com/en/map/GR/-/164025.Vodafone-Mobile/signal/?ll=38.058431779655834&amp;lg=22.67333507537842&amp;zoom=14">good 4G coverage in a given location</a> before you go there (just to make sure you have a plan B in case you need it)</li>
+<li>It might make sense to make sure that you have
+<a href="https://www.nperf.com/en/map/GR/-/164025.Vodafone-Mobile/signal/?ll=38.058431779655834&amp;lg=22.67333507537842&amp;zoom=14">good 4G coverage in a given location</a>
+before you go there (just to make sure you have a plan B in case you need
+it)</li>
 </ul>
 </li>
-<li>You can then get a mobile WLAN hotspot up and running on/from your phone and can measure/test, if that it good enough</li>
+<li>You can then get a mobile WLAN hotspot up and running on/from your phone and
+can measure/test, if that it good enough</li>
 </ul>
-<p>If all of this fails you have 45 mins to relocate to a better place. If that fails too you will probably miss your first meeting, but it is not due to a lack of trying!!!</p>
+<p>If all of this fails you have 45 mins to relocate to a better place. If that
+fails too you will probably miss your first meeting, but it is not due to a lack
+of trying!!!</p>
 <hr>
-<p>PS: One more thing &hellip; you are responsible to create a good experience for the people that work with you. That does not only mean that you have to ensure that you are on a good (fast, reliable, &hellip;) internet connection, but also &hellip;</p>
+<p>PS: One more thing &hellip; you are responsible to create a good experience for the
+people that work with you. That does not only mean that you have to ensure that
+you are on a good (fast, reliable, &hellip;) internet connection, but also &hellip;</p>
 <ul>
-<li>that you are plugged into a power-supply (so that your laptop does not run out of power in the middle of the call; Remember: doing video conferencing takes a lot of CPU power. Your battery will not last as long as you think)</li>
-<li>that you have a headset with a (good/directional) microphone and that the headset is not wireless (so that you do not have to embarrass yourself in the middle of the call because your headset was running out of power). Apple earbuds look cool, but &hellip;</li>
-<li>that you find a place that is not noisy. Attending a meeting and being forced to stay on mute for the duration of the meeting because there is too much background noise is unacceptable because it robs the company off the contribution you could/should have made to the meeting</li>
+<li>that you are plugged into a power-supply (so that your laptop does not run out
+of power in the middle of the call; Remember: doing video conferencing takes a
+lot of CPU power. Your battery will not last as long as you think)</li>
+<li>that you have a headset with a (good/directional) microphone and that the
+headset is not wireless (so that you do not have to embarrass yourself in the
+middle of the call because your headset was running out of power). Apple
+earbuds look cool, but &hellip;</li>
+<li>that you find a place that is not noisy. Attending a meeting and being forced
+to stay on mute for the duration of the meeting because there is too much
+background noise is unacceptable because it robs the company off the
+contribution you could/should have made to the meeting</li>
 </ul>
 </div>
             </div>
@@ -372,7 +415,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2021-07-25 06:06:16 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
     </div>
 </footer>
 

@@ -141,10 +141,9 @@ layui.use('element', function(){
 <p><strong>AI Disclosure:</strong> AI helped turn my Scala meetup presentation, experiment
 reports, and notes into this post. The experiment and the argument are mine.</p>
 </blockquote>
-<p>A funny thing happened while preparing my <a href="https://github.com/rolandtritsch/reveal-scala3-meetup">Scala meetup presentation</a>.
-I set out to challenge a familiar claim: AI is good at Python because there is
-so much Python out there, but surely it struggles with a niche language like
-Scala.</p>
+<p>A funny thing happened while preparing my <a href="https://github.com/rolandtritsch/reveal-scala3-meetup">Scala meetup presentation</a>. I
+set out to challenge a familiar claim: AI is good at Python because there is so
+much Python out there, but surely it struggles with a niche language like Scala.</p>
 <p>First &hellip; a little disclosure &hellip;</p>
 <p>I am quite far along the &ldquo;let the AI cook&rdquo; end of this spectrum. The red circle
 is me.</p>
@@ -165,13 +164,13 @@ solver token spending of less than $10 per language</strong> for this workload.<
 <p>The first block is Scala; the later blocks are Python. Blue is DeepSeek V4 Pro,
 doing the solving. Green is DeepSeek V4 Flash, doing the supporting work such as
 gathering, submitting, and reviewing. The <strong>under-$10 figure covers the Pro
-solver in each language</strong>; the green portion is additional spending by the
-Flash agents.</p>
-<p>Now assume a senior engineer needs an hour to solve and test each part:
-<strong>18 hours, or two nine-hour days</strong>. At an assumed fully loaded cost of
-<strong>$800 a day</strong>, that is <strong>$1,600</strong>, compared with less than $10 in solver
-tokens. Under those assumptions, the solver does the implementation work
-roughly ten times faster, with a much smaller marginal token bill.</p>
+solver in each language</strong>; the green portion is additional spending by the Flash
+agents.</p>
+<p>Now assume a senior engineer needs an hour to solve and test each part: <strong>18
+hours, or two nine-hour days</strong>. At an assumed fully loaded cost of <strong>$800 a
+day</strong>, that is <strong>$1,600</strong>, compared with less than $10 in solver tokens. Under
+those assumptions, the solver does the implementation work roughly ten times
+faster, with a much smaller marginal token bill.</p>
 <p>This compares solver time and token spending with assumed human labor. Factory
 setup, infrastructure, supervision, and the supporting agents&rsquo; work are outside
 the comparison. It is not an all-in cost or end-to-end delivery benchmark.</p>
@@ -185,8 +184,8 @@ interpretation. But there is code, there are tests, and there are measurements.<
 <a href="https://github.com/rolandtritsch/python-aoc-2025">python-aoc-2025</a>.</p>
 <p>The underlying <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-scala/blob/trunk/reports/2026-10-11-part-performance.md">Scala timing report</a>, <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python/blob/trunk/reports/2026-10-15-part-performance-days01-09.csv">Python per-part
 measurements</a>, and <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python/blob/trunk/reports/2026-10-15-code-quality-days01-09.md">quality assessment</a> document
-the snapshots behind the charts. Both the reports and the company packages
-are publicly available.</p>
+the snapshots behind the charts. Both the reports and the company packages are
+publicly available.</p>
 <p>Here is the picture that explains the setup best.</p>
 <p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/ai-systems-evolution.jpeg" alt="From model calls to governed agentic systems"></p>
 <p><em>Image: Diagram by Brij Kishore Pandey, as credited in the image.</em></p>
@@ -199,16 +198,16 @@ coordinates coding agents; those agents still need a runtime and tools.</p>
 <p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-dashboard.png" alt="The AoC Solver 2025 company dashboard in Paperclip"></p>
 <p><em>Image: Paperclip AOC Solver 2025 Dashboard.</em></p>
 <p>The red box is the harness: the instructions, context, skills, scripts, and
-stopping rules that make this particular factory useful. Paperclip cannot
-guess what &ldquo;done&rdquo; means for my Scala repository. I have to encode that.</p>
+stopping rules that make this particular factory useful. Paperclip cannot guess
+what &ldquo;done&rdquo; means for my Scala repository. I have to encode that.</p>
 <p>The company packages live in <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-scala">pcc-aoc-solver-2025-scala</a> and
 <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python">pcc-aoc-solver-2025-python</a>. They contain the agent definitions
 and operating skills; the solution repositories contain the code and reusable
 project helpers.</p>
 <p>For Scala, the harness knows about sbt, formatting, tests, and publishing a
 verified solution. For Python, it knows about Ruff, pytest, coverage, and the
-equivalent publication checks. Before a handoff, the solver has to commit,
-push, and verify that the intended code really is on the remote branch.</p>
+equivalent publication checks. Before a handoff, the solver has to commit, push,
+and verify that the intended code really is on the remote branch.</p>
 <p>That is engineering work. It is also work I can reuse for the next puzzle.</p>
 <p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-agents.png" alt="The seven agents and their responsibilities"></p>
 <p><em>Image: Paperclip AOC Solver 2025 Agent Org Chart.</em></p>
@@ -220,21 +219,21 @@ Reviewer reviews the evidence and captures reusable improvements.</p>
 model and routing probes.</p>
 <p>The intended workflow is:</p>
 <p><strong>CTO → gather → solve → submit → review → wait.</strong></p>
-<p>One CTO wake-up authorizes one part. The next part waits for a later wake-up
-and a completed review. A rejected answer goes through review before a repair
-is authorized. Some early runs exposed gaps in these rules; the harness gained
+<p>One CTO wake-up authorizes one part. The next part waits for a later wake-up and
+a completed review. A rejected answer goes through review before a repair is
+authorized. Some early runs exposed gaps in these rules; the harness gained
 explicit gates as a result.</p>
-<p>The solver uses DeepSeek V4 Pro; the six supporting roles use DeepSeek V4
-Flash, all through OpenRouter. The Python company inherited the Scala
-company&rsquo;s model choices.</p>
-<p>There are loops inside loops here. The solver develops and tests until it has
-a result. The workflow handles a rejected result and repair. The outer loop
+<p>The solver uses DeepSeek V4 Pro; the six supporting roles use DeepSeek V4 Flash,
+all through OpenRouter. The Python company inherited the Scala company&rsquo;s model
+choices.</p>
+<p>There are loops inside loops here. The solver develops and tests until it has a
+result. The workflow handles a rejected result and repair. The outer loop
 advances through the puzzle parts.</p>
 <p>Means: I am spending my engineering effort on the factory&rsquo;s behavior and its
 definition of done. The agents do the repeated implementation work.</p>
 <p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-solver-minutes-days01-09-scala-vs-python.png" alt="Solver elapsed time per part for Scala and Python"></p>
-<p>The median solver time was <strong>5 minutes 21 seconds for Scala</strong> and <strong>5 minutes
-3 seconds for Python</strong>. Python was faster on ten parts; Scala on eight.</p>
+<p>The median solver time was <strong>5 minutes 21 seconds for Scala</strong> and <strong>5 minutes 3
+seconds for Python</strong>. Python was faster on ten parts; Scala on eight.</p>
 <p>Adding the measured runs gives <strong>109 minutes for Scala and 101 minutes for
 Python</strong>. That is less than two hours of solver work for each language.</p>
 <p>These clocks include reading, implementation, compilation, tests, Git, and
@@ -244,20 +243,20 @@ recovery work. This is more than the time it took the model to type an answer.</
 superseded attempts. They also exclude gathering, submission, review, queues,
 and waiting between parts. An overnight service interruption alone made one
 Scala part&rsquo;s end-to-end clock exceed ten hours.</p>
-<p>That distinction matters. So does the amount of useful implementation work
-the solver got through in those minutes.</p>
+<p>That distinction matters. So does the amount of useful implementation work the
+solver got through in those minutes.</p>
 <p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-tokens-fresh-output-days01-09-scala-vs-python.png" alt="Fresh input plus output tokens per solver run"></p>
-<p>Across the 18 parts, fresh input plus output totaled about <strong>2.49 million
-tokens for Scala and 2.34 million for Python</strong>. The two large spikes have
-specific explanations in the reports: Python&rsquo;s Day03 part2 generated a lot
-of verification context; Scala&rsquo;s Day09 part2 combined geometry work and
-extensive checks with an overlapping solver session.</p>
-<p>Those are things to investigate in the harness and workflow. A tall bar does
-not automatically mean that the programming language is intrinsically harder
-for the model.</p>
-<p>The chart excludes cached input, which adds another 37.7 million recorded
-tokens for Scala and 18.2 million for Python. Fresh input, cached input, and
-output have different prices, so the chart alone cannot tell us the bill.</p>
+<p>Across the 18 parts, fresh input plus output totaled about <strong>2.49 million tokens
+for Scala and 2.34 million for Python</strong>. The two large spikes have specific
+explanations in the reports: Python&rsquo;s Day03 part2 generated a lot of
+verification context; Scala&rsquo;s Day09 part2 combined geometry work and extensive
+checks with an overlapping solver session.</p>
+<p>Those are things to investigate in the harness and workflow. A tall bar does not
+automatically mean that the programming language is intrinsically harder for the
+model.</p>
+<p>The chart excludes cached input, which adds another 37.7 million recorded tokens
+for Scala and 18.2 million for Python. Fresh input, cached input, and output
+have different prices, so the chart alone cannot tell us the bill.</p>
 <p>The spending chart near the top shows the dollar costs. I verified <strong>less than
 $10 in solver tokens per language</strong> for this workload, excluding the supporting
 agents. The checked-in reports document token usage; the dollar figure comes
@@ -270,9 +269,9 @@ test depth, and simplicity/efficiency, each weighted equally.</p>
 16 parts, with two ties. Its advantages included algorithm choices and deeper
 tests. I cannot honestly turn that chart into a claim that the code was equally
 good.</p>
-<p>These were single-pass ratings by Muse Spark, supported by source inspection
-and automated evidence. They are useful feedback, with the limitations of a
-single AI judge. There was no human-versus-factory quality assessment.</p>
+<p>These were single-pass ratings by Muse Spark, supported by source inspection and
+automated evidence. They are useful feedback, with the limitations of a single
+AI judge. There was no human-versus-factory quality assessment.</p>
 <p>There were other limitations, too. The Scala solver read an old solution for
 Day01 part1, and the runs were not repeated blind trials. I would isolate
 history and repeat the experiment before making stronger benchmark claims.</p>
@@ -281,12 +280,12 @@ and the review identified concrete ways to improve it. The next version of the
 harness can use that feedback.</p>
 <p>I started with Scala versus Python. I came away thinking about the cost of
 turning a well-defined problem into tested, working code.</p>
-<p>Under the assumptions above, the factory was faster and dramatically cheaper
-at that implementation work than allocating a senior engineer to do it by
-hand. That is a concrete reason to build and improve these systems.</p>
-<p>The engineer still has a job: choose the problems, specify the result, build
-the checks, investigate failures, and improve the factory. The quality gap and
-the operational problems give us plenty to work on.</p>
+<p>Under the assumptions above, the factory was faster and dramatically cheaper at
+that implementation work than allocating a senior engineer to do it by hand.
+That is a concrete reason to build and improve these systems.</p>
+<p>The engineer still has a job: choose the problems, specify the result, build the
+checks, investigate failures, and improve the factory. The quality gap and the
+operational problems give us plenty to work on.</p>
 <p>Next step: give the factory another useful job.</p>
 </div>
             </div>
@@ -521,7 +520,7 @@ the operational problems give us plenty to work on.</p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 18:29:16 &#43;0100 IST </p>
     </div>
 </footer>
 

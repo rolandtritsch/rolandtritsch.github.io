@@ -118,13 +118,26 @@ layui.use('element', function(){
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
                     <p>Back to the roots!!!</p>
-<p>I am writing <a href="https://gatling.io/">Gatling</a> tests (again :)). (Obviously) I used to do this (a lot :)), when I was with <a href="https://www.gilt.com">Gilt</a> (for an obvious <a href="https://flic.kr/p/aSfJyx">reason</a> :)).</p>
+<p>I am writing <a href="https://gatling.io/">Gatling</a> tests (again :)). (Obviously) I used
+to do this (a lot :)), when I was with <a href="https://www.gilt.com">Gilt</a> (for an
+obvious <a href="https://flic.kr/p/aSfJyx">reason</a> :)).</p>
 <p>To get going again, I had to make the basics work &hellip; again.</p>
-<p>The basics are: Make the <a href="https://github.com/gatling/gatling-sbt">sbt-gatling</a> plugin work to build (end-to-end integration) tests/simulations and then create a &ldquo;deployable&rdquo; (fat) jar (using <a href="https://github.com/sbt/sbt-assembly">sbt-assembly</a>).</p>
+<p>The basics are: Make the <a href="https://github.com/gatling/gatling-sbt">sbt-gatling</a>
+plugin work to build (end-to-end integration) tests/simulations and then create
+a &ldquo;deployable&rdquo; (fat) jar (using
+<a href="https://github.com/sbt/sbt-assembly">sbt-assembly</a>).</p>
 <p>This proved to be more difficult than I thought (because this used to work).</p>
-<p>Everytime I was starting the jar with <code>java -jar load-test.jar -s computerdatabase.BasicItSimulation</code> I got the (in)famous <code>There is no simulation script. Please check that your scripts are in user-files/simulations</code> error message.</p>
-<p>After some heavy debugging, I realized that the settings in <code>gatling.conf</code> override the command-line parameters (and in my case I had copied the gatling-default.conf into the resource directory and in that file <code>simulationClass</code> is set to <code>&quot;&quot;</code>).</p>
-<p><a href="https://github.com/rolandtritsch/gatling-load-testing">Fixed it</a>. Working now. Something to be aware off.</p>
+<p>Everytime I was starting the jar with
+<code>java -jar load-test.jar -s computerdatabase.BasicItSimulation</code> I got the
+(in)famous
+<code>There is no simulation script. Please check that your scripts are in user-files/simulations</code>
+error message.</p>
+<p>After some heavy debugging, I realized that the settings in <code>gatling.conf</code>
+override the command-line parameters (and in my case I had copied the
+gatling-default.conf into the resource directory and in that file
+<code>simulationClass</code> is set to <code>&quot;&quot;</code>).</p>
+<p><a href="https://github.com/rolandtritsch/gatling-load-testing">Fixed it</a>. Working now.
+Something to be aware off.</p>
 </div>
             </div>
         </div>
@@ -326,7 +339,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2020-08-16 16:11:59 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 18:29:16 &#43;0100 IST </p>
     </div>
 </footer>
 

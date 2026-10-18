@@ -133,18 +133,41 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>It is this time of the year again: We are all doing the Advent of Code (<a href="https://github.com/rolandtritsch/scala-aoc-2017">AOC</a>), right?</p>
-<p>For me the AOC has never been about speed and solving the problems fast and the leaderboard.</p>
-<p>For me it has always been about learning something new or getting better at something (sharpening the saw) or developing a new, better way to solve problems (also known as becoming a better sofware craftsman).</p>
-<p>This year my focus was on tooling: Leaning more about how to get the most out of the IDE of choice (namely VSCode) and about how to use AI as a pair programming buddy to have meaningful discussions about how to solve problems the right way (using Windsurf/Codeium) and about the new Scala3 language features and finally about Mill (one of the best, if not THE best alternative, to SBT available right now).</p>
+                    <p>It is this time of the year again: We are all doing the Advent of Code
+(<a href="https://github.com/rolandtritsch/scala-aoc-2017">AOC</a>), right?</p>
+<p>For me the AOC has never been about speed and solving the problems fast and the
+leaderboard.</p>
+<p>For me it has always been about learning something new or getting better at
+something (sharpening the saw) or developing a new, better way to solve problems
+(also known as becoming a better sofware craftsman).</p>
+<p>This year my focus was on tooling: Leaning more about how to get the most out of
+the IDE of choice (namely VSCode) and about how to use AI as a pair programming
+buddy to have meaningful discussions about how to solve problems the right way
+(using Windsurf/Codeium) and about the new Scala3 language features and finally
+about Mill (one of the best, if not THE best alternative, to SBT available right
+now).</p>
 <p>And I learned a LOT!!!</p>
 <p>But sometimes the AOC is the gift that keeps on giving in very unexpected ways.</p>
-<p>As described above my tooling-/tech-stack for this year is VSCode/Windsurf, <a href="https://codeium.com">Codeium</a>, <a href="https://www.scala-lang.org">Scala</a> and <a href="https://mill-build.org">Mill</a>.</p>
-<p>Yesterday (while working on Day 21) I (finally) found a simple solution to a small problem, that has been annoying me for a while now.</p>
-<p>As we all know, the <code>Debug Console</code> is not able to process ANSI color codes. Means, if your build and/or testing tooling uses ANSI color codes to annotate the output it is going to garble up the output you see in the console and will make the output hard to read and there are (more or less convoluted) ways to <a href="https://chatgpt.com/share/6767aed2-116c-8013-bc17-0e08e327ed13">configure</a> VSCode to deal with this.</p>
-<p>I found another (and I dare to say the most simple solution) for my/the tool-stack at hand.</p>
-<p>First: Mill (as a lot of other build tools) does support a <code>--color=false</code> flag. To make sure that this gets used when you run Mill you just put it into the <code>.mill-opts</code> file at the root of the project (Note: It needs to be <code>--color=false</code>. <code>--color false</code> will not work).</p>
-<p>Second: You will notice that in some cases the output is still garbled. This is because the build might use (testing) frameworks and plugins that also need to be configured to NOT use ANSI color codes. In my case my testing framework is <a href="https://scalameta.org/munit">munit</a>. Luckily <code>munit</code> support the <a href="https://no-color.org">NO_COLOR</a> flag. Means I can disable the usage of ANSI color codes by launching VSCode with <code>NO_COLOR=true windsurf</code>.</p>
+<p>As described above my tooling-/tech-stack for this year is VSCode/Windsurf,
+<a href="https://codeium.com">Codeium</a>, <a href="https://www.scala-lang.org">Scala</a> and <a href="https://mill-build.org">Mill</a>.</p>
+<p>Yesterday (while working on Day 21) I (finally) found a simple solution to a
+small problem, that has been annoying me for a while now.</p>
+<p>As we all know, the <code>Debug Console</code> is not able to process ANSI color codes.
+Means, if your build and/or testing tooling uses ANSI color codes to annotate
+the output it is going to garble up the output you see in the console and will
+make the output hard to read and there are (more or less convoluted) ways to
+<a href="https://chatgpt.com/share/6767aed2-116c-8013-bc17-0e08e327ed13">configure</a> VSCode to deal with this.</p>
+<p>I found another (and I dare to say the most simple solution) for my/the
+tool-stack at hand.</p>
+<p>First: Mill (as a lot of other build tools) does support a <code>--color=false</code> flag.
+To make sure that this gets used when you run Mill you just put it into the
+<code>.mill-opts</code> file at the root of the project (Note: It needs to be
+<code>--color=false</code>. <code>--color false</code> will not work).</p>
+<p>Second: You will notice that in some cases the output is still garbled. This is
+because the build might use (testing) frameworks and plugins that also need to
+be configured to NOT use ANSI color codes. In my case my testing framework is
+<a href="https://scalameta.org/munit">munit</a>. Luckily <code>munit</code> support the <a href="https://no-color.org">NO_COLOR</a> flag. Means I can disable
+the usage of ANSI color codes by launching VSCode with <code>NO_COLOR=true windsurf</code>.</p>
 <p>And voila &hellip; the output in the <code>Debug Console</code> is readable again!</p>
 <p>Happy coding!!!</p>
 </div>
@@ -376,7 +399,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2024-12-22 07:15:33 &#43;0000 GMT </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 18:29:16 &#43;0100 IST </p>
     </div>
 </footer>
 

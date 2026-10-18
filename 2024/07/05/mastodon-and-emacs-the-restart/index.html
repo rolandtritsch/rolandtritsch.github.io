@@ -132,31 +132,32 @@ layui.use('element', function(){
                     <p>Ok &hellip; I admit it! I am using emacs! A lot!</p>
 <p>I am also using emacs to do my <a href="https://mastodon.ie/@tedn">tooting</a>.</p>
 <p>Means I am using <a href="https://codeberg.org/martianh/mastodon.el">mastodon.el</a>.</p>
-<p>The other day I had to reset/reinstall my emacs configuration and had
-to re-authenticate my mastodon server.</p>
-<p>That proofed to be more challenging than I thought, because there is a
-screen missing. Let me explain &hellip; or even better: Let me walk you
-through how you can reset the authentication, if/when you have to &hellip;</p>
+<p>The other day I had to reset/reinstall my emacs configuration and had to
+re-authenticate my mastodon server.</p>
+<p>That proofed to be more challenging than I thought, because there is a screen
+missing. Let me explain &hellip; or even better: Let me walk you through how you can
+reset the authentication, if/when you have to &hellip;</p>
 <ol>
 <li>Delete the <code>mastodon-client--token-file</code> (default:
 <code>~/.emacs.d/mastodon.plstore</code>)</li>
-<li>Go to your/the mastodon instance/account that you have configured
-with <code>(setq mastodon-instance-url &quot;https://social.instance.org&quot; mastodon-active-user &quot;example_user&quot;)</code>. And revoke any old/existing
-<code>mastodon.el</code> applications from <code>Account -&gt; Authorized Apps</code></li>
+<li>Go to your/the mastodon instance/account that you have configured with
+<code>(setq mastodon-instance-url &quot;https://social.instance.org&quot; mastodon-active-user &quot;example_user&quot;)</code>. <!-- markdownlint-disable-line MD013 -->
+And revoke any old/existing <code>mastodon.el</code> applications from
+<code>Account -&gt; Authorized Apps</code></li>
 <li>Restart <code>emacs</code> and start mastodon with <code>alt-x mastodon</code></li>
-<li>You should be asked for the <code>email</code> and <code>password</code> (once) to finish
-the setup/authentication</li>
-<li>If things do not go quite right you will be asked/prompted for
-the/an <code>Authorization Code</code></li>
-<li>In the best case a screen will/should be displayed that explains
-how you can get the authorization code</li>
+<li>You should be asked for the <code>email</code> and <code>password</code> (once) to finish the
+setup/authentication</li>
+<li>If things do not go quite right you will be asked/prompted for the/an
+<code>Authorization Code</code></li>
+<li>In the best case a screen will/should be displayed that explains how you can
+get the authorization code</li>
 <li>In the worst case you will just be prompted</li>
-<li>What is not obvious is that a url was put into your cut-and-paste
-buffer. You need to paste this url into the browser of your choice
-and finish the authentication to get the authorization code</li>
+<li>What is not obvious is that a url was put into your cut-and-paste buffer. You
+need to paste this url into the browser of your choice and finish the
+authentication to get the authorization code</li>
 </ol>
-<p>You can then paste the authorization code into the emacs mini-buffer
-prompt and you are done!</p>
+<p>You can then paste the authorization code into the emacs mini-buffer prompt and
+you are done!</p>
 </div>
             </div>
         </div>
@@ -398,7 +399,7 @@ prompt and you are done!</p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2024-07-05 13:16:54 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 18:29:16 &#43;0100 IST </p>
     </div>
 </footer>
 
