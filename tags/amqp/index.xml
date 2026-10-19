@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 18 Oct 2026 16:58:48 +0100</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 14:10:09 +0100</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/tags/amqp/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -25,7 +25,7 @@
 				<link>http://tedn.life/2008/10/28/amqp-for-dummies-a-guide-for-managers/</link>
 				<pubDate>Tue, 28 Oct 2008 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2008/10/28/amqp-for-dummies-a-guide-for-managers/</guid>
-				<description>(I start to like this &#34;plane blogging&#34; thing :))&lt;p&gt;&lt;a href=&#34;http://trenaman.blogspot.com&#34;&gt;Adrian&lt;/a&gt; blogged about Microsoft embracing &lt;a href=&#34;http://jira.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol&#34;&gt;AMQP&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Just from a technical point of view this is good news (assuming it will help the adoption of the Advanced Message Queueing Protocol (AMQP)), because AMQP is a very cool (and extremely well thought through) standard.&lt;/p&gt;&lt;p&gt;Given that there might be a renewed interest in the standard, let me just try to explain (again) what it is good for: The main benefit of AMQP (besides a couple of very cool features in the standard itself) is that it will (finally and for the first time) allow messaging stacks to interoperate. Today we have lots of good payload formats/protocols (e.g. XML) and even better standard APIs (e.g. JMS), but no standard wire-level protocol to allow one messaging stack talk to another. That means that currently all of your messaging endpoints need to have the same message stack. This creates a huge, hidden vendor lock-in. Yes, your JMS API allows your to replace a JMS provider with another one, but then you need to do it for all endpoints at the same time, because the wire-level protocol is different (and proprietary) for each and every message broker implementation.&lt;/p&gt;</description>
+				<description>&lt;p&gt;(I start to like this &amp;ldquo;plane blogging&amp;rdquo; thing :))&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://trenaman.blogspot.com&#34;&gt;Adrian&lt;/a&gt; blogged about Microsoft embracing&#xA;&lt;a href=&#34;http://jira.amqp.org/confluence/display/AMQP/Advanced+Message+Queuing+Protocol&#34;&gt;AMQP&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Just from a technical point of view this is good news (assuming it will help the&#xA;adoption of the Advanced Message Queueing Protocol (AMQP)), because AMQP is a&#xA;very cool (and extremely well thought through) standard.&lt;/p&gt;&#xA;&lt;p&gt;Given that there might be a renewed interest in the standard, let me just try to&#xA;explain (again) what it is good for: The main benefit of AMQP (besides a couple&#xA;of very cool features in the standard itself) is that it will (finally and for&#xA;the first time) allow messaging stacks to interoperate. Today we have lots of&#xA;good payload formats/protocols (e.g. XML) and even better standard APIs (e.g.&#xA;JMS), but no standard wire-level protocol to allow one messaging stack talk to&#xA;another. That means that currently all of your messaging endpoints need to have&#xA;the same message stack. This creates a huge, hidden vendor lock-in. Yes, your&#xA;JMS API allows your to replace a JMS provider with another one, but then you&#xA;need to do it for all endpoints at the same time, because the wire-level&#xA;protocol is different (and proprietary) for each and every message broker&#xA;implementation.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

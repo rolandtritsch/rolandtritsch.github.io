@@ -113,8 +113,26 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    
-<br />It is Sunday, the sun is shining ... in Ireland!!! What do you do? Right: You get your laptop and finally start to get your head around the actor model in Scala.<br /><br />In my case I tried to come up with a <a href="https://github.com/rolandtritsch/scala-dining-philosophers" target="_blank">simulation</a> for the <a href="http://en.wikipedia.org/wiki/Dining_philosophers_problem" target="_blank">Dining Philosophers Problem</a> (DPP). There are <a href="https://github.com/akka/akka/blob/master/akka-samples/akka-sample-fsm/src/main/scala/DiningHakkersOnBecome.scala" target="_blank">implementations</a> available, but I consolidated them and renamed the states and transitions to make it more obvious what is going on and used <a href="http://plantuml.sourceforge.net/" target="_blank">plantUML</a> to come up with State Transition Diagrams (STDs) that show what is going on.<br /><br /><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-d2ckmSiOAhA/UlQhNWghElI/AAAAAAAAAIc/D_mfNKQy80M/s1600/Philosopher.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="311" src="http://3.bp.blogspot.com/-d2ckmSiOAhA/UlQhNWghElI/AAAAAAAAAIc/D_mfNKQy80M/s400/Philosopher.png" width="400" /></a></div><br />The model detects potential deadlocks and asks the philosopher to put down all forks, before trying again.<br /><div><br /></div>The epiphany of the day was that you need to use become() to model the states :).
+                    <p>It is Sunday, the sun is shining &hellip; in Ireland!!! What do you do? Right: You
+get your laptop and finally start to get your head around the actor model in
+Scala.</p>
+<p>In my case I tried to come up with a
+<a href="https://github.com/rolandtritsch/scala-dining-philosophers">simulation</a> for the
+<a href="http://en.wikipedia.org/wiki/Dining_philosophers_problem">Dining Philosophers Problem</a>
+(DPP). There are
+<a href="https://github.com/akka/akka/blob/master/akka-samples/akka-sample-fsm/src/main/scala/DiningHakkersOnBecome.scala">implementations</a>
+available, but I consolidated them and renamed the states and transitions to
+make it more obvious what is going on and used
+<a href="http://plantuml.sourceforge.net/">plantUML</a> to come up with State Transition
+Diagrams (STDs) that show what is going on.</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="http://3.bp.blogspot.com/-d2ckmSiOAhA/UlQhNWghElI/AAAAAAAAAIc/D_mfNKQy80M/s1600/Philosopher.png" alt="PlantUML state transition diagram for the Dining Philosophers Problem, showing thinking, hungry, waiting, eating and deadlock states" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Dining Philosophers Problem state transition diagram — Source: 3.bp.blogspot.com</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+<p>The model detects potential deadlocks and asks the philosopher to put down all
+forks, before trying again.</p>
+<p>The epiphany of the day was that you need to use become() to model the states
+:).</p>
 </div>
             </div>
         </div>
@@ -215,7 +233,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2020-08-16 16:11:59 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-19 14:10:09 &#43;0100 IST </p>
     </div>
 </footer>
 

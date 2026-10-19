@@ -113,8 +113,38 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    
-<div style="text-align: left;">Right now the <a href="http://sp.brandvis.com/">Brandvis SelectPortal system</a> is based on Microsoft .NET and we constantly improve it and add features. While we do this we also constantly refactor the system to eliminate complexity to make it easier to maintain/extend.</div><div style="text-align: left;"><br /></div><div>Triggered by this work and triggered by a talk on reuse of <a href="http://www.osgi.org/">OSGi</a> bundles that I attended a couple of years ago, I started to think about complexity again. The main conclusion of that thought process is that there is probably an optimal (means minimal) complexity for any given system.</div><div style="text-align: center;"><br /></div><div>To get to that optimal level of complexity you constantly refactor the system (because there is no chance in hell that you will get it right the first time around by thinking about it and then implementing it) and change the granularity/size of your reusable software artifacts (classes, bundles, services).</div><div><br /></div><div>Getting the granularity/size (and the responsibilities) of a reusable software artifact right, is probably the holy-grail of software engineering and there is no easy answer, because if you cut it too small and build the system from a lot of very simple, small software artifacts the complexity and dependencies and relationships between the artifacts get out of hand. Going the other way you can try to reduce the complexity of the system, by building it from larger software artifacts, but then these artifacts itself will become more complex.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-vFsfIMARfBI/UFY2VOueY5I/AAAAAAAAAC4/QnejRn1l8hw/s1600/OSGiBundles.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="http://1.bp.blogspot.com/-vFsfIMARfBI/UFY2VOueY5I/AAAAAAAAAC4/QnejRn1l8hw/s640/OSGiBundles.jpg" width="640" /></a></div><br /></div><br /><div><div style="text-align: center;"><br /></div><div>That means that in any case you need to build your system on a software platform that allows you to iterate on getting the granularity of the software artifacts right. I believe OSGi is such a platform.</div><div></div></div>
+                    <p>Right now the <a href="http://sp.brandvis.com/">Brandvis SelectPortal system</a> is based
+on Microsoft .NET and we constantly improve it and add features. While we do
+this we also constantly refactor the system to eliminate complexity to make it
+easier to maintain/extend.</p>
+<p>Triggered by this work and triggered by a talk on reuse of
+<a href="http://www.osgi.org/">OSGi</a> bundles that I attended a couple of years ago, I
+started to think about complexity again. The main conclusion of that thought
+process is that there is probably an optimal (means minimal) complexity for any
+given system.</p>
+<p>To get to that optimal level of complexity you constantly refactor the system
+(because there is no chance in hell that you will get it right the first time
+around by thinking about it and then implementing it) and change the
+granularity/size of your reusable software artifacts (classes, bundles,
+services).</p>
+<div>
+<p>Getting the granularity/size (and the responsibilities) of a reusable software
+artifact right, is probably the holy-grail of software engineering and there is
+no easy answer, because if you cut it too small and build the system from a lot
+of very simple, small software artifacts the complexity and dependencies and
+relationships between the artifacts get out of hand. Going the other way you can
+try to reduce the complexity of the system, by building it from larger software
+artifacts, but then these artifacts itself will become more complex.</p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="http://1.bp.blogspot.com/-vFsfIMARfBI/UFY2VOueY5I/AAAAAAAAAC4/QnejRn1l8hw/s1600/OSGiBundles.jpg" alt="Chart showing complexity vs. component size and component count" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Complexity grows as components get either too small (too many) or too large — Source: 1.bp.blogspot.com</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
+</div>
+<div>
+<p>That means that in any case you need to build your system on a software platform
+that allows you to iterate on getting the granularity of the software artifacts
+right. I believe OSGi is such a platform.</p>
+</div>
 </div>
             </div>
         </div>
@@ -312,7 +342,7 @@ layui.use('element', function(){
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2020-08-16 16:11:59 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-19 14:10:09 &#43;0100 IST </p>
     </div>
 </footer>
 
