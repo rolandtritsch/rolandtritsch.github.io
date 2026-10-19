@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 17 Oct 2026 19:20:50 +0100</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 06:04:03 +0100</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -25,14 +25,14 @@
 				<link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
 				<pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
-				<description>&lt;p&gt;A couple of weeks ago &lt;a href=&#34;https://www.linkedin.com/in/angelcervera&#34;&gt;Angel&lt;/a&gt; pointed&#xA;me to a very nice lecture:&#xA;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&#34;&gt;Category Theory for Programmers&lt;/a&gt;&#xA;(from/by &lt;a href=&#34;https://bartoszmilewski.com/about&#34;&gt;Bartosz Milewski&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/drbartosz&#34;&gt;Bartosz Milewski&lt;/a&gt; is a physisist, a&#xA;&lt;a href=&#34;https://www.youtube.com/watch?v=HnnyiNKpWR8&#34;&gt;philosopher&lt;/a&gt; (on computer science&#xA;and life in general :)) and runs his own company to make the world a better&#xA;place by means of Category Theory and Haskell :).&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align:center; margin:1.5em auto;&#34;&gt;&#xA;&lt;img src=&#34;http://tedn.life/images/2018-04-03-category-theory/monads.png&#34; alt=&#34;Monads&#34; style=&#34;display:block;margin:auto;max-width:100%;max-width:1366px;&#34; width=&#34;80%&#34;/&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;figcaption style=&#34;font-size:0.85em;color:#666;margin-top:0.4em;&#34;&gt;Monads — Photo: Roland Tritsch&lt;/figcaption&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;The course is long &amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;A couple of weeks ago &lt;a href=&#34;https://www.linkedin.com/in/angelcervera&#34;&gt;Angel&lt;/a&gt; pointed&#xA;me to a very nice lecture:&#xA;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&#34;&gt;Category Theory for Programmers&lt;/a&gt;&#xA;(from/by &lt;a href=&#34;https://bartoszmilewski.com/about&#34;&gt;Bartosz Milewski&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/drbartosz&#34;&gt;Bartosz Milewski&lt;/a&gt; is a physicist, a&#xA;&lt;a href=&#34;https://www.youtube.com/watch?v=HnnyiNKpWR8&#34;&gt;philosopher&lt;/a&gt; (on computer science&#xA;and life in general :)) and runs his own company to make the world a better&#xA;place by means of Category Theory and Haskell :).&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align:center; margin:1.5em auto;&#34;&gt;&#xA;&lt;img src=&#34;http://tedn.life/images/2018-04-03-category-theory/monads.png&#34; alt=&#34;Monads&#34; style=&#34;display:block;margin:auto;max-width:100%;max-width:1366px;&#34; width=&#34;80%&#34;/&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;figcaption style=&#34;font-size:0.85em;color:#666;margin-top:0.4em;&#34;&gt;Monads — Photo: Roland Tritsch&lt;/figcaption&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;The course is long &amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>GDSE @ edx.org (with TU Delft)</title>
 				<link>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</link>
 				<pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2018/01/24/gdse-@-edx.org-with-tu-delft/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Massive_open_online_course&#34;&gt;MOOCs&lt;/a&gt; (Massive Open&#xA;Online Courses) are massive!!!&lt;/p&gt;&#xA;&lt;p&gt;I did my first one 7 years ago (on Cousera; Martin Odersky&amp;rsquo;s course on&#xA;Functional Programming with Scala).&lt;/p&gt;&#xA;&lt;p&gt;Since then there has been an explosion of sites and&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/Massive_open_online_course&#34;&gt;offerings&lt;/a&gt;. By now it&#xA;is clear that, if you do not know, how to use these sites to your own advantage&#xA;you are putting yourself at a competitive disadvantage (from a skills&#xA;development point of view).&lt;/p&gt;</description>
+				<description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Massive_open_online_course&#34;&gt;MOOCs&lt;/a&gt; (Massive Open&#xA;Online Courses) are massive!!!&lt;/p&gt;&#xA;&lt;p&gt;I did my first one 7 years ago (on Coursera; Martin Odersky&amp;rsquo;s course on&#xA;Functional Programming with Scala).&lt;/p&gt;&#xA;&lt;p&gt;Since then there has been an explosion of sites and&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/Massive_open_online_course&#34;&gt;offerings&lt;/a&gt;. By now it&#xA;is clear that, if you do not know, how to use these sites to your own advantage&#xA;you are putting yourself at a competitive disadvantage (from a skills&#xA;development point of view).&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>I am a lucky guy :) ...</title>

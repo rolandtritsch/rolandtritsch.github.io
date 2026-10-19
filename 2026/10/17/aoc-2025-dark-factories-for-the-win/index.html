@@ -7,7 +7,7 @@
 
     
     
-    <meta content="Augmented-by-AI, Advent-of-Code, Functional-Programming, Nerdy, Scala, Thoughts, Software-Craftmanship" name="keywords">
+    <meta content="Augmented-by-AI, Advent-of-Code, Functional-Programming, Nerdy, Scala, Thoughts, Software-Craftsmanship" name="keywords">
     
     <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -104,8 +104,8 @@ layui.use('element', function(){
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -147,12 +147,17 @@ much Python out there, but surely it struggles with a niche language like Scala.
 <p>First &hellip; a little disclosure &hellip;</p>
 <p>I am quite far along the &ldquo;let the AI cook&rdquo; end of this spectrum. The red circle
 is me.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/z-l-continuum_roland.png" alt="The Z/L continuum, with my position marked near the autonomous end"></p>
-<p><em>Image: Adapted from <a href="https://sub.thursdai.news/p/the-lopopolo-zechner-spectrum">the Lopopolo–Zechner spectrum</a>.</em></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/z-l-continuum_roland.png" alt="The Z/L continuum, with my position marked near the autonomous end" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">The Z/L continuum, with my position marked near the autonomous end — Adapted from the Lopopolo–Zechner spectrum</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>So I built a dark factory. Actually &hellip; two. One for <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-scala">Scala</a> and
 one for <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2025-python">Python</a>. Then I gave them the same <a href="https://adventofcode.com/2025">Advent of Code
 2025</a> problems.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-tree.png" alt="The Advent of Code 2025 tree and completed calendar"></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-tree.png" alt="The Advent of Code 2025 tree and completed calendar" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">The Advent of Code 2025 tree and completed calendar — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>Advent of Code supplies programming puzzles with concrete inputs and checkable
 answers. This comparison covers <strong>Days 1–9: two parts per day, or 18 parts per
 language</strong>. The picture shows the full 2025 calendar; the measurements below
@@ -160,7 +165,10 @@ cover those first nine days.</p>
 <p>The language comparison was interesting. But the economics were what got my
 attention: <strong>101–109 minutes of solver work for 18 parts</strong>, with <strong>verified
 solver token spending of less than $10 per language</strong> for this workload.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/tokens-cost.png" alt="Token spending for the Scala and Python factories, split by model"></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/tokens-cost.png" alt="Token spending for the Scala and Python factories, split by model" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Token spending for the Scala and Python factories, split by model — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>The first block is Scala; the later blocks are Python. Blue is DeepSeek V4 Pro,
 doing the solving. Green is DeepSeek V4 Flash, doing the supporting work such as
 gathering, submitting, and reviewing. The <strong>under-$10 figure covers the Pro
@@ -177,7 +185,10 @@ the comparison. It is not an all-in cost or end-to-end delivery benchmark.</p>
 <p>Think of each puzzle as a very well-defined bug-fix ticket with a clear test
 case to verify the result. That is the opportunity! <strong>A dark factory can free up
 a significant amount of time and money to build more product and features!</strong></p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/robot.webp" alt="The robot from the Scala meetup presentation"></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/robot.webp" alt="The robot from the Scala meetup presentation" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">The robot from the Scala meetup presentation — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>This is semi-scientific. Feel free to disagree with the assumptions and the
 interpretation. But there is code, there are tests, and there are measurements.</p>
 <p>The resulting code lives in <a href="https://github.com/rolandtritsch/scala3-aoc-2025">scala3-aoc-2025</a> and
@@ -187,16 +198,21 @@ measurements</a>, and <a href="https://github.com/rolandtritsch/pcc-aoc-solver-2
 the snapshots behind the charts. Both the reports and the company packages are
 publicly available.</p>
 <p>Here is the picture that explains the setup best.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/ai-systems-evolution.jpeg" alt="From model calls to governed agentic systems"></p>
-<p><em>Image: Diagram by Brij Kishore Pandey, as credited in the image.</em></p>
+<figure style="float:left; max-width:30%; margin:0.5em 1.5em 0.5em 0;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/ai-systems-evolution.jpeg" alt="From model calls to governed agentic systems" style="display:block;width:auto;height:auto;max-width:100%;max-height:280px;"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.8em;color:#666;text-align:center;margin-top:0.3em;">From model calls to governed agentic systems — Diagram by Brij Kishore Pandey</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>My shorthand for it: <strong>Buy the blue, build the red</strong>.</p>
 <p>The blue boxes show the general machinery: model calls, tool loops, frameworks,
 long-running execution, and a control plane. <a href="https://paperclip.ing">Paperclip</a> is the foundation I
 used to organize that machinery into a company: agents with roles, assigned
 tasks, scheduled wake-ups, handoffs, and a visible history of the work. It
 coordinates coding agents; those agents still need a runtime and tools.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-dashboard.png" alt="The AoC Solver 2025 company dashboard in Paperclip"></p>
-<p><em>Image: Paperclip AOC Solver 2025 Dashboard.</em></p>
+<div style="clear:both;"></div>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-dashboard.png" alt="The AoC Solver 2025 company dashboard in Paperclip" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">The AoC Solver 2025 company dashboard in Paperclip — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>The red box is the harness: the instructions, context, skills, scripts, and
 stopping rules that make this particular factory useful. Paperclip cannot guess
 what &ldquo;done&rdquo; means for my Scala repository. I have to encode that.</p>
@@ -209,8 +225,10 @@ verified solution. For Python, it knows about Ruff, pytest, coverage, and the
 equivalent publication checks. Before a handoff, the solver has to commit, push,
 and verify that the intended code really is on the remote branch.</p>
 <p>That is engineering work. It is also work I can reuse for the next puzzle.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-agents.png" alt="The seven agents and their responsibilities"></p>
-<p><em>Image: Paperclip AOC Solver 2025 Agent Org Chart.</em></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/aoc-solver-2025-agents.png" alt="The seven agents and their responsibilities" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">The seven agents and their responsibilities — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>The CTO coordinates the work. The Problem Gatherer gets the problem and input.
 The Problem Solver implements and tests the solution. The Problem Submitter
 checks the published handoff and obtains the site&rsquo;s verdict. The Solution
@@ -231,7 +249,10 @@ result. The workflow handles a rejected result and repair. The outer loop
 advances through the puzzle parts.</p>
 <p>Means: I am spending my engineering effort on the factory&rsquo;s behavior and its
 definition of done. The agents do the repeated implementation work.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-solver-minutes-days01-09-scala-vs-python.png" alt="Solver elapsed time per part for Scala and Python"></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-solver-minutes-days01-09-scala-vs-python.png" alt="Solver elapsed time per part for Scala and Python" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Solver elapsed time per part for Scala and Python — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>The median solver time was <strong>5 minutes 21 seconds for Scala</strong> and <strong>5 minutes 3
 seconds for Python</strong>. Python was faster on ten parts; Scala on eight.</p>
 <p>Adding the measured runs gives <strong>109 minutes for Scala and 101 minutes for
@@ -245,7 +266,10 @@ and waiting between parts. An overnight service interruption alone made one
 Scala part&rsquo;s end-to-end clock exceed ten hours.</p>
 <p>That distinction matters. So does the amount of useful implementation work the
 solver got through in those minutes.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-tokens-fresh-output-days01-09-scala-vs-python.png" alt="Fresh input plus output tokens per solver run"></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-tokens-fresh-output-days01-09-scala-vs-python.png" alt="Fresh input plus output tokens per solver run" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Fresh input plus output tokens per solver run — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>Across the 18 parts, fresh input plus output totaled about <strong>2.49 million tokens
 for Scala and 2.34 million for Python</strong>. The two large spikes have specific
 explanations in the reports: Python&rsquo;s Day03 part2 generated a lot of
@@ -261,7 +285,10 @@ have different prices, so the chart alone cannot tell us the bill.</p>
 $10 in solver tokens per language</strong> for this workload, excluding the supporting
 agents. The checked-in reports document token usage; the dollar figure comes
 from my spending verification.</p>
-<p><img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-quality-days01-09.png" alt="Code quality scores across five dimensions"></p>
+<figure style="text-align:center; margin:1.5em auto;">
+<img src="/images/2026-10-17-ase-2025-dark-factory-edition/2026-10-15-chart-quality-days01-09.png" alt="Code quality scores across five dimensions" style="display:block;margin:auto;max-width:100%;" width="80%"/> <!-- markdownlint-disable-line MD013 -->
+<figcaption style="font-size:0.85em;color:#666;margin-top:0.4em;">Code quality scores across five dimensions — Photo: Roland Tritsch</figcaption> <!-- markdownlint-disable-line MD013 -->
+</figure>
 <p>Both languages produced working solutions for all 18 parts. The quality
 assessment went further: correctness robustness, readability, idiomatic use,
 test depth, and simplicity/efficiency, each weighted equally.</p>
@@ -310,8 +337,8 @@ operational problems give us plenty to work on.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -353,8 +380,8 @@ operational problems give us plenty to work on.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -396,8 +423,8 @@ operational problems give us plenty to work on.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -435,8 +462,8 @@ operational problems give us plenty to work on.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -474,8 +501,8 @@ operational problems give us plenty to work on.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -520,7 +547,7 @@ operational problems give us plenty to work on.</p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 18:29:16 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-18 16:58:48 &#43;0100 IST </p>
     </div>
 </footer>
 

@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 17 Oct 2026 19:20:50 +0100</lastBuildDate>
+			<lastBuildDate>Sun, 18 Oct 2026 16:58:48 +0100</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/tags/event-sourcing/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -18,7 +18,7 @@
 				<link>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</link>
 				<pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2021/10/26/reconnecting-to-rabbitmq-with-amqp-in-elixir/</guid>
-				<description>&lt;p&gt;Updated (2022-01-01): Added &lt;code&gt;stage&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At Community we are building a platform that will allow you to have meaningful&#xA;conversations with large audiences &amp;hellip; at scale!!!&lt;/p&gt;&#xA;&lt;p&gt;The architectural backbone is a shared-nothing micro-services architecture, that&#xA;uses an event-bus for state propagation.&lt;/p&gt;&#xA;&lt;p&gt;To avoid any kind of 2-phase-commit shenanigans we are publishing events&#xA;at-least-once (not exactly-once). That means our services need to be able to and&#xA;are able to deal with dublicated events gracefully (by ignoring them).&lt;/p&gt;</description>
+				<description>&lt;p&gt;Updated (2022-01-01): Added &lt;code&gt;stage&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At Community we are building a platform that will allow you to have meaningful&#xA;conversations with large audiences &amp;hellip; at scale!!!&lt;/p&gt;&#xA;&lt;p&gt;The architectural backbone is a shared-nothing micro-services architecture, that&#xA;uses an event-bus for state propagation.&lt;/p&gt;&#xA;&lt;p&gt;To avoid any kind of 2-phase-commit shenanigans we are publishing events&#xA;at-least-once (not exactly-once). That means our services need to be able to and&#xA;are able to deal with duplicated events gracefully (by ignoring them).&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -7,7 +7,7 @@
 
     
     
-    <meta content="Augmented-by-AI, Advent-of-Code, Functional-Programming, Nerdy, Scala, Software-Craftmanship" name="keywords">
+    <meta content="Augmented-by-AI, Advent-of-Code, Functional-Programming, Nerdy, Scala, Software-Craftsmanship" name="keywords">
     
     <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -104,8 +104,8 @@ layui.use('element', function(){
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -164,7 +164,7 @@ count the number of corners of regions in a 2-dim grid)</li>
 my main take-aways &hellip;</p>
 <ul>
 <li>Sometimes the help I got was very effective and efficient. The approach was
-good and the code was good (and idomatic)</li>
+good and the code was good (and idiomatic)</li>
 <li>But also (sometimes) less so. Which (sometimes) created problems when I tried
 to solve part2, because I either did not fully understand the code that was
 generated for part1 and was therefore not able to make good suggestions how to
@@ -173,7 +173,7 @@ that I did not see/find until I started to put some serious time into
 debugging part1</li>
 <li>I think for me to become more effective and efficient with using AI will
 require that I get much better at writing better prompts and providing better
-context(s) for the prompts (e.g. get better at tunning the <a href="https://windsurf.com/editor/directory">windsurfrules</a>
+context(s) for the prompts (e.g. get better at tuning the <a href="https://windsurf.com/editor/directory">windsurfrules</a>
 file) and (first of all) develop a better feeling for when not to use AI or
 when to stop using it when it gets stuck in a loop or goes down a rabbit-hole
 (rule number one, when you are in a hole: Stop digging!)</li>
@@ -188,7 +188,7 @@ MCP-servers (e.g. you can use the GitHub MCP-server to enable prompts that
 will manage your GitHub repo for you (creating issues, merging PRs, &hellip;))</li>
 <li>Also experimented with <a href="https://www.warp.dev">Warp</a>. <a href="https://www.warp.dev">Warp</a> is an AI-enabled terminal that make
 solving problems much more effective. Means my workflow is to use the IDE to
-develop code, but when it comes to all the other tasks (creatig tickets,
+develop code, but when it comes to all the other tasks (creating tickets,
 building and deploying (docker) services, writing bash/python command-line
 tools, &hellip;) I am using <a href="https://www.warp.dev">Warp</a> (which is much better than using the terminal
 in the IDE)</li>
@@ -214,9 +214,9 @@ the code</li>
 <li><strong>Day04</strong> - Using <code>extensions</code> again/more</li>
 <li><strong>Day05</strong> - Using <code>extensions</code> again/more</li>
 <li><strong>Day06</strong> - Using <code>classes/methods</code> instead of <code>types/functions</code></li>
-<li><strong>Day07</strong> - Sucessfully avoid the premature optimization trap. Found a minimal
-implementation for part1. And part2 was just a small change from there. Happy
-with that one.</li>
+<li><strong>Day07</strong> - Successfully avoid the premature optimization trap. Found a
+minimal implementation for part1. And part2 was just a small change from
+there. Happy with that one.</li>
 <li><strong>Day08</strong> - More of the same. Nothing special about this one</li>
 <li><strong>Day09</strong> - The opposite experience of Day07. Found a solution for part1, but
 had to completely refactor/rewrite it for part2</li>
@@ -228,7 +228,7 @@ And start using a <code>cache</code> to make part2 work (duh!)</li>
 lib it was easy. Oh wait &hellip; ;)</li>
 <li><strong>Day13</strong> - LOL. Good one. Did part1 (the hard way). Overlooked that it is a
 system of linear equations. Changed gears for part2. And then I found
-<a href="https://github.com/scalanlp/breeze">breeze</a>. Definetely one of these cases, where 20 mins of reading, thinking
+<a href="https://github.com/scalanlp/breeze">breeze</a>. Definitely one of these cases, where 20 mins of reading, thinking
 and searching (for the right library) can save you 2 hours of work (going into
 the wrong direction).</li>
 <li><strong>Day14</strong> - From now on I am just focusing on solving part1. Running a
@@ -244,11 +244,11 @@ learning the library, the actual solution is short and elegant</li>
 <li><strong>Day17</strong> - A little bit of a breather. (Simple enough) State-Machine running
 instructions simulation problem. Good usage of <code>case classes</code></li>
 <li><strong>Day18</strong> - Another dfs-/bfs-grid-traversal problem. My ambition got the
-better of me. I first implememented a solution myself (worked, but slow and
+better of me. I first implemented a solution myself (worked, but slow and
 ugly). Then I refactored/reimplemented the entire thing. Switched to using
 <a href="https://scala-graph.org">scala-graph</a>. Now it is fast and elegant</li>
 <li><strong>Day19</strong> - Nice. Read the problem description. Realize that you can solve it
-with <code>regex</code> pattern-mattching. This is the solution
+with <code>regex</code> pattern-matching. This is the solution
 <code>raw&quot;(${towels.mkString(&quot;|&quot;)})+&quot;.r</code></li>
 <li><strong>Day20</strong> - Another grid-traversal. Another usage of <a href="https://scala-graph.org">scala-graph</a>. Decided
 to wrap <a href="https://scala-graph.org">scala-graph</a> in my own wrapper (<code>util.GridGraph</code>) and (re)use it
@@ -260,7 +260,7 @@ realized that I can build the following key-sequences on the directional
 keypads just by (string-)replacing the key-strokes (that works well). But then
 I failed to realize that my cost function for finding the shortest-path on the
 numeric key-pad was wrong. The fix was to calculate the cost dynamically and
-make the cost of paths that are straigt (e.g. &raquo;&gt;) cheap</li>
+make the cost of paths that are straight (e.g. &raquo;&gt;) cheap</li>
 <li><strong>Day22</strong> - <code>LazyList</code> to the rescue. That one took less than 30 mins</li>
 <li><strong>Day23</strong> - Used that one to experiment with a lot of different language
 models. The best solution was generated by <code>claude-3.5-sonnet</code></li>
@@ -300,8 +300,8 @@ but not too much.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -343,8 +343,8 @@ but not too much.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -382,8 +382,8 @@ but not too much.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -421,8 +421,8 @@ but not too much.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -460,8 +460,8 @@ but not too much.</p>
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -502,7 +502,7 @@ but not too much.</p>
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-19 06:04:03 &#43;0100 IST </p>
     </div>
 </footer>
 

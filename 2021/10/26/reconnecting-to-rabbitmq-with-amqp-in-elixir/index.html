@@ -7,7 +7,7 @@
 
     
     
-    <meta content="AMQP, Community, Elixir, Event-Sourcing, Functional-Programming, Micro-Services, Tips &amp; Tricks, Web-Services, Software-Craftmanship" name="keywords">
+    <meta content="AMQP, Community, Elixir, Event-Sourcing, Functional-Programming, Micro-Services, Tips &amp; Tricks, Web-Services, Software-Craftsmanship" name="keywords">
     
     <meta content="tedn.life - The Life of The Extreme Digital Nomad (TEDN)" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -104,8 +104,8 @@ layui.use('element', function(){
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -152,7 +152,7 @@ conversations with large audiences &hellip; at scale!!!</p>
 uses an event-bus for state propagation.</p>
 <p>To avoid any kind of 2-phase-commit shenanigans we are publishing events
 at-least-once (not exactly-once). That means our services need to be able to and
-are able to deal with dublicated events gracefully (by ignoring them).</p>
+are able to deal with duplicated events gracefully (by ignoring them).</p>
 <p>It also means, that we have to retry publishing an event on the event-bus, if
 the publish fails. One reason the publish can fail (especially when you run long
 event replay jobs) is that the AMQP infrastructure (connections, channel, &hellip;)
@@ -199,7 +199,7 @@ the state, so that you know what to retry, when you get/handle the <code>exit</c
 <p>We also realized that just pattern matching on <code>:exit/:infrastructure_died</code> is
 not good enough, because there is small race condition, where the next publish
 happens before you can trap the exit from the connection/channel gen_server and
-in that case you get the treaded <code>:exit/:noproc</code> again (and need to handle that
+in that case you get the dreaded <code>:exit/:noproc</code> again (and need to handle that
 too).</p>
 <h2 id="using-a-supervisor">Using a supervisor</h2>
 <figure style="float:right; max-width:30%; margin:0.5em 0 0.5em 1.5em;">
@@ -211,7 +211,7 @@ and give the work to-do (e.g. publish this batch of events) to the worker. The
 supervisor supervises the worker and if the worker has any kind of problem
 getting the work done the supervisor will restart the worker and retry the work
 (the batch).</p>
-<p>This will also cater for the case that we descibed above, where the publisher
+<p>This will also cater for the case that we described above, where the publisher
 can exit with at least two abnormal reasons (<code>:infrastructure_died</code> and
 <code>:noproc</code>).</p>
 <div style="clear:both;"></div>
@@ -326,8 +326,8 @@ look at the <a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">rep
     
     <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 0px;"></i>
     
-        <a href="/categories/software-craftmanship">
-            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftmanship</span>
+        <a href="/categories/software-craftsmanship">
+            <span class="layui-badge-rim" style="vertical-align: 2px;">Software-Craftsmanship</span>
         </a>
     
     
@@ -509,7 +509,7 @@ look at the <a href="https://github.com/rolandtritsch/elixir-amqp-reconnect">rep
     
 
     <div class="layui-container">
-        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-17 19:20:50 &#43;0100 IST </p>
+        <p class="copyright">Copyright &copy; 1965-2025 Roland Tritsch - All rights reserved. Last updated on  2026-10-18 16:58:48 &#43;0100 IST </p>
     </div>
 </footer>
 

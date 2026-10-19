@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 17 Oct 2026 19:20:50 +0100</lastBuildDate>
+			<lastBuildDate>Mon, 19 Oct 2026 06:04:03 +0100</lastBuildDate>
 		
 			<atom:link href="http://tedn.life/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -18,7 +18,7 @@
 				<link>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</link>
 				<pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2021/02/01/haskell--beam-hamler-iii/</guid>
-				<description>&lt;p&gt;Here comes part III of the&#xA;&lt;a href=&#34;https://tedn.life/2020/12/15/haskell-beam-hamler-i/&#34;&gt;Hamler blog post series&lt;/a&gt;&#xA;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;One of the observations was that for/on Day21 hamler ~6000 times slower than&#xA;haskell, where in general we where able to see that it was 5-20 times slower.&lt;/p&gt;&#xA;&lt;p&gt;Just looked into this a little bit and there is good news and bad news. The good&#xA;news is I found something.&lt;/p&gt;&#xA;&lt;p&gt;I can make the hamer solution run 10 times faster by changing the implementation&#xA;of part1 from &amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;Here comes part III of the&#xA;&lt;a href=&#34;https://tedn.life/2020/12/15/haskell-beam-hamler-i/&#34;&gt;Hamler blog post series&lt;/a&gt;&#xA;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;One of the observations was that for/on Day21 hamler ~6000 times slower than&#xA;haskell, where in general we where able to see that it was 5-20 times slower.&lt;/p&gt;&#xA;&lt;p&gt;Just looked into this a little bit and there is good news and bad news. The good&#xA;news is I found something.&lt;/p&gt;&#xA;&lt;p&gt;I can make the hammer solution run 10 times faster by changing the&#xA;implementation of part1 from &amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Haskell &#43; Beam = Hamler (II)</title>
@@ -46,7 +46,7 @@
 				<link>http://tedn.life/2019/04/06/i-love-haskell/</link>
 				<pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2019/04/06/i-love-haskell/</guid>
-				<description>&lt;p&gt;Over the last 2 years I did a fair bit of Haskell (after doing a fairer bit of&#xA;Scala for 8 years).&lt;/p&gt;&#xA;&lt;p&gt;And I love Haskell.&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t get me wrong: If you are tied to the JVM eco-system (and who is not these&#xA;days), my opinion is that Scala is your best option to do functional programming&#xA;on the JVM.&lt;/p&gt;&#xA;&lt;p&gt;At the same time writting code in Haskell feels very natural to me. And&#xA;sometimes it is not the big features/capabilities that make a difference. For&#xA;instance in my case (in Haskell) I like &amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;Over the last 2 years I did a fair bit of Haskell (after doing a fairer bit of&#xA;Scala for 8 years).&lt;/p&gt;&#xA;&lt;p&gt;And I love Haskell.&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t get me wrong: If you are tied to the JVM eco-system (and who is not these&#xA;days), my opinion is that Scala is your best option to do functional programming&#xA;on the JVM.&lt;/p&gt;&#xA;&lt;p&gt;At the same time writing code in Haskell feels very natural to me. And sometimes&#xA;it is not the big features/capabilities that make a difference. For instance in&#xA;my case (in Haskell) I like &amp;hellip;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Advent of Code ... Final cut (... and First cut :))</title>
@@ -60,14 +60,14 @@
 				<link>http://tedn.life/2018/08/11/learn-you-a-...-haskell/</link>
 				<pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2018/08/11/learn-you-a-...-haskell/</guid>
-				<description>&lt;p&gt;In the last 6 month I have started to wonder.&lt;/p&gt;&#xA;&lt;p&gt;First of all &amp;hellip; I am convinced that using the concepts of functional&#xA;programming will give you better results (more&#xA;maintainable/changeable/extendable code). Not embracing functional programming&#xA;will (sooner or later) put you (and the organisation you are leading) at a&#xA;competitive disadvantage (compared to those who do).&lt;/p&gt;&#xA;&lt;p&gt;In that context I have put some time into learning more&#xA;&lt;a href=&#34;https://github.com/rolandtritsch/scala-aoc-2017&#34;&gt;Scala&lt;/a&gt; (the learning never&#xA;stops :)) and have also looked at&#xA;&lt;a href=&#34;https://github.com/rolandtritsch/kotlin-aoc-2017&#34;&gt;Kotlin&lt;/a&gt;.&lt;/p&gt;</description>
+				<description>&lt;p&gt;In the last 6 month I have started to wonder.&lt;/p&gt;&#xA;&lt;p&gt;First of all &amp;hellip; I am convinced that using the concepts of functional&#xA;programming will give you better results (more&#xA;maintainable/changeable/extendable code). Not embracing functional programming&#xA;will (sooner or later) put you (and the organization you are leading) at a&#xA;competitive disadvantage (compared to those who do).&lt;/p&gt;&#xA;&lt;p&gt;In that context I have put some time into learning more&#xA;&lt;a href=&#34;https://github.com/rolandtritsch/scala-aoc-2017&#34;&gt;Scala&lt;/a&gt; (the learning never&#xA;stops :)) and have also looked at&#xA;&lt;a href=&#34;https://github.com/rolandtritsch/kotlin-aoc-2017&#34;&gt;Kotlin&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Category Theory for Programmers ... Reviewing THE course!</title>
 				<link>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</link>
 				<pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
 				<guid>http://tedn.life/2018/04/03/category-theory-for-programmers-...-reviewing-the-course/</guid>
-				<description>&lt;p&gt;A couple of weeks ago &lt;a href=&#34;https://www.linkedin.com/in/angelcervera&#34;&gt;Angel&lt;/a&gt; pointed&#xA;me to a very nice lecture:&#xA;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&#34;&gt;Category Theory for Programmers&lt;/a&gt;&#xA;(from/by &lt;a href=&#34;https://bartoszmilewski.com/about&#34;&gt;Bartosz Milewski&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/drbartosz&#34;&gt;Bartosz Milewski&lt;/a&gt; is a physisist, a&#xA;&lt;a href=&#34;https://www.youtube.com/watch?v=HnnyiNKpWR8&#34;&gt;philosopher&lt;/a&gt; (on computer science&#xA;and life in general :)) and runs his own company to make the world a better&#xA;place by means of Category Theory and Haskell :).&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align:center; margin:1.5em auto;&#34;&gt;&#xA;&lt;img src=&#34;http://tedn.life/images/2018-04-03-category-theory/monads.png&#34; alt=&#34;Monads&#34; style=&#34;display:block;margin:auto;max-width:100%;max-width:1366px;&#34; width=&#34;80%&#34;/&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;figcaption style=&#34;font-size:0.85em;color:#666;margin-top:0.4em;&#34;&gt;Monads — Photo: Roland Tritsch&lt;/figcaption&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;The course is long &amp;hellip;&lt;/p&gt;</description>
+				<description>&lt;p&gt;A couple of weeks ago &lt;a href=&#34;https://www.linkedin.com/in/angelcervera&#34;&gt;Angel&lt;/a&gt; pointed&#xA;me to a very nice lecture:&#xA;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&#34;&gt;Category Theory for Programmers&lt;/a&gt;&#xA;(from/by &lt;a href=&#34;https://bartoszmilewski.com/about&#34;&gt;Bartosz Milewski&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/drbartosz&#34;&gt;Bartosz Milewski&lt;/a&gt; is a physicist, a&#xA;&lt;a href=&#34;https://www.youtube.com/watch?v=HnnyiNKpWR8&#34;&gt;philosopher&lt;/a&gt; (on computer science&#xA;and life in general :)) and runs his own company to make the world a better&#xA;place by means of Category Theory and Haskell :).&lt;/p&gt;&#xA;&lt;figure style=&#34;text-align:center; margin:1.5em auto;&#34;&gt;&#xA;&lt;img src=&#34;http://tedn.life/images/2018-04-03-category-theory/monads.png&#34; alt=&#34;Monads&#34; style=&#34;display:block;margin:auto;max-width:100%;max-width:1366px;&#34; width=&#34;80%&#34;/&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;figcaption style=&#34;font-size:0.85em;color:#666;margin-top:0.4em;&#34;&gt;Monads — Photo: Roland Tritsch&lt;/figcaption&gt; &lt;!-- markdownlint-disable-line MD013 --&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;The course is long &amp;hellip;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
